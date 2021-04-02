@@ -8,7 +8,9 @@ namespace :send_youtube do
                 user.start_time = (Time.now + user.break_time * 60)
                 user.save
           else
+            
             puts "false"
+
           end
         end
     end
