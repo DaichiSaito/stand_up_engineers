@@ -1,0 +1,77 @@
+<body style="padding-top:50px;">
+<div class="header">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand"  href="#">StandUpEnginieers</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar"
+      aria-controls="#Navbar" aria-expanded="false" aria-label="ナビゲーション切り替え">
+       <span class="navbar-toggler-icon"><span>
+    </button>
+    <div class="collapse navbar-collapse" id="Navbar">
+      <ul class="navbar-nav mr-auto">
+      <% if @current_user %>
+      <li class="nav-item">
+       <%= link_to "アプリ終了", user_path(@current_user), method: :delete, class: 'nav-link'%>
+      </li>
+      <% else %>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="modal" data-target="#exampleModal">アプリを起動する</a>
+        </li>
+    <% end %>
+      </ul>
+    </div>
+  </nav>
+   <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <!-- モーダルのダイアログ本体 -->
+      <div class="modal-dialog" role="document">
+        <!-- モーダルのコンテンツ部分 -->
+        <div class="modal-content">
+          <!-- モーダルのヘッダー -->
+          <div class="modal-header">
+            <!-- モーダルのタイトル -->
+            <h5 class="modal-title" id="exampleModalLabel">新規登録</h5>
+            <!-- 閉じるアイコン -->
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+             <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <!-- モーダルの本文 -->
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+                  <p>全て入力してください</p>
+                  <%= form_with(model: @user, local: true) do |f| %>
+
+                    <div class="form-group">
+                      <%= f.label :name %>
+                      <%= f.text_field :name, class: 'form-control'%>
+                    </div>
+
+                    <div class="form-group">
+                      <%= f.label :email %>
+                      <%= f.email_field :email, class: 'form-control'%>
+                    </div>
+
+                    <div class="form-group">
+                      <%= f.label :set_time %>
+                      <%= f.number_field :set_time, class: 'form-control'%>分
+                    </div>
+
+                    <div class="form-group">
+                      <%= f.label :break_time %>
+                      <%= f.number_field :break_time, class: 'form-control'%>分
+                    </div>
+
+                      <%= f.submit value: 'アプリスタート', class:'btn btn-primary'%>
+                  <% end %>
+                </div>
+              </div>
+            </div>
+          </div>
+     </div>
+    </div>
+  </div>
+</div>
+<div class="top">
+ <h1 id="site_name">StandUpEngineers</h1>
+</div>
