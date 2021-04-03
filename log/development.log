@@ -9892,3 +9892,1213 @@ Completed 200 OK in 53ms (Views: 51.3ms | ActiveRecord: 0.0ms)
   ↳ lib/tasks/send_youtube.rake:5
   [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
   ↳ lib/tasks/send_youtube.rake:5
+Started GET "/" for ::1 at 2021-04-03 01:29:23 +0900
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/yoshiokasusumu/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (22.8ms)
+Completed 200 OK in 582ms (Views: 550.6ms | ActiveRecord: 7.4ms)
+
+
+Started POST "/users" for ::1 at 2021-04-03 01:29:31 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"51NbvxEqf2hC_7DH0iwGu51BgqGkpc_FRY6tsSPrYlPN4hJEKlZEV7UVimmYuUfke5gmDKFNDi17nH6nbP3zuA", "user"=>{"name"=>"よしおかしょう", "email"=>"yoshioka0606@outlook.jp", "set_time"=>"1", "break_time"=>"1"}, "commit"=>"アプリスタート"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Create (5.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "start_time", "set_time", "break_time") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "よしおかしょう"], ["email", "yoshioka0606@outlook.jp"], ["created_at", "2021-04-02 16:29:31.111052"], ["updated_at", "2021-04-02 16:29:31.111052"], ["start_time", "2021-04-02 16:29:31.110016"], ["set_time", 1], ["break_time", 1]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 41], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:7
+Redirected to http://localhost:3000/
+Completed 302 Found in 18ms (ActiveRecord: 8.0ms)
+
+
+Started GET "/" for ::1 at 2021-04-03 01:29:31 +0900
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 41], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:5
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 52ms (Views: 50.1ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/users/41" for ::1 at 2021-04-03 01:32:18 +0900
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"lr3sHKMAxRCXJW5gDz_h0mhqKj_NL8tvgb0WEvNrnDa8DKXnmHz-L2DPVM5FqqCNjrOOksjHCoe_r8UEvH0N3Q", "id"=>"41"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 41], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:15
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:16
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 41]]
+  ↳ app/controllers/users_controller.rb:16
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:16
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2021-04-03 01:32:18 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 65ms (Views: 63.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for ::1 at 2021-04-03 01:32:26 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hHhKudRP_4rmqLxiryl_1S0-Q0vyemZT1PAVfCZ-RSGuyQNC7zPEtRFChszlvD6Ky-fn5veSp7vq4sZqaWjUyg", "user"=>{"name"=>"よしおかしょう", "email"=>"yoshioka0606@outlook.jp", "set_time"=>"1", "break_time"=>"1"}, "commit"=>"アプリスタート"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Create (1.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "start_time", "set_time", "break_time") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "よしおかしょう"], ["email", "yoshioka0606@outlook.jp"], ["created_at", "2021-04-02 16:32:26.980142"], ["updated_at", "2021-04-02 16:32:26.980142"], ["start_time", "2021-04-02 16:32:26.979471"], ["set_time", 1], ["break_time", 1]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 42], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:7
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/" for ::1 at 2021-04-03 01:32:26 +0900
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 42], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:5
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 41ms (Views: 38.3ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/users/42" for ::1 at 2021-04-03 01:35:35 +0900
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/yoshiokasusumu/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"rJmLnzw83lwbXxEdJs90rxxjoJwofzKYGXZB2TfzrGqGKMJkB0DlY-y1K7NsWjXw-roEMS2X83AnZJLPeOU9gQ", "id"=>"42"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 42], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:15
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:16
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 42]]
+  ↳ app/controllers/users_controller.rb:16
+  [1m[35m (3.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:16
+Redirected to http://localhost:3000/
+Completed 302 Found in 42ms (ActiveRecord: 7.6ms)
+
+
+Started GET "/" for ::1 at 2021-04-03 01:35:35 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 406ms (Views: 405.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for ::1 at 2021-04-03 01:35:44 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9X1U_SGFLjUhwSzxEswa6aYM_LNeqH4etCrYd35I3CDfzB0GGvkVCtYrFl9YWVu2QNVYHltAv_aKOAthMV5Nyw", "user"=>{"name"=>"よしおかしょう", "email"=>"yoshioka0606@outlook.jp", "set_time"=>"1", "break_time"=>"1"}, "commit"=>"アプリスタート"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "start_time", "set_time", "break_time") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "よしおかしょう"], ["email", "yoshioka0606@outlook.jp"], ["created_at", "2021-04-02 16:35:44.835456"], ["updated_at", "2021-04-02 16:35:44.835456"], ["start_time", "2021-04-02 16:35:44.834630"], ["set_time", 1], ["break_time", 1]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 43], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:7
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/" for ::1 at 2021-04-03 01:35:44 +0900
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 43], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:5
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 45ms (Views: 42.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2021-04-03 01:38:48 +0900
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/yoshiokasusumu/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 43], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:5
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 435ms (Views: 395.7ms | ActiveRecord: 3.6ms)
+
+
+Started DELETE "/users/43" for ::1 at 2021-04-03 01:38:50 +0900
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"fXbPJOBZuqz0mI_CQC75VfSFhsHQo4sMXraigU5BapBXx4bf2yWBkwNytWwKu7gKElwibNVLSuRgpHGXAVf7ew", "id"=>"43"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 43], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:15
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:16
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 43]]
+  ↳ app/controllers/users_controller.rb:16
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:16
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/" for ::1 at 2021-04-03 01:38:50 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 69ms (Views: 68.2ms | ActiveRecord: 0.0ms)
+
+
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+Started POST "/users" for ::1 at 2021-04-03 01:40:17 +0900
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/yoshiokasusumu/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yAmo_mo6KZJ-tmAGgJ3q4kzg2S_SUvOkG0XPCrgKxdfiuOEFUUYSrYlcWqjKCKu9qjl9gte6MkwlVxwc9xxUPA", "user"=>{"name"=>"よしおかしょう", "email"=>"yoshioka0606@outlook.jp", "set_time"=>"1", "break_time"=>"1"}, "commit"=>"アプリスタート"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Create (1.9ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "start_time", "set_time", "break_time") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "よしおかしょう"], ["email", "yoshioka0606@outlook.jp"], ["created_at", "2021-04-02 16:40:17.901570"], ["updated_at", "2021-04-02 16:40:17.901570"], ["start_time", "2021-04-02 16:40:17.900903"], ["set_time", 1], ["break_time", 1]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 44], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:7
+Redirected to http://localhost:3000/
+Completed 302 Found in 42ms (ActiveRecord: 6.4ms)
+
+
+Started GET "/" for ::1 at 2021-04-03 01:40:17 +0900
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 44], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:5
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (17.5ms)
+Completed 200 OK in 473ms (Views: 470.1ms | ActiveRecord: 0.4ms)
+
+
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  Rendering youtube_mailer/youtube_mail.html.erb within layouts/mailer
+  Rendered youtube_mailer/youtube_mail.html.erb within layouts/mailer (1.4ms)
+YoutubeMailer#youtube_mail: processed outbound mail in 98.3ms
+Sent mail to yoshioka0606@outlook.jp (13.3ms)
+Date: Sat, 03 Apr 2021 01:41:03 +0900
+From: sue@example.com
+To: yoshioka0606@outlook.jp
+Message-ID: <6067491fcc0f1_183f73fcb8083204486854@yoshiokasusumunoMacBook-Pro.local.mail>
+Subject: =?UTF-8?Q?=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F?=
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    <h1>=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F</=
+h1>=0D
+<iframe width=3D"560" height=3D"315" src=3D"https://www.youtube.com/embed=
+/BFitLouawaM" title=3D"YouTube video player" frameborder=3D"0" allow=3D"a=
+ccelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pict=
+ure-in-picture" allowfullscreen></iframe>=0D
+  </body>=0D
+</html>=0D
+
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Update (1.3ms)[0m  [1m[33mUPDATE "users" SET "start_time" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["start_time", "2021-04-02 16:42:03.845974"], ["updated_at", "2021-04-02 16:41:03.848704"], ["id", 44]]
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ lib/tasks/send_youtube.rake:9
+Started DELETE "/users/44" for ::1 at 2021-04-03 01:41:41 +0900
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"iFd2ZLyhPSaXcfr0eazWACk-a_Cz5xsjrvpC4spKxXei5j-fh90GGWCbwFozOZdfz-fPXbYP2suQ6JH0hVxUnA", "id"=>"44"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 44], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:15
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:16
+  [1m[36mUser Destroy (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 44]]
+  ↳ app/controllers/users_controller.rb:16
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:16
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/" for ::1 at 2021-04-03 01:41:41 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 60ms (Views: 58.3ms | ActiveRecord: 0.0ms)
+
+
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+Started GET "/" for ::1 at 2021-04-03 01:45:24 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 59ms (Views: 56.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for ::1 at 2021-04-03 01:45:40 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sa3FBDNkQ9KKV4_CLXGU_tGFRiLaI9Vgoab5PNFflk-bHIz_CBh47X29tWxn5NWhN1zij9_LFIiftCoqnkkHpA", "user"=>{"name"=>"よしおかしょう", "email"=>"yoshioka0606@outlook.jp", "set_time"=>"1", "break_time"=>"1"}, "commit"=>"アプリスタート"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "start_time", "set_time", "break_time") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "よしおかしょう"], ["email", "yoshioka0606@outlook.jp"], ["created_at", "2021-04-02 16:45:40.996737"], ["updated_at", "2021-04-02 16:45:40.996737"], ["start_time", "2021-04-02 16:45:40.996039"], ["set_time", 1], ["break_time", 1]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 45], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:7
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/" for ::1 at 2021-04-03 01:45:41 +0900
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 45], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:5
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 51ms (Views: 49.4ms | ActiveRecord: 0.3ms)
+
+
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  Rendering youtube_mailer/youtube_mail.html.erb within layouts/mailer
+  Rendered youtube_mailer/youtube_mail.html.erb within layouts/mailer (3.5ms)
+YoutubeMailer#youtube_mail: processed outbound mail in 76.9ms
+Sent mail to yoshioka0606@outlook.jp (11.6ms)
+Date: Sat, 03 Apr 2021 01:46:03 +0900
+From: sue@example.com
+To: yoshioka0606@outlook.jp
+Message-ID: <60674a4b79236_186253fd29083203c357bc@yoshiokasusumunoMacBook-Pro.local.mail>
+Subject: =?UTF-8?Q?=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F?=
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    <h1>=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F</=
+h1>=0D
+<iframe width=3D"560" height=3D"315" src=3D"https://www.youtube.com/embed=
+/BFitLouawaM" title=3D"YouTube video player" frameborder=3D"0" allow=3D"a=
+ccelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pict=
+ure-in-picture" allowfullscreen></iframe>=0D
+  </body>=0D
+</html>=0D
+
+  [1m[35m (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "start_time" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["start_time", "2021-04-02 16:47:03.504779"], ["updated_at", "2021-04-02 16:46:03.510523"], ["id", 45]]
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+Started POST "/users" for ::1 at 2021-04-03 01:47:15 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"17cywCChNx9mFyXiF5aFk8fl-rNVCfK3Datinc16Sv_9Bns7G90MIJH9H0xdA8TMITxeHlDhM18zubGLgmzbFA", "user"=>{"name"=>"よしおかしょう", "email"=>"yoshioka0606@outlook.jp", "set_time"=>"1", "break_time"=>"1"}, "commit"=>"アプリスタート"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "start_time", "set_time", "break_time") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "よしおかしょう"], ["email", "yoshioka0606@outlook.jp"], ["created_at", "2021-04-02 16:47:15.039595"], ["updated_at", "2021-04-02 16:47:15.039595"], ["start_time", "2021-04-02 16:47:15.038658"], ["set_time", 1], ["break_time", 1]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 46], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:7
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/" for ::1 at 2021-04-03 01:47:15 +0900
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 46], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:5
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 58ms (Views: 55.6ms | ActiveRecord: 0.3ms)
+
+
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  Rendering youtube_mailer/youtube_mail.html.erb within layouts/mailer
+  Rendered youtube_mailer/youtube_mail.html.erb within layouts/mailer (1.6ms)
+YoutubeMailer#youtube_mail: processed outbound mail in 85.5ms
+Sent mail to yoshioka0606@outlook.jp (11.9ms)
+Date: Sat, 03 Apr 2021 01:48:02 +0900
+From: sue@example.com
+To: yoshioka0606@outlook.jp
+Message-ID: <60674ac2ad60e_ed3fe31ec320447731c@yoshiokasusumunoMacBook-Pro.local.mail>
+Subject: =?UTF-8?Q?=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F?=
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    <h1>=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F</=
+h1>=0D
+<iframe width=3D"560" height=3D"315" src=3D"https://www.youtube.com/embed=
+/BFitLouawaM" title=3D"YouTube video player" frameborder=3D"0" allow=3D"a=
+ccelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pict=
+ure-in-picture" allowfullscreen></iframe>=0D
+  </body>=0D
+</html>=0D
+
+  [1m[35m (1.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "start_time" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["start_time", "2021-04-02 16:49:02.719200"], ["updated_at", "2021-04-02 16:48:02.724071"], ["id", 45]]
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  Rendering youtube_mailer/youtube_mail.html.erb within layouts/mailer
+  Rendered youtube_mailer/youtube_mail.html.erb within layouts/mailer (0.0ms)
+YoutubeMailer#youtube_mail: processed outbound mail in 6.1ms
+Sent mail to yoshioka0606@outlook.jp (6.3ms)
+Date: Sat, 03 Apr 2021 01:48:02 +0900
+From: sue@example.com
+To: yoshioka0606@outlook.jp
+Message-ID: <60674ac2b3adf_ed3fe31ec32044774b3@yoshiokasusumunoMacBook-Pro.local.mail>
+Subject: =?UTF-8?Q?=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F?=
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    <h1>=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F</=
+h1>=0D
+<iframe width=3D"560" height=3D"315" src=3D"https://www.youtube.com/embed=
+/BFitLouawaM" title=3D"YouTube video player" frameborder=3D"0" allow=3D"a=
+ccelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pict=
+ure-in-picture" allowfullscreen></iframe>=0D
+  </body>=0D
+</html>=0D
+
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Update (0.4ms)[0m  [1m[33mUPDATE "users" SET "start_time" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["start_time", "2021-04-02 16:49:02.741867"], ["updated_at", "2021-04-02 16:48:02.743342"], ["id", 46]]
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  Rendering youtube_mailer/youtube_mail.html.erb within layouts/mailer
+  Rendered youtube_mailer/youtube_mail.html.erb within layouts/mailer (1.9ms)
+YoutubeMailer#youtube_mail: processed outbound mail in 104.7ms
+Sent mail to yoshioka0606@outlook.jp (11.1ms)
+Date: Sat, 03 Apr 2021 01:50:01 +0900
+From: sue@example.com
+To: yoshioka0606@outlook.jp
+Message-ID: <60674b399ffda_2c13fecfc03202c8639@yoshiokasusumunoMacBook-Pro.local.mail>
+Subject: =?UTF-8?Q?=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F?=
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    <h1>=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F</=
+h1>=0D
+<iframe width=3D"560" height=3D"315" src=3D"https://www.youtube.com/embed=
+/BFitLouawaM" title=3D"YouTube video player" frameborder=3D"0" allow=3D"a=
+ccelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pict=
+ure-in-picture" allowfullscreen></iframe>=0D
+  </body>=0D
+</html>=0D
+
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "start_time" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["start_time", "2021-04-02 16:51:01.663686"], ["updated_at", "2021-04-02 16:50:01.668678"], ["id", 45]]
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  Rendering youtube_mailer/youtube_mail.html.erb within layouts/mailer
+  Rendered youtube_mailer/youtube_mail.html.erb within layouts/mailer (0.0ms)
+YoutubeMailer#youtube_mail: processed outbound mail in 6.5ms
+Sent mail to yoshioka0606@outlook.jp (5.8ms)
+Date: Sat, 03 Apr 2021 01:50:01 +0900
+From: sue@example.com
+To: yoshioka0606@outlook.jp
+Message-ID: <60674b39a6756_2c13fecfc03202c878b@yoshiokasusumunoMacBook-Pro.local.mail>
+Subject: =?UTF-8?Q?=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F?=
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    <h1>=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F</=
+h1>=0D
+<iframe width=3D"560" height=3D"315" src=3D"https://www.youtube.com/embed=
+/BFitLouawaM" title=3D"YouTube video player" frameborder=3D"0" allow=3D"a=
+ccelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pict=
+ure-in-picture" allowfullscreen></iframe>=0D
+  </body>=0D
+</html>=0D
+
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Update (1.2ms)[0m  [1m[33mUPDATE "users" SET "start_time" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["start_time", "2021-04-02 16:51:01.687100"], ["updated_at", "2021-04-02 16:50:01.688895"], ["id", 46]]
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  Rendering youtube_mailer/youtube_mail.html.erb within layouts/mailer
+  Rendered youtube_mailer/youtube_mail.html.erb within layouts/mailer (1.9ms)
+YoutubeMailer#youtube_mail: processed outbound mail in 95.3ms
+Sent mail to yoshioka0606@outlook.jp (16.3ms)
+Date: Sat, 03 Apr 2021 01:52:01 +0900
+From: sue@example.com
+To: yoshioka0606@outlook.jp
+Message-ID: <60674bb1ce4ba_3b73fc29903203c64734@yoshiokasusumunoMacBook-Pro.local.mail>
+Subject: =?UTF-8?Q?=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F?=
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    <h1>=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F</=
+h1>=0D
+<iframe width=3D"560" height=3D"315" src=3D"https://www.youtube.com/embed=
+/BFitLouawaM" title=3D"YouTube video player" frameborder=3D"0" allow=3D"a=
+ccelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pict=
+ure-in-picture" allowfullscreen></iframe>=0D
+  </body>=0D
+</html>=0D
+
+  [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "start_time" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["start_time", "2021-04-02 16:53:01.856458"], ["updated_at", "2021-04-02 16:52:01.863494"], ["id", 45]]
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  Rendering youtube_mailer/youtube_mail.html.erb within layouts/mailer
+  Rendered youtube_mailer/youtube_mail.html.erb within layouts/mailer (0.0ms)
+YoutubeMailer#youtube_mail: processed outbound mail in 6.1ms
+Sent mail to yoshioka0606@outlook.jp (4.9ms)
+Date: Sat, 03 Apr 2021 01:52:01 +0900
+From: sue@example.com
+To: yoshioka0606@outlook.jp
+Message-ID: <60674bb1d5cea_3b73fc29903203c648a3@yoshiokasusumunoMacBook-Pro.local.mail>
+Subject: =?UTF-8?Q?=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F?=
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    <h1>=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F</=
+h1>=0D
+<iframe width=3D"560" height=3D"315" src=3D"https://www.youtube.com/embed=
+/BFitLouawaM" title=3D"YouTube video player" frameborder=3D"0" allow=3D"a=
+ccelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pict=
+ure-in-picture" allowfullscreen></iframe>=0D
+  </body>=0D
+</html>=0D
+
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "start_time" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["start_time", "2021-04-02 16:53:01.880693"], ["updated_at", "2021-04-02 16:52:01.884687"], ["id", 46]]
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  Rendering youtube_mailer/youtube_mail.html.erb within layouts/mailer
+  Rendered youtube_mailer/youtube_mail.html.erb within layouts/mailer (3.3ms)
+YoutubeMailer#youtube_mail: processed outbound mail in 86.0ms
+Sent mail to yoshioka0606@outlook.jp (13.9ms)
+Date: Sat, 03 Apr 2021 01:54:02 +0900
+From: sue@example.com
+To: yoshioka0606@outlook.jp
+Message-ID: <60674c2a3865b_4cb3fc985032044425e5@yoshiokasusumunoMacBook-Pro.local.mail>
+Subject: =?UTF-8?Q?=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F?=
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    <h1>=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F</=
+h1>=0D
+<iframe width=3D"560" height=3D"315" src=3D"https://www.youtube.com/embed=
+/BFitLouawaM" title=3D"YouTube video player" frameborder=3D"0" allow=3D"a=
+ccelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pict=
+ure-in-picture" allowfullscreen></iframe>=0D
+  </body>=0D
+</html>=0D
+
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Update (0.6ms)[0m  [1m[33mUPDATE "users" SET "start_time" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["start_time", "2021-04-02 16:55:02.241898"], ["updated_at", "2021-04-02 16:54:02.247209"], ["id", 45]]
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  Rendering youtube_mailer/youtube_mail.html.erb within layouts/mailer
+  Rendered youtube_mailer/youtube_mail.html.erb within layouts/mailer (0.1ms)
+YoutubeMailer#youtube_mail: processed outbound mail in 5.6ms
+Sent mail to yoshioka0606@outlook.jp (5.6ms)
+Date: Sat, 03 Apr 2021 01:54:02 +0900
+From: sue@example.com
+To: yoshioka0606@outlook.jp
+Message-ID: <60674c2a3f456_4cb3fc98503204442626@yoshiokasusumunoMacBook-Pro.local.mail>
+Subject: =?UTF-8?Q?=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F?=
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    <h1>=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F</=
+h1>=0D
+<iframe width=3D"560" height=3D"315" src=3D"https://www.youtube.com/embed=
+/BFitLouawaM" title=3D"YouTube video player" frameborder=3D"0" allow=3D"a=
+ccelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pict=
+ure-in-picture" allowfullscreen></iframe>=0D
+  </body>=0D
+</html>=0D
+
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "start_time" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["start_time", "2021-04-02 16:55:02.264622"], ["updated_at", "2021-04-02 16:54:02.269739"], ["id", 46]]
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Load (10.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (6.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+Started DELETE "/users/46" for ::1 at 2021-04-03 08:57:40 +0900
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ZncitnGUIu9l0kDoCcgk-z025Rc4AwRHv43075ddfJ1MxmtNSugZ0JI4ekZDXWWk2-9Buj3rxa-Bnyf52Evtdg", "id"=>"46"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 46], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:15
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:16
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 46]]
+  ↳ app/controllers/users_controller.rb:16
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:16
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/" for ::1 at 2021-04-03 08:57:40 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 76ms (Views: 74.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for ::1 at 2021-04-03 08:57:57 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KBLhOK5B-TWFgfeQpBi5pVHo2YpeB41WTozqg_G01kQCo6jDlT3CCnJrzT7ujfj6tzF9J1vvTL5wnjmVvqJHrw", "user"=>{"name"=>"よしおかしょう", "email"=>"yoshioka0606@outlook.jp", "set_time"=>"1", "break_time"=>"1"}, "commit"=>"アプリスタート"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Create (1.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "start_time", "set_time", "break_time") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "よしおかしょう"], ["email", "yoshioka0606@outlook.jp"], ["created_at", "2021-04-02 23:57:57.042170"], ["updated_at", "2021-04-02 23:57:57.042170"], ["start_time", "2021-04-02 23:57:57.041572"], ["set_time", 1], ["break_time", 1]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 47], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:7
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/" for ::1 at 2021-04-03 08:57:57 +0900
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 47], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:5
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 37ms (Views: 35.3ms | ActiveRecord: 0.3ms)
+
+
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  Rendering youtube_mailer/youtube_mail.html.erb within layouts/mailer
+  Rendered youtube_mailer/youtube_mail.html.erb within layouts/mailer (1.5ms)
+YoutubeMailer#youtube_mail: processed outbound mail in 86.6ms
+Sent mail to yoshioka0606@outlook.jp (22.3ms)
+Date: Sat, 03 Apr 2021 08:58:02 +0900
+From: sue@example.com
+To: yoshioka0606@outlook.jp
+Message-ID: <6067af8a4803c_93c3ff80f83204c43027@yoshiokasusumunoMacBook-Pro.local.mail>
+Subject: =?UTF-8?Q?=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F?=
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    <h1>=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F</=
+h1>=0D
+<iframe width=3D"560" height=3D"315" src=3D"https://www.youtube.com/embed=
+/BFitLouawaM" title=3D"YouTube video player" frameborder=3D"0" allow=3D"a=
+ccelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pict=
+ure-in-picture" allowfullscreen></iframe>=0D
+  </body>=0D
+</html>=0D
+
+  [1m[35m (3.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Update (0.7ms)[0m  [1m[33mUPDATE "users" SET "start_time" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["start_time", "2021-04-02 23:59:02.311553"], ["updated_at", "2021-04-02 23:58:02.318580"], ["id", 47]]
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  Rendering youtube_mailer/youtube_mail.html.erb within layouts/mailer
+  Rendered youtube_mailer/youtube_mail.html.erb within layouts/mailer (1.4ms)
+YoutubeMailer#youtube_mail: processed outbound mail in 101.4ms
+Sent mail to yoshioka0606@outlook.jp (10.3ms)
+Date: Sat, 03 Apr 2021 09:00:01 +0900
+From: sue@example.com
+To: yoshioka0606@outlook.jp
+Message-ID: <6067b001ae951_a3f3fdc0b03204c46364@yoshiokasusumunoMacBook-Pro.local.mail>
+Subject: =?UTF-8?Q?=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F?=
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    <h1>=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F</=
+h1>=0D
+<iframe width=3D"560" height=3D"315" src=3D"https://www.youtube.com/embed=
+/BFitLouawaM" title=3D"YouTube video player" frameborder=3D"0" allow=3D"a=
+ccelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pict=
+ure-in-picture" allowfullscreen></iframe>=0D
+  </body>=0D
+</html>=0D
+
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "start_time" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["start_time", "2021-04-03 00:01:01.722471"], ["updated_at", "2021-04-03 00:00:01.727423"], ["id", 47]]
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ lib/tasks/send_youtube.rake:9
+Started DELETE "/users/45" for ::1 at 2021-04-03 09:01:02 +0900
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"u0hhmOwI-H6yDC3DONCKvgImRzbY_E887XgMt7h9mZ-R-Shj13TDQUXmF21yRcvh5P_jm90UjtTTat-h92sIdA", "id"=>"45"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 45], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:15
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:16
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 45]]
+  ↳ app/controllers/users_controller.rb:16
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:16
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/" for ::1 at 2021-04-03 09:01:02 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 57ms (Views: 55.8ms | ActiveRecord: 0.0ms)
+
+
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  Rendering youtube_mailer/youtube_mail.html.erb within layouts/mailer
+  Rendered youtube_mailer/youtube_mail.html.erb within layouts/mailer (1.9ms)
+YoutubeMailer#youtube_mail: processed outbound mail in 105.1ms
+Sent mail to yoshioka0606@outlook.jp (21.0ms)
+Date: Sat, 03 Apr 2021 09:02:01 +0900
+From: sue@example.com
+To: yoshioka0606@outlook.jp
+Message-ID: <6067b0799b37b_b453fe25783204c496d2@yoshiokasusumunoMacBook-Pro.local.mail>
+Subject: =?UTF-8?Q?=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F?=
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    <h1>=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F</=
+h1>=0D
+<iframe width=3D"560" height=3D"315" src=3D"https://www.youtube.com/embed=
+/BFitLouawaM" title=3D"YouTube video player" frameborder=3D"0" allow=3D"a=
+ccelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pict=
+ure-in-picture" allowfullscreen></iframe>=0D
+  </body>=0D
+</html>=0D
+
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Update (0.6ms)[0m  [1m[33mUPDATE "users" SET "start_time" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["start_time", "2021-04-03 00:03:01.650415"], ["updated_at", "2021-04-03 00:02:01.657120"], ["id", 47]]
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+Started POST "/users" for ::1 at 2021-04-03 16:04:13 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ejsdYJOxn9nPqBoN6Qccczz4fLlLJyTiOrIW5SFlF_VQilSbqM2k5jhCIKOjkl0s2iHYFE7P5QoEoMXzbnOGHg", "user"=>{"name"=>"よしおかしょう", "email"=>"yoshioka0606@outlook.jp", "set_time"=>"1", "break_time"=>"1"}, "commit"=>"アプリスタート"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "start_time", "set_time", "break_time") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "よしおかしょう"], ["email", "yoshioka0606@outlook.jp"], ["created_at", "2021-04-03 07:04:13.587711"], ["updated_at", "2021-04-03 07:04:13.587711"], ["start_time", "2021-04-03 07:04:13.587093"], ["set_time", 1], ["break_time", 1]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 48], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:7
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/" for ::1 at 2021-04-03 16:04:13 +0900
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 48], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:5
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 51ms (Views: 49.2ms | ActiveRecord: 0.3ms)
+
+
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  Rendering youtube_mailer/youtube_mail.html.erb within layouts/mailer
+  Rendered youtube_mailer/youtube_mail.html.erb within layouts/mailer (1.5ms)
+YoutubeMailer#youtube_mail: processed outbound mail in 81.3ms
+Sent mail to yoshioka0606@outlook.jp (13.3ms)
+Date: Sat, 03 Apr 2021 16:05:01 +0900
+From: sue@example.com
+To: yoshioka0606@outlook.jp
+Message-ID: <6068139dc9ab2_c7f3ff21303204c966d5@yoshiokasusumunoMacBook-Pro.local.mail>
+Subject: =?UTF-8?Q?=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F?=
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    <h1>=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F</=
+h1>=0D
+<iframe width=3D"560" height=3D"315" src=3D"https://www.youtube.com/embed=
+/BFitLouawaM" title=3D"YouTube video player" frameborder=3D"0" allow=3D"a=
+ccelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pict=
+ure-in-picture" allowfullscreen></iframe>=0D
+  </body>=0D
+</html>=0D
+
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "start_time" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["start_time", "2021-04-03 07:06:01.835584"], ["updated_at", "2021-04-03 07:05:01.840739"], ["id", 48]]
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  Rendering youtube_mailer/youtube_mail.html.erb within layouts/mailer
+  Rendered youtube_mailer/youtube_mail.html.erb within layouts/mailer (1.3ms)
+YoutubeMailer#youtube_mail: processed outbound mail in 83.0ms
+Sent mail to yoshioka0606@outlook.jp (12.8ms)
+Date: Sat, 03 Apr 2021 16:07:01 +0900
+From: sue@example.com
+To: yoshioka0606@outlook.jp
+Message-ID: <6068141589b4a_d6c3ff20b43203c533c4@yoshiokasusumunoMacBook-Pro.local.mail>
+Subject: =?UTF-8?Q?=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F?=
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    <h1>=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F</=
+h1>=0D
+<iframe width=3D"560" height=3D"315" src=3D"https://www.youtube.com/embed=
+/BFitLouawaM" title=3D"YouTube video player" frameborder=3D"0" allow=3D"a=
+ccelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pict=
+ure-in-picture" allowfullscreen></iframe>=0D
+  </body>=0D
+</html>=0D
+
+  [1m[35m (1.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Update (0.8ms)[0m  [1m[33mUPDATE "users" SET "start_time" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["start_time", "2021-04-03 07:08:01.573740"], ["updated_at", "2021-04-03 07:07:01.579443"], ["id", 48]]
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  Rendering youtube_mailer/youtube_mail.html.erb within layouts/mailer
+  Rendered youtube_mailer/youtube_mail.html.erb within layouts/mailer (0.5ms)
+YoutubeMailer#youtube_mail: processed outbound mail in 56.5ms
+Sent mail to yoshioka0606@outlook.jp (8.8ms)
+Date: Sat, 03 Apr 2021 16:09:02 +0900
+From: sue@example.com
+To: yoshioka0606@outlook.jp
+Message-ID: <6068148e67a2e_e843ffb8b83202c96768@yoshiokasusumunoMacBook-Pro.local.mail>
+Subject: =?UTF-8?Q?=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F?=
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    <h1>=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F</=
+h1>=0D
+<iframe width=3D"560" height=3D"315" src=3D"https://www.youtube.com/embed=
+/BFitLouawaM" title=3D"YouTube video player" frameborder=3D"0" allow=3D"a=
+ccelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pict=
+ure-in-picture" allowfullscreen></iframe>=0D
+  </body>=0D
+</html>=0D
+
+  [1m[35m (2.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "start_time" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["start_time", "2021-04-03 07:10:02.431927"], ["updated_at", "2021-04-03 07:09:02.438580"], ["id", 48]]
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  Rendering youtube_mailer/youtube_mail.html.erb within layouts/mailer
+  Rendered youtube_mailer/youtube_mail.html.erb within layouts/mailer (0.5ms)
+YoutubeMailer#youtube_mail: processed outbound mail in 59.1ms
+Sent mail to yoshioka0606@outlook.jp (7.0ms)
+Date: Sat, 03 Apr 2021 16:11:01 +0900
+From: sue@example.com
+To: yoshioka0606@outlook.jp
+Message-ID: <6068150573582_f623fc75d83205c16459@yoshiokasusumunoMacBook-Pro.local.mail>
+Subject: =?UTF-8?Q?=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F?=
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    <h1>=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F</=
+h1>=0D
+<iframe width=3D"560" height=3D"315" src=3D"https://www.youtube.com/embed=
+/BFitLouawaM" title=3D"YouTube video player" frameborder=3D"0" allow=3D"a=
+ccelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pict=
+ure-in-picture" allowfullscreen></iframe>=0D
+  </body>=0D
+</html>=0D
+
+  [1m[35m (1.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Update (0.6ms)[0m  [1m[33mUPDATE "users" SET "start_time" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["start_time", "2021-04-03 07:12:01.478503"], ["updated_at", "2021-04-03 07:11:01.483767"], ["id", 48]]
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ lib/tasks/send_youtube.rake:9
+Started DELETE "/users/47" for ::1 at 2021-04-03 16:11:13 +0900
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"IFLcyqglQ5oZWOI274eEBBt8VAi_TEgostj7v5t1WP8K45Uxk1l4pe6y2JilEsVb_aXwpbqkicCMyiip1GPJFA", "id"=>"47"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 47], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:15
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:16
+  [1m[36mUser Destroy (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 47]]
+  ↳ app/controllers/users_controller.rb:16
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:16
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 2.3ms)
+
+
+Started GET "/" for ::1 at 2021-04-03 16:11:13 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 59ms (Views: 57.3ms | ActiveRecord: 0.0ms)
+
+
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  Rendering youtube_mailer/youtube_mail.html.erb within layouts/mailer
+  Rendered youtube_mailer/youtube_mail.html.erb within layouts/mailer (1.4ms)
+YoutubeMailer#youtube_mail: processed outbound mail in 79.0ms
+Sent mail to yoshioka0606@outlook.jp (17.9ms)
+Date: Sat, 03 Apr 2021 16:13:03 +0900
+From: sue@example.com
+To: yoshioka0606@outlook.jp
+Message-ID: <6068157fbe5e0_10583ff43d432044645e9@yoshiokasusumunoMacBook-Pro.local.mail>
+Subject: =?UTF-8?Q?=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F?=
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    <h1>=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F</=
+h1>=0D
+<iframe width=3D"560" height=3D"315" src=3D"https://www.youtube.com/embed=
+/BFitLouawaM" title=3D"YouTube video player" frameborder=3D"0" allow=3D"a=
+ccelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pict=
+ure-in-picture" allowfullscreen></iframe>=0D
+  </body>=0D
+</html>=0D
+
+  [1m[35m (1.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "start_time" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["start_time", "2021-04-03 07:14:03.792529"], ["updated_at", "2021-04-03 07:13:03.797572"], ["id", 48]]
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ lib/tasks/send_youtube.rake:9
+Started DELETE "/users/48" for ::1 at 2021-04-03 16:13:26 +0900
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/yoshiokasusumu/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"FgUUYBJ0OUjZaS-bfUkoIBbKCulnfOXWyIegecgaI5E8tF2bKQgCdy6DFTU33Gl_8BOuRGKUJD72lXNvhwyyeg", "id"=>"48"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 48], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:15
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:16
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 48]]
+  ↳ app/controllers/users_controller.rb:16
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:16
+Redirected to http://localhost:3000/
+Completed 302 Found in 44ms (ActiveRecord: 6.6ms)
+
+
+Started GET "/" for ::1 at 2021-04-03 16:13:26 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (20.8ms)
+Completed 200 OK in 384ms (Views: 382.5ms | ActiveRecord: 0.0ms)
+
+
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+Started GET "/" for ::1 at 2021-04-03 16:16:24 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 53ms (Views: 50.6ms | ActiveRecord: 0.0ms)
+
+
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
