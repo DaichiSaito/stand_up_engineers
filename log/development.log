@@ -11102,3 +11102,2318 @@ Completed 200 OK in 53ms (Views: 50.6ms | ActiveRecord: 0.0ms)
 
   [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
   ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+Started DELETE "/users/69" for ::1 at 2021-04-06 11:05:37 +0900
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/yoshiokasusumu/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"lBcexFVF4bqs19Ld5iyQmoHwC2eAr-RlGQ9eYWxdXwC-plc_bjnahVs96HOsudHFZymvyoVHJY0nHY13I0vO6w", "id"=>"69"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 69], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:15
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:16
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 69]]
+  ↳ app/controllers/users_controller.rb:16
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:16
+Redirected to http://localhost:3000/
+Completed 302 Found in 34ms (ActiveRecord: 8.8ms)
+
+
+Started GET "/" for ::1 at 2021-04-06 11:05:37 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (24.6ms)
+Completed 200 OK in 390ms (Views: 388.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for ::1 at 2021-04-06 11:05:43 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZcFeeJlFDFmRu55ojP1az5KbRtBB2pgbT1XWcdIt9rxPcBeDojk3ZmZRpMbGaBuQdELifUQyWfNxRwVnnTtnVw", "user"=>{"name"=>"よしおかしょう", "email"=>"yoshioka0606@outlook.jp", "set_time"=>"1", "break_time"=>"1"}, "commit"=>"アプリスタート"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "start_time", "set_time", "break_time") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "よしおかしょう"], ["email", "yoshioka0606@outlook.jp"], ["created_at", "2021-04-06 02:05:43.940088"], ["updated_at", "2021-04-06 02:05:43.940088"], ["start_time", "2021-04-06 02:05:43.939250"], ["set_time", 1], ["break_time", 1]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 70], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:7
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/" for ::1 at 2021-04-06 11:05:43 +0900
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 70], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:5
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 48ms (Views: 45.3ms | ActiveRecord: 0.4ms)
+
+
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  Rendering youtube_mailer/youtube_mail.html.erb within layouts/mailer
+  Rendered youtube_mailer/youtube_mail.html.erb within layouts/mailer (1.1ms)
+YoutubeMailer#youtube_mail: processed outbound mail in 92.4ms
+Sent mail to yoshioka0606@outlook.jp (13.8ms)
+Date: Tue, 06 Apr 2021 11:06:02 +0900
+From: sue@example.com
+To: yoshioka0606@outlook.jp
+Message-ID: <606bc20a2229e_1711b3ff84e83204496479@yoshiokasusumunoMacBook-Pro.local.mail>
+Subject: =?UTF-8?Q?=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F?=
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    <h1>=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F</=
+h1>=0D
+<iframe width=3D"560" height=3D"315" src=3D"https://www.youtube.com/embed=
+/BFitLouawaM" title=3D"YouTube video player" frameborder=3D"0" allow=3D"a=
+ccelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pict=
+ure-in-picture" allowfullscreen></iframe>=0D
+  </body>=0D
+</html>=0D
+
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Update (1.0ms)[0m  [1m[33mUPDATE "users" SET "start_time" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["start_time", "2021-04-06 02:07:02.149996"], ["updated_at", "2021-04-06 02:06:02.153624"], ["id", 70]]
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ lib/tasks/send_youtube.rake:9
+Started DELETE "/users/70" for ::1 at 2021-04-06 11:06:18 +0900
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"tO9SQVzOqV-ZdmVeDbZBsyFqRQuGemJvtbTBA8-jVLCeXhu6Z7KSYG6cX_BHIwDsx7PhpoOSo4eLphIVgLXFWw", "id"=>"70"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 70], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:15
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:16
+  [1m[36mUser Destroy (0.5ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 70]]
+  ↳ app/controllers/users_controller.rb:16
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:16
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/" for ::1 at 2021-04-06 11:06:18 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 73ms (Views: 72.0ms | ActiveRecord: 0.0ms)
+
+
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7723656892156408875)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateVideos (20210406020633)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (8.1ms)[0m  [1m[35mCREATE TABLE "videos" ("id" bigserial primary key, "category_name" character varying NOT NULL, "title" character varying NOT NULL, "video_id" character varying NOT NULL, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20210406020633_create_videos.rb:3
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(7723656892156408875)[0m
+  ↳ bin/rails:9
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7723656892156408875)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateVideos (20210406020633)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (5.3ms)[0m  [1m[35mCREATE TABLE "videos" ("id" bigserial primary key, "category_name" character varying, "title" character varying, "video_id" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20210406020633_create_videos.rb:3
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(7723656892156408875)[0m
+  ↳ bin/rails:9
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (2.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7723656892156408875)[0m
+  ↳ bin/rails:9
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateVideos (20210406020633)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (8.1ms)[0m  [1m[35mCREATE TABLE "videos" ("id" bigserial primary key, "category_name" character varying, "title" character varying, "video_id" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20210406020633_create_videos.rb:3
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(7723656892156408875)[0m
+  ↳ bin/rails:9
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7723656892156408875)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateVideos (20210406020633)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (2.7ms)[0m  [1m[35mCREATE TABLE "videos" ("id" bigserial primary key, "category_name" character varying, "title" character varying, "video_id" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20210406020633_create_videos.rb:3
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(7723656892156408875)[0m
+  ↳ bin/rails:9
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7723656892156408875)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateVideos (20210406020633)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (2.8ms)[0m  [1m[35mCREATE TABLE "videos" ("id" bigserial primary key, "category_name" character varying, "title" character varying, "video_id" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20210406020633_create_videos.rb:3
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(7723656892156408875)[0m
+  ↳ bin/rails:9
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7723656892156408875)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateVideos (20210406020633)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (4.4ms)[0m  [1m[35mCREATE TABLE "videos" ("id" bigserial primary key, "category_name" character varying, "title" character varying, "video_id" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20210406020633_create_videos.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210406020633"]]
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_advisory_unlock(7723656892156408875)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (9.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (2.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+Sending HTTP get https://youtube.googleapis.com/youtube/v3/search?key=AIzaSyCdBixnc_GiqWpyujqvrP1nrAhKGWg4Jnc&maxResults=2&order=date&part=snippet&publishedAfter=2021-03-07T15%3A00%3A27%2B09%3A00&publishedBefore=2021-04-07T15%3A00%3A27%2B09%3A00&q=%E6%98%8E%E6%97%A5%E9%A6%99%E3%81%A1%E3%82%83%E3%82%93%E3%81%AD%E3%82%8B&type=video
+200
+#<HTTP::Message:0x00007fd685c7fea8 @http_header=#<HTTP::Message::Headers:0x00007fd685c7fe58 @http_version="1.1", @body_size=0, @chunked=false, @request_method="GET", @request_uri=#<Addressable::URI:0x3feb40a2103c URI:https://youtube.googleapis.com/youtube/v3/search?key=AIzaSyCdBixnc_GiqWpyujqvrP1nrAhKGWg4Jnc&maxResults=2&order=date&part=snippet&publishedAfter=2021-03-07T15%3A00%3A27%2B09%3A00&publishedBefore=2021-04-07T15%3A00%3A27%2B09%3A00&q=%E6%98%8E%E6%97%A5%E9%A6%99%E3%81%A1%E3%82%83%E3%82%93%E3%81%AD%E3%82%8B&type=video>, @request_query=nil, @request_absolute_uri=nil, @status_code=200, @reason_phrase="OK", @body_type=nil, @body_charset=nil, @body_date=nil, @body_encoding=#<Encoding:UTF-8>, @is_request=false, @header_item=[["Content-Type", "application/json; charset=UTF-8"], ["Vary", "Origin"], ["Vary", "X-Origin"], ["Vary", "Referer"], ["Content-Encoding", "gzip"], ["Date", "Wed, 07 Apr 2021 06:00:27 GMT"], ["Server", "scaffolding on HTTPServer2"], ["Cache-Control", "private"], ["X-XSS-Protection", "0"], ["X-Frame-Options", "SAMEORIGIN"], ["X-Content-Type-Options", "nosniff"], ["Alt-Svc", "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""], ["Transfer-Encoding", "chunked"]], @dumped=false>, @peer_cert=#<OpenSSL::X509::Certificate: subject=#<OpenSSL::X509::Name CN=upload.video.google.com,O=Google LLC,L=Mountain View,ST=California,C=US>, issuer=#<OpenSSL::X509::Name CN=GTS CA 1O1,O=Google Trust Services,C=US>, serial=#<OpenSSL::BN:0x00007fd6814f1528>, not_before=2021-03-16 19:33:26 UTC, not_after=2021-06-08 19:33:25 UTC>, @http_body=#<HTTP::Message::Body:0x00007fd685c7fd18 @body="{\n  \"kind\": \"youtube#searchListResponse\",\n  \"etag\": \"2Mw-F1kkpaEX_QGNi1k4fObKLqA\",\n  \"nextPageToken\": \"CAIQAA\",\n  \"regionCode\": \"JP\",\n  \"pageInfo\": {\n    \"totalResults\": 15342,\n    \"resultsPerPage\": 2\n  },\n  \"items\": [\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"FTueO6XHFicf-XcT4VLFB79WcJg\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"ZwfSIJmqDWc\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-05T12:32:05Z\",\n        \"channelId\": \"UCRbyjyOWHO9W7wyLSlLeeIg\",\n        \"title\": \"リスナーから送られてきたコースで遊んでたら...\",\n        \"description\": \"明日香ちゃんねるに登録していると毎日元気が届きます☆ ◇明日香のLINEID：@asuka18 ◇明日香のLINEスタンプはこちら →https://bit.ly/2Ef41wh ◇明日香のファン ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/ZwfSIJmqDWc/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/ZwfSIJmqDWc/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/ZwfSIJmqDWc/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"明日香ちゃんねる\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-05T12:32:05Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"152kCILqqui01QwxtQoiehhkYLU\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"NCYg4__sIaI\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-03-28T11:17:57Z\",\n        \"channelId\": \"UCRbyjyOWHO9W7wyLSlLeeIg\",\n        \"title\": \"製作期間４ヵ月！？リスナーから本気のコースが送られてきたと思ったら...\",\n        \"description\": \"明日香ちゃんねるに登録していると毎日元気が届きます☆ ◇明日香のLINEID：@asuka18 ◇明日香のLINEスタンプはこちら →https://bit.ly/2Ef41wh ◇明日香のファン ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/NCYg4__sIaI/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/NCYg4__sIaI/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/NCYg4__sIaI/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"明日香ちゃんねる\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-03-28T11:17:57Z\"\n      }\n    }\n  ]\n}\n", @size=0, @positions=nil, @chunk_size=nil>, @previous=nil>
+Success - #<Google::Apis::YoutubeV3::SearchListsResponse:0x00007fd6816dede0
+ @etag="2Mw-F1kkpaEX_QGNi1k4fObKLqA",
+ @items=
+  [#<Google::Apis::YoutubeV3::SearchResult:0x00007fd6816e5fc8
+    @etag="FTueO6XHFicf-XcT4VLFB79WcJg",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd6816e4998
+      @kind="youtube#video",
+      @video_id="ZwfSIJmqDWc">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd685d6e6e8
+      @channel_id="UCRbyjyOWHO9W7wyLSlLeeIg",
+      @channel_title="明日香ちゃんねる",
+      @description=
+       "明日香ちゃんねるに登録していると毎日元気が届きます☆ ◇明日香のLINEID：@asuka18 ◇明日香のLINEスタンプはこちら →https://bit.ly/2Ef41wh ◇明日香のファン ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-05T12:32:05Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd681703a28
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd681702330
+          @height=90,
+          @url="https://i.ytimg.com/vi/ZwfSIJmqDWc/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6816eb7e8
+          @height=360,
+          @url="https://i.ytimg.com/vi/ZwfSIJmqDWc/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6816e9f60
+          @height=180,
+          @url="https://i.ytimg.com/vi/ZwfSIJmqDWc/mqdefault.jpg",
+          @width=320>>,
+      @title="リスナーから送られてきたコースで遊んでたら...">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fd6816e8598
+    @etag="152kCILqqui01QwxtQoiehhkYLU",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd68170a2d8
+      @kind="youtube#video",
+      @video_id="NCYg4__sIaI">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd681708f28
+      @channel_id="UCRbyjyOWHO9W7wyLSlLeeIg",
+      @channel_title="明日香ちゃんねる",
+      @description=
+       "明日香ちゃんねるに登録していると毎日元気が届きます☆ ◇明日香のLINEID：@asuka18 ◇明日香のLINEスタンプはこちら →https://bit.ly/2Ef41wh ◇明日香のファン ...",
+      @live_broadcast_content="none",
+      @published_at="2021-03-28T11:17:57Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd681713ba8
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd681713180
+          @height=90,
+          @url="https://i.ytimg.com/vi/NCYg4__sIaI/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd681711d08
+          @height=360,
+          @url="https://i.ytimg.com/vi/NCYg4__sIaI/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6817109a8
+          @height=180,
+          @url="https://i.ytimg.com/vi/NCYg4__sIaI/mqdefault.jpg",
+          @width=320>>,
+      @title="製作期間４ヵ月！？リスナーから本気のコースが送られてきたと思ったら...">>],
+ @kind="youtube#searchListResponse",
+ @next_page_token="CAIQAA",
+ @page_info=
+  #<Google::Apis::YoutubeV3::PageInfo:0x00007fd685d75ce0
+   @results_per_page=2,
+   @total_results=15342>,
+ @region_code="JP">
+
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+Sending HTTP get https://youtube.googleapis.com/youtube/v3/search?key=AIzaSyCdBixnc_GiqWpyujqvrP1nrAhKGWg4Jnc&maxResults=2&order=date&part=snippet&publishedAfter=2021-03-07T15%3A02%3A59%2B09%3A00&publishedBefore=2021-04-07T15%3A02%3A59%2B09%3A00&q=%E3%81%8D%E3%82%93%E3%83%88%E3%83%AC&type=video
+200
+#<HTTP::Message:0x00007fd681b2e9e0 @http_header=#<HTTP::Message::Headers:0x00007fd681b2e9b8 @http_version="1.1", @body_size=0, @chunked=false, @request_method="GET", @request_uri=#<Addressable::URI:0x3feb40d978ec URI:https://youtube.googleapis.com/youtube/v3/search?key=AIzaSyCdBixnc_GiqWpyujqvrP1nrAhKGWg4Jnc&maxResults=2&order=date&part=snippet&publishedAfter=2021-03-07T15%3A02%3A59%2B09%3A00&publishedBefore=2021-04-07T15%3A02%3A59%2B09%3A00&q=%E3%81%8D%E3%82%93%E3%83%88%E3%83%AC&type=video>, @request_query=nil, @request_absolute_uri=nil, @status_code=200, @reason_phrase="OK", @body_type=nil, @body_charset=nil, @body_date=nil, @body_encoding=#<Encoding:UTF-8>, @is_request=false, @header_item=[["Content-Type", "application/json; charset=UTF-8"], ["Vary", "Origin"], ["Vary", "X-Origin"], ["Vary", "Referer"], ["Content-Encoding", "gzip"], ["Date", "Wed, 07 Apr 2021 06:03:00 GMT"], ["Server", "scaffolding on HTTPServer2"], ["Cache-Control", "private"], ["X-XSS-Protection", "0"], ["X-Frame-Options", "SAMEORIGIN"], ["X-Content-Type-Options", "nosniff"], ["Alt-Svc", "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""], ["Transfer-Encoding", "chunked"]], @dumped=false>, @peer_cert=#<OpenSSL::X509::Certificate: subject=#<OpenSSL::X509::Name CN=upload.video.google.com,O=Google LLC,L=Mountain View,ST=California,C=US>, issuer=#<OpenSSL::X509::Name CN=GTS CA 1O1,O=Google Trust Services,C=US>, serial=#<OpenSSL::BN:0x00007fd68cb74ae8>, not_before=2021-03-16 19:33:26 UTC, not_after=2021-06-08 19:33:25 UTC>, @http_body=#<HTTP::Message::Body:0x00007fd681b2e940 @body="{\n  \"kind\": \"youtube#searchListResponse\",\n  \"etag\": \"a_x1gupbRfK_V9QLkPtW0EJXcLo\",\n  \"nextPageToken\": \"CAIQAA\",\n  \"regionCode\": \"JP\",\n  \"pageInfo\": {\n    \"totalResults\": 10034,\n    \"resultsPerPage\": 2\n  },\n  \"items\": [\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"4rNOlB6M-v0oi6DfRBHdDPZY5Uc\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"Zek30EC5Kao\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-06T09:45:00Z\",\n        \"channelId\": \"UC4oh39Cop8SnkQb6yoQT5AQ\",\n        \"title\": \"【筋トレ】ベストワークアウトミュージックミックス 2021 - ジムトレーニング音楽\",\n        \"description\": \"【筋トレ】ベストワークアウトミュージックミックス 2021 - ジムトレーニング音楽 https://www.youtube.com/channel/UC4oh39Cop8SnkQb6yoQT5AQ 筋トレ 腹筋ローラー ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/Zek30EC5Kao/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/Zek30EC5Kao/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/Zek30EC5Kao/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"Toshiba\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-06T09:45:00Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"5psOcKH3HC4oi5K95b281GzHtpE\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"15MO9xqx9UY\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-03-30T08:50:33Z\",\n        \"channelId\": \"UC1B3XT3l1txL5BNbwyjq99A\",\n        \"title\": \"【筋トレモチベーション】 エドワード加藤が使った洋楽集 ‼ ベストワークアウトミュージックミックス 2021\",\n        \"description\": \"▶️Track List: [00:00:00] - NEFFEX - Crown [Copyright Free] Copy https://spoti.fi/37JiE9L [00:03:55] - NEFFEX - Destiny [Copyright Free] - Copy ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/15MO9xqx9UY/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/15MO9xqx9UY/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/15MO9xqx9UY/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"Venus Official\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-03-30T08:50:33Z\"\n      }\n    }\n  ]\n}\n", @size=0, @positions=nil, @chunk_size=nil>, @previous=nil>
+Success - #<Google::Apis::YoutubeV3::SearchListsResponse:0x00007fd68cb74318
+ @etag="a_x1gupbRfK_V9QLkPtW0EJXcLo",
+ @items=
+  [#<Google::Apis::YoutubeV3::SearchResult:0x00007fd68a51eec0
+    @etag="4rNOlB6M-v0oi6DfRBHdDPZY5Uc",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd68a51e600
+      @kind="youtube#video",
+      @video_id="Zek30EC5Kao">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd68a51d110
+      @channel_id="UC4oh39Cop8SnkQb6yoQT5AQ",
+      @channel_title="Toshiba",
+      @description=
+       "【筋トレ】ベストワークアウトミュージックミックス 2021 - ジムトレーニング音楽 https://www.youtube.com/channel/UC4oh39Cop8SnkQb6yoQT5AQ 筋トレ 腹筋ローラー ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-06T09:45:00Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd68a527c28
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68a527660
+          @height=90,
+          @url="https://i.ytimg.com/vi/Zek30EC5Kao/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68a5267b0
+          @height=360,
+          @url="https://i.ytimg.com/vi/Zek30EC5Kao/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68a5259f0
+          @height=180,
+          @url="https://i.ytimg.com/vi/Zek30EC5Kao/mqdefault.jpg",
+          @width=320>>,
+      @title="【筋トレ】ベストワークアウトミュージックミックス 2021 - ジムトレーニング音楽">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fd68a524bb8
+    @etag="5psOcKH3HC4oi5K95b281GzHtpE",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd68a5245f0
+      @kind="youtube#video",
+      @video_id="15MO9xqx9UY">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd68a52f928
+      @channel_id="UC1B3XT3l1txL5BNbwyjq99A",
+      @channel_title="Venus Official",
+      @description=
+       "▶️Track List: [00:00:00] - NEFFEX - Crown [Copyright Free] Copy https://spoti.fi/37JiE9L [00:03:55] - NEFFEX - Destiny [Copyright Free] - Copy ...",
+      @live_broadcast_content="none",
+      @published_at="2021-03-30T08:50:33Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd68a52ed20
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68a52e8e8
+          @height=90,
+          @url="https://i.ytimg.com/vi/15MO9xqx9UY/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68a52e000
+          @height=360,
+          @url="https://i.ytimg.com/vi/15MO9xqx9UY/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68a52d560
+          @height=180,
+          @url="https://i.ytimg.com/vi/15MO9xqx9UY/mqdefault.jpg",
+          @width=320>>,
+      @title="【筋トレモチベーション】 エドワード加藤が使った洋楽集 ‼ ベストワークアウトミュージックミックス 2021">>],
+ @kind="youtube#searchListResponse",
+ @next_page_token="CAIQAA",
+ @page_info=
+  #<Google::Apis::YoutubeV3::PageInfo:0x00007fd68a52c1b0
+   @results_per_page=2,
+   @total_results=10034>,
+ @region_code="JP">
+
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+Sending HTTP get https://youtube.googleapis.com/youtube/v3/search?key=AIzaSyCdBixnc_GiqWpyujqvrP1nrAhKGWg4Jnc&maxResults=2&order=date&part=snippet&publishedAfter=2021-03-07T15%3A16%3A00%2B09%3A00&publishedBefore=2021-04-07T15%3A16%3A00%2B09%3A00&q=%E7%AD%8B%E3%83%88%E3%83%AC&type=video
+200
+#<HTTP::Message:0x00007fd681c9df60 @http_header=#<HTTP::Message::Headers:0x00007fd681c9df38 @http_version="1.1", @body_size=0, @chunked=false, @request_method="GET", @request_uri=#<Addressable::URI:0x3feb40e4f3ac URI:https://youtube.googleapis.com/youtube/v3/search?key=AIzaSyCdBixnc_GiqWpyujqvrP1nrAhKGWg4Jnc&maxResults=2&order=date&part=snippet&publishedAfter=2021-03-07T15%3A16%3A00%2B09%3A00&publishedBefore=2021-04-07T15%3A16%3A00%2B09%3A00&q=%E7%AD%8B%E3%83%88%E3%83%AC&type=video>, @request_query=nil, @request_absolute_uri=nil, @status_code=200, @reason_phrase="OK", @body_type=nil, @body_charset=nil, @body_date=nil, @body_encoding=#<Encoding:UTF-8>, @is_request=false, @header_item=[["Content-Type", "application/json; charset=UTF-8"], ["Vary", "Origin"], ["Vary", "X-Origin"], ["Vary", "Referer"], ["Content-Encoding", "gzip"], ["Date", "Wed, 07 Apr 2021 06:16:01 GMT"], ["Server", "scaffolding on HTTPServer2"], ["Cache-Control", "private"], ["X-XSS-Protection", "0"], ["X-Frame-Options", "SAMEORIGIN"], ["X-Content-Type-Options", "nosniff"], ["Alt-Svc", "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""], ["Transfer-Encoding", "chunked"]], @dumped=false>, @peer_cert=#<OpenSSL::X509::Certificate: subject=#<OpenSSL::X509::Name CN=upload.video.google.com,O=Google LLC,L=Mountain View,ST=California,C=US>, issuer=#<OpenSSL::X509::Name CN=GTS CA 1O1,O=Google Trust Services,C=US>, serial=#<OpenSSL::BN:0x00007fd68d80d4d0>, not_before=2021-03-16 19:33:26 UTC, not_after=2021-06-08 19:33:25 UTC>, @http_body=#<HTTP::Message::Body:0x00007fd681c9dec0 @body="{\n  \"kind\": \"youtube#searchListResponse\",\n  \"etag\": \"y-fCaeizGRS5fcamUxEDyYmBos8\",\n  \"nextPageToken\": \"CAIQAA\",\n  \"regionCode\": \"JP\",\n  \"pageInfo\": {\n    \"totalResults\": 100398,\n    \"resultsPerPage\": 2\n  },\n  \"items\": [\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"FINrTScbHfMkD2DsCndyvfVdZ-E\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"qOvYI872j4g\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-07T04:40:15Z\",\n        \"channelId\": \"UCK2vZqAqvLZcW9AcaV7fw0A\",\n        \"title\": \"アフリカ奥地の野性的なトレーニングが凄い【筋トレ・ジム】instagramまとめ\",\n        \"description\": \"【再生リスト】 ボディメイク   https://youtube.com/playlist?list=PLfUAwFi3eE9zKCml8uQR8HvGlKWZ0r3_m 🌪️ストリートワークアウト🌪️ ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/qOvYI872j4g/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/qOvYI872j4g/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/qOvYI872j4g/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"筋肉屋\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-07T04:40:15Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"i_FGjC7Yl3uCa3vWWAXFazf3U_w\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"qZqydW9M154\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-07T03:52:46Z\",\n        \"channelId\": \"UCPpZGCVaBoRrJBYXCBTn1Ew\",\n        \"title\": \"#144【バイオハザードレジスタンス】完全な雑談枠と筋トレ 質問も初見コメントも歓迎！概要欄ご覧下さいませ。\",\n        \"description\": \"新作音楽動画作りました☆ 『バイオハザードRE2音楽動画』 バイオバイオハザードRE2と旧作バイオ2のエンディング曲を合わせてシェアファクトリーで編集しました。 ◯動画 ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/qZqydW9M154/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/qZqydW9M154/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/qZqydW9M154/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"のびきりママン\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-07T03:52:46Z\"\n      }\n    }\n  ]\n}\n", @size=0, @positions=nil, @chunk_size=nil>, @previous=nil>
+Success - #<Google::Apis::YoutubeV3::SearchListsResponse:0x00007fd68d80cd00
+ @etag="y-fCaeizGRS5fcamUxEDyYmBos8",
+ @items=
+  [#<Google::Apis::YoutubeV3::SearchResult:0x00007fd68d816ad0
+    @etag="FINrTScbHfMkD2DsCndyvfVdZ-E",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd68d816210
+      @kind="youtube#video",
+      @video_id="qOvYI872j4g">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd68d814d20
+      @channel_id="UCK2vZqAqvLZcW9AcaV7fw0A",
+      @channel_title="筋肉屋",
+      @description=
+       "【再生リスト】 ボディメイク   https://youtube.com/playlist?list=PLfUAwFi3eE9zKCml8uQR8HvGlKWZ0r3_m 🌪️ストリートワークアウト🌪️ ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-07T04:40:15Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd68d81f810
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68d81f248
+          @height=90,
+          @url="https://i.ytimg.com/vi/qOvYI872j4g/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68d81e398
+          @height=360,
+          @url="https://i.ytimg.com/vi/qOvYI872j4g/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68d81d5d8
+          @height=180,
+          @url="https://i.ytimg.com/vi/qOvYI872j4g/mqdefault.jpg",
+          @width=320>>,
+      @title="アフリカ奥地の野性的なトレーニングが凄い【筋トレ・ジム】instagramまとめ">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fd68d81c7a0
+    @etag="i_FGjC7Yl3uCa3vWWAXFazf3U_w",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd68d81c1d8
+      @kind="youtube#video",
+      @video_id="qZqydW9M154">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd68d827538
+      @channel_id="UCPpZGCVaBoRrJBYXCBTn1Ew",
+      @channel_title="のびきりママン",
+      @description=
+       "新作音楽動画作りました☆ 『バイオハザードRE2音楽動画』 バイオバイオハザードRE2と旧作バイオ2のエンディング曲を合わせてシェアファクトリーで編集しました。 ◯動画 ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-07T03:52:46Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd68d826930
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68d8264f8
+          @height=90,
+          @url="https://i.ytimg.com/vi/qZqydW9M154/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68d825c10
+          @height=360,
+          @url="https://i.ytimg.com/vi/qZqydW9M154/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68d825170
+          @height=180,
+          @url="https://i.ytimg.com/vi/qZqydW9M154/mqdefault.jpg",
+          @width=320>>,
+      @title="#144【バイオハザードレジスタンス】完全な雑談枠と筋トレ 質問も初見コメントも歓迎！概要欄ご覧下さいませ。">>],
+ @kind="youtube#searchListResponse",
+ @next_page_token="CAIQAA",
+ @page_info=
+  #<Google::Apis::YoutubeV3::PageInfo:0x00007fd68d82fd78
+   @results_per_page=2,
+   @total_results=100398>,
+ @region_code="JP">
+
+Sending HTTP get https://youtube.googleapis.com/youtube/v3/search?key=AIzaSyCdBixnc_GiqWpyujqvrP1nrAhKGWg4Jnc&maxResults=2&order=date&part=snippet&publishedAfter=2021-03-07T15%3A16%3A00%2B09%3A00&publishedBefore=2021-04-07T15%3A16%3A00%2B09%3A00&q=%E3%83%A8%E3%82%AC&type=video
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+200
+#<HTTP::Message:0x00007fd681cbdae0 @http_header=#<HTTP::Message::Headers:0x00007fd681cbdab8 @http_version="1.1", @body_size=0, @chunked=false, @request_method="GET", @request_uri=#<Addressable::URI:0x3feb40e5f16c URI:https://youtube.googleapis.com/youtube/v3/search?key=AIzaSyCdBixnc_GiqWpyujqvrP1nrAhKGWg4Jnc&maxResults=2&order=date&part=snippet&publishedAfter=2021-03-07T15%3A16%3A00%2B09%3A00&publishedBefore=2021-04-07T15%3A16%3A00%2B09%3A00&q=%E3%83%A8%E3%82%AC&type=video>, @request_query=nil, @request_absolute_uri=nil, @status_code=200, @reason_phrase="OK", @body_type=nil, @body_charset=nil, @body_date=nil, @body_encoding=#<Encoding:UTF-8>, @is_request=false, @header_item=[["Content-Type", "application/json; charset=UTF-8"], ["Vary", "Origin"], ["Vary", "X-Origin"], ["Vary", "Referer"], ["Content-Encoding", "gzip"], ["Date", "Wed, 07 Apr 2021 06:16:01 GMT"], ["Server", "scaffolding on HTTPServer2"], ["Cache-Control", "private"], ["X-XSS-Protection", "0"], ["X-Frame-Options", "SAMEORIGIN"], ["X-Content-Type-Options", "nosniff"], ["Alt-Svc", "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""], ["Transfer-Encoding", "chunked"]], @dumped=false>, @peer_cert=#<OpenSSL::X509::Certificate: subject=#<OpenSSL::X509::Name CN=upload.video.google.com,O=Google LLC,L=Mountain View,ST=California,C=US>, issuer=#<OpenSSL::X509::Name CN=GTS CA 1O1,O=Google Trust Services,C=US>, serial=#<OpenSSL::BN:0x00007fd68c868e30>, not_before=2021-03-16 19:33:26 UTC, not_after=2021-06-08 19:33:25 UTC>, @http_body=#<HTTP::Message::Body:0x00007fd681cbda40 @body="{\n  \"kind\": \"youtube#searchListResponse\",\n  \"etag\": \"8ILSEMWCrqOpO0JStOj4AOff928\",\n  \"nextPageToken\": \"CAIQAA\",\n  \"regionCode\": \"JP\",\n  \"pageInfo\": {\n    \"totalResults\": 61480,\n    \"resultsPerPage\": 2\n  },\n  \"items\": [\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"Ar64hcTX2Ps6UksVi6SrR2MQFYQ\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"AMqHFMFZk0o\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-07T01:00:01Z\",\n        \"channelId\": \"UCowONOweteAQ8vcjQJ4cmYA\",\n        \"title\": \"【ヨガレッスン・YOGA 】ヨガライブレッスン ～10分間  ～ やさしいヨガ・シニアヨガ・簡単ストレッチ・ダイエット #13\",\n        \"description\": \"今回は【ヨガライブレッスン ～10分間～】をお届けします。『いつまでも健康で強くて元気な心と体‥‥』をテーマに、気軽に楽しめるヨガレッスン動画を中心に健康情報を配信 ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/AMqHFMFZk0o/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/AMqHFMFZk0o/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/AMqHFMFZk0o/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"Takumi会ヨガ\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-07T01:00:01Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"xhQTdjYBoSW63FQu5o1nxLd9M-8\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"MLQLtvwXBj4\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-06T23:00:06Z\",\n        \"channelId\": \"UCOcQbKNP9HKwjewLLfdDeVQ\",\n        \"title\": \"【尿もれ改善！】骨盤矯正ヨガ\",\n        \"description\": \"今回は尿もれ、ポッコリお腹を改善する 「骨盤矯正ヨガ」をご一緒しましょう。 日頃、皆様からご相談いただく身体のお悩みに、 男女問わず尿もれ（頻尿）があります。 くしゃみ ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/MLQLtvwXBj4/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/MLQLtvwXBj4/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/MLQLtvwXBj4/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"yoga studio ACTOMO\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-06T23:00:06Z\"\n      }\n    }\n  ]\n}\n", @size=0, @positions=nil, @chunk_size=nil>, @previous=nil>
+Success - #<Google::Apis::YoutubeV3::SearchListsResponse:0x00007fd68c868688
+ @etag="8ILSEMWCrqOpO0JStOj4AOff928",
+ @items=
+  [#<Google::Apis::YoutubeV3::SearchResult:0x00007fd685fa2ba8
+    @etag="Ar64hcTX2Ps6UksVi6SrR2MQFYQ",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd685fa25e0
+      @kind="youtube#video",
+      @video_id="AMqHFMFZk0o">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd685fa1988
+      @channel_id="UCowONOweteAQ8vcjQJ4cmYA",
+      @channel_title="Takumi会ヨガ",
+      @description=
+       "今回は【ヨガライブレッスン ～10分間～】をお届けします。『いつまでも健康で強くて元気な心と体‥‥』をテーマに、気軽に楽しめるヨガレッスン動画を中心に健康情報を配信 ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-07T01:00:01Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd685fa0d80
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd685fa0948
+          @height=90,
+          @url="https://i.ytimg.com/vi/AMqHFMFZk0o/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd685fa0060
+          @height=360,
+          @url="https://i.ytimg.com/vi/AMqHFMFZk0o/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68d867570
+          @height=180,
+          @url="https://i.ytimg.com/vi/AMqHFMFZk0o/mqdefault.jpg",
+          @width=320>>,
+      @title=
+       "【ヨガレッスン・YOGA 】ヨガライブレッスン ～10分間  ～ やさしいヨガ・シニアヨガ・簡単ストレッチ・ダイエット #13">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fd68d866a30
+    @etag="xhQTdjYBoSW63FQu5o1nxLd9M-8",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd68d866468
+      @kind="youtube#video",
+      @video_id="MLQLtvwXBj4">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd68d865810
+      @channel_id="UCOcQbKNP9HKwjewLLfdDeVQ",
+      @channel_title="yoga studio ACTOMO",
+      @description=
+       "今回は尿もれ、ポッコリお腹を改善する 「骨盤矯正ヨガ」をご一緒しましょう。 日頃、皆様からご相談いただく身体のお悩みに、 男女問わず尿もれ（頻尿）があります。 くしゃみ ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-06T23:00:06Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd68d864c08
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68d8647d0
+          @height=90,
+          @url="https://i.ytimg.com/vi/MLQLtvwXBj4/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd685f87e98
+          @height=360,
+          @url="https://i.ytimg.com/vi/MLQLtvwXBj4/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd685f873f8
+          @height=180,
+          @url="https://i.ytimg.com/vi/MLQLtvwXBj4/mqdefault.jpg",
+          @width=320>>,
+      @title="【尿もれ改善！】骨盤矯正ヨガ">>],
+ @kind="youtube#searchListResponse",
+ @next_page_token="CAIQAA",
+ @page_info=
+  #<Google::Apis::YoutubeV3::PageInfo:0x00007fd685f864a8
+   @results_per_page=2,
+   @total_results=61480>,
+ @region_code="JP">
+
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+Sending HTTP get https://youtube.googleapis.com/youtube/v3/search?key=AIzaSyCdBixnc_GiqWpyujqvrP1nrAhKGWg4Jnc&maxResults=10&order=date&part=snippet&publishedAfter=2021-03-07T15%3A23%3A06%2B09%3A00&publishedBefore=2021-04-07T15%3A23%3A06%2B09%3A00&q=%E7%AD%8B%E3%83%88%E3%83%AC&type=video
+200
+#<HTTP::Message:0x00007fd684483c00 @http_header=#<HTTP::Message::Headers:0x00007fd684483bd8 @http_version="1.1", @body_size=0, @chunked=false, @request_method="GET", @request_uri=#<Addressable::URI:0x3feb4223c220 URI:https://youtube.googleapis.com/youtube/v3/search?key=AIzaSyCdBixnc_GiqWpyujqvrP1nrAhKGWg4Jnc&maxResults=10&order=date&part=snippet&publishedAfter=2021-03-07T15%3A23%3A06%2B09%3A00&publishedBefore=2021-04-07T15%3A23%3A06%2B09%3A00&q=%E7%AD%8B%E3%83%88%E3%83%AC&type=video>, @request_query=nil, @request_absolute_uri=nil, @status_code=200, @reason_phrase="OK", @body_type=nil, @body_charset=nil, @body_date=nil, @body_encoding=#<Encoding:UTF-8>, @is_request=false, @header_item=[["Content-Type", "application/json; charset=UTF-8"], ["Vary", "Origin"], ["Vary", "X-Origin"], ["Vary", "Referer"], ["Content-Encoding", "gzip"], ["Date", "Wed, 07 Apr 2021 06:23:07 GMT"], ["Server", "scaffolding on HTTPServer2"], ["Cache-Control", "private"], ["X-XSS-Protection", "0"], ["X-Frame-Options", "SAMEORIGIN"], ["X-Content-Type-Options", "nosniff"], ["Alt-Svc", "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""], ["Transfer-Encoding", "chunked"]], @dumped=false>, @peer_cert=#<OpenSSL::X509::Certificate: subject=#<OpenSSL::X509::Name CN=upload.video.google.com,O=Google LLC,L=Mountain View,ST=California,C=US>, issuer=#<OpenSSL::X509::Name CN=GTS CA 1O1,O=Google Trust Services,C=US>, serial=#<OpenSSL::BN:0x00007fd685fee2d8>, not_before=2021-03-16 19:33:26 UTC, not_after=2021-06-08 19:33:25 UTC>, @http_body=#<HTTP::Message::Body:0x00007fd684483b60 @body="{\n  \"kind\": \"youtube#searchListResponse\",\n  \"etag\": \"1W5CSZSy6UDqoBfQYX3N9PhNdwY\",\n  \"nextPageToken\": \"CAoQAA\",\n  \"regionCode\": \"JP\",\n  \"pageInfo\": {\n    \"totalResults\": 98104,\n    \"resultsPerPage\": 10\n  },\n  \"items\": [\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"FINrTScbHfMkD2DsCndyvfVdZ-E\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"qOvYI872j4g\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-07T04:40:15Z\",\n        \"channelId\": \"UCK2vZqAqvLZcW9AcaV7fw0A\",\n        \"title\": \"アフリカ奥地の野性的なトレーニングが凄い【筋トレ・ジム】instagramまとめ\",\n        \"description\": \"【再生リスト】 ボディメイク   https://youtube.com/playlist?list=PLfUAwFi3eE9zKCml8uQR8HvGlKWZ0r3_m 🌪️ストリートワークアウト🌪️ ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/qOvYI872j4g/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/qOvYI872j4g/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/qOvYI872j4g/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"筋肉屋\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-07T04:40:15Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"i_FGjC7Yl3uCa3vWWAXFazf3U_w\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"qZqydW9M154\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-07T03:52:46Z\",\n        \"channelId\": \"UCPpZGCVaBoRrJBYXCBTn1Ew\",\n        \"title\": \"#144【バイオハザードレジスタンス】完全な雑談枠と筋トレ 質問も初見コメントも歓迎！概要欄ご覧下さいませ。\",\n        \"description\": \"新作音楽動画作りました☆ 『バイオハザードRE2音楽動画』 バイオバイオハザードRE2と旧作バイオ2のエンディング曲を合わせてシェアファクトリーで編集しました。 ◯動画 ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/qZqydW9M154/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/qZqydW9M154/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/qZqydW9M154/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"のびきりママン\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-07T03:52:46Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"mKx4UudHpof0gpO_7gzKYTmoum0\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"hMq6peef8Ps\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-07T03:29:28Z\",\n        \"channelId\": \"UCvX5QSCV7pWq7uRoQK9iUig\",\n        \"title\": \"【筋トレ】筋肉息抜き配信！質問受付、近況報告、ネタ会議\",\n        \"description\": \"息抜き生配信！\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/hMq6peef8Ps/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/hMq6peef8Ps/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/hMq6peef8Ps/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"お菓子の詰め合わせ/I like sweets.\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-07T03:29:28Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"DdHk0lxYXnuJ7Oj8svGfS3M-TJU\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"vgsUa2FME4c\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-06T23:58:51Z\",\n        \"channelId\": \"UCOzIrGuzCVAjDZYckUXWcXQ\",\n        \"title\": \"【筋トレBGM】Best Workout Music Mix | Fitness &amp; Gym motivation Music 1hour\",\n        \"description\": \"筋トレBGM #ワークアウトBGM #筋トレ #腹筋 #ランニング #腕立て BGM ： 作業用BGM - 筋トレBGM - ランニングBGM - ブチ上がる洋楽 - 洋楽 ▽筋トレ 腹筋・腹筋 ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/vgsUa2FME4c/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/vgsUa2FME4c/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/vgsUa2FME4c/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"Natural Sound\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-06T23:58:51Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"AtBRky9JzDZw812INMOHCYhuIIA\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"7IHXureORPA\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-06T23:10:16Z\",\n        \"channelId\": \"UCG1rlqtLFoebmEV0GZtsUuQ\",\n        \"title\": \"習慣筋トレ525日目\",\n        \"description\": \"筋トレ.\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/7IHXureORPA/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/7IHXureORPA/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/7IHXureORPA/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"団塊ジュニアチャンネル\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-06T23:10:16Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"TK98MnYmNTqPdaiQ-nbfZ7sauzs\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"fTaarQpWzGM\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-06T22:00:11Z\",\n        \"channelId\": \"UCrVE0oz4KeQ_VCM9fpkRALA\",\n        \"title\": \"【脳筋トレ】ありえない方法で攻略しようとする加賀美ハヤト【にじさんじ切り抜き】\",\n        \"description\": \"【アーカイブ】 【ゼルダの伝説 ブレス オブ ザ ワイルド】今度こそ本筋を追う枠【にじさんじ/加賀美ハヤト】 ⇒https://youtu.be/Hzn6SimnUp4 【加賀美ハヤト】 ・YouTube ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/fTaarQpWzGM/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/fTaarQpWzGM/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/fTaarQpWzGM/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"にじさんじ切り抜きチャンネル\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-06T22:00:11Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"fDYYb0Yy18RPZ955yOxKjj9uB6w\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"WjQ4sZMJHDg\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-06T16:11:41Z\",\n        \"channelId\": \"UC93X_ngUmGrFJrDMXzeyoZA\",\n        \"title\": \"【脚やせ】太もも痩せるストレッチとトレーニング、筋トレでダイエット！【太ももを細くする方法】【内もも痩せ 前もも痩せ 外もも痩せマッサージ効果】\",\n        \"description\": \"脚痩せ効果抜群！夏に向けてのダイエット！足をやせて素敵な生活を！ これからいろいろ、素敵な動画をアップしていくので よろしくお願いします。 ・シミの消しかた ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/WjQ4sZMJHDg/default_live.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/WjQ4sZMJHDg/mqdefault_live.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/WjQ4sZMJHDg/hqdefault_live.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"全人類健康化計画フルボディチャンネル\",\n        \"liveBroadcastContent\": \"upcoming\",\n        \"publishTime\": \"2021-04-06T16:11:41Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"oyf7ofHusrGuOLhzeIFwuEIRH2Q\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"1iClkLJALoc\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-06T15:51:00Z\",\n        \"channelId\": \"UCvnoOJcYGHK5NUXwRk--U6A\",\n        \"title\": \"【ななめ懸垂】筋トレ３５　2021年4月6日\",\n        \"description\": \"動画みてくれてありがとうございます(*^-^*) 4/6の筋トレ(4/5日は休みました) ・毎日の筋トレメニュー https://youtu.be/5qk4FZ9OWFk ・ななめ懸垂 ・前日の分でなんだか ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/1iClkLJALoc/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/1iClkLJALoc/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/1iClkLJALoc/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"らそみみ\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-06T15:51:00Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"H9errHeDSli1-a-qC7cnhE-vEkI\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"sB-C7kAwUP8\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-06T15:51:00Z\",\n        \"channelId\": \"UCRinvZWfj9-58wbwphvlQzw\",\n        \"title\": \"筋トレ毎日します！！\",\n        \"description\": \"高評価とチャンネル登録してくださると、嬉しいですo(^o^)o！！ ☆ニコニコ動画→https://www.nicovideo.jp/user/81048906 ☆Twitter→ https://twitter.com/izayoikaede ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/sB-C7kAwUP8/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/sB-C7kAwUP8/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/sB-C7kAwUP8/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"十六夜 楓 いざよいかえで\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-06T15:51:00Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"gw7J1dlgV6dLuw96t_3yM7n3fPA\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"aZ5arJt6cjE\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-06T15:34:34Z\",\n        \"channelId\": \"UCjsYIgF-462i2kg1NhdQCLA\",\n        \"title\": \"筋トレの質問　筋肉が答える\",\n        \"description\": \"筋肉社長てらブログ https://www.kinnikushacho.top 筋肉募金活動家。筋肉社長てら。 筋肉で世界平和を実現します。 JBBFフィジーク選手。2019栃木オープン-176準 ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/aZ5arJt6cjE/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/aZ5arJt6cjE/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/aZ5arJt6cjE/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"筋肉社長てら\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-06T15:34:34Z\"\n      }\n    }\n  ]\n}\n", @size=0, @positions=nil, @chunk_size=nil>, @previous=nil>
+Success - #<Google::Apis::YoutubeV3::SearchListsResponse:0x00007fd685fedb08
+ @etag="1W5CSZSy6UDqoBfQYX3N9PhNdwY",
+ @items=
+  [#<Google::Apis::YoutubeV3::SearchResult:0x00007fd68d03fd98
+    @etag="FINrTScbHfMkD2DsCndyvfVdZ-E",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd68d03f4d8
+      @kind="youtube#video",
+      @video_id="qOvYI872j4g">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd68d03dfe8
+      @channel_id="UCK2vZqAqvLZcW9AcaV7fw0A",
+      @channel_title="筋肉屋",
+      @description=
+       "【再生リスト】 ボディメイク   https://youtube.com/playlist?list=PLfUAwFi3eE9zKCml8uQR8HvGlKWZ0r3_m 🌪️ストリートワークアウト🌪️ ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-07T04:40:15Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd68d03cb48
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68d03c580
+          @height=90,
+          @url="https://i.ytimg.com/vi/qOvYI872j4g/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68d047688
+          @height=360,
+          @url="https://i.ytimg.com/vi/qOvYI872j4g/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68d0468c8
+          @height=180,
+          @url="https://i.ytimg.com/vi/qOvYI872j4g/mqdefault.jpg",
+          @width=320>>,
+      @title="アフリカ奥地の野性的なトレーニングが凄い【筋トレ・ジム】instagramまとめ">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fd68d045a90
+    @etag="i_FGjC7Yl3uCa3vWWAXFazf3U_w",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd68d0454c8
+      @kind="youtube#video",
+      @video_id="qZqydW9M154">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd68d044870
+      @channel_id="UCPpZGCVaBoRrJBYXCBTn1Ew",
+      @channel_title="のびきりママン",
+      @description=
+       "新作音楽動画作りました☆ 『バイオハザードRE2音楽動画』 バイオバイオハザードRE2と旧作バイオ2のエンディング曲を合わせてシェアファクトリーで編集しました。 ◯動画 ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-07T03:52:46Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd68d04fbf8
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68d04f7c0
+          @height=90,
+          @url="https://i.ytimg.com/vi/qZqydW9M154/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68d04eed8
+          @height=360,
+          @url="https://i.ytimg.com/vi/qZqydW9M154/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68d04e438
+          @height=180,
+          @url="https://i.ytimg.com/vi/qZqydW9M154/mqdefault.jpg",
+          @width=320>>,
+      @title="#144【バイオハザードレジスタンス】完全な雑談枠と筋トレ 質問も初見コメントも歓迎！概要欄ご覧下さいませ。">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fd68d04d8f8
+    @etag="mKx4UudHpof0gpO_7gzKYTmoum0",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd68d04d330
+      @kind="youtube#video",
+      @video_id="hMq6peef8Ps">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd68d04c6d8
+      @channel_id="UCvX5QSCV7pWq7uRoQK9iUig",
+      @channel_title="お菓子の詰め合わせ/I like sweets.",
+      @description="息抜き生配信！",
+      @live_broadcast_content="none",
+      @published_at="2021-04-07T03:29:28Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd68d057a88
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68d057650
+          @height=90,
+          @url="https://i.ytimg.com/vi/hMq6peef8Ps/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68d056d68
+          @height=360,
+          @url="https://i.ytimg.com/vi/hMq6peef8Ps/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68d0562c8
+          @height=180,
+          @url="https://i.ytimg.com/vi/hMq6peef8Ps/mqdefault.jpg",
+          @width=320>>,
+      @title="【筋トレ】筋肉息抜き配信！質問受付、近況報告、ネタ会議">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fd68d055788
+    @etag="DdHk0lxYXnuJ7Oj8svGfS3M-TJU",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd68d0551c0
+      @kind="youtube#video",
+      @video_id="vgsUa2FME4c">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd68d054568
+      @channel_id="UCOzIrGuzCVAjDZYckUXWcXQ",
+      @channel_title="Natural Sound",
+      @description=
+       "筋トレBGM #ワークアウトBGM #筋トレ #腹筋 #ランニング #腕立て BGM ： 作業用BGM - 筋トレBGM - ランニングBGM - ブチ上がる洋楽 - 洋楽 ▽筋トレ 腹筋・腹筋 ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-06T23:58:51Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd68d05f918
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68d05f4e0
+          @height=90,
+          @url="https://i.ytimg.com/vi/vgsUa2FME4c/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68d05ebf8
+          @height=360,
+          @url="https://i.ytimg.com/vi/vgsUa2FME4c/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68d05e158
+          @height=180,
+          @url="https://i.ytimg.com/vi/vgsUa2FME4c/mqdefault.jpg",
+          @width=320>>,
+      @title=
+       "【筋トレBGM】Best Workout Music Mix | Fitness &amp; Gym motivation Music 1hour">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fd68d05d618
+    @etag="AtBRky9JzDZw812INMOHCYhuIIA",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd68d05d050
+      @kind="youtube#video",
+      @video_id="7IHXureORPA">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd68d05c3f8
+      @channel_id="UCG1rlqtLFoebmEV0GZtsUuQ",
+      @channel_title="団塊ジュニアチャンネル",
+      @description="筋トレ.",
+      @live_broadcast_content="none",
+      @published_at="2021-04-06T23:10:16Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd68d0677a8
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68d067370
+          @height=90,
+          @url="https://i.ytimg.com/vi/7IHXureORPA/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68d066a88
+          @height=360,
+          @url="https://i.ytimg.com/vi/7IHXureORPA/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68d065fe8
+          @height=180,
+          @url="https://i.ytimg.com/vi/7IHXureORPA/mqdefault.jpg",
+          @width=320>>,
+      @title="習慣筋トレ525日目">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fd68d0654a8
+    @etag="TK98MnYmNTqPdaiQ-nbfZ7sauzs",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd68d064ee0
+      @kind="youtube#video",
+      @video_id="fTaarQpWzGM">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd68d064288
+      @channel_id="UCrVE0oz4KeQ_VCM9fpkRALA",
+      @channel_title="にじさんじ切り抜きチャンネル",
+      @description=
+       "【アーカイブ】 【ゼルダの伝説 ブレス オブ ザ ワイルド】今度こそ本筋を追う枠【にじさんじ/加賀美ハヤト】 ⇒https://youtu.be/Hzn6SimnUp4 【加賀美ハヤト】 ・YouTube ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-06T22:00:11Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd68d06f638
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68d06f200
+          @height=90,
+          @url="https://i.ytimg.com/vi/fTaarQpWzGM/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68d06e918
+          @height=360,
+          @url="https://i.ytimg.com/vi/fTaarQpWzGM/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68d06de78
+          @height=180,
+          @url="https://i.ytimg.com/vi/fTaarQpWzGM/mqdefault.jpg",
+          @width=320>>,
+      @title="【脳筋トレ】ありえない方法で攻略しようとする加賀美ハヤト【にじさんじ切り抜き】">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fd68d06d338
+    @etag="fDYYb0Yy18RPZ955yOxKjj9uB6w",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd68d06cd70
+      @kind="youtube#video",
+      @video_id="WjQ4sZMJHDg">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd68d06c118
+      @channel_id="UC93X_ngUmGrFJrDMXzeyoZA",
+      @channel_title="全人類健康化計画フルボディチャンネル",
+      @description=
+       "脚痩せ効果抜群！夏に向けてのダイエット！足をやせて素敵な生活を！ これからいろいろ、素敵な動画をアップしていくので よろしくお願いします。 ・シミの消しかた ...",
+      @live_broadcast_content="upcoming",
+      @published_at="2021-04-06T16:11:41Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd68d0774a0
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68d077068
+          @height=90,
+          @url="https://i.ytimg.com/vi/WjQ4sZMJHDg/default_live.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68d076780
+          @height=360,
+          @url="https://i.ytimg.com/vi/WjQ4sZMJHDg/hqdefault_live.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68d075ce0
+          @height=180,
+          @url="https://i.ytimg.com/vi/WjQ4sZMJHDg/mqdefault_live.jpg",
+          @width=320>>,
+      @title=
+       "【脚やせ】太もも痩せるストレッチとトレーニング、筋トレでダイエット！【太ももを細くする方法】【内もも痩せ 前もも痩せ 外もも痩せマッサージ効果】">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fd68d0751a0
+    @etag="oyf7ofHusrGuOLhzeIFwuEIRH2Q",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd68d074bd8
+      @kind="youtube#video",
+      @video_id="1iClkLJALoc">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd68d07ff38
+      @channel_id="UCvnoOJcYGHK5NUXwRk--U6A",
+      @channel_title="らそみみ",
+      @description=
+       "動画みてくれてありがとうございます(*^-^*) 4/6の筋トレ(4/5日は休みました) ・毎日の筋トレメニュー https://youtu.be/5qk4FZ9OWFk ・ななめ懸垂 ・前日の分でなんだか ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-06T15:51:00Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd68d07f330
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68d07eef8
+          @height=90,
+          @url="https://i.ytimg.com/vi/1iClkLJALoc/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68d07e610
+          @height=360,
+          @url="https://i.ytimg.com/vi/1iClkLJALoc/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68d07db70
+          @height=180,
+          @url="https://i.ytimg.com/vi/1iClkLJALoc/mqdefault.jpg",
+          @width=320>>,
+      @title="【ななめ懸垂】筋トレ３５　2021年4月6日">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fd68d07d030
+    @etag="H9errHeDSli1-a-qC7cnhE-vEkI",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd68d07ca68
+      @kind="youtube#video",
+      @video_id="sB-C7kAwUP8">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd68d087dc8
+      @channel_id="UCRinvZWfj9-58wbwphvlQzw",
+      @channel_title="十六夜 楓 いざよいかえで",
+      @description=
+       "高評価とチャンネル登録してくださると、嬉しいですo(^o^)o！！ ☆ニコニコ動画→https://www.nicovideo.jp/user/81048906 ☆Twitter→ https://twitter.com/izayoikaede ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-06T15:51:00Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd68d0871c0
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68d086d88
+          @height=90,
+          @url="https://i.ytimg.com/vi/sB-C7kAwUP8/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68d0864a0
+          @height=360,
+          @url="https://i.ytimg.com/vi/sB-C7kAwUP8/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68d085a00
+          @height=180,
+          @url="https://i.ytimg.com/vi/sB-C7kAwUP8/mqdefault.jpg",
+          @width=320>>,
+      @title="筋トレ毎日します！！">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fd68d084ec0
+    @etag="gw7J1dlgV6dLuw96t_3yM7n3fPA",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd68d0848f8
+      @kind="youtube#video",
+      @video_id="aZ5arJt6cjE">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd68d08fc58
+      @channel_id="UCjsYIgF-462i2kg1NhdQCLA",
+      @channel_title="筋肉社長てら",
+      @description=
+       "筋肉社長てらブログ https://www.kinnikushacho.top 筋肉募金活動家。筋肉社長てら。 筋肉で世界平和を実現します。 JBBFフィジーク選手。2019栃木オープン-176準 ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-06T15:34:34Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd68d08f050
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68d08ec18
+          @height=90,
+          @url="https://i.ytimg.com/vi/aZ5arJt6cjE/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68d08e330
+          @height=360,
+          @url="https://i.ytimg.com/vi/aZ5arJt6cjE/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68d08d890
+          @height=180,
+          @url="https://i.ytimg.com/vi/aZ5arJt6cjE/mqdefault.jpg",
+          @width=320>>,
+      @title="筋トレの質問　筋肉が答える">>],
+ @kind="youtube#searchListResponse",
+ @next_page_token="CAoQAA",
+ @page_info=
+  #<Google::Apis::YoutubeV3::PageInfo:0x00007fd68d08c4e0
+   @results_per_page=10,
+   @total_results=98104>,
+ @region_code="JP">
+
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (4.5ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "筋トレ"], ["title", "アフリカ奥地の野性的なトレーニングが凄い【筋トレ・ジム】instagramまとめ"], ["video_id", "qOvYI872j4g"], ["created_at", "2021-04-07 06:23:07.204620"], ["updated_at", "2021-04-07 06:23:07.204620"]]
+  [1m[35m (1.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "筋トレ"], ["title", "#144【バイオハザードレジスタンス】完全な雑談枠と筋トレ 質問も初見コメントも歓迎！概要欄ご覧下さいませ。"], ["video_id", "qZqydW9M154"], ["created_at", "2021-04-07 06:23:07.215287"], ["updated_at", "2021-04-07 06:23:07.215287"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "筋トレ"], ["title", "【筋トレ】筋肉息抜き配信！質問受付、近況報告、ネタ会議"], ["video_id", "hMq6peef8Ps"], ["created_at", "2021-04-07 06:23:07.217243"], ["updated_at", "2021-04-07 06:23:07.217243"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "筋トレ"], ["title", "【筋トレBGM】Best Workout Music Mix | Fitness &amp; Gym motivation Music 1hour"], ["video_id", "vgsUa2FME4c"], ["created_at", "2021-04-07 06:23:07.218740"], ["updated_at", "2021-04-07 06:23:07.218740"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "筋トレ"], ["title", "習慣筋トレ525日目"], ["video_id", "7IHXureORPA"], ["created_at", "2021-04-07 06:23:07.220522"], ["updated_at", "2021-04-07 06:23:07.220522"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "筋トレ"], ["title", "【脳筋トレ】ありえない方法で攻略しようとする加賀美ハヤト【にじさんじ切り抜き】"], ["video_id", "fTaarQpWzGM"], ["created_at", "2021-04-07 06:23:07.222357"], ["updated_at", "2021-04-07 06:23:07.222357"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "筋トレ"], ["title", "【脚やせ】太もも痩せるストレッチとトレーニング、筋トレでダイエット！【太ももを細くする方法】【内もも痩せ 前もも痩せ 外もも痩せマッサージ効果】"], ["video_id", "WjQ4sZMJHDg"], ["created_at", "2021-04-07 06:23:07.223892"], ["updated_at", "2021-04-07 06:23:07.223892"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "筋トレ"], ["title", "【ななめ懸垂】筋トレ３５　2021年4月6日"], ["video_id", "1iClkLJALoc"], ["created_at", "2021-04-07 06:23:07.225713"], ["updated_at", "2021-04-07 06:23:07.225713"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "筋トレ"], ["title", "筋トレ毎日します！！"], ["video_id", "sB-C7kAwUP8"], ["created_at", "2021-04-07 06:23:07.227506"], ["updated_at", "2021-04-07 06:23:07.227506"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "筋トレ"], ["title", "筋トレの質問　筋肉が答える"], ["video_id", "aZ5arJt6cjE"], ["created_at", "2021-04-07 06:23:07.228757"], ["updated_at", "2021-04-07 06:23:07.228757"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+Sending HTTP get https://youtube.googleapis.com/youtube/v3/search?key=AIzaSyCdBixnc_GiqWpyujqvrP1nrAhKGWg4Jnc&maxResults=10&order=date&part=snippet&publishedAfter=2021-03-07T15%3A23%3A06%2B09%3A00&publishedBefore=2021-04-07T15%3A23%3A06%2B09%3A00&q=%E3%82%B9%E3%83%88%E3%83%AC%E3%83%83%E3%83%81&type=video
+200
+#<HTTP::Message:0x00007fd685e16730 @http_header=#<HTTP::Message::Headers:0x00007fd685e16708 @http_version="1.1", @body_size=0, @chunked=false, @request_method="GET", @request_uri=#<Addressable::URI:0x3feb42f0ba78 URI:https://youtube.googleapis.com/youtube/v3/search?key=AIzaSyCdBixnc_GiqWpyujqvrP1nrAhKGWg4Jnc&maxResults=10&order=date&part=snippet&publishedAfter=2021-03-07T15%3A23%3A06%2B09%3A00&publishedBefore=2021-04-07T15%3A23%3A06%2B09%3A00&q=%E3%82%B9%E3%83%88%E3%83%AC%E3%83%83%E3%83%81&type=video>, @request_query=nil, @request_absolute_uri=nil, @status_code=200, @reason_phrase="OK", @body_type=nil, @body_charset=nil, @body_date=nil, @body_encoding=#<Encoding:UTF-8>, @is_request=false, @header_item=[["Content-Type", "application/json; charset=UTF-8"], ["Vary", "Origin"], ["Vary", "X-Origin"], ["Vary", "Referer"], ["Content-Encoding", "gzip"], ["Date", "Wed, 07 Apr 2021 06:23:07 GMT"], ["Server", "scaffolding on HTTPServer2"], ["Cache-Control", "private"], ["X-XSS-Protection", "0"], ["X-Frame-Options", "SAMEORIGIN"], ["X-Content-Type-Options", "nosniff"], ["Alt-Svc", "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""], ["Transfer-Encoding", "chunked"]], @dumped=false>, @peer_cert=#<OpenSSL::X509::Certificate: subject=#<OpenSSL::X509::Name CN=upload.video.google.com,O=Google LLC,L=Mountain View,ST=California,C=US>, issuer=#<OpenSSL::X509::Name CN=GTS CA 1O1,O=Google Trust Services,C=US>, serial=#<OpenSSL::BN:0x00007fd685e351d0>, not_before=2021-03-16 19:33:26 UTC, not_after=2021-06-08 19:33:25 UTC>, @http_body=#<HTTP::Message::Body:0x00007fd685e165f0 @body="{\n  \"kind\": \"youtube#searchListResponse\",\n  \"etag\": \"5RGvdTffcOtWnFYPL-_TNZnnnP0\",\n  \"nextPageToken\": \"CAoQAA\",\n  \"regionCode\": \"JP\",\n  \"pageInfo\": {\n    \"totalResults\": 98509,\n    \"resultsPerPage\": 10\n  },\n  \"items\": [\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"zIs5YSTEYOW90uZUxknpl1AUdz0\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"Ia96MfEkVkU\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-07T05:40:53Z\",\n        \"channelId\": \"UCye9tdvAw2D2wRdfS3AdB4Q\",\n        \"title\": \"足の親指から足裏の土踏まず（アーチ）をほぐすストレッチ #Shorts\",\n        \"description\": \"足の疲労改善 ／ 【効果】 足裏がほぐれる ふくらはぎのむくみ改善 足の疲労改善 足裏のアーチケア 【姿勢】 床に座位姿勢 【方法】 両手で足の親指を保持する 足の ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/Ia96MfEkVkU/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/Ia96MfEkVkU/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/Ia96MfEkVkU/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"1分動画〖QITANO〗カラダづくりラボ\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-07T05:40:53Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"p7yRvrfh5mPcVVIfe8etmY0DBM8\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"P2qxc_ye6OI\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-07T05:19:56Z\",\n        \"channelId\": \"UCdmQ2I35SIYBZ2j7mrwdpLQ\",\n        \"title\": \"【ITEMS】ストレッチジャケット / タックパンツセット\",\n        \"description\": \"これからの春シーズンに一着は持っておきたいセットアップが登場。 ストレッチが効いた伸縮性がある生地と、程よい光沢感が上品な印象も与えてくれる一着。 ジャケットは ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/P2qxc_ye6OI/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/P2qxc_ye6OI/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/P2qxc_ye6OI/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"UR ONLINESTORE\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-07T05:19:56Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"8wflnpr34g2g9f2i5x-NV_1sf6w\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"Vz7cE2Z05SE\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-07T05:19:50Z\",\n        \"channelId\": \"UCdmQ2I35SIYBZ2j7mrwdpLQ\",\n        \"title\": \"【ITEMS】ストレッチスリムクライミングパンツ\",\n        \"description\": \"細身のシルエットながら、アクティブな動きにも対応可能なスリムクライミングパンツが登場。 伸縮性が高いストレッチ性に優れた素材がストレスフリーは履き心地を実現し、 ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/Vz7cE2Z05SE/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/Vz7cE2Z05SE/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/Vz7cE2Z05SE/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"UR ONLINESTORE\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-07T05:19:50Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"_iDWgdfPM3Cyg99DXGNUtdGO_Y8\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"xOyL1R71e-o\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-07T05:16:51Z\",\n        \"channelId\": \"UC7qs3JzWooC51jp-fR1S-8Q\",\n        \"title\": \"手の疲れに効く〜！デスクワークストレッチ【オフィストレッチ 】\",\n        \"description\": \"是非、1日1回、一緒にやっていきましょう！ ツイッター: https://twitter.com/provita_shisei インスタグラム：https://www.instagram.com/provita_shisei/ ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/xOyL1R71e-o/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/xOyL1R71e-o/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/xOyL1R71e-o/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"ケービー\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-07T05:16:51Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"uwT4nTGo05zH5ky9UV6yVB7mD6A\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"Efk1gpLrkyI\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-07T05:12:36Z\",\n        \"channelId\": \"UC7qs3JzWooC51jp-fR1S-8Q\",\n        \"title\": \"デスクワーク後のリフレッシュ！腰痛予防ストレッチ【オフィストレッチ 腰痛編】\",\n        \"description\": \"是非、1日1回、一緒にやっていきましょう！ ツイッター: https://twitter.com/provita_shisei インスタグラム：https://www.instagram.com/provita_shisei/ ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/Efk1gpLrkyI/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/Efk1gpLrkyI/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/Efk1gpLrkyI/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"ケービー\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-07T05:12:36Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"Nkzi8WgFyqtp-ugLNLQzS7YKLTY\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"KnPdJZBWekA\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-07T05:04:37Z\",\n        \"channelId\": \"UC7qs3JzWooC51jp-fR1S-8Q\",\n        \"title\": \"【手の疲れ改善】美容師さんが絶対やるべきストレッチ動画！胸郭出口症候群を予防しよう！\",\n        \"description\": \"是非、1日1回、一緒にやっていきましょう！ ツイッター: https://twitter.com/provita_shisei インスタグラム：https://www.instagram.com/provita_shisei/ ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/KnPdJZBWekA/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/KnPdJZBWekA/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/KnPdJZBWekA/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"ケービー\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-07T05:04:37Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"DIZqNLneYQ7meMOMJx5AQcsbzyw\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"6hKwEjLqxcE\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-07T04:55:14Z\",\n        \"channelId\": \"UCL1S5co3GJ2RMZlNflqGmzA\",\n        \"title\": \"【６分間】すっきりリフレッシュ！ストレッチ\",\n        \"description\": \"６分間で簡単すっきりストレッチ！ ちょっと休憩しませんか？ 愉快なナレーションで笑っていただけたら。 うるさかったらごめんなさい。 ー❁ー❁ー❁ー❁ー❁ー❁ー❁ー❁ー❁ー❁ ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/6hKwEjLqxcE/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/6hKwEjLqxcE/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/6hKwEjLqxcE/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"L.S.I. official channel\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-07T04:55:14Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"v5Y3rAFiG2Twcwr1GqKR1g4ybpk\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"dLNz4E2-FWY\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-07T04:45:39Z\",\n        \"channelId\": \"UCP3DIgIIC_AhwdenrsVPyiw\",\n        \"title\": \"ストレッチ半透明ごみ袋\",\n        \"description\": \"強い！裂けにくい！伸びる！ストレッチ半透明ごみ袋のご紹介です。\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/dLNz4E2-FWY/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/dLNz4E2-FWY/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/dLNz4E2-FWY/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"Olympic\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-07T04:45:39Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"DN0WeyRPC2KjMCghCgr1XPdRBOo\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"MK_AYXlY2CE\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-07T03:18:36Z\",\n        \"channelId\": \"UC0LiYtVbIg3UR988GuF396g\",\n        \"title\": \"ラットストレッチ\",\n        \"description\": \"\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/MK_AYXlY2CE/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/MK_AYXlY2CE/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/MK_AYXlY2CE/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"中沢聖二\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-07T03:18:36Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"fajOjILkZeZvjf89-hvVi00UmNs\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"WvjgWFoDHv0\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-07T02:43:26Z\",\n        \"channelId\": \"UC3AcyFI4dlVRqloL5oEMTuw\",\n        \"title\": \"ランジェリーストレッチ韓国美女 (バーニーセムチャンネル) 바니쌤 란제리 스트레칭 한국미녀\",\n        \"description\": \"https://youtube.com/channel/UCJaER0z3qCvzlZqxAB1IOiw.\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/WvjgWFoDHv0/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/WvjgWFoDHv0/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/WvjgWFoDHv0/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"야쿠자ヤクザ\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-07T02:43:26Z\"\n      }\n    }\n  ]\n}\n", @size=0, @positions=nil, @chunk_size=nil>, @previous=nil>
+Success - #<Google::Apis::YoutubeV3::SearchListsResponse:0x00007fd685e34348
+ @etag="5RGvdTffcOtWnFYPL-_TNZnnnP0",
+ @items=
+  [#<Google::Apis::YoutubeV3::SearchResult:0x00007fd68a00f4c0
+    @etag="zIs5YSTEYOW90uZUxknpl1AUdz0",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd68a00ea70
+      @kind="youtube#video",
+      @video_id="Ia96MfEkVkU">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd6819cfa68
+      @channel_id="UCye9tdvAw2D2wRdfS3AdB4Q",
+      @channel_title="1分動画〖QITANO〗カラダづくりラボ",
+      @description=
+       "足の疲労改善 ／ 【効果】 足裏がほぐれる ふくらはぎのむくみ改善 足の疲労改善 足裏のアーチケア 【姿勢】 床に座位姿勢 【方法】 両手で足の親指を保持する 足の ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-07T05:40:53Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd6819cd8a8
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6819cc8b8
+          @height=90,
+          @url="https://i.ytimg.com/vi/Ia96MfEkVkU/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6843a67d8
+          @height=360,
+          @url="https://i.ytimg.com/vi/Ia96MfEkVkU/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6819d7588
+          @height=180,
+          @url="https://i.ytimg.com/vi/Ia96MfEkVkU/mqdefault.jpg",
+          @width=320>>,
+      @title="足の親指から足裏の土踏まず（アーチ）をほぐすストレッチ #Shorts">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fd6819d47c0
+    @etag="p7yRvrfh5mPcVVIfe8etmY0DBM8",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd6843af978
+      @kind="youtube#video",
+      @video_id="P2qxc_ye6OI">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd6843ad8f8
+      @channel_id="UCdmQ2I35SIYBZ2j7mrwdpLQ",
+      @channel_title="UR ONLINESTORE",
+      @description=
+       "これからの春シーズンに一着は持っておきたいセットアップが登場。 ストレッチが効いた伸縮性がある生地と、程よい光沢感が上品な印象も与えてくれる一着。 ジャケットは ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-07T05:19:56Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd6843b5e90
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6843b5058
+          @height=90,
+          @url="https://i.ytimg.com/vi/P2qxc_ye6OI/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6843b4248
+          @height=360,
+          @url="https://i.ytimg.com/vi/P2qxc_ye6OI/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd685e46368
+          @height=180,
+          @url="https://i.ytimg.com/vi/P2qxc_ye6OI/mqdefault.jpg",
+          @width=320>>,
+      @title="【ITEMS】ストレッチジャケット / タックパンツセット">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fd68a017918
+    @etag="8wflnpr34g2g9f2i5x-NV_1sf6w",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd68a016f40
+      @kind="youtube#video",
+      @video_id="Vz7cE2Z05SE">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd68a015168
+      @channel_id="UCdmQ2I35SIYBZ2j7mrwdpLQ",
+      @channel_title="UR ONLINESTORE",
+      @description=
+       "細身のシルエットながら、アクティブな動きにも対応可能なスリムクライミングパンツが登場。 伸縮性が高いストレッチ性に優れた素材がストレスフリーは履き心地を実現し、 ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-07T05:19:50Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd685e4faf8
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd685e4f440
+          @height=90,
+          @url="https://i.ytimg.com/vi/Vz7cE2Z05SE/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd685e4e8b0
+          @height=360,
+          @url="https://i.ytimg.com/vi/Vz7cE2Z05SE/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd685e4d668
+          @height=180,
+          @url="https://i.ytimg.com/vi/Vz7cE2Z05SE/mqdefault.jpg",
+          @width=320>>,
+      @title="【ITEMS】ストレッチスリムクライミングパンツ">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fd685e4c088
+    @etag="_iDWgdfPM3Cyg99DXGNUtdGO_Y8",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd68a01f848
+      @kind="youtube#video",
+      @video_id="xOyL1R71e-o">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd68a01dcc8
+      @channel_id="UC7qs3JzWooC51jp-fR1S-8Q",
+      @channel_title="ケービー",
+      @description=
+       "是非、1日1回、一緒にやっていきましょう！ ツイッター: https://twitter.com/provita_shisei インスタグラム：https://www.instagram.com/provita_shisei/ ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-07T05:16:51Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd68a01c008
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68a027700
+          @height=90,
+          @url="https://i.ytimg.com/vi/xOyL1R71e-o/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68a026620
+          @height=360,
+          @url="https://i.ytimg.com/vi/xOyL1R71e-o/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68a025130
+          @height=180,
+          @url="https://i.ytimg.com/vi/xOyL1R71e-o/mqdefault.jpg",
+          @width=320>>,
+      @title="手の疲れに効く〜！デスクワークストレッチ【オフィストレッチ 】">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fd685e57578
+    @etag="uwT4nTGo05zH5ky9UV6yVB7mD6A",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd685e56010
+      @kind="youtube#video",
+      @video_id="Efk1gpLrkyI">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd68a02f7c0
+      @channel_id="UC7qs3JzWooC51jp-fR1S-8Q",
+      @channel_title="ケービー",
+      @description=
+       "是非、1日1回、一緒にやっていきましょう！ ツイッター: https://twitter.com/provita_shisei インスタグラム：https://www.instagram.com/provita_shisei/ ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-07T05:12:36Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd68a02e078
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68a02d7b8
+          @height=90,
+          @url="https://i.ytimg.com/vi/Efk1gpLrkyI/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68a02c818
+          @height=360,
+          @url="https://i.ytimg.com/vi/Efk1gpLrkyI/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd685e5ef58
+          @height=180,
+          @url="https://i.ytimg.com/vi/Efk1gpLrkyI/mqdefault.jpg",
+          @width=320>>,
+      @title="デスクワーク後のリフレッシュ！腰痛予防ストレッチ【オフィストレッチ 腰痛編】">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fd685e5c7f8
+    @etag="Nkzi8WgFyqtp-ugLNLQzS7YKLTY",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd68a036c50
+      @kind="youtube#video",
+      @video_id="KnPdJZBWekA">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd68a035328
+      @channel_id="UC7qs3JzWooC51jp-fR1S-8Q",
+      @channel_title="ケービー",
+      @description=
+       "是非、1日1回、一緒にやっていきましょう！ ツイッター: https://twitter.com/provita_shisei インスタグラム：https://www.instagram.com/provita_shisei/ ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-07T05:04:37Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd685e67d88
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd685e66d48
+          @height=90,
+          @url="https://i.ytimg.com/vi/KnPdJZBWekA/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd685e64d40
+          @height=360,
+          @url="https://i.ytimg.com/vi/KnPdJZBWekA/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68a03eae0
+          @height=180,
+          @url="https://i.ytimg.com/vi/KnPdJZBWekA/mqdefault.jpg",
+          @width=320>>,
+      @title="【手の疲れ改善】美容師さんが絶対やるべきストレッチ動画！胸郭出口症候群を予防しよう！">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fd68a03c560
+    @etag="DIZqNLneYQ7meMOMJx5AQcsbzyw",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd68a0474d8
+      @kind="youtube#video",
+      @video_id="6hKwEjLqxcE">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd68a044968
+      @channel_id="UCL1S5co3GJ2RMZlNflqGmzA",
+      @channel_title="L.S.I. official channel",
+      @description=
+       "６分間で簡単すっきりストレッチ！ ちょっと休憩しませんか？ 愉快なナレーションで笑っていただけたら。 うるさかったらごめんなさい。 ー❁ー❁ー❁ー❁ー❁ー❁ー❁ー❁ー❁ー❁ ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-07T04:55:14Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd685e6e5e8
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd685e6dcd8
+          @height=90,
+          @url="https://i.ytimg.com/vi/6hKwEjLqxcE/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd685e77648
+          @height=360,
+          @url="https://i.ytimg.com/vi/6hKwEjLqxcE/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd685e748f8
+          @height=180,
+          @url="https://i.ytimg.com/vi/6hKwEjLqxcE/mqdefault.jpg",
+          @width=320>>,
+      @title="【６分間】すっきりリフレッシュ！ストレッチ">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fd685e7e3d0
+    @etag="v5Y3rAFiG2Twcwr1GqKR1g4ybpk",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd685e7d4f8
+      @kind="youtube#video",
+      @video_id="dLNz4E2-FWY">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd685e87278
+      @channel_id="UCP3DIgIIC_AhwdenrsVPyiw",
+      @channel_title="Olympic",
+      @description="強い！裂けにくい！伸びる！ストレッチ半透明ごみ袋のご紹介です。",
+      @live_broadcast_content="none",
+      @published_at="2021-04-07T04:45:39Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd685e856f8
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd685e84cd0
+          @height=90,
+          @url="https://i.ytimg.com/vi/dLNz4E2-FWY/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68a04f200
+          @height=360,
+          @url="https://i.ytimg.com/vi/dLNz4E2-FWY/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68a04d680
+          @height=180,
+          @url="https://i.ytimg.com/vi/dLNz4E2-FWY/mqdefault.jpg",
+          @width=320>>,
+      @title="ストレッチ半透明ごみ袋">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fd68a054e80
+    @etag="DN0WeyRPC2KjMCghCgr1XPdRBOo",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd6819ddfc8
+      @kind="youtube#video",
+      @video_id="MK_AYXlY2CE">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd68a05eca0
+      @channel_id="UC0LiYtVbIg3UR988GuF396g",
+      @channel_title="中沢聖二",
+      @description="",
+      @live_broadcast_content="none",
+      @published_at="2021-04-07T03:18:36Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd68a067f30
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68a066fe0
+          @height=90,
+          @url="https://i.ytimg.com/vi/MK_AYXlY2CE/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68a065398
+          @height=360,
+          @url="https://i.ytimg.com/vi/MK_AYXlY2CE/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6843bff08
+          @height=180,
+          @url="https://i.ytimg.com/vi/MK_AYXlY2CE/mqdefault.jpg",
+          @width=320>>,
+      @title="ラットストレッチ">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fd6843bd730
+    @etag="fajOjILkZeZvjf89-hvVi00UmNs",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd6843bd028
+      @kind="youtube#video",
+      @video_id="WvjgWFoDHv0">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd685e8fdd8
+      @channel_id="UC3AcyFI4dlVRqloL5oEMTuw",
+      @channel_title="야쿠자ヤクザ",
+      @description="https://youtube.com/channel/UCJaER0z3qCvzlZqxAB1IOiw.",
+      @live_broadcast_content="none",
+      @published_at="2021-04-07T02:43:26Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd685e8ec58
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd685e8e780
+          @height=90,
+          @url="https://i.ytimg.com/vi/WvjgWFoDHv0/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd685e8d790
+          @height=360,
+          @url="https://i.ytimg.com/vi/WvjgWFoDHv0/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd685e8c7a0
+          @height=180,
+          @url="https://i.ytimg.com/vi/WvjgWFoDHv0/mqdefault.jpg",
+          @width=320>>,
+      @title="ランジェリーストレッチ韓国美女 (バーニーセムチャンネル) 바니쌤 란제리 스트레칭 한국미녀">>],
+ @kind="youtube#searchListResponse",
+ @next_page_token="CAoQAA",
+ @page_info=
+  #<Google::Apis::YoutubeV3::PageInfo:0x00007fd6819e71b8
+   @results_per_page=10,
+   @total_results=98509>,
+ @region_code="JP">
+
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ストレッチ"], ["title", "足の親指から足裏の土踏まず（アーチ）をほぐすストレッチ #Shorts"], ["video_id", "Ia96MfEkVkU"], ["created_at", "2021-04-07 06:23:07.576219"], ["updated_at", "2021-04-07 06:23:07.576219"]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ストレッチ"], ["title", "【ITEMS】ストレッチジャケット / タックパンツセット"], ["video_id", "P2qxc_ye6OI"], ["created_at", "2021-04-07 06:23:07.579035"], ["updated_at", "2021-04-07 06:23:07.579035"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ストレッチ"], ["title", "【ITEMS】ストレッチスリムクライミングパンツ"], ["video_id", "Vz7cE2Z05SE"], ["created_at", "2021-04-07 06:23:07.581240"], ["updated_at", "2021-04-07 06:23:07.581240"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ストレッチ"], ["title", "手の疲れに効く〜！デスクワークストレッチ【オフィストレッチ 】"], ["video_id", "xOyL1R71e-o"], ["created_at", "2021-04-07 06:23:07.582931"], ["updated_at", "2021-04-07 06:23:07.582931"]]
+  [1m[35m (6.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ストレッチ"], ["title", "デスクワーク後のリフレッシュ！腰痛予防ストレッチ【オフィストレッチ 腰痛編】"], ["video_id", "Efk1gpLrkyI"], ["created_at", "2021-04-07 06:23:07.590193"], ["updated_at", "2021-04-07 06:23:07.590193"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.4ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ストレッチ"], ["title", "【手の疲れ改善】美容師さんが絶対やるべきストレッチ動画！胸郭出口症候群を予防しよう！"], ["video_id", "KnPdJZBWekA"], ["created_at", "2021-04-07 06:23:07.591779"], ["updated_at", "2021-04-07 06:23:07.591779"]]
+  [1m[35m (5.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ストレッチ"], ["title", "【６分間】すっきりリフレッシュ！ストレッチ"], ["video_id", "6hKwEjLqxcE"], ["created_at", "2021-04-07 06:23:07.598610"], ["updated_at", "2021-04-07 06:23:07.598610"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ストレッチ"], ["title", "ストレッチ半透明ごみ袋"], ["video_id", "dLNz4E2-FWY"], ["created_at", "2021-04-07 06:23:07.600717"], ["updated_at", "2021-04-07 06:23:07.600717"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ストレッチ"], ["title", "ラットストレッチ"], ["video_id", "MK_AYXlY2CE"], ["created_at", "2021-04-07 06:23:07.602343"], ["updated_at", "2021-04-07 06:23:07.602343"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ストレッチ"], ["title", "ランジェリーストレッチ韓国美女 (バーニーセムチャンネル) 바니쌤 란제리 스트레칭 한국미녀"], ["video_id", "WvjgWFoDHv0"], ["created_at", "2021-04-07 06:23:07.604294"], ["updated_at", "2021-04-07 06:23:07.604294"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Sending HTTP get https://youtube.googleapis.com/youtube/v3/search?key=AIzaSyCdBixnc_GiqWpyujqvrP1nrAhKGWg4Jnc&maxResults=10&order=date&part=snippet&publishedAfter=2021-03-07T15%3A23%3A06%2B09%3A00&publishedBefore=2021-04-07T15%3A23%3A06%2B09%3A00&q=%E3%83%A8%E3%82%AC&type=video
+200
+#<HTTP::Message:0x00007fd68687e7b8 @http_header=#<HTTP::Message::Headers:0x00007fd68687e790 @http_version="1.1", @body_size=0, @chunked=false, @request_method="GET", @request_uri=#<Addressable::URI:0x3feb4343f954 URI:https://youtube.googleapis.com/youtube/v3/search?key=AIzaSyCdBixnc_GiqWpyujqvrP1nrAhKGWg4Jnc&maxResults=10&order=date&part=snippet&publishedAfter=2021-03-07T15%3A23%3A06%2B09%3A00&publishedBefore=2021-04-07T15%3A23%3A06%2B09%3A00&q=%E3%83%A8%E3%82%AC&type=video>, @request_query=nil, @request_absolute_uri=nil, @status_code=200, @reason_phrase="OK", @body_type=nil, @body_charset=nil, @body_date=nil, @body_encoding=#<Encoding:UTF-8>, @is_request=false, @header_item=[["Content-Type", "application/json; charset=UTF-8"], ["Vary", "Origin"], ["Vary", "X-Origin"], ["Vary", "Referer"], ["Content-Encoding", "gzip"], ["Date", "Wed, 07 Apr 2021 06:23:07 GMT"], ["Server", "scaffolding on HTTPServer2"], ["Cache-Control", "private"], ["X-XSS-Protection", "0"], ["X-Frame-Options", "SAMEORIGIN"], ["X-Content-Type-Options", "nosniff"], ["Alt-Svc", "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""], ["Transfer-Encoding", "chunked"]], @dumped=false>, @peer_cert=#<OpenSSL::X509::Certificate: subject=#<OpenSSL::X509::Name CN=upload.video.google.com,O=Google LLC,L=Mountain View,ST=California,C=US>, issuer=#<OpenSSL::X509::Name CN=GTS CA 1O1,O=Google Trust Services,C=US>, serial=#<OpenSSL::BN:0x00007fd686896098>, not_before=2021-03-16 19:33:26 UTC, not_after=2021-06-08 19:33:25 UTC>, @http_body=#<HTTP::Message::Body:0x00007fd68687e718 @body="{\n  \"kind\": \"youtube#searchListResponse\",\n  \"etag\": \"TMISe5qQld8sBNRuqcRm84PkIE8\",\n  \"nextPageToken\": \"CAoQAA\",\n  \"regionCode\": \"JP\",\n  \"pageInfo\": {\n    \"totalResults\": 56726,\n    \"resultsPerPage\": 10\n  },\n  \"items\": [\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"kSMG1vTpkqDWjhW3E4p9ztTT-Q0\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"8Y7bCrcMcAw\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-07T06:16:09Z\",\n        \"channelId\": \"UCx4a-VKhRKPcM2bkhFUGUVg\",\n        \"title\": \"집에서 홈트, Beautiful movement stretching 🍑Home training workout butt lift,Yogaヨガで美尻・ヒップアップトレーニング 運動\",\n        \"description\": \"집에서 홈트, Beautiful movement stretching Home training workout butt lift,Yogaヨガで美尻・ヒップアップトレーニング 運動 ♥ 8 health benefits from yoga ☆ 1.\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/8Y7bCrcMcAw/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/8Y7bCrcMcAw/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/8Y7bCrcMcAw/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"Pilipina girl Cute pinay Juvymin\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-07T06:16:09Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"Ar64hcTX2Ps6UksVi6SrR2MQFYQ\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"AMqHFMFZk0o\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-07T01:00:01Z\",\n        \"channelId\": \"UCowONOweteAQ8vcjQJ4cmYA\",\n        \"title\": \"【ヨガレッスン・YOGA 】ヨガライブレッスン ～10分間  ～ やさしいヨガ・シニアヨガ・簡単ストレッチ・ダイエット #13\",\n        \"description\": \"今回は【ヨガライブレッスン ～10分間～】をお届けします。『いつまでも健康で強くて元気な心と体‥‥』をテーマに、気軽に楽しめるヨガレッスン動画を中心に健康情報を配信 ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/AMqHFMFZk0o/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/AMqHFMFZk0o/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/AMqHFMFZk0o/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"Takumi会ヨガ\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-07T01:00:01Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"xhQTdjYBoSW63FQu5o1nxLd9M-8\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"MLQLtvwXBj4\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-06T23:00:06Z\",\n        \"channelId\": \"UCOcQbKNP9HKwjewLLfdDeVQ\",\n        \"title\": \"【尿もれ改善！】骨盤矯正ヨガ\",\n        \"description\": \"今回は尿もれ、ポッコリお腹を改善する 「骨盤矯正ヨガ」をご一緒しましょう。 日頃、皆様からご相談いただく身体のお悩みに、 男女問わず尿もれ（頻尿）があります。 くしゃみ ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/MLQLtvwXBj4/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/MLQLtvwXBj4/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/MLQLtvwXBj4/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"yoga studio ACTOMO\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-06T23:00:06Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"ZW-jhoSlTeLbKPJ-GK015UxYvRM\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"E7uWtxpv9PM\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-06T22:00:01Z\",\n        \"channelId\": \"UC5WkJhX5g5uH6ayWIDb7_Ng\",\n        \"title\": \"笑いヨガで血流を良しく自律神経を整えよう！\",\n        \"description\": \"笑いヨガで横隔膜を動かす事により、呼吸が深くなり、自律神経整え、血流をよくして、 内臓を活性化する。 ＃Miyukiyoga ＃アラカン ＃アラフィフ Music: ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/E7uWtxpv9PM/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/E7uWtxpv9PM/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/E7uWtxpv9PM/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"Miyuki Yoga\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-06T22:00:01Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"FftpiyJFhnWxiX30_RuSr7lhpgk\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"_QLqwetIbR4\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-06T21:36:23Z\",\n        \"channelId\": \"UC0K-L3dioNK9vi11wR_nCBQ\",\n        \"title\": \"超初心者向け！ヨガの基本呼吸で体を温めよう【生ライブ配信】\",\n        \"description\": \"初心者向けのヨガの呼吸法を詳しくご紹介します。日常生活で活かせる腹式呼吸法です。レッスンスタートは3:49から。腹式呼吸法は9:03から。 自律神経は意思の力では ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/_QLqwetIbR4/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/_QLqwetIbR4/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/_QLqwetIbR4/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"Japanese YOGA\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-06T21:36:23Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"Qm-UHXXoZeBBm-7sbcEsdkJAfeg\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"K5p3CkAzt0M\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-06T21:30:29Z\",\n        \"channelId\": \"UC5eaezVC9D9scdqvm1H2j7w\",\n        \"title\": \"朝のオンラインヨガ 骨盤底筋群ワーク すーちゃん登場\",\n        \"description\": \"公式LINE【質問・マヤ暦セッション・お問い合わせ】 https://line.me/R/ti/p/%40ksn8384n#~ @ksn8384n はつらつさん 鹿児島読売テレビに出演 ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/K5p3CkAzt0M/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/K5p3CkAzt0M/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/K5p3CkAzt0M/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"毎朝ヨガライブ\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-06T21:30:29Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"G4O0e4C_qD6_6voa73w9XPJXP1w\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"YetuuIBmp_g\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-06T12:06:36Z\",\n        \"channelId\": \"UCfevPuEApeeC74ouFGCl-Yg\",\n        \"title\": \"【GTA5】#26　それはヨガじゃないよ！【Vtuber猫】\",\n        \"description\": \"チャンネル登録はこちら！ https://www.youtube.com/channel/UCfevPuEApeeC74ouFGCl-Yg?sub_confirmation=1 生まれて初めてのＴＰＳゲームプレイ。 果たして猫 ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/YetuuIBmp_g/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/YetuuIBmp_g/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/YetuuIBmp_g/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"さまシロ\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-06T12:06:36Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"d9iXiNMpjoWEzMRNIDq38BptxgM\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"aaaK6FRdelo\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-06T12:00:00Z\",\n        \"channelId\": \"UCoaNGY-1ZNJaOgmrcjsxjKw\",\n        \"title\": \"【ベットで朝ヨガ】12分で楽しい気分！波動も上がる♡\",\n        \"description\": \"チャンネル登録はこちらから   大変励みになります！ このチャンネルを一緒に作って行きましょう♪ コメント大歓迎です！＼(^o^)／ どうぞよろしくお願い致します✨ ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/aaaK6FRdelo/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/aaaK6FRdelo/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/aaaK6FRdelo/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"MOMIYOGA\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-06T12:00:00Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"ZTfePAppVBkrcq9MG1MuCEZmU-A\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"ODLOE5l1CmQ\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-06T08:52:27Z\",\n        \"channelId\": \"UCQNzvW8v0yfDOK36eod_XyA\",\n        \"title\": \"心が落ち着くリラクゼーション音楽 ～ スパ・瞑想・ヨガ・アロマ・睡眠用 etc. ～ 広がりと優しさを感じるヒーリングミュージック\",\n        \"description\": \"曲を気に入っていただけましたら高評価・チャンネル登録していただけると嬉しいです。 ⇒https://bitly.com.vn/ydhvin ♥アロマ、スパ、瞑想などに最適なリラクゼーション音楽 ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/ODLOE5l1CmQ/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/ODLOE5l1CmQ/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/ODLOE5l1CmQ/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"Maximum-groove\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-06T08:52:27Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"b5wOjpLLpJDNugiFbTDunrQnDzQ\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"gcIyhEbw1PU\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-06T08:00:25Z\",\n        \"channelId\": \"UCZK0CsiHDPLVENCyFhtSpzg\",\n        \"title\": \"【ビーグル犬さつきと猫たち】ヨガ初心者のママを仲良く見守る犬と猫。Satsuki the Beagle and Senior cats\",\n        \"description\": \"毎日17時に更新中です*\\\\(^o^)/* たくさんの人に楽しんでもらえるよう、夢の１万人に向け、コツコツ頑張ります！(=ﾟωﾟ)ﾉ 気に入って頂けましたら、ぜひチャンネル登録お願いし ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/gcIyhEbw1PU/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/gcIyhEbw1PU/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/gcIyhEbw1PU/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"ビーグル猫ねこ親バカ日記\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-06T08:00:25Z\"\n      }\n    }\n  ]\n}\n", @size=0, @positions=nil, @chunk_size=nil>, @previous=nil>
+Success - #<Google::Apis::YoutubeV3::SearchListsResponse:0x00007fd6868954e0
+ @etag="TMISe5qQld8sBNRuqcRm84PkIE8",
+ @items=
+  [#<Google::Apis::YoutubeV3::SearchResult:0x00007fd6868a5f48
+    @etag="kSMG1vTpkqDWjhW3E4p9ztTT-Q0",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd6868a5778
+      @kind="youtube#video",
+      @video_id="8Y7bCrcMcAw">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd6868a4698
+      @channel_id="UCx4a-VKhRKPcM2bkhFUGUVg",
+      @channel_title="Pilipina girl Cute pinay Juvymin",
+      @description=
+       "집에서 홈트, Beautiful movement stretching Home training workout butt lift,Yogaヨガで美尻・ヒップアップトレーニング 運動 ♥ 8 health benefits from yoga ☆ 1.",
+      @live_broadcast_content="none",
+      @published_at="2021-04-07T06:16:09Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd6868af5c0
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6868aef08
+          @height=90,
+          @url="https://i.ytimg.com/vi/8Y7bCrcMcAw/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6868ae2d8
+          @height=360,
+          @url="https://i.ytimg.com/vi/8Y7bCrcMcAw/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6868ad450
+          @height=180,
+          @url="https://i.ytimg.com/vi/8Y7bCrcMcAw/mqdefault.jpg",
+          @width=320>>,
+      @title=
+       "집에서 홈트, Beautiful movement stretching 🍑Home training workout butt lift,Yogaヨガで美尻・ヒップアップトレーニング 運動">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fd6868ac528
+    @etag="Ar64hcTX2Ps6UksVi6SrR2MQFYQ",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd6868b7c70
+      @kind="youtube#video",
+      @video_id="AMqHFMFZk0o">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd6868b6b18
+      @channel_id="UCowONOweteAQ8vcjQJ4cmYA",
+      @channel_title="Takumi会ヨガ",
+      @description=
+       "今回は【ヨガライブレッスン ～10分間～】をお届けします。『いつまでも健康で強くて元気な心と体‥‥』をテーマに、気軽に楽しめるヨガレッスン動画を中心に健康情報を配信 ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-07T01:00:01Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd6868b5a88
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6868b5560
+          @height=90,
+          @url="https://i.ytimg.com/vi/AMqHFMFZk0o/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6868b48e0
+          @height=360,
+          @url="https://i.ytimg.com/vi/AMqHFMFZk0o/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6868bf970
+          @height=180,
+          @url="https://i.ytimg.com/vi/AMqHFMFZk0o/mqdefault.jpg",
+          @width=320>>,
+      @title=
+       "【ヨガレッスン・YOGA 】ヨガライブレッスン ～10分間  ～ やさしいヨガ・シニアヨガ・簡単ストレッチ・ダイエット #13">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fd6868be9a8
+    @etag="xhQTdjYBoSW63FQu5o1nxLd9M-8",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd6868be1b0
+      @kind="youtube#video",
+      @video_id="MLQLtvwXBj4">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd6868bd030
+      @channel_id="UCOcQbKNP9HKwjewLLfdDeVQ",
+      @channel_title="yoga studio ACTOMO",
+      @description=
+       "今回は尿もれ、ポッコリお腹を改善する 「骨盤矯正ヨガ」をご一緒しましょう。 日頃、皆様からご相談いただく身体のお悩みに、 男女問わず尿もれ（頻尿）があります。 くしゃみ ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-06T23:00:06Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd6868c7f58
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6868c79e0
+          @height=90,
+          @url="https://i.ytimg.com/vi/MLQLtvwXBj4/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6868c6d10
+          @height=360,
+          @url="https://i.ytimg.com/vi/MLQLtvwXBj4/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6868c5e88
+          @height=180,
+          @url="https://i.ytimg.com/vi/MLQLtvwXBj4/mqdefault.jpg",
+          @width=320>>,
+      @title="【尿もれ改善！】骨盤矯正ヨガ">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fd6868c4ec0
+    @etag="ZW-jhoSlTeLbKPJ-GK015UxYvRM",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd6868c4740
+      @kind="youtube#video",
+      @video_id="E7uWtxpv9PM">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd6868cf618
+      @channel_id="UC5WkJhX5g5uH6ayWIDb7_Ng",
+      @channel_title="Miyuki Yoga",
+      @description=
+       "笑いヨガで横隔膜を動かす事により、呼吸が深くなり、自律神経整え、血流をよくして、 内臓を活性化する。 ＃Miyukiyoga ＃アラカン ＃アラフィフ Music: ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-06T22:00:01Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd6868ce588
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6868cdf20
+          @height=90,
+          @url="https://i.ytimg.com/vi/E7uWtxpv9PM/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6868cd3e0
+          @height=360,
+          @url="https://i.ytimg.com/vi/E7uWtxpv9PM/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6868cc4b8
+          @height=180,
+          @url="https://i.ytimg.com/vi/E7uWtxpv9PM/mqdefault.jpg",
+          @width=320>>,
+      @title="笑いヨガで血流を良しく自律神経を整えよう！">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fd6868d74a8
+    @etag="FftpiyJFhnWxiX30_RuSr7lhpgk",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd6868d6c10
+      @kind="youtube#video",
+      @video_id="_QLqwetIbR4">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd6868d5a90
+      @channel_id="UC0K-L3dioNK9vi11wR_nCBQ",
+      @channel_title="Japanese YOGA",
+      @description=
+       "初心者向けのヨガの呼吸法を詳しくご紹介します。日常生活で活かせる腹式呼吸法です。レッスンスタートは3:49から。腹式呼吸法は9:03から。 自律神経は意思の力では ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-06T21:36:23Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd6868d4a00
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6868d44b0
+          @height=90,
+          @url="https://i.ytimg.com/vi/_QLqwetIbR4/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6868df748
+          @height=360,
+          @url="https://i.ytimg.com/vi/_QLqwetIbR4/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6868de870
+          @height=180,
+          @url="https://i.ytimg.com/vi/_QLqwetIbR4/mqdefault.jpg",
+          @width=320>>,
+      @title="超初心者向け！ヨガの基本呼吸で体を温めよう【生ライブ配信】">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fd6868dd8f8
+    @etag="Qm-UHXXoZeBBm-7sbcEsdkJAfeg",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd6868dd218
+      @kind="youtube#video",
+      @video_id="K5p3CkAzt0M">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd6868dc138
+      @channel_id="UC5eaezVC9D9scdqvm1H2j7w",
+      @channel_title="毎朝ヨガライブ",
+      @description=
+       "公式LINE【質問・マヤ暦セッション・お問い合わせ】 https://line.me/R/ti/p/%40ksn8384n#~ @ksn8384n はつらつさん 鹿児島読売テレビに出演 ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-06T21:30:29Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd6868e7060
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6868e6958
+          @height=90,
+          @url="https://i.ytimg.com/vi/K5p3CkAzt0M/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6868e5dc8
+          @height=360,
+          @url="https://i.ytimg.com/vi/K5p3CkAzt0M/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6868e4f90
+          @height=180,
+          @url="https://i.ytimg.com/vi/K5p3CkAzt0M/mqdefault.jpg",
+          @width=320>>,
+      @title="朝のオンラインヨガ 骨盤底筋群ワーク すーちゃん登場">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fd6868eff80
+    @etag="G4O0e4C_qD6_6voa73w9XPJXP1w",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd6868ef5a8
+      @kind="youtube#video",
+      @video_id="YetuuIBmp_g">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd6868ee4c8
+      @channel_id="UCfevPuEApeeC74ouFGCl-Yg",
+      @channel_title="さまシロ",
+      @description=
+       "チャンネル登録はこちら！ https://www.youtube.com/channel/UCfevPuEApeeC74ouFGCl-Yg?sub_confirmation=1 生まれて初めてのＴＰＳゲームプレイ。 果たして猫 ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-06T12:06:36Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd6868ed438
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6868ecf88
+          @height=90,
+          @url="https://i.ytimg.com/vi/YetuuIBmp_g/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6868ec290
+          @height=360,
+          @url="https://i.ytimg.com/vi/YetuuIBmp_g/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6868f7320
+          @height=180,
+          @url="https://i.ytimg.com/vi/YetuuIBmp_g/mqdefault.jpg",
+          @width=320>>,
+      @title="【GTA5】#26　それはヨガじゃないよ！【Vtuber猫】">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fd6868f6358
+    @etag="d9iXiNMpjoWEzMRNIDq38BptxgM",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd6868f5d18
+      @kind="youtube#video",
+      @video_id="aaaK6FRdelo">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd6868f4b48
+      @channel_id="UCoaNGY-1ZNJaOgmrcjsxjKw",
+      @channel_title="MOMIYOGA",
+      @description=
+       "チャンネル登録はこちらから   大変励みになります！ このチャンネルを一緒に作って行きましょう♪ コメント大歓迎です！＼(^o^)／ どうぞよろしくお願い致します✨ ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-06T12:00:00Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd6868ffa70
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6868ff368
+          @height=90,
+          @url="https://i.ytimg.com/vi/aaaK6FRdelo/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6868fe800
+          @height=360,
+          @url="https://i.ytimg.com/vi/aaaK6FRdelo/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6868fd9a0
+          @height=180,
+          @url="https://i.ytimg.com/vi/aaaK6FRdelo/mqdefault.jpg",
+          @width=320>>,
+      @title="【ベットで朝ヨガ】12分で楽しい気分！波動も上がる♡">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fd6868fca78
+    @etag="ZTfePAppVBkrcq9MG1MuCEZmU-A",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd6868fc0a0
+      @kind="youtube#video",
+      @video_id="ODLOE5l1CmQ">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd686906f00
+      @channel_id="UCQNzvW8v0yfDOK36eod_XyA",
+      @channel_title="Maximum-groove",
+      @description=
+       "曲を気に入っていただけましたら高評価・チャンネル登録していただけると嬉しいです。 ⇒https://bitly.com.vn/ydhvin ♥アロマ、スパ、瞑想などに最適なリラクゼーション音楽 ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-06T08:52:27Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd686905e70
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd6869059c0
+          @height=90,
+          @url="https://i.ytimg.com/vi/ODLOE5l1CmQ/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd686904cc8
+          @height=360,
+          @url="https://i.ytimg.com/vi/ODLOE5l1CmQ/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd68690fd08
+          @height=180,
+          @url="https://i.ytimg.com/vi/ODLOE5l1CmQ/mqdefault.jpg",
+          @width=320>>,
+      @title=
+       "心が落ち着くリラクゼーション音楽 ～ スパ・瞑想・ヨガ・アロマ・睡眠用 etc. ～ 広がりと優しさを感じるヒーリングミュージック">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fd68690ed90
+    @etag="b5wOjpLLpJDNugiFbTDunrQnDzQ",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fd68690e700
+      @kind="youtube#video",
+      @video_id="gcIyhEbw1PU">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fd68690d620
+      @channel_id="UCZK0CsiHDPLVENCyFhtSpzg",
+      @channel_title="ビーグル猫ねこ親バカ日記",
+      @description=
+       "毎日17時に更新中です*\\(^o^)/* たくさんの人に楽しんでもらえるよう、夢の１万人に向け、コツコツ頑張ります！(=ﾟωﾟ)ﾉ 気に入って頂けましたら、ぜひチャンネル登録お願いし ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-06T08:00:25Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fd68690c428
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd686917e18
+          @height=90,
+          @url="https://i.ytimg.com/vi/gcIyhEbw1PU/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd686917210
+          @height=360,
+          @url="https://i.ytimg.com/vi/gcIyhEbw1PU/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fd686916360
+          @height=180,
+          @url="https://i.ytimg.com/vi/gcIyhEbw1PU/mqdefault.jpg",
+          @width=320>>,
+      @title=
+       "【ビーグル犬さつきと猫たち】ヨガ初心者のママを仲良く見守る犬と猫。Satsuki the Beagle and Senior cats">>],
+ @kind="youtube#searchListResponse",
+ @next_page_token="CAoQAA",
+ @page_info=
+  #<Google::Apis::YoutubeV3::PageInfo:0x00007fd686914e48
+   @results_per_page=10,
+   @total_results=56726>,
+ @region_code="JP">
+
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ヨガ"], ["title", "집에서 홈트, Beautiful movement stretching 🍑Home training workout butt lift,Yogaヨガで美尻・ヒップアップトレーニング 運動"], ["video_id", "8Y7bCrcMcAw"], ["created_at", "2021-04-07 06:23:07.990485"], ["updated_at", "2021-04-07 06:23:07.990485"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.4ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ヨガ"], ["title", "【ヨガレッスン・YOGA 】ヨガライブレッスン ～10分間  ～ やさしいヨガ・シニアヨガ・簡単ストレッチ・ダイエット #13"], ["video_id", "AMqHFMFZk0o"], ["created_at", "2021-04-07 06:23:07.992203"], ["updated_at", "2021-04-07 06:23:07.992203"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ヨガ"], ["title", "【尿もれ改善！】骨盤矯正ヨガ"], ["video_id", "MLQLtvwXBj4"], ["created_at", "2021-04-07 06:23:07.994096"], ["updated_at", "2021-04-07 06:23:07.994096"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ヨガ"], ["title", "笑いヨガで血流を良しく自律神経を整えよう！"], ["video_id", "E7uWtxpv9PM"], ["created_at", "2021-04-07 06:23:07.995472"], ["updated_at", "2021-04-07 06:23:07.995472"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ヨガ"], ["title", "超初心者向け！ヨガの基本呼吸で体を温めよう【生ライブ配信】"], ["video_id", "_QLqwetIbR4"], ["created_at", "2021-04-07 06:23:07.997097"], ["updated_at", "2021-04-07 06:23:07.997097"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ヨガ"], ["title", "朝のオンラインヨガ 骨盤底筋群ワーク すーちゃん登場"], ["video_id", "K5p3CkAzt0M"], ["created_at", "2021-04-07 06:23:07.999041"], ["updated_at", "2021-04-07 06:23:07.999041"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ヨガ"], ["title", "【GTA5】#26　それはヨガじゃないよ！【Vtuber猫】"], ["video_id", "YetuuIBmp_g"], ["created_at", "2021-04-07 06:23:08.000889"], ["updated_at", "2021-04-07 06:23:08.000889"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ヨガ"], ["title", "【ベットで朝ヨガ】12分で楽しい気分！波動も上がる♡"], ["video_id", "aaaK6FRdelo"], ["created_at", "2021-04-07 06:23:08.002156"], ["updated_at", "2021-04-07 06:23:08.002156"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ヨガ"], ["title", "心が落ち着くリラクゼーション音楽 ～ スパ・瞑想・ヨガ・アロマ・睡眠用 etc. ～ 広がりと優しさを感じるヒーリングミュージック"], ["video_id", "ODLOE5l1CmQ"], ["created_at", "2021-04-07 06:23:08.003644"], ["updated_at", "2021-04-07 06:23:08.003644"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ヨガ"], ["title", "【ビーグル犬さつきと猫たち】ヨガ初心者のママを仲良く見守る犬と猫。Satsuki the Beagle and Senior cats"], ["video_id", "gcIyhEbw1PU"], ["created_at", "2021-04-07 06:23:08.004986"], ["updated_at", "2021-04-07 06:23:08.004986"]]
+  [1m[35m (4.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mVideo Load (0.4ms)[0m  [1m[34mSELECT  "videos".* FROM "videos" ORDER BY "videos"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mVideo Load (0.4ms)[0m  [1m[34mSELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mVideo Load (0.8ms)[0m  [1m[34mSELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT $2[0m  [["id", 20], ["LIMIT", 1]]
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5

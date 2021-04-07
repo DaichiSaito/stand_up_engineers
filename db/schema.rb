@@ -10,10 +10,25 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_03_30_125758) do
+ActiveRecord::Schema.define(version: 2021_04_06_020633) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "admins", force: :cascade do |t|
+    t.integer "line_messaging_id", null: false
+    t.string "line_messaging_secret", null: false
+    t.string "line_messaging_token", null: false
+    t.integer "line_login_id", null: false
+    t.string "line_login_secret", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "oauths", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "users", force: :cascade do |t|
     t.string "name"
@@ -23,6 +38,14 @@ ActiveRecord::Schema.define(version: 2021_03_30_125758) do
     t.datetime "start_time"
     t.integer "set_time"
     t.integer "break_time"
+  end
+
+  create_table "videos", force: :cascade do |t|
+    t.string "category_name"
+    t.string "title"
+    t.string "video_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end
