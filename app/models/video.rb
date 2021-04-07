@@ -2,7 +2,7 @@ class Video < ApplicationRecord
 require 'google/apis/youtube_v3'
 require 'active_support/all'
 
-GOOGLE_API_KEY="AIzaSyCdBixnc_GiqWpyujqvrP1nrAhKGWg4Jnc"
+GOOGLE_API_KEY = ENV['SECRET_KEY']
 
 def self.find_videos(keywords, after: 1.months.ago, before: Time.now)
   keywords.each do |keyword|
