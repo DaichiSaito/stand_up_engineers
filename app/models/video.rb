@@ -4,7 +4,7 @@ require 'active_support/all'
 
 GOOGLE_API_KEY="AIzaSyCdBixnc_GiqWpyujqvrP1nrAhKGWg4Jnc"
 
-def find_videos(keywords, after: 1.months.ago, before: Time.now)
+def self.find_videos(keywords, after: 1.months.ago, before: Time.now)
   keywords.each do |keyword|
   service = Google::Apis::YoutubeV3::YouTubeService.new
   service.key = GOOGLE_API_KEY
