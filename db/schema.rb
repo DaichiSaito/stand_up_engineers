@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_04_06_020633) do
+ActiveRecord::Schema.define(version: 2021_04_07_074241) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -38,6 +38,7 @@ ActiveRecord::Schema.define(version: 2021_04_06_020633) do
     t.datetime "start_time"
     t.integer "set_time"
     t.integer "break_time"
+    t.string "category"
   end
 
   create_table "videos", force: :cascade do |t|

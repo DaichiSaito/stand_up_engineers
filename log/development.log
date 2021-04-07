@@ -21146,3 +21146,1795 @@ Success - #<Google::Apis::YoutubeV3::SearchListsResponse:0x00007fdb8802eef8
   ↳ lib/tasks/save_videos.rake:7
   [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
   ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7723656892156408875)[0m
+  ↳ bin/rails:9
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to AddCategoryToUsers (20210407074241)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.6ms)[0m  [1m[35mALTER TABLE "users" ADD "category" character varying[0m
+  ↳ db/migrate/20210407074241_add_category_to_users.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (1.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210407074241"]]
+  ↳ bin/rails:9
+  [1m[35m (1.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (3.9ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(7723656892156408875)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+Started GET "/" for ::1 at 2021-04-07 16:46:14 +0900
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/yoshiokasusumu/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (20.7ms)
+Completed 200 OK in 506ms (Views: 486.2ms | ActiveRecord: 3.1ms)
+
+
+Started POST "/users" for ::1 at 2021-04-07 16:46:29 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZG5MnoKe51KDqqBm9UnEQoaHg50xBGnKT4kDz_SXbkpO3wVlueLcbXRAmsi_3IUdYF4nMDTsqCJxm9DZu4H_oQ", "user"=>{"name"=>"よしおかしょう", "email"=>"yoshioka0606@outlook.jp", "set_time"=>"1", "break_time"=>"1", "category"=>"筋トレ"}, "commit"=>"アプリスタート"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Create (1.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "start_time", "set_time", "break_time", "category") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["name", "よしおかしょう"], ["email", "yoshioka0606@outlook.jp"], ["created_at", "2021-04-07 07:46:29.195486"], ["updated_at", "2021-04-07 07:46:29.195486"], ["start_time", "2021-04-07 07:46:29.194657"], ["set_time", 1], ["break_time", 1], ["category", "筋トレ"]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 71], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:7
+Redirected to http://localhost:3000/
+Completed 302 Found in 11ms (ActiveRecord: 3.1ms)
+
+
+Started GET "/" for ::1 at 2021-04-07 16:46:29 +0900
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 71], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:5
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 63ms (Views: 60.9ms | ActiveRecord: 0.4ms)
+
+
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+YoutubeMailer#youtube_mail: processed outbound mail in 371.9ms
+Started DELETE "/users/71" for ::1 at 2021-04-07 16:47:37 +0900
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"EPylnqgvoieJWtsMLVk7cVt9rJhcm5JxRegu64RfWL06Texlk1OZGH6w4aJnzHouvaQINVlzU5l7-v39y0nJVg", "id"=>"71"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 71], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:15
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:16
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 71]]
+  ↳ app/controllers/users_controller.rb:16
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:16
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/" for ::1 at 2021-04-07 16:47:37 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 65ms (Views: 63.9ms | ActiveRecord: 0.0ms)
+
+
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mVideo Load (4.0ms)[0m  [1m[34mSELECT  "videos".* FROM "videos" WHERE "videos"."category_name" = $1 LIMIT $2[0m  [["category_name", "筋トレ"], ["LIMIT", 11]]
+  [1m[36mVideo Load (0.8ms)[0m  [1m[34mSELECT  "videos".* FROM "videos" WHERE "videos"."category_name" = $1 LIMIT $2[0m  [["category_name", "ヨガ"], ["LIMIT", 11]]
+  [1m[36mVideo Load (0.6ms)[0m  [1m[34mSELECT  "videos".* FROM "videos" WHERE "videos"."category_name" = $1 LIMIT $2[0m  [["category_name", "筋トレ"], ["LIMIT", 11]]
+  [1m[36mVideo Load (0.4ms)[0m  [1m[34mSELECT  "videos".* FROM "videos" WHERE "videos"."category_name" = $1 LIMIT $2[0m  [["category_name", "ヨガ"], ["LIMIT", 11]]
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mVideo Load (0.4ms)[0m  [1m[34mSELECT "videos".* FROM "videos" WHERE "videos"."category_name" = $1[0m  [["category_name", "ヨガ"]]
+  [1m[36mVideo Load (0.7ms)[0m  [1m[34mSELECT  "videos".* FROM "videos" WHERE "videos"."category_name" = $1 LIMIT $2[0m  [["category_name", "ヨガ"], ["LIMIT", 11]]
+  [1m[36mVideo Load (0.6ms)[0m  [1m[34mSELECT "videos".* FROM "videos" WHERE "videos"."category_name" = $1[0m  [["category_name", "ヨガ"]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+Started GET "/" for ::1 at 2021-04-07 16:53:14 +0900
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/yoshiokasusumu/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (24.9ms)
+Completed 200 OK in 467ms (Views: 442.1ms | ActiveRecord: 3.8ms)
+
+
+Started POST "/users" for ::1 at 2021-04-07 16:53:28 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mNATLaBTcpBWx9S-Y24cs5M27HPULawHVteSUiLLhUeyYVrWmy9Jr6Et7hAp-13sde9I3tHFbe9oxUFEbd0UrA", "user"=>{"name"=>"よしおかしょう", "email"=>"yoshioka0606@outlook.jp", "set_time"=>"1", "break_time"=>"1", "category"=>"ヨガ"}, "commit"=>"アプリスタート"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "start_time", "set_time", "break_time", "category") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["name", "よしおかしょう"], ["email", "yoshioka0606@outlook.jp"], ["created_at", "2021-04-07 07:53:28.851083"], ["updated_at", "2021-04-07 07:53:28.851083"], ["start_time", "2021-04-07 07:53:28.850245"], ["set_time", 1], ["break_time", 1], ["category", "ヨガ"]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 72], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:7
+Redirected to http://localhost:3000/
+Completed 302 Found in 8ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/" for ::1 at 2021-04-07 16:53:28 +0900
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 72], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:5
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 43ms (Views: 40.5ms | ActiveRecord: 0.3ms)
+
+
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mVideo Load (0.4ms)[0m  [1m[34mSELECT "videos".* FROM "videos" WHERE "videos"."category_name" = $1[0m  [["category_name", "ヨガ"]]
+  ↳ app/mailers/youtube_mailer.rb:6
+  Rendering youtube_mailer/youtube_mail.html.erb within layouts/mailer
+  Rendered youtube_mailer/youtube_mail.html.erb within layouts/mailer (1.3ms)
+YoutubeMailer#youtube_mail: processed outbound mail in 462.4ms
+Sent mail to yoshioka0606@outlook.jp (16.8ms)
+Date: Wed, 07 Apr 2021 16:54:04 +0900
+From: sue@example.com
+To: yoshioka0606@outlook.jp
+Message-ID: <606d651cada04_6c1e3fd0e8c3203c8692a@yoshiokasusumunoMacBook-Pro.local.mail>
+Subject: =?UTF-8?Q?=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F?=
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    <h1>=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F</=
+h1>=0D
+<iframe width=3D"560" height=3D"315" src=3D"https://www.youtube.com/embed=
+/" title=3D"YouTube video player" frameborder=3D"0" allow=3D"acceleromete=
+r; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-pict=
+ure" allowfullscreen></iframe>=0D
+  </body>=0D
+</html>=0D
+
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Update (0.7ms)[0m  [1m[33mUPDATE "users" SET "start_time" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["start_time", "2021-04-07 07:55:04.725133"], ["updated_at", "2021-04-07 07:54:04.729364"], ["id", 72]]
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ lib/tasks/send_youtube.rake:9
+Started DELETE "/users/72" for ::1 at 2021-04-07 16:54:26 +0900
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"2BwF_uDcYpkyFCmq25nCD7ZonfkGmAJLx46_kPGwsB7yrUwF26BZpsX-EwSRDINQULE5VANww6P5nGyGvqYh9Q", "id"=>"72"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 72], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:15
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:16
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 72]]
+  ↳ app/controllers/users_controller.rb:16
+  [1m[35m (1.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:16
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/" for ::1 at 2021-04-07 16:54:26 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 70ms (Views: 68.5ms | ActiveRecord: 0.0ms)
+
+
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+Started POST "/users" for ::1 at 2021-04-07 16:58:54 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZcBPhmw1zEwkYI6EhSpG8JCidOx8iy_hLOXiuZdR0CVPcQZ9V0n3c9OKtCrPvwevdnvQQXlj7gkS9zGv2EdBzg", "user"=>{"name"=>"よしおかしょう", "email"=>"yoshioka0606@outlook.jp", "set_time"=>"1", "break_time"=>"1", "category"=>"ストレッチ"}, "commit"=>"アプリスタート"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "start_time", "set_time", "break_time", "category") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["name", "よしおかしょう"], ["email", "yoshioka0606@outlook.jp"], ["created_at", "2021-04-07 07:58:54.058054"], ["updated_at", "2021-04-07 07:58:54.058054"], ["start_time", "2021-04-07 07:58:54.057426"], ["set_time", 1], ["break_time", 1], ["category", "ストレッチ"]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 73], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:7
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/" for ::1 at 2021-04-07 16:58:54 +0900
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 73], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:5
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 64ms (Views: 62.4ms | ActiveRecord: 0.3ms)
+
+
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mVideo Load (0.5ms)[0m  [1m[34mSELECT "videos".* FROM "videos" WHERE "videos"."category_name" = $1[0m  [["category_name", "ストレッチ"]]
+  ↳ app/mailers/youtube_mailer.rb:6
+  Rendering youtube_mailer/youtube_mail.html.erb within layouts/mailer
+  Rendered youtube_mailer/youtube_mail.html.erb within layouts/mailer (6.5ms)
+YoutubeMailer#youtube_mail: processed outbound mail in 407.6ms
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+Started DELETE "/users/73" for ::1 at 2021-04-07 17:00:27 +0900
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"KyKHwyF84m3iTmbeD95vzWiAtoYITm545qoW3UVnxUsBk844GgDZUhWkXHBFSy6SjlkSKw2mr5DYuMXLCnFUoA", "id"=>"73"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 73], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:15
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:16
+  [1m[36mUser Destroy (0.5ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 73]]
+  ↳ app/controllers/users_controller.rb:16
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:16
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/" for ::1 at 2021-04-07 17:00:27 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 70ms (Views: 68.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for ::1 at 2021-04-07 17:00:42 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pBsgHfJxkzrdOoa5ECAOuRpF3whL1-3RjLq58yD2KYCOqmnmyQ2oBSrQvBdatU_m_Jx7pU4_LDmyqGrlb-C4aw", "user"=>{"name"=>"よしおかしょう", "email"=>"yoshioka0606@outlook.jp", "set_time"=>"1", "break_time"=>"1", "category"=>"ヨガ"}, "commit"=>"アプリスタート"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "start_time", "set_time", "break_time", "category") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["name", "よしおかしょう"], ["email", "yoshioka0606@outlook.jp"], ["created_at", "2021-04-07 08:00:42.237296"], ["updated_at", "2021-04-07 08:00:42.237296"], ["start_time", "2021-04-07 08:00:42.236635"], ["set_time", 1], ["break_time", 1], ["category", "ヨガ"]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 74], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:7
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/" for ::1 at 2021-04-07 17:00:42 +0900
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 74], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:5
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 79ms (Views: 77.2ms | ActiveRecord: 0.3ms)
+
+
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mVideo Load (0.3ms)[0m  [1m[34mSELECT "videos".* FROM "videos" WHERE "videos"."category_name" = $1[0m  [["category_name", "ヨガ"]]
+  ↳ app/mailers/youtube_mailer.rb:6
+  Rendering youtube_mailer/youtube_mail.html.erb within layouts/mailer
+  Rendered youtube_mailer/youtube_mail.html.erb within layouts/mailer (1.5ms)
+YoutubeMailer#youtube_mail: processed outbound mail in 452.1ms
+Sent mail to yoshioka0606@outlook.jp (14.9ms)
+Date: Wed, 07 Apr 2021 17:01:04 +0900
+From: sue@example.com
+To: yoshioka0606@outlook.jp
+Message-ID: <606d66c059c45_6e7b3fd82203205c82759@yoshiokasusumunoMacBook-Pro.local.mail>
+Subject: =?UTF-8?Q?=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F?=
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    <h1>=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F</=
+h1>=0D
+<iframe width=3D"560" height=3D"315" src=3D"https://www.youtube.com/embed=
+/" title=3D"YouTube video player" frameborder=3D"0" allow=3D"acceleromete=
+r; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-pict=
+ure" allowfullscreen></iframe>=0D
+  </body>=0D
+</html>=0D
+
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Update (1.3ms)[0m  [1m[33mUPDATE "users" SET "start_time" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["start_time", "2021-04-07 08:02:04.377970"], ["updated_at", "2021-04-07 08:01:04.380356"], ["id", 74]]
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mVideo Load (0.4ms)[0m  [1m[34mSELECT "videos".* FROM "videos" WHERE "videos"."category_name" = $1[0m  [["category_name", "ヨガ"]]
+  ↳ app/mailers/youtube_mailer.rb:6
+  Rendering youtube_mailer/youtube_mail.html.erb within layouts/mailer
+  Rendered youtube_mailer/youtube_mail.html.erb within layouts/mailer (2.3ms)
+YoutubeMailer#youtube_mail: processed outbound mail in 436.8ms
+Sent mail to yoshioka0606@outlook.jp (13.1ms)
+Date: Wed, 07 Apr 2021 17:03:04 +0900
+From: sue@example.com
+To: yoshioka0606@outlook.jp
+Message-ID: <606d673812da8_6f273fd7aac3203c827de@yoshiokasusumunoMacBook-Pro.local.mail>
+Subject: =?UTF-8?Q?=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F?=
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    <h1>=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F</=
+h1>=0D
+<iframe width=3D"560" height=3D"315" src=3D"https://www.youtube.com/embed=
+/" title=3D"YouTube video player" frameborder=3D"0" allow=3D"acceleromete=
+r; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-pict=
+ure" allowfullscreen></iframe>=0D
+  </body>=0D
+</html>=0D
+
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "start_time" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["start_time", "2021-04-07 08:04:04.087252"], ["updated_at", "2021-04-07 08:03:04.091543"], ["id", 74]]
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ lib/tasks/send_youtube.rake:9
+Started DELETE "/users/74" for ::1 at 2021-04-07 17:03:13 +0900
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"n7b1gam6kpMAhoDLqKpt7m6Z7NC0N9UaIRsoRvEfyti1B7x6ksaprPdsumXiPyyxiEBIfbHfFPIfCftQvglbMw", "id"=>"74"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 74], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:15
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:16
+  [1m[36mUser Destroy (0.5ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 74]]
+  ↳ app/controllers/users_controller.rb:16
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:16
+Redirected to http://localhost:3000/
+Completed 302 Found in 8ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/" for ::1 at 2021-04-07 17:03:13 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 100ms (Views: 97.3ms | ActiveRecord: 0.0ms)
+
+
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+Started POST "/users" for ::1 at 2021-04-07 17:04:44 +0900
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/yoshiokasusumu/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qG5Gp-6aAELp_Va842_KEeF79egcKIVa-hLzeHRvefWC3w9c1eY7fR4XbBKp-otOB6JRRRnARLLEACBuO3noHg", "user"=>{"name"=>"よしおかしょう", "email"=>"yoshioka0606@outlook.jp", "set_time"=>"1", "break_time"=>"1", "category"=>"ヨガ"}, "commit"=>"アプリスタート"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "start_time", "set_time", "break_time", "category") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["name", "よしおかしょう"], ["email", "yoshioka0606@outlook.jp"], ["created_at", "2021-04-07 08:04:44.391279"], ["updated_at", "2021-04-07 08:04:44.391279"], ["start_time", "2021-04-07 08:04:44.390129"], ["set_time", 1], ["break_time", 1], ["category", "ヨガ"]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[35m (1.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 75], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:7
+Redirected to http://localhost:3000/
+Completed 302 Found in 31ms (ActiveRecord: 6.6ms)
+
+
+Started GET "/" for ::1 at 2021-04-07 17:04:44 +0900
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 75], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:5
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (27.2ms)
+Completed 200 OK in 377ms (Views: 374.6ms | ActiveRecord: 0.3ms)
+
+
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mVideo Load (0.4ms)[0m  [1m[34mSELECT "videos".* FROM "videos" WHERE "videos"."category_name" = $1[0m  [["category_name", "ヨガ"]]
+  ↳ app/mailers/youtube_mailer.rb:6
+  Rendering youtube_mailer/youtube_mail.html.erb within layouts/mailer
+  Rendered youtube_mailer/youtube_mail.html.erb within layouts/mailer (0.8ms)
+YoutubeMailer#youtube_mail: processed outbound mail in 403.0ms
+Sent mail to yoshioka0606@outlook.jp (12.2ms)
+Date: Wed, 07 Apr 2021 17:05:01 +0900
+From: sue@example.com
+To: yoshioka0606@outlook.jp
+Message-ID: <606d67adeba6c_70233ff4da43204c456fb@yoshiokasusumunoMacBook-Pro.local.mail>
+Subject: =?UTF-8?Q?=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F?=
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    <h1>=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F</=
+h1>=0D
+<iframe width=3D"560" height=3D"315" src=3D"https://www.youtube.com/embed=
+/aaaK6FRdelo" title=3D"YouTube video player" frameborder=3D"0" allow=3D"a=
+ccelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pict=
+ure-in-picture" allowfullscreen></iframe>=0D
+  </body>=0D
+</html>=0D
+
+  [1m[35m (1.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Update (0.7ms)[0m  [1m[33mUPDATE "users" SET "start_time" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["start_time", "2021-04-07 08:06:01.974896"], ["updated_at", "2021-04-07 08:05:01.979375"], ["id", 75]]
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ lib/tasks/send_youtube.rake:9
+Started DELETE "/users/75" for ::1 at 2021-04-07 17:05:42 +0900
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ckaeBDfuy3_ZO703o7xB0kBI6KHP5Enb64cj7bcECydY99f_DJLwQC7Rh5npKQCNppFMDMoMiDPVlfD7-BKazA", "id"=>"75"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 75], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:15
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:16
+  [1m[36mUser Destroy (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 75]]
+  ↳ app/controllers/users_controller.rb:16
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:16
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/" for ::1 at 2021-04-07 17:05:42 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 44ms (Views: 42.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for ::1 at 2021-04-07 17:05:53 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LB1ur9zxmRXUkowfx1uMBtwhAWKpTKFVkloEZk5FVbUGrCdU542iKiN4trGNzs1ZOvilz6ykYL2sSNdwAVPEXg", "user"=>{"name"=>"よしおかしょう", "email"=>"yoshioka0606@outlook.jp", "set_time"=>"1", "break_time"=>"1", "category"=>"ストレッチ"}, "commit"=>"アプリスタート"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "start_time", "set_time", "break_time", "category") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["name", "よしおかしょう"], ["email", "yoshioka0606@outlook.jp"], ["created_at", "2021-04-07 08:05:53.271352"], ["updated_at", "2021-04-07 08:05:53.271352"], ["start_time", "2021-04-07 08:05:53.270375"], ["set_time", 1], ["break_time", 1], ["category", "ストレッチ"]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 76], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:7
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/" for ::1 at 2021-04-07 17:05:53 +0900
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 76], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:5
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 76ms (Views: 74.5ms | ActiveRecord: 0.3ms)
+
+
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mVideo Load (0.3ms)[0m  [1m[34mSELECT "videos".* FROM "videos" WHERE "videos"."category_name" = $1[0m  [["category_name", "ストレッチ"]]
+  ↳ app/mailers/youtube_mailer.rb:6
+  Rendering youtube_mailer/youtube_mail.html.erb within layouts/mailer
+  Rendered youtube_mailer/youtube_mail.html.erb within layouts/mailer (3.6ms)
+YoutubeMailer#youtube_mail: processed outbound mail in 237.2ms
+Started DELETE "/users/76" for ::1 at 2021-04-07 17:06:13 +0900
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"euRjE8Gf5BtiyMu3jl5xzQrtrDxsYWGCmhoArEvCa9lQVSro-uPfJJUi8RnEyzCS7DQIkWmJoGqkCNO6BNT6Mg", "id"=>"76"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 76], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:15
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:16
+  [1m[36mUser Destroy (0.6ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 76]]
+  ↳ app/controllers/users_controller.rb:16
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:16
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/" for ::1 at 2021-04-07 17:06:13 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 40ms (Views: 38.8ms | ActiveRecord: 0.0ms)
+
+
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mVideo Load (1.0ms)[0m  [1m[34mSELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  [1m[36mVideo Load (0.6ms)[0m  [1m[34mSELECT  "videos".* FROM "videos" WHERE "videos"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  [1m[36mVideo Load (0.6ms)[0m  [1m[34mSELECT  "videos".* FROM "videos" WHERE "videos"."category_name" = $1 LIMIT $2[0m  [["category_name", "ヨガ"], ["LIMIT", 1]]
+  [1m[36mVideo Load (0.8ms)[0m  [1m[34mSELECT  "videos".* FROM "videos" WHERE "videos"."category_name" = $1 LIMIT $2[0m  [["category_name", "筋トレ"], ["LIMIT", 1]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+Sending HTTP get https://youtube.googleapis.com/youtube/v3/search?key=AIzaSyCdBixnc_GiqWpyujqvrP1nrAhKGWg4Jnc&maxResults=10&order=date&part=snippet&publishedAfter=2021-03-07T17%3A08%3A13%2B09%3A00&publishedBefore=2021-04-07T17%3A08%3A13%2B09%3A00&q=%E7%AD%8B%E3%83%88%E3%83%AC&type=video
+200
+#<HTTP::Message:0x00007fb5342d8368 @http_header=#<HTTP::Message::Headers:0x00007fb5342d82a0 @http_version="1.1", @body_size=0, @chunked=false, @request_method="GET", @request_uri=#<Addressable::URI:0x3fda9a16ce98 URI:https://youtube.googleapis.com/youtube/v3/search?key=AIzaSyCdBixnc_GiqWpyujqvrP1nrAhKGWg4Jnc&maxResults=10&order=date&part=snippet&publishedAfter=2021-03-07T17%3A08%3A13%2B09%3A00&publishedBefore=2021-04-07T17%3A08%3A13%2B09%3A00&q=%E7%AD%8B%E3%83%88%E3%83%AC&type=video>, @request_query=nil, @request_absolute_uri=nil, @status_code=200, @reason_phrase="OK", @body_type=nil, @body_charset=nil, @body_date=nil, @body_encoding=#<Encoding:UTF-8>, @is_request=false, @header_item=[["Content-Type", "application/json; charset=UTF-8"], ["Vary", "Origin"], ["Vary", "X-Origin"], ["Vary", "Referer"], ["Content-Encoding", "gzip"], ["Date", "Wed, 07 Apr 2021 08:08:14 GMT"], ["Server", "scaffolding on HTTPServer2"], ["Cache-Control", "private"], ["X-XSS-Protection", "0"], ["X-Frame-Options", "SAMEORIGIN"], ["X-Content-Type-Options", "nosniff"], ["Alt-Svc", "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""], ["Transfer-Encoding", "chunked"]], @dumped=false>, @peer_cert=#<OpenSSL::X509::Certificate: subject=#<OpenSSL::X509::Name CN=upload.video.google.com,O=Google LLC,L=Mountain View,ST=California,C=US>, issuer=#<OpenSSL::X509::Name CN=GTS CA 1O1,O=Google Trust Services,C=US>, serial=#<OpenSSL::BN:0x00007fb533b6be18>, not_before=2021-03-16 19:33:26 UTC, not_after=2021-06-08 19:33:25 UTC>, @http_body=#<HTTP::Message::Body:0x00007fb5342d81d8 @body="{\n  \"kind\": \"youtube#searchListResponse\",\n  \"etag\": \"omu1VtEJMyOCyQE2GesloPxHjiA\",\n  \"nextPageToken\": \"CAoQAA\",\n  \"regionCode\": \"JP\",\n  \"pageInfo\": {\n    \"totalResults\": 96049,\n    \"resultsPerPage\": 10\n  },\n  \"items\": [\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"V5FpBOqELGphbhlTtCbMc3pnbyA\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"QqDTjzLvjRo\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-07T08:00:06Z\",\n        \"channelId\": \"UCKuKJHdK8hmwNXpEcHPK8FQ\",\n        \"title\": \"科学的な上腕三頭筋の筋トレ！科学的に正しい鍛え方を徹底解説！\",\n        \"description\": \"この動画を観ると ・上腕三頭筋の解剖学 ・上腕三頭筋の鍛え方が分かります。 このチャンネルは『筋トレをアニメーションでわかりやすく解説する』を目標に配信しています。\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/QqDTjzLvjRo/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/QqDTjzLvjRo/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/QqDTjzLvjRo/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"筋トレの科学\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-07T08:00:06Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"Dcu5j_5ik2fx8rnJahSXwP4Ckl0\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"1eYjXaHAMwA\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-07T07:54:07Z\",\n        \"channelId\": \"UCWiArAHioKznEIfFzJYkwyQ\",\n        \"title\": \"【平日ルーティン】27歳筋トレ大好きエンジニアの日常【BIG3強化中】\",\n        \"description\": \"今の目標はパワーリフティングの大会に出て スクワット:170kg ベンチプレス:110kg デットリフ:210kg 合計490kg □説明 毎週、ルーティン動画をあげます。 自分の日々の ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/1eYjXaHAMwA/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/1eYjXaHAMwA/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/1eYjXaHAMwA/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"くぼしょー\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-07T07:54:07Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"vOQZ7b-m15XCTdK55kZJncV5ZXY\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"z46o8cQYyzk\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-07T07:23:52Z\",\n        \"channelId\": \"UC85qsk-P71kWi3T8heaf0eA\",\n        \"title\": \"ランクルとプラドの雑談と筋トレをする。今日からベンチプレス復帰\",\n        \"description\": \"\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/z46o8cQYyzk/default_live.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/z46o8cQYyzk/mqdefault_live.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/z46o8cQYyzk/hqdefault_live.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"ふらちゃんfamily\",\n        \"liveBroadcastContent\": \"live\",\n        \"publishTime\": \"2021-04-07T07:23:52Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"h12NK2_LqBHDaCyPSD2w0_8JCUo\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"qjj947fi42c\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-07T04:49:43Z\",\n        \"channelId\": \"UC0-uAbhOXTMih3-Kl82ODFw\",\n        \"title\": \"【鉄アレイ】～気ままにatelierから～　　二の腕に力こぶ💪　　#筋トレ　#ハンドメイド　#エコバッグ　👜\",\n        \"description\": \"はい、こんにちは(^^) 必要かつ継続のひぃこです ＊3㎏は結構キツいぞ～と思いつつ、お願いマッスル       ＊エコバッグの中身.....《必要最小限の非常袋》メガネ  予備を ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/qjj947fi42c/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/qjj947fi42c/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/qjj947fi42c/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"ひぃこ【atelier ぷりしら】\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-07T04:49:43Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"FINrTScbHfMkD2DsCndyvfVdZ-E\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"qOvYI872j4g\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-07T04:40:15Z\",\n        \"channelId\": \"UCK2vZqAqvLZcW9AcaV7fw0A\",\n        \"title\": \"アフリカ奥地の野性的なトレーニングが凄い【筋トレ・ジム】instagramまとめ\",\n        \"description\": \"【再生リスト】 ボディメイク   https://youtube.com/playlist?list=PLfUAwFi3eE9zKCml8uQR8HvGlKWZ0r3_m 🌪️ストリートワークアウト🌪️ ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/qOvYI872j4g/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/qOvYI872j4g/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/qOvYI872j4g/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"筋肉屋\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-07T04:40:15Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"i_FGjC7Yl3uCa3vWWAXFazf3U_w\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"qZqydW9M154\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-07T03:52:46Z\",\n        \"channelId\": \"UCPpZGCVaBoRrJBYXCBTn1Ew\",\n        \"title\": \"#144【バイオハザードレジスタンス】完全な雑談枠と筋トレ 質問も初見コメントも歓迎！概要欄ご覧下さいませ。\",\n        \"description\": \"新作音楽動画作りました☆ 『バイオハザードRE2音楽動画』 バイオバイオハザードRE2と旧作バイオ2のエンディング曲を合わせてシェアファクトリーで編集しました。 ◯動画 ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/qZqydW9M154/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/qZqydW9M154/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/qZqydW9M154/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"のびきりママン\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-07T03:52:46Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"mKx4UudHpof0gpO_7gzKYTmoum0\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"hMq6peef8Ps\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-07T03:29:28Z\",\n        \"channelId\": \"UCvX5QSCV7pWq7uRoQK9iUig\",\n        \"title\": \"【筋トレ】筋肉息抜き配信！質問受付、近況報告、ネタ会議\",\n        \"description\": \"息抜き生配信！\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/hMq6peef8Ps/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/hMq6peef8Ps/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/hMq6peef8Ps/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"お菓子の詰め合わせ/I like sweets.\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-07T03:29:28Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"DdHk0lxYXnuJ7Oj8svGfS3M-TJU\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"vgsUa2FME4c\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-06T23:58:51Z\",\n        \"channelId\": \"UCOzIrGuzCVAjDZYckUXWcXQ\",\n        \"title\": \"【筋トレBGM】Best Workout Music Mix | Fitness &amp; Gym motivation Music 1hour\",\n        \"description\": \"筋トレBGM #ワークアウトBGM #筋トレ #腹筋 #ランニング #腕立て BGM ： 作業用BGM - 筋トレBGM - ランニングBGM - ブチ上がる洋楽 - 洋楽 ▽筋トレ 腹筋・腹筋 ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/vgsUa2FME4c/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/vgsUa2FME4c/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/vgsUa2FME4c/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"Natural Sound\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-06T23:58:51Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"TK98MnYmNTqPdaiQ-nbfZ7sauzs\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"fTaarQpWzGM\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-06T22:00:11Z\",\n        \"channelId\": \"UCrVE0oz4KeQ_VCM9fpkRALA\",\n        \"title\": \"【脳筋トレ】ありえない方法で攻略しようとする加賀美ハヤト【にじさんじ切り抜き】\",\n        \"description\": \"【アーカイブ】 【ゼルダの伝説 ブレス オブ ザ ワイルド】今度こそ本筋を追う枠【にじさんじ/加賀美ハヤト】 ⇒https://youtu.be/Hzn6SimnUp4 【加賀美ハヤト】 ・YouTube ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/fTaarQpWzGM/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/fTaarQpWzGM/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/fTaarQpWzGM/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"にじさんじ切り抜きチャンネル\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-06T22:00:11Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"fDYYb0Yy18RPZ955yOxKjj9uB6w\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"WjQ4sZMJHDg\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-06T16:11:41Z\",\n        \"channelId\": \"UC93X_ngUmGrFJrDMXzeyoZA\",\n        \"title\": \"【脚やせ】太もも痩せるストレッチとトレーニング、筋トレでダイエット！【太ももを細くする方法】【内もも痩せ 前もも痩せ 外もも痩せマッサージ効果】\",\n        \"description\": \"脚痩せ効果抜群！夏に向けてのダイエット！足をやせて素敵な生活を！ これからいろいろ、素敵な動画をアップしていくので よろしくお願いします。 ・シミの消しかた ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/WjQ4sZMJHDg/default_live.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/WjQ4sZMJHDg/mqdefault_live.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/WjQ4sZMJHDg/hqdefault_live.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"全人類健康化計画フルボディチャンネル\",\n        \"liveBroadcastContent\": \"upcoming\",\n        \"publishTime\": \"2021-04-06T16:11:41Z\"\n      }\n    }\n  ]\n}\n", @size=0, @positions=nil, @chunk_size=nil>, @previous=nil>
+Success - #<Google::Apis::YoutubeV3::SearchListsResponse:0x00007fb533b6a2e8
+ @etag="omu1VtEJMyOCyQE2GesloPxHjiA",
+ @items=
+  [#<Google::Apis::YoutubeV3::SearchResult:0x00007fb534d5d298
+    @etag="V5FpBOqELGphbhlTtCbMc3pnbyA",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fb530e52670
+      @kind="youtube#video",
+      @video_id="QqDTjzLvjRo">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fb533bf7af8
+      @channel_id="UCKuKJHdK8hmwNXpEcHPK8FQ",
+      @channel_title="筋トレの科学",
+      @description=
+       "この動画を観ると ・上腕三頭筋の解剖学 ・上腕三頭筋の鍛え方が分かります。 このチャンネルは『筋トレをアニメーションでわかりやすく解説する』を目標に配信しています。",
+      @live_broadcast_content="none",
+      @published_at="2021-04-07T08:00:06Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fb534d65fd8
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb53431b848
+          @height=90,
+          @url="https://i.ytimg.com/vi/QqDTjzLvjRo/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb534318760
+          @height=360,
+          @url="https://i.ytimg.com/vi/QqDTjzLvjRo/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb533bfd908
+          @height=180,
+          @url="https://i.ytimg.com/vi/QqDTjzLvjRo/mqdefault.jpg",
+          @width=320>>,
+      @title="科学的な上腕三頭筋の筋トレ！科学的に正しい鍛え方を徹底解説！">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fb534322918
+    @etag="Dcu5j_5ik2fx8rnJahSXwP4Ckl0",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fb534320140
+      @kind="youtube#video",
+      @video_id="1eYjXaHAMwA">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fb530e581d8
+      @channel_id="UCWiArAHioKznEIfFzJYkwyQ",
+      @channel_title="くぼしょー",
+      @description=
+       "今の目標はパワーリフティングの大会に出て スクワット:170kg ベンチプレス:110kg デットリフ:210kg 合計490kg □説明 毎週、ルーティン動画をあげます。 自分の日々の ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-07T07:54:07Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fb534328db8
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb534328660
+          @height=90,
+          @url="https://i.ytimg.com/vi/1eYjXaHAMwA/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb5343302c0
+          @height=360,
+          @url="https://i.ytimg.com/vi/1eYjXaHAMwA/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb530e627f0
+          @height=180,
+          @url="https://i.ytimg.com/vi/1eYjXaHAMwA/mqdefault.jpg",
+          @width=320>>,
+      @title="【平日ルーティン】27歳筋トレ大好きエンジニアの日常【BIG3強化中】">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fb533c07868
+    @etag="vOQZ7b-m15XCTdK55kZJncV5ZXY",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fb533c05338
+      @kind="youtube#video",
+      @video_id="z46o8cQYyzk">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fb533c0f1a8
+      @channel_id="UC85qsk-P71kWi3T8heaf0eA",
+      @channel_title="ふらちゃんfamily",
+      @description="",
+      @live_broadcast_content="live",
+      @published_at="2021-04-07T07:23:52Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fb53433bbc0
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb53433a810
+          @height=90,
+          @url="https://i.ytimg.com/vi/z46o8cQYyzk/default_live.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb53883a820
+          @height=360,
+          @url="https://i.ytimg.com/vi/z46o8cQYyzk/hqdefault_live.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb533c158f0
+          @height=180,
+          @url="https://i.ytimg.com/vi/z46o8cQYyzk/mqdefault_live.jpg",
+          @width=320>>,
+      @title="ランクルとプラドの雑談と筋トレをする。今日からベンチプレス復帰">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fb53434a6e8
+    @etag="h12NK2_LqBHDaCyPSD2w0_8JCUo",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fb534d7e8f8
+      @kind="youtube#video",
+      @video_id="qjj947fi42c">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fb534d86da0
+      @channel_id="UC0-uAbhOXTMih3-Kl82ODFw",
+      @channel_title="ひぃこ【atelier ぷりしら】",
+      @description=
+       "はい、こんにちは(^^) 必要かつ継続のひぃこです ＊3㎏は結構キツいぞ～と思いつつ、お願いマッスル       ＊エコバッグの中身.....《必要最小限の非常袋》メガネ  予備を ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-07T04:49:43Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fb530e731e0
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb530e71bb0
+          @height=90,
+          @url="https://i.ytimg.com/vi/qjj947fi42c/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb534d8f568
+          @height=360,
+          @url="https://i.ytimg.com/vi/qjj947fi42c/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb534d8c9a8
+          @height=180,
+          @url="https://i.ytimg.com/vi/qjj947fi42c/mqdefault.jpg",
+          @width=320>>,
+      @title="【鉄アレイ】～気ままにatelierから～　　二の腕に力こぶ💪　　#筋トレ　#ハンドメイド　#エコバッグ　👜">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fb533c1c178
+    @etag="FINrTScbHfMkD2DsCndyvfVdZ-E",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fb534d961b0
+      @kind="youtube#video",
+      @video_id="qOvYI872j4g">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fb534d9d4d8
+      @channel_id="UCK2vZqAqvLZcW9AcaV7fw0A",
+      @channel_title="筋肉屋",
+      @description=
+       "【再生リスト】 ボディメイク   https://youtube.com/playlist?list=PLfUAwFi3eE9zKCml8uQR8HvGlKWZ0r3_m 🌪️ストリートワークアウト🌪️ ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-07T04:40:15Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fb533c27528
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb533c245d0
+          @height=90,
+          @url="https://i.ytimg.com/vi/qOvYI872j4g/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb533c2fbd8
+          @height=360,
+          @url="https://i.ytimg.com/vi/qOvYI872j4g/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb533c37888
+          @height=180,
+          @url="https://i.ytimg.com/vi/qOvYI872j4g/mqdefault.jpg",
+          @width=320>>,
+      @title="アフリカ奥地の野性的なトレーニングが凄い【筋トレ・ジム】instagramまとめ">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fb533c351c8
+    @etag="i_FGjC7Yl3uCa3vWWAXFazf3U_w",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fb530e7bb60
+      @kind="youtube#video",
+      @video_id="qZqydW9M154">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fb534dafae8
+      @channel_id="UCPpZGCVaBoRrJBYXCBTn1Ew",
+      @channel_title="のびきりママン",
+      @description=
+       "新作音楽動画作りました☆ 『バイオハザードRE2音楽動画』 バイオバイオハザードRE2と旧作バイオ2のエンディング曲を合わせてシェアファクトリーで編集しました。 ◯動画 ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-07T03:52:46Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fb530e83db0
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb530e81fb0
+          @height=90,
+          @url="https://i.ytimg.com/vi/qZqydW9M154/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb534db6f78
+          @height=360,
+          @url="https://i.ytimg.com/vi/qZqydW9M154/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb530e8b240
+          @height=180,
+          @url="https://i.ytimg.com/vi/qZqydW9M154/mqdefault.jpg",
+          @width=320>>,
+      @title="#144【バイオハザードレジスタンス】完全な雑談枠と筋トレ 質問も初見コメントも歓迎！概要欄ご覧下さいませ。">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fb534dbfad8
+    @etag="mKx4UudHpof0gpO_7gzKYTmoum0",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fb534dbea98
+      @kind="youtube#video",
+      @video_id="hMq6peef8Ps">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fb534dc7580
+      @channel_id="UCvX5QSCV7pWq7uRoQK9iUig",
+      @channel_title="お菓子の詰め合わせ/I like sweets.",
+      @description="息抜き生配信！",
+      @live_broadcast_content="none",
+      @published_at="2021-04-07T03:29:28Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fb530e933c8
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb530e92590
+          @height=90,
+          @url="https://i.ytimg.com/vi/hMq6peef8Ps/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb5343531f8
+          @height=360,
+          @url="https://i.ytimg.com/vi/hMq6peef8Ps/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb533c3f3a8
+          @height=180,
+          @url="https://i.ytimg.com/vi/hMq6peef8Ps/mqdefault.jpg",
+          @width=320>>,
+      @title="【筋トレ】筋肉息抜き配信！質問受付、近況報告、ネタ会議">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fb533c3c950
+    @etag="DdHk0lxYXnuJ7Oj8svGfS3M-TJU",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fb534dce420
+      @kind="youtube#video",
+      @video_id="vgsUa2FME4c">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fb530e9b140
+      @channel_id="UCOzIrGuzCVAjDZYckUXWcXQ",
+      @channel_title="Natural Sound",
+      @description=
+       "筋トレBGM #ワークアウトBGM #筋トレ #腹筋 #ランニング #腕立て BGM ： 作業用BGM - 筋トレBGM - ランニングBGM - ブチ上がる洋楽 - 洋楽 ▽筋トレ 腹筋・腹筋 ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-06T23:58:51Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fb530ea3368
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb530ea1a68
+          @height=90,
+          @url="https://i.ytimg.com/vi/vgsUa2FME4c/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb530eab720
+          @height=360,
+          @url="https://i.ytimg.com/vi/vgsUa2FME4c/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb530ea9ad8
+          @height=180,
+          @url="https://i.ytimg.com/vi/vgsUa2FME4c/mqdefault.jpg",
+          @width=320>>,
+      @title=
+       "【筋トレBGM】Best Workout Music Mix | Fitness &amp; Gym motivation Music 1hour">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fb534dd7688
+    @etag="TK98MnYmNTqPdaiQ-nbfZ7sauzs",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fb534dd55e0
+      @kind="youtube#video",
+      @video_id="fTaarQpWzGM">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fb530eb1508
+      @channel_id="UCrVE0oz4KeQ_VCM9fpkRALA",
+      @channel_title="にじさんじ切り抜きチャンネル",
+      @description=
+       "【アーカイブ】 【ゼルダの伝説 ブレス オブ ザ ワイルド】今度こそ本筋を追う枠【にじさんじ/加賀美ハヤト】 ⇒https://youtu.be/Hzn6SimnUp4 【加賀美ハヤト】 ・YouTube ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-06T22:00:11Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fb533c443a8
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb530ebb648
+          @height=90,
+          @url="https://i.ytimg.com/vi/fTaarQpWzGM/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb530eb92f8
+          @height=360,
+          @url="https://i.ytimg.com/vi/fTaarQpWzGM/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb530ec2cb8
+          @height=180,
+          @url="https://i.ytimg.com/vi/fTaarQpWzGM/mqdefault.jpg",
+          @width=320>>,
+      @title="【脳筋トレ】ありえない方法で攻略しようとする加賀美ハヤト【にじさんじ切り抜き】">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fb53435b218
+    @etag="fDYYb0Yy18RPZ955yOxKjj9uB6w",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fb534359ee0
+      @kind="youtube#video",
+      @video_id="WjQ4sZMJHDg">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fb534363df0
+      @channel_id="UC93X_ngUmGrFJrDMXzeyoZA",
+      @channel_title="全人類健康化計画フルボディチャンネル",
+      @description=
+       "脚痩せ効果抜群！夏に向けてのダイエット！足をやせて素敵な生活を！ これからいろいろ、素敵な動画をアップしていくので よろしくお願いします。 ・シミの消しかた ...",
+      @live_broadcast_content="upcoming",
+      @published_at="2021-04-06T16:11:41Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fb534ddf798
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb534dddb50
+          @height=90,
+          @url="https://i.ytimg.com/vi/WjQ4sZMJHDg/default_live.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb530ecbed0
+          @height=360,
+          @url="https://i.ytimg.com/vi/WjQ4sZMJHDg/hqdefault_live.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb530ec8320
+          @height=180,
+          @url="https://i.ytimg.com/vi/WjQ4sZMJHDg/mqdefault_live.jpg",
+          @width=320>>,
+      @title=
+       "【脚やせ】太もも痩せるストレッチとトレーニング、筋トレでダイエット！【太ももを細くする方法】【内もも痩せ 前もも痩せ 外もも痩せマッサージ効果】">>],
+ @kind="youtube#searchListResponse",
+ @next_page_token="CAoQAA",
+ @page_info=
+  #<Google::Apis::YoutubeV3::PageInfo:0x00007fb534de76c8
+   @results_per_page=10,
+   @total_results=96049>,
+ @region_code="JP">
+
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.6ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "筋トレ"], ["title", "科学的な上腕三頭筋の筋トレ！科学的に正しい鍛え方を徹底解説！"], ["video_id", "QqDTjzLvjRo"], ["created_at", "2021-04-07 08:08:14.273210"], ["updated_at", "2021-04-07 08:08:14.273210"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "筋トレ"], ["title", "【平日ルーティン】27歳筋トレ大好きエンジニアの日常【BIG3強化中】"], ["video_id", "1eYjXaHAMwA"], ["created_at", "2021-04-07 08:08:14.275792"], ["updated_at", "2021-04-07 08:08:14.275792"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "筋トレ"], ["title", "ランクルとプラドの雑談と筋トレをする。今日からベンチプレス復帰"], ["video_id", "z46o8cQYyzk"], ["created_at", "2021-04-07 08:08:14.278011"], ["updated_at", "2021-04-07 08:08:14.278011"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "筋トレ"], ["title", "【鉄アレイ】～気ままにatelierから～　　二の腕に力こぶ💪　　#筋トレ　#ハンドメイド　#エコバッグ　👜"], ["video_id", "qjj947fi42c"], ["created_at", "2021-04-07 08:08:14.279581"], ["updated_at", "2021-04-07 08:08:14.279581"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "筋トレ"], ["title", "アフリカ奥地の野性的なトレーニングが凄い【筋トレ・ジム】instagramまとめ"], ["video_id", "qOvYI872j4g"], ["created_at", "2021-04-07 08:08:14.280876"], ["updated_at", "2021-04-07 08:08:14.280876"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "筋トレ"], ["title", "#144【バイオハザードレジスタンス】完全な雑談枠と筋トレ 質問も初見コメントも歓迎！概要欄ご覧下さいませ。"], ["video_id", "qZqydW9M154"], ["created_at", "2021-04-07 08:08:14.282290"], ["updated_at", "2021-04-07 08:08:14.282290"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "筋トレ"], ["title", "【筋トレ】筋肉息抜き配信！質問受付、近況報告、ネタ会議"], ["video_id", "hMq6peef8Ps"], ["created_at", "2021-04-07 08:08:14.284045"], ["updated_at", "2021-04-07 08:08:14.284045"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "筋トレ"], ["title", "【筋トレBGM】Best Workout Music Mix | Fitness &amp; Gym motivation Music 1hour"], ["video_id", "vgsUa2FME4c"], ["created_at", "2021-04-07 08:08:14.285753"], ["updated_at", "2021-04-07 08:08:14.285753"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "筋トレ"], ["title", "【脳筋トレ】ありえない方法で攻略しようとする加賀美ハヤト【にじさんじ切り抜き】"], ["video_id", "fTaarQpWzGM"], ["created_at", "2021-04-07 08:08:14.287557"], ["updated_at", "2021-04-07 08:08:14.287557"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "筋トレ"], ["title", "【脚やせ】太もも痩せるストレッチとトレーニング、筋トレでダイエット！【太ももを細くする方法】【内もも痩せ 前もも痩せ 外もも痩せマッサージ効果】"], ["video_id", "WjQ4sZMJHDg"], ["created_at", "2021-04-07 08:08:14.289211"], ["updated_at", "2021-04-07 08:08:14.289211"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Sending HTTP get https://youtube.googleapis.com/youtube/v3/search?key=AIzaSyCdBixnc_GiqWpyujqvrP1nrAhKGWg4Jnc&maxResults=10&order=date&part=snippet&publishedAfter=2021-03-07T17%3A08%3A13%2B09%3A00&publishedBefore=2021-04-07T17%3A08%3A13%2B09%3A00&q=%E3%82%B9%E3%83%88%E3%83%AC%E3%83%83%E3%83%81&type=video
+200
+#<HTTP::Message:0x00007fb53aa2a610 @http_header=#<HTTP::Message::Headers:0x00007fb53aa2a5e8 @http_version="1.1", @body_size=0, @chunked=false, @request_method="GET", @request_uri=#<Addressable::URI:0x3fda9d5158d0 URI:https://youtube.googleapis.com/youtube/v3/search?key=AIzaSyCdBixnc_GiqWpyujqvrP1nrAhKGWg4Jnc&maxResults=10&order=date&part=snippet&publishedAfter=2021-03-07T17%3A08%3A13%2B09%3A00&publishedBefore=2021-04-07T17%3A08%3A13%2B09%3A00&q=%E3%82%B9%E3%83%88%E3%83%AC%E3%83%83%E3%83%81&type=video>, @request_query=nil, @request_absolute_uri=nil, @status_code=200, @reason_phrase="OK", @body_type=nil, @body_charset=nil, @body_date=nil, @body_encoding=#<Encoding:UTF-8>, @is_request=false, @header_item=[["Content-Type", "application/json; charset=UTF-8"], ["Vary", "Origin"], ["Vary", "X-Origin"], ["Vary", "Referer"], ["Content-Encoding", "gzip"], ["Date", "Wed, 07 Apr 2021 08:08:14 GMT"], ["Server", "scaffolding on HTTPServer2"], ["Cache-Control", "private"], ["X-XSS-Protection", "0"], ["X-Frame-Options", "SAMEORIGIN"], ["X-Content-Type-Options", "nosniff"], ["Alt-Svc", "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""], ["Transfer-Encoding", "chunked"]], @dumped=false>, @peer_cert=#<OpenSSL::X509::Certificate: subject=#<OpenSSL::X509::Name CN=upload.video.google.com,O=Google LLC,L=Mountain View,ST=California,C=US>, issuer=#<OpenSSL::X509::Name CN=GTS CA 1O1,O=Google Trust Services,C=US>, serial=#<OpenSSL::BN:0x00007fb53aa40078>, not_before=2021-03-16 19:33:26 UTC, not_after=2021-06-08 19:33:25 UTC>, @http_body=#<HTTP::Message::Body:0x00007fb53aa2a570 @body="{\n  \"kind\": \"youtube#searchListResponse\",\n  \"etag\": \"fNI0xiWJpovHRsB7i6jmYDlWh2U\",\n  \"nextPageToken\": \"CAoQAA\",\n  \"regionCode\": \"JP\",\n  \"pageInfo\": {\n    \"totalResults\": 98596,\n    \"resultsPerPage\": 10\n  },\n  \"items\": [\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"v39-e0nyC8hmC5HvQ5gQ5QRvFD4\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"U3OtCYbSUvI\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-07T08:00:06Z\",\n        \"channelId\": \"UCvieQMTp_X_owhBRItONIDg\",\n        \"title\": \"【ながらストレッチ】お金かからず！簡単！家のキッチンやテーブルや壁を使ってエクササイズ7選！【プロトレーナー】\",\n        \"description\": \"今回はスポーツオーソリティ幕張新都心店コンディショニングセンターのアスレティックトレーナーの長谷川が、自宅にあるものを使って簡単にできるストレッチ(立ちながら ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/U3OtCYbSUvI/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/U3OtCYbSUvI/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/U3OtCYbSUvI/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"スポーツオーソリティ\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-07T08:00:06Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"rObiNbX4wM0lKFXojmmRjHwmyVM\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"Kn_nQWYvMSQ\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-07T07:45:00Z\",\n        \"channelId\": \"UCmpwIqPLM3h3XUPEDT7owrQ\",\n        \"title\": \"第40回慢性痛講座 ストレッチ4\",\n        \"description\": \"慢性痛診療の第一人者である北原雅樹医師が慢性痛について、わかりやすく説明していきます。 毎週水曜日更新中 続きが気になる方はチャンネル登録 役に立ったら高 ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/Kn_nQWYvMSQ/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/Kn_nQWYvMSQ/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/Kn_nQWYvMSQ/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"慢性の痛み講座 北原先生の痛み塾\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-07T07:45:00Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"-ruP0h9oh2KUEoLMvcBMDBfj3do\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"Ep6AbWYywbQ\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-07T06:28:32Z\",\n        \"channelId\": \"UCMD_15tPNKlFTe_lD86QH-w\",\n        \"title\": \"在宅ワークの1日の・終わりにスッキリストレッチ・伸び伸び伸ばしてスッキリ・やってみよう！\",\n        \"description\": \"上半身を伸ばしスッキリストレッチ・やらないよりやった方がいいよ！レッツGO！\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/Ep6AbWYywbQ/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/Ep6AbWYywbQ/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/Ep6AbWYywbQ/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"野尻和暉 チャンネル\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-07T06:28:32Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"zIs5YSTEYOW90uZUxknpl1AUdz0\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"Ia96MfEkVkU\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-07T05:40:53Z\",\n        \"channelId\": \"UCye9tdvAw2D2wRdfS3AdB4Q\",\n        \"title\": \"足の親指から足裏の土踏まず（アーチ）をほぐすストレッチ #Shorts\",\n        \"description\": \"足の疲労改善 ／ 【効果】 足裏がほぐれる ふくらはぎのむくみ改善 足の疲労改善 足裏のアーチケア 【姿勢】 床に座位姿勢 【方法】 両手で足の親指を保持する 足の ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/Ia96MfEkVkU/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/Ia96MfEkVkU/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/Ia96MfEkVkU/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"1分動画〖QITANO〗カラダづくりラボ\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-07T05:40:53Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"p7yRvrfh5mPcVVIfe8etmY0DBM8\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"P2qxc_ye6OI\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-07T05:19:56Z\",\n        \"channelId\": \"UCdmQ2I35SIYBZ2j7mrwdpLQ\",\n        \"title\": \"【ITEMS】ストレッチジャケット / タックパンツセット\",\n        \"description\": \"これからの春シーズンに一着は持っておきたいセットアップが登場。 ストレッチが効いた伸縮性がある生地と、程よい光沢感が上品な印象も与えてくれる一着。 ジャケットは ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/P2qxc_ye6OI/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/P2qxc_ye6OI/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/P2qxc_ye6OI/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"UR ONLINESTORE\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-07T05:19:56Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"8wflnpr34g2g9f2i5x-NV_1sf6w\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"Vz7cE2Z05SE\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-07T05:19:50Z\",\n        \"channelId\": \"UCdmQ2I35SIYBZ2j7mrwdpLQ\",\n        \"title\": \"【ITEMS】ストレッチスリムクライミングパンツ\",\n        \"description\": \"細身のシルエットながら、アクティブな動きにも対応可能なスリムクライミングパンツが登場。 伸縮性が高いストレッチ性に優れた素材がストレスフリーは履き心地を実現し、 ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/Vz7cE2Z05SE/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/Vz7cE2Z05SE/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/Vz7cE2Z05SE/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"UR ONLINESTORE\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-07T05:19:50Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"_iDWgdfPM3Cyg99DXGNUtdGO_Y8\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"xOyL1R71e-o\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-07T05:16:51Z\",\n        \"channelId\": \"UC7qs3JzWooC51jp-fR1S-8Q\",\n        \"title\": \"手の疲れに効く〜！デスクワークストレッチ【オフィストレッチ 】\",\n        \"description\": \"是非、1日1回、一緒にやっていきましょう！ ツイッター: https://twitter.com/provita_shisei インスタグラム：https://www.instagram.com/provita_shisei/ ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/xOyL1R71e-o/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/xOyL1R71e-o/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/xOyL1R71e-o/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"ケービー\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-07T05:16:51Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"uwT4nTGo05zH5ky9UV6yVB7mD6A\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"Efk1gpLrkyI\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-07T05:12:36Z\",\n        \"channelId\": \"UC7qs3JzWooC51jp-fR1S-8Q\",\n        \"title\": \"デスクワーク後のリフレッシュ！腰痛予防ストレッチ【オフィストレッチ 腰痛編】\",\n        \"description\": \"是非、1日1回、一緒にやっていきましょう！ ツイッター: https://twitter.com/provita_shisei インスタグラム：https://www.instagram.com/provita_shisei/ ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/Efk1gpLrkyI/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/Efk1gpLrkyI/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/Efk1gpLrkyI/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"ケービー\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-07T05:12:36Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"Nkzi8WgFyqtp-ugLNLQzS7YKLTY\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"KnPdJZBWekA\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-07T05:04:37Z\",\n        \"channelId\": \"UC7qs3JzWooC51jp-fR1S-8Q\",\n        \"title\": \"【手の疲れ改善】美容師さんが絶対やるべきストレッチ動画！胸郭出口症候群を予防しよう！\",\n        \"description\": \"是非、1日1回、一緒にやっていきましょう！ ツイッター: https://twitter.com/provita_shisei インスタグラム：https://www.instagram.com/provita_shisei/ ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/KnPdJZBWekA/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/KnPdJZBWekA/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/KnPdJZBWekA/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"ケービー\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-07T05:04:37Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"DIZqNLneYQ7meMOMJx5AQcsbzyw\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"6hKwEjLqxcE\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-07T04:55:14Z\",\n        \"channelId\": \"UCL1S5co3GJ2RMZlNflqGmzA\",\n        \"title\": \"【６分間】すっきりリフレッシュ！ストレッチ\",\n        \"description\": \"６分間で簡単すっきりストレッチ！ ちょっと休憩しませんか？ 愉快なナレーションで笑っていただけたら。 うるさかったらごめんなさい。 ー❁ー❁ー❁ー❁ー❁ー❁ー❁ー❁ー❁ー❁ ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/6hKwEjLqxcE/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/6hKwEjLqxcE/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/6hKwEjLqxcE/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"L.S.I. official channel\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-07T04:55:14Z\"\n      }\n    }\n  ]\n}\n", @size=0, @positions=nil, @chunk_size=nil>, @previous=nil>
+Success - #<Google::Apis::YoutubeV3::SearchListsResponse:0x00007fb53aa4b450
+ @etag="fNI0xiWJpovHRsB7i6jmYDlWh2U",
+ @items=
+  [#<Google::Apis::YoutubeV3::SearchResult:0x00007fb53aa5be40
+    @etag="v39-e0nyC8hmC5HvQ5gQ5QRvFD4",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fb53aa5b5a8
+      @kind="youtube#video",
+      @video_id="U3OtCYbSUvI">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fb53aa5a4c8
+      @channel_id="UCvieQMTp_X_owhBRItONIDg",
+      @channel_title="スポーツオーソリティ",
+      @description=
+       "今回はスポーツオーソリティ幕張新都心店コンディショニングセンターのアスレティックトレーナーの長谷川が、自宅にあるものを使って簡単にできるストレッチ(立ちながら ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-07T08:00:06Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fb53aa593c0
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb53aa58e48
+          @height=90,
+          @url="https://i.ytimg.com/vi/U3OtCYbSUvI/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb53aa58150
+          @height=360,
+          @url="https://i.ytimg.com/vi/U3OtCYbSUvI/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb53aa63280
+          @height=180,
+          @url="https://i.ytimg.com/vi/U3OtCYbSUvI/mqdefault.jpg",
+          @width=320>>,
+      @title="【ながらストレッチ】お金かからず！簡単！家のキッチンやテーブルや壁を使ってエクササイズ7選！【プロトレーナー】">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fb53aa62330
+    @etag="rObiNbX4wM0lKFXojmmRjHwmyVM",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fb53aa61bd8
+      @kind="youtube#video",
+      @video_id="Kn_nQWYvMSQ">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fb53aa60af8
+      @channel_id="UCmpwIqPLM3h3XUPEDT7owrQ",
+      @channel_title="慢性の痛み講座 北原先生の痛み塾",
+      @description=
+       "慢性痛診療の第一人者である北原雅樹医師が慢性痛について、わかりやすく説明していきます。 毎週水曜日更新中 続きが気になる方はチャンネル登録 役に立ったら高 ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-07T07:45:00Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fb53aa6ba20
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb53aa6b318
+          @height=90,
+          @url="https://i.ytimg.com/vi/Kn_nQWYvMSQ/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb53aa6a800
+          @height=360,
+          @url="https://i.ytimg.com/vi/Kn_nQWYvMSQ/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb53aa69950
+          @height=180,
+          @url="https://i.ytimg.com/vi/Kn_nQWYvMSQ/mqdefault.jpg",
+          @width=320>>,
+      @title="第40回慢性痛講座 ストレッチ4">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fb53aa68988
+    @etag="-ruP0h9oh2KUEoLMvcBMDBfj3do",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fb53aa68050
+      @kind="youtube#video",
+      @video_id="Ep6AbWYywbQ">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fb53aa72e60
+      @channel_id="UCMD_15tPNKlFTe_lD86QH-w",
+      @channel_title="野尻和暉 チャンネル",
+      @description="上半身を伸ばしスッキリストレッチ・やらないよりやった方がいいよ！レッツGO！",
+      @live_broadcast_content="none",
+      @published_at="2021-04-07T06:28:32Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fb53aa71dd0
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb53aa718f8
+          @height=90,
+          @url="https://i.ytimg.com/vi/Ep6AbWYywbQ/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb53aa70bd8
+          @height=360,
+          @url="https://i.ytimg.com/vi/Ep6AbWYywbQ/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb53aa7bcb8
+          @height=180,
+          @url="https://i.ytimg.com/vi/Ep6AbWYywbQ/mqdefault.jpg",
+          @width=320>>,
+      @title="在宅ワークの1日の・終わりにスッキリストレッチ・伸び伸び伸ばしてスッキリ・やってみよう！">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fb53aa7ad68
+    @etag="zIs5YSTEYOW90uZUxknpl1AUdz0",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fb53aa7a638
+      @kind="youtube#video",
+      @video_id="Ia96MfEkVkU">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fb53aa79530
+      @channel_id="UCye9tdvAw2D2wRdfS3AdB4Q",
+      @channel_title="1分動画〖QITANO〗カラダづくりラボ",
+      @description=
+       "足の疲労改善 ／ 【効果】 足裏がほぐれる ふくらはぎのむくみ改善 足の疲労改善 足裏のアーチケア 【姿勢】 床に座位姿勢 【方法】 両手で足の親指を保持する 足の ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-07T05:40:53Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fb53aa784a0
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb53aa83d50
+          @height=90,
+          @url="https://i.ytimg.com/vi/Ia96MfEkVkU/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb53aa83288
+          @height=360,
+          @url="https://i.ytimg.com/vi/Ia96MfEkVkU/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb53aa82338
+          @height=180,
+          @url="https://i.ytimg.com/vi/Ia96MfEkVkU/mqdefault.jpg",
+          @width=320>>,
+      @title="足の親指から足裏の土踏まず（アーチ）をほぐすストレッチ #Shorts">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fb53aa81370
+    @etag="p7yRvrfh5mPcVVIfe8etmY0DBM8",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fb53aa80ad8
+      @kind="youtube#video",
+      @video_id="P2qxc_ye6OI">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fb53aa8b9b0
+      @channel_id="UCdmQ2I35SIYBZ2j7mrwdpLQ",
+      @channel_title="UR ONLINESTORE",
+      @description=
+       "これからの春シーズンに一着は持っておきたいセットアップが登場。 ストレッチが効いた伸縮性がある生地と、程よい光沢感が上品な印象も与えてくれる一着。 ジャケットは ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-07T05:19:56Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fb53aa8a8f8
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb53aa8a218
+          @height=90,
+          @url="https://i.ytimg.com/vi/P2qxc_ye6OI/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb53aa895e8
+          @height=360,
+          @url="https://i.ytimg.com/vi/P2qxc_ye6OI/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb53aa88990
+          @height=180,
+          @url="https://i.ytimg.com/vi/P2qxc_ye6OI/mqdefault.jpg",
+          @width=320>>,
+      @title="【ITEMS】ストレッチジャケット / タックパンツセット">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fb53aa938b8
+    @etag="8wflnpr34g2g9f2i5x-NV_1sf6w",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fb53aa930e8
+      @kind="youtube#video",
+      @video_id="Vz7cE2Z05SE">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fb53aa91f68
+      @channel_id="UCdmQ2I35SIYBZ2j7mrwdpLQ",
+      @channel_title="UR ONLINESTORE",
+      @description=
+       "細身のシルエットながら、アクティブな動きにも対応可能なスリムクライミングパンツが登場。 伸縮性が高いストレッチ性に優れた素材がストレスフリーは履き心地を実現し、 ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-07T05:19:50Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fb53aa90f50
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb53aa90870
+          @height=90,
+          @url="https://i.ytimg.com/vi/Vz7cE2Z05SE/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb53aa9bbd0
+          @height=360,
+          @url="https://i.ytimg.com/vi/Vz7cE2Z05SE/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb53aa9adc0
+          @height=180,
+          @url="https://i.ytimg.com/vi/Vz7cE2Z05SE/mqdefault.jpg",
+          @width=320>>,
+      @title="【ITEMS】ストレッチスリムクライミングパンツ">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fb53aa99e70
+    @etag="_iDWgdfPM3Cyg99DXGNUtdGO_Y8",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fb53aa99588
+      @kind="youtube#video",
+      @video_id="xOyL1R71e-o">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fb53aa984a8
+      @channel_id="UC7qs3JzWooC51jp-fR1S-8Q",
+      @channel_title="ケービー",
+      @description=
+       "是非、1日1回、一緒にやっていきましょう！ ツイッター: https://twitter.com/provita_shisei インスタグラム：https://www.instagram.com/provita_shisei/ ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-07T05:16:51Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fb53aaa3330
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb53aaa2db8
+          @height=90,
+          @url="https://i.ytimg.com/vi/xOyL1R71e-o/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb53aaa2098
+          @height=360,
+          @url="https://i.ytimg.com/vi/xOyL1R71e-o/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb53aaa1238
+          @height=180,
+          @url="https://i.ytimg.com/vi/xOyL1R71e-o/mqdefault.jpg",
+          @width=320>>,
+      @title="手の疲れに効く〜！デスクワークストレッチ【オフィストレッチ 】">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fb53aaa0540
+    @etag="uwT4nTGo05zH5ky9UV6yVB7mD6A",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fb53aaabb20
+      @kind="youtube#video",
+      @video_id="Efk1gpLrkyI">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fb53aaaa9c8
+      @channel_id="UC7qs3JzWooC51jp-fR1S-8Q",
+      @channel_title="ケービー",
+      @description=
+       "是非、1日1回、一緒にやっていきましょう！ ツイッター: https://twitter.com/provita_shisei インスタグラム：https://www.instagram.com/provita_shisei/ ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-07T05:12:36Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fb53aaa9938
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb53aaa9410
+          @height=90,
+          @url="https://i.ytimg.com/vi/Efk1gpLrkyI/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb53aaa86f0
+          @height=360,
+          @url="https://i.ytimg.com/vi/Efk1gpLrkyI/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb53aab3820
+          @height=180,
+          @url="https://i.ytimg.com/vi/Efk1gpLrkyI/mqdefault.jpg",
+          @width=320>>,
+      @title="デスクワーク後のリフレッシュ！腰痛予防ストレッチ【オフィストレッチ 腰痛編】">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fb53aab2970
+    @etag="Nkzi8WgFyqtp-ugLNLQzS7YKLTY",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fb53aab2060
+      @kind="youtube#video",
+      @video_id="KnPdJZBWekA">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fb53aab0f80
+      @channel_id="UC7qs3JzWooC51jp-fR1S-8Q",
+      @channel_title="ケービー",
+      @description=
+       "是非、1日1回、一緒にやっていきましょう！ ツイッター: https://twitter.com/provita_shisei インスタグラム：https://www.instagram.com/provita_shisei/ ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-07T05:04:37Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fb53aabbea8
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb53aabb9f8
+          @height=90,
+          @url="https://i.ytimg.com/vi/KnPdJZBWekA/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb53aabac88
+          @height=360,
+          @url="https://i.ytimg.com/vi/KnPdJZBWekA/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb53aab9d60
+          @height=180,
+          @url="https://i.ytimg.com/vi/KnPdJZBWekA/mqdefault.jpg",
+          @width=320>>,
+      @title="【手の疲れ改善】美容師さんが絶対やるべきストレッチ動画！胸郭出口症候群を予防しよう！">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fb53aab8e10
+    @etag="DIZqNLneYQ7meMOMJx5AQcsbzyw",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fb53aab8640
+      @kind="youtube#video",
+      @video_id="6hKwEjLqxcE">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fb53aac3450
+      @channel_id="UCL1S5co3GJ2RMZlNflqGmzA",
+      @channel_title="L.S.I. official channel",
+      @description=
+       "６分間で簡単すっきりストレッチ！ ちょっと休憩しませんか？ 愉快なナレーションで笑っていただけたら。 うるさかったらごめんなさい。 ー❁ー❁ー❁ー❁ー❁ー❁ー❁ー❁ー❁ー❁ ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-07T04:55:14Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fb53aac23c0
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb53aac1da8
+          @height=90,
+          @url="https://i.ytimg.com/vi/6hKwEjLqxcE/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb53aac1178
+          @height=360,
+          @url="https://i.ytimg.com/vi/6hKwEjLqxcE/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fb53aac0250
+          @height=180,
+          @url="https://i.ytimg.com/vi/6hKwEjLqxcE/mqdefault.jpg",
+          @width=320>>,
+      @title="【６分間】すっきりリフレッシュ！ストレッチ">>],
+ @kind="youtube#searchListResponse",
+ @next_page_token="CAoQAA",
+ @page_info=
+  #<Google::Apis::YoutubeV3::PageInfo:0x00007fb53aacacf0
+   @results_per_page=10,
+   @total_results=98596>,
+ @region_code="JP">
+
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ストレッチ"], ["title", "【ながらストレッチ】お金かからず！簡単！家のキッチンやテーブルや壁を使ってエクササイズ7選！【プロトレーナー】"], ["video_id", "U3OtCYbSUvI"], ["created_at", "2021-04-07 08:08:14.620144"], ["updated_at", "2021-04-07 08:08:14.620144"]]
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ストレッチ"], ["title", "第40回慢性痛講座 ストレッチ4"], ["video_id", "Kn_nQWYvMSQ"], ["created_at", "2021-04-07 08:08:14.622730"], ["updated_at", "2021-04-07 08:08:14.622730"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ストレッチ"], ["title", "在宅ワークの1日の・終わりにスッキリストレッチ・伸び伸び伸ばしてスッキリ・やってみよう！"], ["video_id", "Ep6AbWYywbQ"], ["created_at", "2021-04-07 08:08:14.624817"], ["updated_at", "2021-04-07 08:08:14.624817"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ストレッチ"], ["title", "足の親指から足裏の土踏まず（アーチ）をほぐすストレッチ #Shorts"], ["video_id", "Ia96MfEkVkU"], ["created_at", "2021-04-07 08:08:14.626566"], ["updated_at", "2021-04-07 08:08:14.626566"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ストレッチ"], ["title", "【ITEMS】ストレッチジャケット / タックパンツセット"], ["video_id", "P2qxc_ye6OI"], ["created_at", "2021-04-07 08:08:14.628415"], ["updated_at", "2021-04-07 08:08:14.628415"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ストレッチ"], ["title", "【ITEMS】ストレッチスリムクライミングパンツ"], ["video_id", "Vz7cE2Z05SE"], ["created_at", "2021-04-07 08:08:14.630024"], ["updated_at", "2021-04-07 08:08:14.630024"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ストレッチ"], ["title", "手の疲れに効く〜！デスクワークストレッチ【オフィストレッチ 】"], ["video_id", "xOyL1R71e-o"], ["created_at", "2021-04-07 08:08:14.631559"], ["updated_at", "2021-04-07 08:08:14.631559"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ストレッチ"], ["title", "デスクワーク後のリフレッシュ！腰痛予防ストレッチ【オフィストレッチ 腰痛編】"], ["video_id", "Efk1gpLrkyI"], ["created_at", "2021-04-07 08:08:14.633296"], ["updated_at", "2021-04-07 08:08:14.633296"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ストレッチ"], ["title", "【手の疲れ改善】美容師さんが絶対やるべきストレッチ動画！胸郭出口症候群を予防しよう！"], ["video_id", "KnPdJZBWekA"], ["created_at", "2021-04-07 08:08:14.634927"], ["updated_at", "2021-04-07 08:08:14.634927"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ストレッチ"], ["title", "【６分間】すっきりリフレッシュ！ストレッチ"], ["video_id", "6hKwEjLqxcE"], ["created_at", "2021-04-07 08:08:14.636608"], ["updated_at", "2021-04-07 08:08:14.636608"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Started POST "/users" for ::1 at 2021-04-07 17:08:32 +0900
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/yoshiokasusumu/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Kql31C8qs2yE6f6RUmu7K-i8sou_i3ykG0EHZzvZeTgAGD4vFFaIU3MDxD8Y_vp0DmUWJrpjvUwlU9RxdM_o0w", "user"=>{"name"=>"よしおかしょう", "email"=>"yoshioka0606@outlook.jp", "set_time"=>"1", "break_time"=>"1", "category"=>"筋トレ"}, "commit"=>"アプリスタート"}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "start_time", "set_time", "break_time", "category") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["name", "よしおかしょう"], ["email", "yoshioka0606@outlook.jp"], ["created_at", "2021-04-07 08:08:32.113607"], ["updated_at", "2021-04-07 08:08:32.113607"], ["start_time", "2021-04-07 08:08:32.112479"], ["set_time", 1], ["break_time", 1], ["category", "筋トレ"]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 77], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:7
+Redirected to http://localhost:3000/
+Completed 302 Found in 33ms (ActiveRecord: 6.2ms)
+
+
+Started GET "/" for ::1 at 2021-04-07 17:08:32 +0900
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 77], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:5
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (17.6ms)
+Completed 200 OK in 383ms (Views: 380.4ms | ActiveRecord: 0.2ms)
+
+
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mVideo Load (0.3ms)[0m  [1m[34mSELECT "videos".* FROM "videos" WHERE "videos"."category_name" = $1[0m  [["category_name", "筋トレ"]]
+  ↳ app/mailers/youtube_mailer.rb:6
+  Rendering youtube_mailer/youtube_mail.html.erb within layouts/mailer
+  Rendered youtube_mailer/youtube_mail.html.erb within layouts/mailer (0.7ms)
+YoutubeMailer#youtube_mail: processed outbound mail in 285.5ms
+Sent mail to yoshioka0606@outlook.jp (13.1ms)
+Date: Wed, 07 Apr 2021 17:09:02 +0900
+From: sue@example.com
+To: yoshioka0606@outlook.jp
+Message-ID: <606d689e64e9f_719a3ff4f843204c82962@yoshiokasusumunoMacBook-Pro.local.mail>
+Subject: =?UTF-8?Q?=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F?=
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    <h1>=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F</=
+h1>=0D
+<iframe width=3D"560" height=3D"315" src=3D"https://www.youtube.com/embed=
+/hMq6peef8Ps" title=3D"YouTube video player" frameborder=3D"0" allow=3D"a=
+ccelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pict=
+ure-in-picture" allowfullscreen></iframe>=0D
+  </body>=0D
+</html>=0D
+
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Update (0.7ms)[0m  [1m[33mUPDATE "users" SET "start_time" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["start_time", "2021-04-07 08:10:02.423151"], ["updated_at", "2021-04-07 08:09:02.428086"], ["id", 77]]
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+Started DELETE "/users/77" for ::1 at 2021-04-07 17:10:16 +0900
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"gJPR0TPthkG3YMxPxdCmEg6LGmz9sABnYGR4AknNV9qqIpgqCJG9fkCK9uGPRedN6FK-wfhYwY9edqsUBtvGMQ", "id"=>"77"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 77], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:15
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:16
+  [1m[36mUser Destroy (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 77]]
+  ↳ app/controllers/users_controller.rb:16
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:16
+Redirected to http://localhost:3000/
+Completed 302 Found in 7ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/" for ::1 at 2021-04-07 17:10:16 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 69ms (Views: 67.0ms | ActiveRecord: 0.0ms)
+
+
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+Started POST "/users" for ::1 at 2021-04-07 17:11:16 +0900
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/yoshiokasusumu/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XC-_UeQe8b_SA83ZNRDJOovAwM4tqgtXV3F7pkrEyNJ2nvaq32LKgCXp93d_hYhlbRlkYyhCyr9pY6iwBdJZOQ", "user"=>{"name"=>"よしおかしょう", "email"=>"yoshioka0606@outlook.jp", "set_time"=>"1", "break_time"=>"1", "category"=>"ストレッチ"}, "commit"=>"アプリスタート"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "start_time", "set_time", "break_time", "category") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["name", "よしおかしょう"], ["email", "yoshioka0606@outlook.jp"], ["created_at", "2021-04-07 08:11:16.951699"], ["updated_at", "2021-04-07 08:11:16.951699"], ["start_time", "2021-04-07 08:11:16.950486"], ["set_time", 1], ["break_time", 1], ["category", "ストレッチ"]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 78], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:7
+Redirected to http://localhost:3000/
+Completed 302 Found in 33ms (ActiveRecord: 6.2ms)
+
+
+Started GET "/" for ::1 at 2021-04-07 17:11:16 +0900
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 78], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:5
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (26.3ms)
+Completed 200 OK in 467ms (Views: 463.9ms | ActiveRecord: 0.6ms)
+
+
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mVideo Load (0.3ms)[0m  [1m[34mSELECT "videos".* FROM "videos" WHERE "videos"."category_name" = $1[0m  [["category_name", "ストレッチ"]]
+  ↳ app/mailers/youtube_mailer.rb:6
+  Rendering youtube_mailer/youtube_mail.html.erb within layouts/mailer
+  Rendered youtube_mailer/youtube_mail.html.erb within layouts/mailer (0.5ms)
+YoutubeMailer#youtube_mail: processed outbound mail in 244.2ms
+Sent mail to yoshioka0606@outlook.jp (9.4ms)
+Date: Wed, 07 Apr 2021 17:12:02 +0900
+From: sue@example.com
+To: yoshioka0606@outlook.jp
+Message-ID: <606d69523eea0_72a33ff4e943204c848c2@yoshiokasusumunoMacBook-Pro.local.mail>
+Subject: =?UTF-8?Q?=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F?=
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    <h1>=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F</=
+h1>=0D
+<iframe width=3D"560" height=3D"315" src=3D"https://www.youtube.com/embed=
+/Ep6AbWYywbQ" title=3D"YouTube video player" frameborder=3D"0" allow=3D"a=
+ccelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pict=
+ure-in-picture" allowfullscreen></iframe>=0D
+  </body>=0D
+</html>=0D
+
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE "users" SET "start_time" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["start_time", "2021-04-07 08:13:02.266547"], ["updated_at", "2021-04-07 08:12:02.270640"], ["id", 78]]
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mVideo Load (0.3ms)[0m  [1m[34mSELECT "videos".* FROM "videos" WHERE "videos"."category_name" = $1[0m  [["category_name", "ストレッチ"]]
+  ↳ app/mailers/youtube_mailer.rb:6
+  Rendering youtube_mailer/youtube_mail.html.erb within layouts/mailer
+  Rendered youtube_mailer/youtube_mail.html.erb within layouts/mailer (0.5ms)
+YoutubeMailer#youtube_mail: processed outbound mail in 245.7ms
+Sent mail to yoshioka0606@outlook.jp (8.5ms)
+Date: Wed, 07 Apr 2021 17:14:02 +0900
+From: sue@example.com
+To: yoshioka0606@outlook.jp
+Message-ID: <606d69ca7d4c4_733e3fc815c3202c1636c@yoshiokasusumunoMacBook-Pro.local.mail>
+Subject: =?UTF-8?Q?=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F?=
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    <h1>=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F</=
+h1>=0D
+<iframe width=3D"560" height=3D"315" src=3D"https://www.youtube.com/embed=
+/KnPdJZBWekA" title=3D"YouTube video player" frameborder=3D"0" allow=3D"a=
+ccelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pict=
+ure-in-picture" allowfullscreen></iframe>=0D
+  </body>=0D
+</html>=0D
+
+  [1m[35m (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Update (0.9ms)[0m  [1m[33mUPDATE "users" SET "start_time" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["start_time", "2021-04-07 08:15:02.520741"], ["updated_at", "2021-04-07 08:14:02.526279"], ["id", 78]]
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+Started DELETE "/users/78" for ::1 at 2021-04-07 17:15:29 +0900
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"cxCGks8bJVPGhYhzEH8l_qFviVXh0cpPDTDwc0h6dmRZoc9p9GcebDFvst1a6mShR7Yt-OQ5C6czIiNlB2znjw", "id"=>"78"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 78], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:15
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:16
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 78]]
+  ↳ app/controllers/users_controller.rb:16
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:16
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/" for ::1 at 2021-04-07 17:15:29 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 45ms (Views: 43.6ms | ActiveRecord: 0.0ms)
+
+
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+Started POST "/users" for ::1 at 2021-04-07 17:16:45 +0900
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dxVxN8fswUwFKaReCtEn6ETquChTcQqXMcxOSRErvBVdpDjM_JD6c_LDnvBARGa3ojMchVaZy38P3p1fXj0t_g", "user"=>{"name"=>"よしおかしょう", "email"=>"yoshioka0606@outlook.jp", "set_time"=>"1", "break_time"=>"1", "category"=>"ストレッチ"}, "commit"=>"アプリスタート"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "start_time", "set_time", "break_time", "category") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["name", "よしおかしょう"], ["email", "yoshioka0606@outlook.jp"], ["created_at", "2021-04-07 08:16:45.641634"], ["updated_at", "2021-04-07 08:16:45.641634"], ["start_time", "2021-04-07 08:16:45.640976"], ["set_time", 1], ["break_time", 1], ["category", "ストレッチ"]]
+  ↳ app/controllers/users_controller.rb:5
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:5
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 79], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:7
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/" for ::1 at 2021-04-07 17:16:45 +0900
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 79], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:5
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 73ms (Views: 71.4ms | ActiveRecord: 0.2ms)
+
+
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mVideo Load (0.3ms)[0m  [1m[34mSELECT "videos".* FROM "videos" WHERE "videos"."category_name" = $1[0m  [["category_name", "ストレッチ"]]
+  ↳ app/mailers/youtube_mailer.rb:6
+  Rendering youtube_mailer/youtube_mail.html.erb within layouts/mailer
+  Rendered youtube_mailer/youtube_mail.html.erb within layouts/mailer (0.5ms)
+YoutubeMailer#youtube_mail: processed outbound mail in 244.7ms
+Sent mail to yoshioka0606@outlook.jp (7.6ms)
+Date: Wed, 07 Apr 2021 17:17:02 +0900
+From: sue@example.com
+To: yoshioka0606@outlook.jp
+Message-ID: <606d6a7e408ad_74313fdb63c3205c820cd@yoshiokasusumunoMacBook-Pro.local.mail>
+Subject: =?UTF-8?Q?=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F?=
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    <h1>=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F</=
+h1>=0D
+<iframe width=3D"560" height=3D"315" src=3D"https://www.youtube.com/embed=
+/KnPdJZBWekA" title=3D"YouTube video player" frameborder=3D"0" allow=3D"a=
+ccelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pict=
+ure-in-picture" allowfullscreen></iframe>=0D
+  </body>=0D
+</html>=0D
+
+  [1m[35m (1.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Update (0.8ms)[0m  [1m[33mUPDATE "users" SET "start_time" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["start_time", "2021-04-07 08:18:02.271115"], ["updated_at", "2021-04-07 08:17:02.276058"], ["id", 79]]
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mVideo Load (0.6ms)[0m  [1m[34mSELECT "videos".* FROM "videos" WHERE "videos"."category_name" = $1[0m  [["category_name", "ストレッチ"]]
+  ↳ app/mailers/youtube_mailer.rb:6
+  Rendering youtube_mailer/youtube_mail.html.erb within layouts/mailer
+  Rendered youtube_mailer/youtube_mail.html.erb within layouts/mailer (1.4ms)
+YoutubeMailer#youtube_mail: processed outbound mail in 864.3ms
+Sent mail to yoshioka0606@outlook.jp (16.4ms)
+Date: Wed, 07 Apr 2021 17:19:02 +0900
+From: sue@example.com
+To: yoshioka0606@outlook.jp
+Message-ID: <606d6af6a3acb_74ca3fc53943202c959de@yoshiokasusumunoMacBook-Pro.local.mail>
+Subject: =?UTF-8?Q?=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F?=
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html>=0D
+  <head>=0D
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8" />=0D
+    <style>=0D
+      /* Email styles need to be inline */=0D
+    </style>=0D
+  </head>=0D
+=0D
+  <body>=0D
+    <h1>=E3=82=AA=E3=82=B9=E3=82=B9=E3=83=A1=E3=81=AE=E7=94=BB=E5=83=8F</=
+h1>=0D
+<iframe width=3D"560" height=3D"315" src=3D"https://www.youtube.com/embed=
+/P2qxc_ye6OI" title=3D"YouTube video player" frameborder=3D"0" allow=3D"a=
+ccelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pict=
+ure-in-picture" allowfullscreen></iframe>=0D
+  </body>=0D
+</html>=0D
+
+  [1m[35m (1.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[36mUser Update (0.6ms)[0m  [1m[33mUPDATE "users" SET "start_time" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["start_time", "2021-04-07 08:20:02.682028"], ["updated_at", "2021-04-07 08:19:02.687901"], ["id", 79]]
+  ↳ lib/tasks/send_youtube.rake:9
+  [1m[35m (1.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ lib/tasks/send_youtube.rake:9
+Started DELETE "/users/79" for ::1 at 2021-04-07 17:19:14 +0900
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Py7FpQ4Qbxk28jXOsSPXHX6EYtsL9-dpRcpqNf4W_VsVn4xeNWxUJsEYD2D7tpZCmF3Gdg4fJoF72LkjsQBssA", "id"=>"79"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 79], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:15
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:16
+  [1m[36mUser Destroy (0.5ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 79]]
+  ↳ app/controllers/users_controller.rb:16
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:16
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/" for ::1 at 2021-04-07 17:19:14 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 57ms (Views: 55.8ms | ActiveRecord: 0.0ms)
+
+
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
