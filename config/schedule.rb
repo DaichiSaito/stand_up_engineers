@@ -26,3 +26,7 @@ set :output, "#{Rails.root}/log/cron.log"
 every 1.minutes do
     rake 'send_youtube:send_mail'
 end
+
+every :day, at: "0:00 am" do
+    rake 'save_videos:save_video'
+end
