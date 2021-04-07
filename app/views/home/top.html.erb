@@ -62,7 +62,12 @@
                       <%= f.number_field :break_time, class: 'form-control'%>分
                     </div>
 
-                      <%= f.submit value: 'アプリスタート', class:'btn btn-primary'%>
+                    <div class="form-group">
+                      <%= f.label :category %>
+                      <%= f.text_field :category, class: 'form-control'%>分
+                    </div>
+
+                    <%= f.submit value: 'アプリスタート', class:'btn btn-primary'%>
                   <% end %>
                 </div>
               </div>

@@ -439,3 +439,66 @@ SyntaxError: /Users/yoshiokasusumu/Desktop/test2/lib/tasks/save_videos.rake:5: s
 /Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `load'
 /Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `<main>'
 (See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /Users/yoshiokasusumu/Desktop/test2/lib/tasks/send_youtube.rake:9: `@' without identifiers is not allowed as an instance variable name
+/Users/yoshiokasusumu/Desktop/test2/lib/tasks/send_youtube.rake:9: syntax error, unexpected end-of-input, expecting end
+                @
+                ^
+/Users/yoshiokasusumu/Desktop/test2/Rakefile:6:in `<top (required)>'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `load'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `<main>'
+(See full trace by running task with --trace)
+rake aborted!
+NameError: undefined local variable or method `number' for #<YoutubeMailer:0x00007f99db971248>
+Did you mean?  nomber
+/Users/yoshiokasusumu/Desktop/test2/app/mailers/youtube_mailer.rb:6:in `youtube_mail'
+/Users/yoshiokasusumu/Desktop/test2/lib/tasks/send_youtube.rake:7:in `block (3 levels) in <main>'
+/Users/yoshiokasusumu/Desktop/test2/lib/tasks/send_youtube.rake:5:in `block (2 levels) in <main>'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `load'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `<main>'
+Tasks: TOP => send_youtube:send_mail
+(See full trace by running task with --trace)
+rake aborted!
+ActionView::Template::Error: undefined method `video_id' for nil:NilClass
+/Users/yoshiokasusumu/Desktop/test2/app/views/youtube_mailer/youtube_mail.html.erb:2:in `_app_views_youtube_mailer_youtube_mail_html_erb___2206318226427926432_70169528729400'
+/Users/yoshiokasusumu/Desktop/test2/app/mailers/youtube_mailer.rb:7:in `youtube_mail'
+/Users/yoshiokasusumu/Desktop/test2/lib/tasks/send_youtube.rake:7:in `block (3 levels) in <main>'
+/Users/yoshiokasusumu/Desktop/test2/lib/tasks/send_youtube.rake:5:in `block (2 levels) in <main>'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `load'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `<main>'
+
+Caused by:
+NoMethodError: undefined method `video_id' for nil:NilClass
+/Users/yoshiokasusumu/Desktop/test2/app/views/youtube_mailer/youtube_mail.html.erb:2:in `_app_views_youtube_mailer_youtube_mail_html_erb___2206318226427926432_70169528729400'
+/Users/yoshiokasusumu/Desktop/test2/app/mailers/youtube_mailer.rb:7:in `youtube_mail'
+/Users/yoshiokasusumu/Desktop/test2/lib/tasks/send_youtube.rake:7:in `block (3 levels) in <main>'
+/Users/yoshiokasusumu/Desktop/test2/lib/tasks/send_youtube.rake:5:in `block (2 levels) in <main>'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `load'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `<main>'
+Tasks: TOP => send_youtube:send_mail
+(See full trace by running task with --trace)
+false
+false
+rake aborted!
+ActionView::Template::Error: undefined method `video_id' for nil:NilClass
+/Users/yoshiokasusumu/Desktop/test2/app/views/youtube_mailer/youtube_mail.html.erb:2:in `_app_views_youtube_mailer_youtube_mail_html_erb__1001233639084156112_70202678455340'
+/Users/yoshiokasusumu/Desktop/test2/app/mailers/youtube_mailer.rb:7:in `youtube_mail'
+/Users/yoshiokasusumu/Desktop/test2/lib/tasks/send_youtube.rake:7:in `block (3 levels) in <main>'
+/Users/yoshiokasusumu/Desktop/test2/lib/tasks/send_youtube.rake:5:in `block (2 levels) in <main>'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `load'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `<main>'
+
+Caused by:
+NoMethodError: undefined method `video_id' for nil:NilClass
+/Users/yoshiokasusumu/Desktop/test2/app/views/youtube_mailer/youtube_mail.html.erb:2:in `_app_views_youtube_mailer_youtube_mail_html_erb__1001233639084156112_70202678455340'
+/Users/yoshiokasusumu/Desktop/test2/app/mailers/youtube_mailer.rb:7:in `youtube_mail'
+/Users/yoshiokasusumu/Desktop/test2/lib/tasks/send_youtube.rake:7:in `block (3 levels) in <main>'
+/Users/yoshiokasusumu/Desktop/test2/lib/tasks/send_youtube.rake:5:in `block (2 levels) in <main>'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `load'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `<main>'
+Tasks: TOP => send_youtube:send_mail
+(See full trace by running task with --trace)
+false
+false
+false
+false
