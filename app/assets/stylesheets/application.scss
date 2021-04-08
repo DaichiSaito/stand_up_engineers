@@ -15,16 +15,36 @@
  @import "font-awesome-sprockets";
  @import "font-awesome";
 
-body{
+.main{
+    margin-top:-20px;
+}
+.site_face{
+    height:850px;
     background-image:url("/main_image.jpg");
     background-repeat: no-repeat;
     background-size: cover ;
-    background-position: 0px 50px;
-
+    
 }
+
 #site_name{
+    
+    padding-top: 10px;
+    border-bottom: solid 2px white;
+}
+.line_login{
+    padding-top: 500px;
+    text-align: center;
+  
+}
+.site_bottom{
+    background-color: black;
+    height:500px;
+    text-align: center;
+}
+.site_explanation{
+    font-family:'Courier New';
     color: white;
-    margin-top: 150px;
-    margin-left: 70px;
-    font-family:'Courier New' ;
+    margin-left: auto;
+    margin-right: auto;
+    width:1000px;
 }
