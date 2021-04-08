@@ -64,7 +64,7 @@
 
                     <div class="form-group">
                       <%= f.label :category %>
-                      <%= f.text_field :category, class: 'form-control'%>分
+                      <%= f.text_field :category, class: 'form-control'%>
                     </div>
 
                     <%= f.submit value: 'アプリスタート', class:'btn btn-primary'%>
@@ -77,9 +77,58 @@
     </div>
   </div>
 </div>
-<div class="top">
- <h1 id="site_name">StandUpEngineers</h1>
+<div class="main">
+
+  <div class="site_face">
+      <div class="line_login">
+        <%= link_to image_tag("btn_login_hover.png"), "#" %>
+      </div>
+  </div>
+
+  <div class="site_bottom">
+    <div class="site_explanation">
+        <h1 id="site_name">StandUpEngineers</h1>
+        <h3>StandUpEngineersとは</h3>
+        <p>デスクワークや昨今増えつつあるリモートワーク</p>
+　　　　　<p>「休憩を取りながら作業をした方が効率が上がる」</p>
+　　　　　<p>「運動した方が脳に酸素がまわってアイデア出て来る」</p>
+　　　　　<p>それは分かってはいるが休憩のタイミングが掴めずズルズルと仕事をしてしまい、結果的に仕事が捗らないで終わってしまう</p>
+　　　　　<p>そんなエンジニアの方達のために、休憩と運動するタイミングを提供するアプリです</p>
+          <button class="btn btn-primary" data-toggle="modal" data-target="#textmodal">使い方</button>
+  </div>
 </div>
-<div>
-<%= link_to image_tag("btn_login_hover.png"), "#" %>
+
+          <div class="modal" id="textmodal" tabindex="-1" role="dialog" aria-labelledby="textmodallLabel" aria-hidden="true">
+      <!-- モーダルのダイアログ本体 -->
+      <div class="modal-dialog" role="document">
+        <!-- モーダルのコンテンツ部分 -->
+        <div class="modal-content">
+          <!-- モーダルのヘッダー -->
+          <div class="modal-header">
+            <!-- モーダルのタイトル -->
+            <h5 class="modal-title" id="textmodallLabel">アプリの使い方</h5>
+            <!-- 閉じるアイコン -->
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+             <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <!-- モーダルの本文 -->
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+                  <p>lineでログインする</p>
+                  <p>アプリを起動するボタンをクリック</p>
+                  <p>あなたが作業する時間のサイクルを”set_time"に入力</p>
+                  <p>休憩する時間を”break_time”に入力</p>
+                  <p>見たい動画のカテゴリーを”category”に入力</p>
+                  <p>アプリスタートボタンをクリック<p>
+                  <p>これだけであなたが休憩したいタイミングで、選択したカテゴリーのyoutube動画がランダムで送られてきます。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+     </div>
+    </div>
+  </div>
 </div>
