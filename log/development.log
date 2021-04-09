@@ -32956,3 +32956,19 @@ Processing by HomeController#top as HTML
 Completed 200 OK in 96ms (Views: 93.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2021-04-09 10:21:46 +0900
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/yoshiokasusumu/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (2063.8ms)
+Completed 200 OK in 2269ms (Views: 2230.0ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/" for ::1 at 2021-04-09 10:28:02 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 1432ms (Views: 1430.4ms | ActiveRecord: 0.0ms)
+
+
