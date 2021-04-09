@@ -50,3 +50,19 @@
     margin-right: auto;
     width:50%;
 }
+@media  (max-width: 900px) {
+    .site_face{
+        width:100%;
+        max-width:100%;
+        height:400px;
+        background-image:url("/main_image_sumaho.jpg");
+        background-repeat: no-repeat;
+        background-size: cover ;
+        
+    }
+
+    .line_login{
+        padding-top: 300px;
+        text-align: center;
+    }
+  }
