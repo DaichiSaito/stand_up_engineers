@@ -19,7 +19,9 @@
     margin-top:-20px;
 }
 .site_face{
-    height:850px;
+    width:100%;
+    max-width:100%;
+    height:auto;
     background-image:url("/main_image.jpg");
     background-repeat: no-repeat;
     background-size: cover ;
