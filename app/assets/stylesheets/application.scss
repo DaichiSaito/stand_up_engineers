@@ -14,7 +14,9 @@
  @import 'bootstrap';
  @import "font-awesome-sprockets";
  @import "font-awesome";
-
+body{
+    width:100%;
+}
 .main{
     margin-top:-20px;
 }
