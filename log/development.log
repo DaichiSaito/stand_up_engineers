@@ -32972,3 +32972,71 @@ Processing by HomeController#top as HTML
 Completed 200 OK in 1432ms (Views: 1430.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2021-04-09 10:32:53 +0900
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/yoshiokasusumu/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (1875.0ms)
+Completed 200 OK in 2058ms (Views: 2017.7ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/" for ::1 at 2021-04-09 10:33:10 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 1331ms (Views: 1329.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-04-09 10:33:49 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 1291ms (Views: 1289.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-04-09 10:34:05 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 1266ms (Views: 1264.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-04-09 10:34:36 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 1214ms (Views: 1212.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-04-09 10:35:21 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (6.3ms)
+Completed 500 Internal Server Error in 132ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Error: Invalid CSS after "  }": expected "}", was ""
+        on line 68:4 of app/assets/stylesheets/application.scss
+>>   }
+
+   ---^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 　　<meta name="viewport" content="width=device-width, initial-scale=1" >
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/application.scss:68
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__792862527060141681_70099611187460'
+Started GET "/" for ::1 at 2021-04-09 10:35:31 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 1271ms (Views: 1269.4ms | ActiveRecord: 0.0ms)
+
+
