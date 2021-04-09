@@ -19,10 +19,12 @@
     margin-top:-20px;
 }
 .site_face{
-    height:850px;
     background-image:url("/main_image.jpg");
     background-repeat: no-repeat;
     background-size: cover ;
+        display: block;
+        height: auto;
+        max-width: 100%;
     
 }
 
@@ -47,11 +49,4 @@
     margin-left: auto;
     margin-right: auto;
     width:50%;
-}
-@media  (max-width: 1000px) {
-.site_fase{
-    background-image:url("/main_image_sumaho.jpg");
-    background-repeat: no-repeat;
-    background-size: cover ;
-    }
 }
