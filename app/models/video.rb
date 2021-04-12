@@ -2,12 +2,10 @@ class Video < ApplicationRecord
 require 'google/apis/youtube_v3'
 require 'active_support/all'
 
-GOOGLE_API_KEY = ENV['SECRET_KEY']
-
 def self.find_videos(keywords, after: 1.months.ago, before: Time.now )
   keywords.each do |keyword|
   service = Google::Apis::YoutubeV3::YouTubeService.new
-  service.key = GOOGLE_API_KEY
+  service.key = ENV['SECRET_KEY']
   next_page_token = nil
   opt = {
     q: keyword,
