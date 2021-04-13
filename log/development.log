@@ -37637,3 +37637,88 @@ Completed 200 OK in 505ms (Views: 490.5ms | ActiveRecord: 3.4ms)
   [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
   [1m[36mUser Destroy (0.7ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 89]]
   [1m[35m (3.1ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/" for ::1 at 2021-04-12 21:40:01 +0900
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/yoshiokasusumu/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (340.5ms)
+Completed 200 OK in 504ms (Views: 489.7ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/" for ::1 at 2021-04-12 23:13:17 +0900
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/yoshiokasusumu/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (270.4ms)
+Completed 200 OK in 404ms (Views: 384.4ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/" for ::1 at 2021-04-12 23:15:59 +0900
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/yoshiokasusumu/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (338.0ms)
+Completed 200 OK in 512ms (Views: 499.0ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/" for ::1 at 2021-04-12 23:19:34 +0900
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/yoshiokasusumu/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (352.0ms)
+Completed 200 OK in 495ms (Views: 482.3ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/" for ::1 at 2021-04-12 23:20:30 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 53ms (Views: 50.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-04-12 23:22:33 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 83ms (Views: 81.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-04-12 23:23:01 +0900
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/yoshiokasusumu/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (272.6ms)
+Completed 200 OK in 383ms (Views: 367.8ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/?code=BVVE4wV5iJn3ItkJ30J0&state=12345abcde" for 114.184.187.135 at 2021-04-12 23:23:04 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  Parameters: {"code"=>"BVVE4wV5iJn3ItkJ30J0", "state"=>"12345abcde"}
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 660ms (Views: 57.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 147.92.179.115 at 2021-04-12 23:23:13 +0900
+Cannot render console from 147.92.179.115! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as */*
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 65ms (Views: 56.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?code=P7SolH31Pb37b2nXherG&state=12345abcde" for 114.184.187.135 at 2021-04-12 23:24:29 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  Parameters: {"code"=>"P7SolH31Pb37b2nXherG", "state"=>"12345abcde"}
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 1112ms (Views: 93.5ms | ActiveRecord: 0.0ms)
+
+
