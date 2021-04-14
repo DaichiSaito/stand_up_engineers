@@ -37722,3 +37722,280 @@ Processing by HomeController#top as HTML
 Completed 200 OK in 1112ms (Views: 93.5ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2021-04-14 14:02:53 +0900
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/yoshiokasusumu/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (367.5ms)
+Completed 200 OK in 516ms (Views: 495.1ms | ActiveRecord: 8.9ms)
+
+
+Started GET "/" for ::1 at 2021-04-14 14:06:21 +0900
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/yoshiokasusumu/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (375.4ms)
+Completed 200 OK in 534ms (Views: 516.3ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/?code=59Xp2EOOjhTRq8MQQgN5&state=12345abcde" for 114.184.187.135 at 2021-04-14 14:06:24 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  Parameters: {"code"=>"59Xp2EOOjhTRq8MQQgN5", "state"=>"12345abcde"}
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 266ms (Views: 53.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?code=pkTvJMXIIfPN1vSSuDjj&state=12345abcde" for 114.184.187.135 at 2021-04-14 14:09:30 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  Parameters: {"code"=>"pkTvJMXIIfPN1vSSuDjj", "state"=>"12345abcde"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/home_controller.rb:57
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/home_controller.rb:57
+Completed 500 Internal Server Error in 388ms (ActiveRecord: 6.5ms)
+
+
+  
+NoMethodError (undefined method `user' for #<HomeController:0x00007fba7537cc38>
+Did you mean?  super):
+  
+app/controllers/home_controller.rb:57:in `top'
+Started GET "/" for ::1 at 2021-04-14 14:09:42 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 84ms (Views: 82.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?code=8qpMDAdrlJQ7m5AvlH5X&state=12345abcde" for 114.184.187.135 at 2021-04-14 14:10:02 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  Parameters: {"code"=>"8qpMDAdrlJQ7m5AvlH5X", "state"=>"12345abcde"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/home_controller.rb:57
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/home_controller.rb:57
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 281ms (Views: 86.3ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/?code=wfBDJ5n1J0am9zc2PH3b&state=12345abcde" for 114.184.187.135 at 2021-04-14 14:11:07 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/yoshiokasusumu/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#top as HTML
+  Parameters: {"code"=>"wfBDJ5n1J0am9zc2PH3b", "state"=>"12345abcde"}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/home_controller.rb:57
+  [1m[36mUser Create (3.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "吉岡　将"], ["email", "ubdbe5d1bad3cc7a2b98fa5998c63d551"], ["created_at", "2021-04-14 05:11:07.611026"], ["updated_at", "2021-04-14 05:11:07.611026"]]
+  ↳ app/controllers/home_controller.rb:57
+  [1m[35m (2.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/home_controller.rb:57
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (263.7ms)
+Completed 200 OK in 808ms (Views: 374.4ms | ActiveRecord: 8.9ms)
+
+
+Started GET "/" for ::1 at 2021-04-14 14:19:45 +0900
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/yoshiokasusumu/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (281.6ms)
+Completed 200 OK in 405ms (Views: 390.2ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/users/new?code=TWSa7EMU9zGeHBxf1qsm&state=12345abcde" for 114.184.187.135 at 2021-04-14 14:19:48 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+SyntaxError (/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/app/controllers/users_controller.rb:55: else without rescue is useless
+     else
+     ^~~~
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/app/controllers/users_controller.rb:76: syntax error, unexpected end, expecting end-of-input):
+  
+app/controllers/users_controller.rb:55: else without rescue is useless
+app/controllers/users_controller.rb:76: syntax error, unexpected end, expecting end-of-input
+Started GET "/" for ::1 at 2021-04-14 14:20:31 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 57ms (Views: 43.4ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/users/new?code=9q2dvRo3VUfOg6oqJN8N&state=12345abcde" for 114.184.187.135 at 2021-04-14 14:20:34 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+SyntaxError (/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/app/controllers/users_controller.rb:55: else without rescue is useless
+     else
+     ^~~~):
+  
+app/controllers/users_controller.rb:55: else without rescue is useless
+Started GET "/" for ::1 at 2021-04-14 14:21:22 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 132ms (Views: 109.8ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/users/new?code=Tjqd3WNIAErnDfHGzd8i&state=12345abcde" for 114.184.187.135 at 2021-04-14 14:21:25 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Parameters: {"code"=>"Tjqd3WNIAErnDfHGzd8i", "state"=>"12345abcde"}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:38
+  [1m[36mUser Create (1.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "吉岡　将"], ["email", "ubdbe5d1bad3cc7a2b98fa5998c63d551"], ["created_at", "2021-04-14 05:21:25.633421"], ["updated_at", "2021-04-14 05:21:25.633421"]]
+  ↳ app/controllers/users_controller.rb:38
+  [1m[35m (1.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:38
+Redirected to https://81bf69151027.ngrok.io/
+Completed 302 Found in 288ms (ActiveRecord: 3.3ms)
+
+
+Started GET "/" for 114.184.187.135 at 2021-04-14 14:21:26 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 51ms (Views: 48.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 147.92.179.108 at 2021-04-14 14:21:43 +0900
+Cannot render console from 147.92.179.108! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as */*
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 45ms (Views: 41.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new?code=JvNvTo1VIUFsIXHmvt1A&state=12345abcde" for 114.184.187.135 at 2021-04-14 14:21:49 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Parameters: {"code"=>"JvNvTo1VIUFsIXHmvt1A", "state"=>"12345abcde"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:38
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "吉岡　将"], ["email", "ubdbe5d1bad3cc7a2b98fa5998c63d551"], ["created_at", "2021-04-14 05:21:49.202694"], ["updated_at", "2021-04-14 05:21:49.202694"]]
+  ↳ app/controllers/users_controller.rb:38
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:38
+Redirected to https://81bf69151027.ngrok.io/
+Completed 302 Found in 206ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/" for 114.184.187.135 at 2021-04-14 14:21:49 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 66ms (Views: 64.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new?code=YnU8Nqoaj4n8wkVAJxLv&state=12345abcde" for 114.184.187.135 at 2021-04-14 14:24:01 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Parameters: {"code"=>"YnU8Nqoaj4n8wkVAJxLv", "state"=>"12345abcde"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:37
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "吉岡　将"], ["email", "ubdbe5d1bad3cc7a2b98fa5998c63d551"], ["created_at", "2021-04-14 05:24:02.225360"], ["updated_at", "2021-04-14 05:24:02.225360"]]
+  ↳ app/controllers/users_controller.rb:37
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:37
+Redirected to https://81bf69151027.ngrok.io/
+Completed 302 Found in 583ms (ActiveRecord: 3.7ms)
+
+
+Started GET "/" for 114.184.187.135 at 2021-04-14 14:24:02 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:9
+Completed 404 Not Found in 7ms (ActiveRecord: 0.9ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=Ubdbe5d1bad3cc7a2b98fa5998c63d551):
+  
+app/controllers/home_controller.rb:9:in `top'
+Started GET "/" for ::1 at 2021-04-14 14:25:43 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 64ms (Views: 53.0ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/users/new?code=AOTjWNpOHocbDALdZ4bi&state=12345abcde" for 114.184.187.135 at 2021-04-14 14:25:46 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Parameters: {"code"=>"AOTjWNpOHocbDALdZ4bi", "state"=>"12345abcde"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:37
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "吉岡　将"], ["email", "ubdbe5d1bad3cc7a2b98fa5998c63d551"], ["created_at", "2021-04-14 05:25:46.250837"], ["updated_at", "2021-04-14 05:25:46.250837"]]
+  ↳ app/controllers/users_controller.rb:37
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:37
+Redirected to https://81bf69151027.ngrok.io/
+Completed 302 Found in 210ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/" for 114.184.187.135 at 2021-04-14 14:25:46 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 94], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:9
+Started GET "/" for ::1 at 2021-04-14 14:27:47 +0900
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/yoshiokasusumu/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (300.6ms)
+Completed 200 OK in 411ms (Views: 396.3ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/users/new?code=ejAF1GAikYTx8Cdenk22&state=12345abcde" for 114.184.187.135 at 2021-04-14 14:27:51 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+SyntaxError (/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/app/controllers/users_controller.rb:45: syntax error, unexpected tIDENTIFIER, expecting '}'
+        text: "https://www.youtube.com/em...
+        ^~~~
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/app/controllers/users_controller.rb:46: syntax error, unexpected '}', expecting end
+      }
+      ^):
+  
+app/controllers/users_controller.rb:45: syntax error, unexpected tIDENTIFIER, expecting '}'
+app/controllers/users_controller.rb:46: syntax error, unexpected '}', expecting end
+Started GET "/" for ::1 at 2021-04-14 14:28:12 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 69ms (Views: 54.4ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/users/new?code=on3y00U4YbucuvDP7MNz&state=12345abcde" for 114.184.187.135 at 2021-04-14 14:28:15 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Parameters: {"code"=>"on3y00U4YbucuvDP7MNz", "state"=>"12345abcde"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:37
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "吉岡　将"], ["email", "ubdbe5d1bad3cc7a2b98fa5998c63d551"], ["created_at", "2021-04-14 05:28:16.011429"], ["updated_at", "2021-04-14 05:28:16.011429"]]
+  ↳ app/controllers/users_controller.rb:37
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:37
+Redirected to https://81bf69151027.ngrok.io/
+Completed 302 Found in 328ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 114.184.187.135 at 2021-04-14 14:28:16 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 95], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:9
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 80ms (Views: 72.8ms | ActiveRecord: 0.9ms)
+
+
