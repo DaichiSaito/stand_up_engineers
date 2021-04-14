@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  start_time: 2021-04-14 15:49:32
+  set_time: 1
+  break_time: 1
+
+two:
+  user: two
+  start_time: 2021-04-14 15:49:32
+  set_time: 1
+  break_time: 1

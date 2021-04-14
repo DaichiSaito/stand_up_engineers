@@ -509,3 +509,177 @@ false
 false
 false
 false
+(byebug) rake aborted!
+Encoding::UndefinedConversionError: "\xC3" from ASCII-8BIT to UTF-8
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake:8:in `block (3 levels) in <main>'
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake:5:in `block (2 levels) in <main>'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `load'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `<main>'
+Tasks: TOP => send_youtube:send_mail
+(See full trace by running task with --trace)
+
+[3, 12] in /Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake
+    3:     task send_mail: :environment do
+    4:         users = User.all
+    5:         users.each do |user|
+    6:           clock = user.clock
+    7:           debugger
+=>  8:           if Time.now.strftime("%Y-%m-%d %H:%M") == (clock.start_time + clock.set_time * 60).strftime("%Y-%m-%d %H:%M")
+    9:                 YoutubeMailer.youtube_mail(user).deliver
+   10:                 clock.start_time = (Time.now + clock.break_time * 60)
+   11:                 clock.save
+   12:           else
+(byebug) rake aborted!
+NoMethodError: undefined method `start_time' for nil:NilClass
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake:8:in `block (3 levels) in <main>'
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake:5:in `block (2 levels) in <main>'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `load'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `<main>'
+Tasks: TOP => send_youtube:send_mail
+(See full trace by running task with --trace)
+
+[3, 12] in /Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake
+    3:     task send_mail: :environment do
+    4:         users = User.all
+    5:         users.each do |user|
+    6:           clock = user.clock
+    7:           debugger
+=>  8:           if Time.now.strftime("%Y-%m-%d %H:%M") == (clock.start_time + clock.set_time * 60).strftime("%Y-%m-%d %H:%M")
+    9:                 YoutubeMailer.youtube_mail(user).deliver
+   10:                 clock.start_time = (Time.now + clock.break_time * 60)
+   11:                 clock.save
+   12:           else
+(byebug) rake aborted!
+NoMethodError: undefined method `start_time' for nil:NilClass
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake:8:in `block (3 levels) in <main>'
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake:5:in `block (2 levels) in <main>'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `load'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `<main>'
+Tasks: TOP => send_youtube:send_mail
+(See full trace by running task with --trace)
+
+[3, 12] in /Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake
+    3:     task send_mail: :environment do
+    4:         users = User.all
+    5:         users.each do |user|
+    6:           clock = user.clock
+    7:           debugger
+=>  8:           if Time.now.strftime("%Y-%m-%d %H:%M") == (clock.start_time + clock.set_time * 60).strftime("%Y-%m-%d %H:%M")
+    9:                 YoutubeMailer.youtube_mail(user).deliver
+   10:                 clock.start_time = (Time.now + clock.break_time * 60)
+   11:                 clock.save
+   12:           else
+(byebug) rake aborted!
+NoMethodError: undefined method `start_time' for nil:NilClass
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake:8:in `block (3 levels) in <main>'
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake:5:in `block (2 levels) in <main>'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `load'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `<main>'
+Tasks: TOP => send_youtube:send_mail
+(See full trace by running task with --trace)
+
+[3, 12] in /Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake
+    3:     task send_mail: :environment do
+    4:         users = User.all
+    5:         users.each do |user|
+    6:           clock = user.clock
+    7:           debugger
+=>  8:           if Time.now.strftime("%Y-%m-%d %H:%M") == (clock.start_time + clock.set_time * 60).strftime("%Y-%m-%d %H:%M")
+    9:                 YoutubeMailer.youtube_mail(user).deliver
+   10:                 clock.start_time = (Time.now + clock.break_time * 60)
+   11:                 clock.save
+   12:           else
+(byebug) rake aborted!
+NoMethodError: undefined method `start_time' for nil:NilClass
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake:8:in `block (3 levels) in <main>'
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake:5:in `block (2 levels) in <main>'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `load'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `<main>'
+Tasks: TOP => send_youtube:send_mail
+(See full trace by running task with --trace)
+
+[3, 12] in /Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake
+    3:     task send_mail: :environment do
+    4:         users = User.all
+    5:         users.each do |user|
+    6:           if Time.now.strftime("%Y-%m-%d %H:%M") == (user.start_time + user.set_time * 60).strftime("%Y-%m-%d %H:%M")
+    7:                 YoutubeMailer.youtube_mail(user).deliver
+=>  8:                 user.start_time = (Time.now + user.break_time * 60)
+    9:                 user.save
+   10:           else
+   11:             
+   12:             puts "false"
+rake aborted!
+NoMethodError: undefined method `*' for nil:NilClass
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake:6:in `block (3 levels) in <main>'
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake:5:in `block (2 levels) in <main>'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `load'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `<main>'
+Tasks: TOP => send_youtube:send_mail
+(See full trace by running task with --trace)
+rake aborted!
+NoMethodError: undefined method `*' for nil:NilClass
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake:6:in `block (3 levels) in <main>'
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake:5:in `block (2 levels) in <main>'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `load'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `<main>'
+Tasks: TOP => send_youtube:send_mail
+(See full trace by running task with --trace)
+rake aborted!
+NoMethodError: undefined method `start_time' for nil:NilClass
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake:7:in `block (3 levels) in <main>'
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake:5:in `block (2 levels) in <main>'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `load'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `<main>'
+Tasks: TOP => send_youtube:send_mail
+(See full trace by running task with --trace)
+rake aborted!
+NoMethodError: undefined method `start_time' for nil:NilClass
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake:7:in `block (3 levels) in <main>'
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake:5:in `block (2 levels) in <main>'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `load'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `<main>'
+Tasks: TOP => send_youtube:send_mail
+(See full trace by running task with --trace)
+rake aborted!
+NoMethodError: undefined method `start_time' for nil:NilClass
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake:7:in `block (3 levels) in <main>'
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake:5:in `block (2 levels) in <main>'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `load'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `<main>'
+Tasks: TOP => send_youtube:send_mail
+(See full trace by running task with --trace)
+(byebug) 
+[1, 10] in /Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake
+    1: namespace :send_youtube do
+    2:     desc 'youtubeの動画をユーザーに提供する'
+    3:     task send_mail: :environment do
+    4:         users = User.all
+    5:         debugger
+=>  6:         users.each do |user|
+    7:           clock = user.clock
+    8:           debugger
+    9:           if Time.now.strftime("%Y-%m-%d %H:%M") == (clock.start_time + clock.set_time * 60).strftime("%Y-%m-%d %H:%M")
+   10:                 puts "ok"
+ok
+rake aborted!
+NoMethodError: undefined method `start_time' for nil:NilClass
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake:7:in `block (3 levels) in <main>'
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake:5:in `block (2 levels) in <main>'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `load'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `<main>'
+Tasks: TOP => send_youtube:send_mail
+(See full trace by running task with --trace)
+ok
+rake aborted!
+NoMethodError: undefined method `video_id' for nil:NilClass
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake:13:in `block (3 levels) in <main>'
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake:5:in `block (2 levels) in <main>'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `load'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `<main>'
+Tasks: TOP => send_youtube:send_mail
+(See full trace by running task with --trace)
+false
+false
+false
+false
