@@ -1,6 +1,5 @@
 class User < ApplicationRecord
-    before_save { self.email = email.downcase }
-
+    has_one :clock, dependent: :destroy
     validates :name, presence: true
     validates :email, presence: true
 end

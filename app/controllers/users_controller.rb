@@ -35,21 +35,6 @@ class UsersController < ApplicationController
       user_name = result["displayName"]
 
       user = User.create(name: user_name, email: user_id)
-      p  user
-
-      #ここからmessage作成ゾーン
-
-      message = {
-        type: 'text',
-        text: "#{user_name}さん、そろそろ休憩しませんか？",
-        text: "https://www.youtube.com/embed/hge3fr50o0o"
-      }
-      client = Line::Bot::Client.new { |config|
-          config.channel_secret = ENV['CHANNEL_SECRET']
-          config.channel_token = ENV['CHANNEL_TOKEN']
-      }
-      response = client.push_message(user_id, message)
-      p response
      
       session[:user_id] = user.id
         redirect_to root_path
@@ -64,11 +49,5 @@ class UsersController < ApplicationController
     end
 
     def home
-    end
-
-        private
-
-    def user_params
-        params.require(:user).permit(:name, :email, :set_time, :break_time, :category)
     end
 end
