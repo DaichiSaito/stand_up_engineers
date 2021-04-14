@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_04_07_074241) do
+ActiveRecord::Schema.define(version: 2021_04_14_074451) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -23,6 +23,27 @@ ActiveRecord::Schema.define(version: 2021_04_07_074241) do
     t.string "line_login_secret", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "clocks", force: :cascade do |t|
+    t.bigint "user_id"
+    t.datetime "start_time"
+    t.integer "set_time"
+    t.integer "break_time"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string "category"
+    t.index ["user_id"], name: "index_clocks_on_user_id"
+  end
+
+  create_table "maketimes", force: :cascade do |t|
+    t.bigint "user_id"
+    t.datetime "start_time"
+    t.integer "set_time"
+    t.integer "break_time"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_maketimes_on_user_id"
   end
 
   create_table "oauths", force: :cascade do |t|
@@ -49,4 +70,6 @@ ActiveRecord::Schema.define(version: 2021_04_07_074241) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "clocks", "users"
+  add_foreign_key "maketimes", "users"
 end
