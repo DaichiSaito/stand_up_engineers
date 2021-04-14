@@ -10,11 +10,14 @@
       <ul class="navbar-nav mr-auto">
       <% if @current_user %>
       <li class="nav-item">
-       <%= link_to "アプリ終了", user_path(@current_user), method: :delete, class: 'nav-link'%>
-      </li>
+          <a class="nav-link" data-toggle="modal" data-target="#exampleModal">アプリを起動する</a>
+        </li>
+       <li class="nav-item">
+           <%= link_to "ログアウト", user_path(@current_user), method: :delete, class: 'nav-link'%>
+        </li>
       <% else %>
         <li class="nav-item">
-          <a class="nav-link" data-toggle="modal" data-target="#exampleModal">アプリを起動する</a>
+           <p  class='nav-link navigate' data-toggle="modal" data-target="#textmodal">アプリの使い方</p>
         </li>
     <% end %>
       </ul>
@@ -40,17 +43,8 @@
               <div class="row">
                 <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
                   <p>全て入力してください</p>
-                  <%= form_with(model: @user, local: true) do |f| %>
-
-                    <div class="form-group">
-                      <%= f.label :name %>
-                      <%= f.text_field :name, class: 'form-control'%>
-                    </div>
-
-                    <div class="form-group">
-                      <%= f.label :email %>
-                      <%= f.email_field :email, class: 'form-control'%>
-                    </div>
+                  <% if @current_user %>
+                  <%= form_with model: [@current_user, @clock] do |f|  %>
 
                     <div class="form-group">
                       <%= f.label :set_time %>
@@ -69,6 +63,7 @@
 
                     <%= f.submit value: 'アプリスタート', class:'btn btn-primary'%>
                   <% end %>
+                  <%end%>
                 </div>
               </div>
             </div>
