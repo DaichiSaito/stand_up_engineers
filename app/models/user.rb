@@ -3,6 +3,4 @@ class User < ApplicationRecord
 
     validates :name, presence: true
     validates :email, presence: true
-    validates :set_time, presence: true
-    validates :break_time, presence: true
 end
