@@ -16,7 +16,7 @@ namespace :send_youtube do
                 config.channel_secret = ENV['CHANNEL_SECRET']
                 config.channel_token = ENV['CHANNEL_TOKEN']
             }
-            response = client.push_message(user.email, message)
+            response = client.push_message(user.line_id, message)
             clock.start_time = (Time.now + clock.break_time * 60)
             clock.save
           else
