@@ -683,3 +683,68 @@ false
 false
 false
 false
+rake aborted!
+NoMethodError: undefined method `start_time' for nil:NilClass
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake:7:in `block (3 levels) in <main>'
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake:5:in `block (2 levels) in <main>'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `load'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `<main>'
+Tasks: TOP => send_youtube:send_mail
+(See full trace by running task with --trace)
+rake aborted!
+NoMethodError: undefined method `start_time' for nil:NilClass
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake:7:in `block (3 levels) in <main>'
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake:5:in `block (2 levels) in <main>'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `load'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `<main>'
+Tasks: TOP => send_youtube:send_mail
+(See full trace by running task with --trace)
+rake aborted!
+NoMethodError: undefined method `start_time' for nil:NilClass
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake:7:in `block (3 levels) in <main>'
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake:5:in `block (2 levels) in <main>'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `load'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `<main>'
+Tasks: TOP => send_youtube:send_mail
+(See full trace by running task with --trace)
+rake aborted!
+NoMethodError: undefined method `start_time' for nil:NilClass
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake:7:in `block (3 levels) in <main>'
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake:5:in `block (2 levels) in <main>'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `load'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `<main>'
+Tasks: TOP => send_youtube:send_mail
+(See full trace by running task with --trace)
+rake aborted!
+NoMethodError: undefined method `start_time' for nil:NilClass
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake:7:in `block (3 levels) in <main>'
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake:5:in `block (2 levels) in <main>'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `load'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `<main>'
+Tasks: TOP => send_youtube:send_mail
+(See full trace by running task with --trace)
+rake aborted!
+NoMethodError: undefined method `start_time' for nil:NilClass
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake:7:in `block (3 levels) in <main>'
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake:5:in `block (2 levels) in <main>'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `load'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `<main>'
+Tasks: TOP => send_youtube:send_mail
+(See full trace by running task with --trace)
+rake aborted!
+NoMethodError: undefined method `start_time' for nil:NilClass
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake:7:in `block (3 levels) in <main>'
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake:5:in `block (2 levels) in <main>'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `load'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `<main>'
+Tasks: TOP => send_youtube:send_mail
+(See full trace by running task with --trace)
+rake aborted!
+NoMethodError: undefined method `start_time' for nil:NilClass
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake:7:in `block (3 levels) in <main>'
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/lib/tasks/send_youtube.rake:5:in `block (2 levels) in <main>'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `load'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `<main>'
+Tasks: TOP => send_youtube:send_mail
+(See full trace by running task with --trace)
+false
