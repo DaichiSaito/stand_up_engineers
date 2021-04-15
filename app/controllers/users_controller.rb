@@ -34,7 +34,7 @@ class UsersController < ApplicationController
       user_id = result["userId"]
       user_name = result["displayName"]
 
-      user = User.create(name: user_name, email: user_id)
+      user = User.create(name: user_name, line_id: user_id)
      
       session[:user_id] = user.id
         redirect_to root_path
