@@ -9,9 +9,11 @@
     <div class="collapse navbar-collapse" id="Navbar">
       <ul class="navbar-nav mr-auto">
       <% if @current_user %>
+      <% unless @current_user.clock.present? %>
       <li class="nav-item">
           <a class="nav-link" data-toggle="modal" data-target="#exampleModal">アプリを起動する</a>
         </li>
+        <% end %>
        <li class="nav-item">
            <%= link_to "ログアウト", user_path(@current_user), method: :delete, class: 'nav-link'%>
         </li>
@@ -75,10 +77,13 @@
 
 <div class="main">
   <div class="site_face">
+    <% unless @current_user %>
       <div class="line_login">
         <%= link_to image_tag("btn_login_hover.png"), ENV['LINE_LOGIN']%>
       </div>
+    <% end %>
 　</div>
+
   <div class="site_bottom">
     <div class="site_explanation">
         <h4>StandUpEngineers<span class="toha">とは</span></h4>
