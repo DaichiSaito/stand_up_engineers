@@ -22,7 +22,8 @@ namespace :send_youtube do
           else
             
             puts "false"
-
+            p Time.now.strftime("%Y-%m-%d %H:%M")
+            p (clock.start_time + clock.set_time * 60).strftime("%Y-%m-%d %H:%M")
           end
         end
     end

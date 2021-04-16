@@ -4847,3 +4847,44 @@ LINE 1: SELECT "users".* FROM "users"
 /Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `<main>'
 Tasks: TOP => send_youtube:send_mail
 (See full trace by running task with --trace)
+rake aborted!
+ArgumentError: Invalid Timezone: utc
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/config/environment.rb:5:in `<main>'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `load'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `<main>'
+
+Caused by:
+TZInfo::InvalidTimezoneIdentifier: Invalid identifier
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/config/environment.rb:5:in `<main>'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `load'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `<main>'
+Tasks: TOP => send_youtube:send_mail => environment
+(See full trace by running task with --trace)
+rake aborted!
+ArgumentError: Invalid Timezone: utc
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/config/environment.rb:5:in `<main>'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `load'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `<main>'
+
+Caused by:
+TZInfo::InvalidTimezoneIdentifier: Invalid identifier
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/config/environment.rb:5:in `<main>'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `load'
+/Users/yoshiokasusumu/.rbenv/versions/2.6.4/bin/bundle:23:in `<main>'
+Tasks: TOP => send_youtube:send_mail => environment
+(See full trace by running task with --trace)
+false
+"2021-04-16 23:10"
+"2021-04-16 14:10"
+false
+"2021-04-16 23:11"
+"2021-04-16 14:10"
+false
+"2021-04-16 23:12"
+"2021-04-16 14:10"
+false
+"2021-04-16 23:13"
+"2021-04-16 14:10"
+false
+"2021-04-16 23:14"
+"2021-04-16 14:10"
