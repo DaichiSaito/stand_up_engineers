@@ -15,16 +15,6 @@ ActiveRecord::Schema.define(version: 2021_04_15_012521) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "admins", force: :cascade do |t|
-    t.integer "line_messaging_id", null: false
-    t.string "line_messaging_secret", null: false
-    t.string "line_messaging_token", null: false
-    t.integer "line_login_id", null: false
-    t.string "line_login_secret", null: false
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   create_table "clocks", force: :cascade do |t|
     t.bigint "user_id"
     t.datetime "start_time"
@@ -34,21 +24,6 @@ ActiveRecord::Schema.define(version: 2021_04_15_012521) do
     t.datetime "updated_at", null: false
     t.string "category"
     t.index ["user_id"], name: "index_clocks_on_user_id"
-  end
-
-  create_table "maketimes", force: :cascade do |t|
-    t.bigint "user_id"
-    t.datetime "start_time"
-    t.integer "set_time"
-    t.integer "break_time"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["user_id"], name: "index_maketimes_on_user_id"
-  end
-
-  create_table "oauths", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
   end
 
   create_table "users", force: :cascade do |t|
@@ -71,5 +46,4 @@ ActiveRecord::Schema.define(version: 2021_04_15_012521) do
   end
 
   add_foreign_key "clocks", "users"
-  add_foreign_key "maketimes", "users"
 end
