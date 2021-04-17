@@ -1,6 +1,6 @@
 namespace :send_youtube do
     desc 'youtubeの動画をユーザーに提供する'
-    task send_line_30: :environment do
+    task send_line_60: :environment do
         users = User.all
         users.each do |user|
           clock = user.clock
@@ -23,7 +23,7 @@ namespace :send_youtube do
         end
     end
 
-    task send_line_60: :environment do
+    task send_line_30: :environment do
       users = User.all
       users.each do |user|
         clock = user.clock
