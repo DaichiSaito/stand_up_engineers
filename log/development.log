@@ -50893,3 +50893,4 @@ Success - #<Google::Apis::YoutubeV3::SearchListsResponse:0x00007fc6f92ad8a8
   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
   [1m[36mVideo Create (0.7ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ザ・きんにくTV 10分"], ["title", "【11分解説】痩せる食事がわかる！眠れなくなるほど面白い 図解 体脂肪の話【書評】"], ["video_id", "z0M1tyo5jok"], ["created_at", "2021-04-17 06:36:11.568556"], ["updated_at", "2021-04-17 06:36:11.568556"]]
   [1m[35m (1.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mVideo Load (0.5ms)[0m  [1m[34mSELECT  "videos".* FROM "videos" WHERE "videos"."category_name" = $1 LIMIT $2[0m  [["category_name", "筋トレ"], ["LIMIT", 11]]
