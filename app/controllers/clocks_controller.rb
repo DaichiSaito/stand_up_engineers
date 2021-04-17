@@ -3,8 +3,6 @@ class ClocksController < ApplicationController
         user =  User.find(session[:user_id])
         clock = Clock.new(clock_params)
         clock.user_id = user.id
-        clock.start_time = Time.now
-        
          if clock.save
            redirect_to root_path, notice: "アプリを起動しました!"
          else

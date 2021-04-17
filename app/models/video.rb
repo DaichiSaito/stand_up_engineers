@@ -4,6 +4,7 @@ require 'active_support/all'
 
 def self.find_videos(keywords, after: 1.months.ago, before: Time.now )
   keywords.each do |keyword|
+  keyword += " 10分"
   service = Google::Apis::YoutubeV3::YouTubeService.new
   service.key = ENV['SECRET_KEY']
   next_page_token = nil
