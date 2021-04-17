@@ -45,7 +45,7 @@ class UsersController < ApplicationController
         user.destroy
         @current_user = nil
         session.delete(:user_id)
-        redirect_to root_pat, notice: "ログアウトしました"
+        redirect_to root_path, notice: "ログアウトしました"
     end
 
     def home
