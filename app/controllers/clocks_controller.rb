@@ -13,6 +13,6 @@ class ClocksController < ApplicationController
     private
 
       def clock_params
-          params.require(:clock).permit(:set_time, :break_time, :category)
+          params.require(:clock).permit(:set_time, :category)
       end
 end
