@@ -44,23 +44,20 @@
             <div class="container">
               <div class="row">
                 <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-                  <p>全て入力してください</p>
+                  <p>二つとも選択してください</p>
                   <% if @current_user %>
                   <%= form_with model: [@current_user, @clock] do |f|  %>
 
                     <div class="form-group">
-                      <%= f.label :set_time %>
-                      <%= f.number_field :set_time, class: 'form-control'%>分
+                      <%= f.label :set_time, value: '通知の間隔("30分" "60分"の二択です)'%>
+                      <br>
+                      <%= f.select :set_time, [30, 60],class: 'form-control'%>分
                     </div>
 
                     <div class="form-group">
-                       <%= f.label :break_time %>
-                      <%= f.number_field :break_time, class: 'form-control'%>分
-                    </div>
-
-                    <div class="form-group">
-                      <%= f.label :category %>
-                      <%= f.text_field :category, class: 'form-control'%>
+                      <%= f.label :category, value: '"きんにくTV"をお勧めします' %>
+                      <br>
+                      <%= f.select :category, ["筋トレ","ストレッチ","ヨガ","きんにくTV"],class: 'form-control'%>
                     </div>
 
                     <%= f.submit value: 'アプリスタート', class:'btn btn-primary'%>
@@ -133,3 +130,8 @@
     </div>
   </div>
 </div>
+<script>
+    $(function(){
+    $(".alert").delay(5000).slideUp(1000);
+  });
+  </script>

@@ -48501,3 +48501,2323 @@ Success - #<Google::Apis::YoutubeV3::SearchListsResponse:0x00007fa2db152b58
   ↳ lib/tasks/send_youtube.rake:5
   [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
   ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (25.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (2.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (19.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+Started GET "/" for ::1 at 2021-04-17 13:38:42 +0900
+  [1m[35m (3.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/yoshiokasusumu/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (359.9ms)
+Completed 200 OK in 502ms (Views: 497.7ms | ActiveRecord: 0.0ms)
+
+
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+Started GET "/" for ::1 at 2021-04-17 13:50:22 +0900
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/yoshiokasusumu/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (332.5ms)
+Completed 200 OK in 481ms (Views: 475.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new?code=zSkLWFOrAp2zzXkpJzGg&state=12345abcde" for 114.184.187.135 at 2021-04-17 13:50:27 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Parameters: {"code"=>"zSkLWFOrAp2zzXkpJzGg", "state"=>"12345abcde"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:37
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("name", "line_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "吉岡　将"], ["line_id", "Ubdbe5d1bad3cc7a2b98fa5998c63d551"], ["created_at", "2021-04-17 04:50:27.631083"], ["updated_at", "2021-04-17 04:50:27.631083"]]
+  ↳ app/controllers/users_controller.rb:37
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:37
+Redirected to https://6d3131490055.ngrok.io/
+Completed 302 Found in 185ms (ActiveRecord: 9.5ms)
+
+
+Started GET "/" for 114.184.187.135 at 2021-04-17 13:50:27 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:8
+  Rendering home/top.html.erb within layouts/application
+  [1m[36mClock Load (0.4ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ app/views/home/top.html.erb:12
+  Rendered home/top.html.erb within layouts/application (59.7ms)
+Completed 200 OK in 117ms (Views: 94.1ms | ActiveRecord: 5.8ms)
+
+
+Started GET "/" for 211.1.149.6 at 2021-04-17 13:50:30 +0900
+Cannot render console from 211.1.149.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 79ms (Views: 77.6ms | ActiveRecord: 0.0ms)
+
+
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mClock Load (0.5ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ lib/tasks/send_youtube.rake:6
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mClock Load (0.3ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ lib/tasks/send_youtube.rake:6
+Started GET "/" for 114.184.187.135 at 2021-04-17 13:52:40 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:8
+  Rendering home/top.html.erb within layouts/application
+  [1m[36mClock Load (0.5ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ app/views/home/top.html.erb:12
+  Rendered home/top.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 60ms (Views: 54.7ms | ActiveRecord: 1.6ms)
+
+
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mClock Load (0.4ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ lib/tasks/send_youtube.rake:6
+Started GET "/" for 114.184.187.135 at 2021-04-17 13:53:04 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:8
+  Rendering home/top.html.erb within layouts/application
+  [1m[36mClock Load (0.4ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ app/views/home/top.html.erb:12
+  Rendered home/top.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 62ms (Views: 58.5ms | ActiveRecord: 0.9ms)
+
+
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mClock Load (0.3ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ lib/tasks/send_youtube.rake:6
+Started GET "/" for 114.184.187.135 at 2021-04-17 13:54:21 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:8
+  Rendering home/top.html.erb within layouts/application
+  [1m[36mClock Load (0.4ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ app/views/home/top.html.erb:12
+  Rendered home/top.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 74ms (Views: 70.3ms | ActiveRecord: 1.1ms)
+
+
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mClock Load (0.7ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ lib/tasks/send_youtube.rake:6
+Started GET "/" for 114.184.187.135 at 2021-04-17 13:55:11 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:8
+  Rendering home/top.html.erb within layouts/application
+  [1m[36mClock Load (0.4ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ app/views/home/top.html.erb:12
+  Rendered home/top.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 70ms (Views: 66.9ms | ActiveRecord: 0.9ms)
+
+
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mClock Load (0.3ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ lib/tasks/send_youtube.rake:6
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mClock Load (0.3ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ lib/tasks/send_youtube.rake:6
+Started GET "/" for 114.184.187.135 at 2021-04-17 13:57:45 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:8
+  Rendering home/top.html.erb within layouts/application
+  [1m[36mClock Load (0.4ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ app/views/home/top.html.erb:12
+  Rendered home/top.html.erb within layouts/application (66.5ms)
+Completed 200 OK in 151ms (Views: 148.2ms | ActiveRecord: 0.7ms)
+
+
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mClock Load (0.5ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ lib/tasks/send_youtube.rake:6
+Started GET "/" for 114.184.187.135 at 2021-04-17 13:58:46 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:8
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.3ms)
+
+
+  
+SyntaxError (/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/app/views/home/top.html.erb:52: syntax error, unexpected tINTEGER, expecting ')'
+/Users/yoshiokasusumu/Desktop/stand_up_engineer/stand_up_engineers/app/views/home/top.html.erb:52: syntax error, unexpected tINTEGER, expecting ')'):
+  
+app/views/home/top.html.erb:52: syntax error, unexpected tINTEGER, expecting ')'
+app/views/home/top.html.erb:52: syntax error, unexpected tINTEGER, expecting ')'
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mClock Load (0.4ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ lib/tasks/send_youtube.rake:6
+Started GET "/" for 114.184.187.135 at 2021-04-17 13:59:26 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:8
+  Rendering home/top.html.erb within layouts/application
+  [1m[36mClock Load (0.3ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ app/views/home/top.html.erb:12
+  Rendered home/top.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 64ms (Views: 62.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 114.184.187.135 at 2021-04-17 13:59:41 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:8
+  Rendering home/top.html.erb within layouts/application
+  [1m[36mClock Load (0.3ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ app/views/home/top.html.erb:12
+  Rendered home/top.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 49ms (Views: 46.6ms | ActiveRecord: 0.5ms)
+
+
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mClock Load (0.5ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ lib/tasks/send_youtube.rake:6
+Started GET "/" for 114.184.187.135 at 2021-04-17 14:00:07 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:8
+  Rendering home/top.html.erb within layouts/application
+  [1m[36mClock Load (0.2ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ app/views/home/top.html.erb:12
+  Rendered home/top.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 78ms (Views: 76.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 114.184.187.135 at 2021-04-17 14:00:31 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:8
+  Rendering home/top.html.erb within layouts/application
+  [1m[36mClock Load (0.3ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ app/views/home/top.html.erb:12
+  Rendered home/top.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 51ms (Views: 48.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 114.184.187.135 at 2021-04-17 14:00:51 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:8
+  Rendering home/top.html.erb within layouts/application
+  [1m[36mClock Load (0.3ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ app/views/home/top.html.erb:12
+  Rendered home/top.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 57ms (Views: 53.8ms | ActiveRecord: 0.6ms)
+
+
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mClock Load (0.4ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ lib/tasks/send_youtube.rake:6
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mClock Load (0.3ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ lib/tasks/send_youtube.rake:6
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mClock Load (0.4ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ lib/tasks/send_youtube.rake:6
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mClock Load (0.3ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ lib/tasks/send_youtube.rake:6
+  [1m[36mVideo Load (0.4ms)[0m  [1m[34mSELECT  "videos".* FROM "videos" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mVideo Load (1.2ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Destroy (0.8ms)[0m  [1m[31mDELETE FROM "videos" WHERE "videos"."id" = $1[0m  [["id", 1]]
+  [1m[35m (1.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Destroy (0.5ms)[0m  [1m[31mDELETE FROM "videos" WHERE "videos"."id" = $1[0m  [["id", 2]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Destroy (0.3ms)[0m  [1m[31mDELETE FROM "videos" WHERE "videos"."id" = $1[0m  [["id", 3]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Destroy (0.4ms)[0m  [1m[31mDELETE FROM "videos" WHERE "videos"."id" = $1[0m  [["id", 4]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Destroy (0.3ms)[0m  [1m[31mDELETE FROM "videos" WHERE "videos"."id" = $1[0m  [["id", 5]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Destroy (0.4ms)[0m  [1m[31mDELETE FROM "videos" WHERE "videos"."id" = $1[0m  [["id", 6]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Destroy (0.3ms)[0m  [1m[31mDELETE FROM "videos" WHERE "videos"."id" = $1[0m  [["id", 7]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Destroy (0.3ms)[0m  [1m[31mDELETE FROM "videos" WHERE "videos"."id" = $1[0m  [["id", 8]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Destroy (0.4ms)[0m  [1m[31mDELETE FROM "videos" WHERE "videos"."id" = $1[0m  [["id", 9]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Destroy (0.3ms)[0m  [1m[31mDELETE FROM "videos" WHERE "videos"."id" = $1[0m  [["id", 10]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Destroy (0.3ms)[0m  [1m[31mDELETE FROM "videos" WHERE "videos"."id" = $1[0m  [["id", 11]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Destroy (0.2ms)[0m  [1m[31mDELETE FROM "videos" WHERE "videos"."id" = $1[0m  [["id", 12]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Destroy (0.2ms)[0m  [1m[31mDELETE FROM "videos" WHERE "videos"."id" = $1[0m  [["id", 13]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Destroy (0.2ms)[0m  [1m[31mDELETE FROM "videos" WHERE "videos"."id" = $1[0m  [["id", 14]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Destroy (0.2ms)[0m  [1m[31mDELETE FROM "videos" WHERE "videos"."id" = $1[0m  [["id", 15]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Destroy (0.2ms)[0m  [1m[31mDELETE FROM "videos" WHERE "videos"."id" = $1[0m  [["id", 16]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Destroy (0.3ms)[0m  [1m[31mDELETE FROM "videos" WHERE "videos"."id" = $1[0m  [["id", 17]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Destroy (0.3ms)[0m  [1m[31mDELETE FROM "videos" WHERE "videos"."id" = $1[0m  [["id", 18]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Destroy (0.3ms)[0m  [1m[31mDELETE FROM "videos" WHERE "videos"."id" = $1[0m  [["id", 19]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Destroy (0.2ms)[0m  [1m[31mDELETE FROM "videos" WHERE "videos"."id" = $1[0m  [["id", 20]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Destroy (0.2ms)[0m  [1m[31mDELETE FROM "videos" WHERE "videos"."id" = $1[0m  [["id", 21]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Destroy (0.2ms)[0m  [1m[31mDELETE FROM "videos" WHERE "videos"."id" = $1[0m  [["id", 22]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Destroy (0.2ms)[0m  [1m[31mDELETE FROM "videos" WHERE "videos"."id" = $1[0m  [["id", 23]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Destroy (0.2ms)[0m  [1m[31mDELETE FROM "videos" WHERE "videos"."id" = $1[0m  [["id", 24]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Destroy (0.2ms)[0m  [1m[31mDELETE FROM "videos" WHERE "videos"."id" = $1[0m  [["id", 25]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Destroy (0.2ms)[0m  [1m[31mDELETE FROM "videos" WHERE "videos"."id" = $1[0m  [["id", 26]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Destroy (0.2ms)[0m  [1m[31mDELETE FROM "videos" WHERE "videos"."id" = $1[0m  [["id", 27]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Destroy (0.3ms)[0m  [1m[31mDELETE FROM "videos" WHERE "videos"."id" = $1[0m  [["id", 28]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Destroy (0.2ms)[0m  [1m[31mDELETE FROM "videos" WHERE "videos"."id" = $1[0m  [["id", 29]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Destroy (0.2ms)[0m  [1m[31mDELETE FROM "videos" WHERE "videos"."id" = $1[0m  [["id", 30]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Destroy (0.3ms)[0m  [1m[31mDELETE FROM "videos" WHERE "videos"."id" = $1[0m  [["id", 31]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Destroy (0.2ms)[0m  [1m[31mDELETE FROM "videos" WHERE "videos"."id" = $1[0m  [["id", 32]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Destroy (0.2ms)[0m  [1m[31mDELETE FROM "videos" WHERE "videos"."id" = $1[0m  [["id", 33]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Destroy (0.2ms)[0m  [1m[31mDELETE FROM "videos" WHERE "videos"."id" = $1[0m  [["id", 34]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Destroy (0.1ms)[0m  [1m[31mDELETE FROM "videos" WHERE "videos"."id" = $1[0m  [["id", 35]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Destroy (0.3ms)[0m  [1m[31mDELETE FROM "videos" WHERE "videos"."id" = $1[0m  [["id", 36]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Destroy (0.2ms)[0m  [1m[31mDELETE FROM "videos" WHERE "videos"."id" = $1[0m  [["id", 37]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Destroy (0.2ms)[0m  [1m[31mDELETE FROM "videos" WHERE "videos"."id" = $1[0m  [["id", 38]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Destroy (0.3ms)[0m  [1m[31mDELETE FROM "videos" WHERE "videos"."id" = $1[0m  [["id", 39]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Destroy (0.2ms)[0m  [1m[31mDELETE FROM "videos" WHERE "videos"."id" = $1[0m  [["id", 40]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mVideo Load (0.6ms)[0m  [1m[34mSELECT  "videos".* FROM "videos" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mClock Load (0.3ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ lib/tasks/send_youtube.rake:6
+Sending HTTP get https://youtube.googleapis.com/youtube/v3/search?key=AIzaSyAHRj3UyMiXAhpdddkRlE9Qa16FF3IfGyM&maxResults=10&order=date&part=snippet&publishedAfter=2021-03-17T05%3A05%3A33%2B00%3A00&publishedBefore=2021-04-17T14%3A05%3A33%2B09%3A00&q=%E7%AD%8B%E3%83%88%E3%83%AC%2010%E5%88%86&type=video
+200
+#<HTTP::Message:0x00007f89a4b0baf0 @http_header=#<HTTP::Message::Headers:0x00007f89a4b0b910 @http_version="1.1", @body_size=0, @chunked=false, @request_method="GET", @request_uri=#<Addressable::URI:0x3fc4d2580cd8 URI:https://youtube.googleapis.com/youtube/v3/search?key=AIzaSyAHRj3UyMiXAhpdddkRlE9Qa16FF3IfGyM&maxResults=10&order=date&part=snippet&publishedAfter=2021-03-17T05%3A05%3A33%2B00%3A00&publishedBefore=2021-04-17T14%3A05%3A33%2B09%3A00&q=%E7%AD%8B%E3%83%88%E3%83%AC%2010%E5%88%86&type=video>, @request_query=nil, @request_absolute_uri=nil, @status_code=200, @reason_phrase="OK", @body_type=nil, @body_charset=nil, @body_date=nil, @body_encoding=#<Encoding:UTF-8>, @is_request=false, @header_item=[["Content-Type", "application/json; charset=UTF-8"], ["Vary", "Origin"], ["Vary", "X-Origin"], ["Vary", "Referer"], ["Content-Encoding", "gzip"], ["Date", "Sat, 17 Apr 2021 05:05:33 GMT"], ["Server", "scaffolding on HTTPServer2"], ["Cache-Control", "private"], ["X-XSS-Protection", "0"], ["X-Frame-Options", "SAMEORIGIN"], ["X-Content-Type-Options", "nosniff"], ["Alt-Svc", "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""], ["Transfer-Encoding", "chunked"]], @dumped=false>, @peer_cert=#<OpenSSL::X509::Certificate: subject=#<OpenSSL::X509::Name CN=upload.video.google.com,O=Google LLC,L=Mountain View,ST=California,C=US>, issuer=#<OpenSSL::X509::Name CN=GTS CA 1O1,O=Google Trust Services,C=US>, serial=#<OpenSSL::BN:0x00007f89a5b3b7b8>, not_before=2021-03-23 08:24:47 UTC, not_after=2021-06-15 08:24:46 UTC>, @http_body=#<HTTP::Message::Body:0x00007f89a4b0b4b0 @body="{\n  \"kind\": \"youtube#searchListResponse\",\n  \"etag\": \"hKolBsdoFKPmp_BOFah-HVgPMLo\",\n  \"nextPageToken\": \"CAoQAA\",\n  \"regionCode\": \"JP\",\n  \"pageInfo\": {\n    \"totalResults\": 52745,\n    \"resultsPerPage\": 10\n  },\n  \"items\": [\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"vW2Oiv0BCWcDZZYmzNjuOHHgZcs\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"AkXgrPwEh-A\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-16T22:00:06Z\",\n        \"channelId\": \"UCFq6-y2AM13SvD-nnaUZ6OA\",\n        \"title\": \"【1週間の筋トレメニュー作ります‼】土曜日は有酸素10分♪滝汗かいて脂肪燃焼♡\",\n        \"description\": \"新企画の1week challenge♡ 1週間の筋トレメニュー作っちゃいました～ 土曜日の今日は有酸素( *´艸｀) 今回のターゲットは爆汗確定有酸素運動♪ 月曜日から始まっ ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/AkXgrPwEh-A/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/AkXgrPwEh-A/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/AkXgrPwEh-A/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"BEST BODY LIFE\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-16T22:00:06Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"ZAyR1h7WkFHcYLTCx-piCfHVjMA\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"2gDxXsuaFTY\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-16T10:00:06Z\",\n        \"channelId\": \"UCYFSF8gKX-yyPUyDz2HYVLg\",\n        \"title\": \"【ヒップアップ10分】脚痩せも目指そう！かんたんヨガ\",\n        \"description\": \"ヨガ#下半身痩せ#筋トレ こんにちは   ヨガインストラクターのなかむです✨ いつもご覧いただいてる方も、初めての方も この度は動画ご覧いただきありがとうございます♪ お ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/2gDxXsuaFTY/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/2gDxXsuaFTY/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/2gDxXsuaFTY/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"ヨガインストラクターなかむ\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-16T10:00:06Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"syRyR99ZxktoKISxC22CERKV0No\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"5ukzdIPpMqk\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-16T10:00:03Z\",\n        \"channelId\": \"UChp1mw7VgXeFjOQgiShh5_w\",\n        \"title\": \"脂肪を燃やせ！ふくらはぎ10分宅トレ【40代、50代、60代の健康情報】\",\n        \"description\": \"================================================== LOOOM（ルーム）https://looom.jp/ オンラインエクササイズLOOOMは、さまざまな個性を持った人が、 ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/5ukzdIPpMqk/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/5ukzdIPpMqk/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/5ukzdIPpMqk/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"40代、50代、60代の健康情報 by LOOOM\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-16T10:00:03Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"LQm5JbO3J_aItLGOAGtQBgEaluw\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"qpnjxUUC-es\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-16T03:04:52Z\",\n        \"channelId\": \"UCa_RtFd0EDEaeKgkbbWHwyw\",\n        \"title\": \"【ダイエット】日本一が教える１分で痩せるコツ【筋トレ】\",\n        \"description\": \"ダイエット、筋トレ、体力アップはイケメンに聞け！ 1分で痩せる 1分で筋力アップ 動かなくていい腹筋！ こんな簡単で効果抜群！ 超イケメンでBEST BODY JAPANの ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/qpnjxUUC-es/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/qpnjxUUC-es/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/qpnjxUUC-es/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"山石ピクチャーズ\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-16T03:04:52Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"ACBqxSFsqGiCJLeXvISSS5mXCpA\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"oZaUPwTU340\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-16T02:36:17Z\",\n        \"channelId\": \"UC4G-9pxuU2QoWTEAzWc-wgQ\",\n        \"title\": \"とっても簡単、でも効果抜群！１０分ウエスト痩せエクササイズ～運動嫌いでも大丈夫、即戦力抜群❤\",\n        \"description\": \"１０分間深呼吸エクササイズです。難しい動きはありません。息を大きく吸って吐いて～みんなできるよね。８種類のエクササイズを順に１分ずつやっていきます。エクササイズ ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/oZaUPwTU340/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/oZaUPwTU340/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/oZaUPwTU340/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"Lucent Fitness\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-16T02:36:17Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"Kzz-2oV9lJuLt-sz4m6YgkJOXG0\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"GEGpLMoHZfg\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-15T22:52:25Z\",\n        \"channelId\": \"UCiljJiqQWhILP2mLlaxUp4A\",\n        \"title\": \"【ジム】【肩】【中級者】筋トレメニュー\",\n        \"description\": \"【ジム】【肩】【中級者】筋トレメニュー 《本日の筋トレメニュー（腹筋）》 1. 【ショルダープレス（スミス）】肩（三角筋前部）※できる方はサムレスグリップで行ってください。 2.\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/GEGpLMoHZfg/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/GEGpLMoHZfg/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/GEGpLMoHZfg/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"Takamasa Kuno 筋トレプログラム\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-15T22:52:25Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"8jgnsFZip4UUvK7vMlvTjLnBnmA\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"YIIbAnUzmkg\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-15T22:00:27Z\",\n        \"channelId\": \"UCFq6-y2AM13SvD-nnaUZ6OA\",\n        \"title\": \"【1週間の筋トレメニュー作ります‼】金曜日はお尻10分♪まんまる桃尻にしたいならコレ♡\",\n        \"description\": \"新企画の1week challenge♡ 1週間の筋トレメニュー作っちゃいました～ 金曜日の今日はお尻トレ( *´艸｀) 今日のメインターゲットはお待ちかね‼お尻♪ 桃のようなまん丸 ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/YIIbAnUzmkg/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/YIIbAnUzmkg/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/YIIbAnUzmkg/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"BEST BODY LIFE\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-15T22:00:27Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"jM2zrHq1K2Ag8iaemkX9XsDMfMo\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"7A9s3DW-b1E\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-15T07:35:58Z\",\n        \"channelId\": \"UCiljJiqQWhILP2mLlaxUp4A\",\n        \"title\": \"【ジム】【肩】【初心者】筋トレメニュー\",\n        \"description\": \"【ジム】【初心者】【肩】筋トレメニュー 《本日の筋トレメニュー（腹筋）》 1. 【ショルダープレス（マシン）】肩（三角筋前部） 2. 【シーテッドサイドレイズ】肩（三角筋中部） ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/7A9s3DW-b1E/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/7A9s3DW-b1E/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/7A9s3DW-b1E/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"Takamasa Kuno 自重トレプログラム\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-15T07:35:58Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"ZuaVg16Xs0I6HWopFKIbq6K3ajY\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"bl0zTq_2X5M\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-15T07:00:04Z\",\n        \"channelId\": \"UCut1d1gDiRvYWFZqyMmp5hw\",\n        \"title\": \"【スロトレ】10分で全身の脂肪燃焼！マンションで出来る「飛ばない」自重トレーニング【運動不足の方へ】\",\n        \"description\": \"今回はマンションで出来る１０分で出来る「飛ばない全身自重スロートレーニング」 です！ 運動不足を解消したい ジムに行く時間がない 夏までにダイエットしたい マンション ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/bl0zTq_2X5M/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/bl0zTq_2X5M/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/bl0zTq_2X5M/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"ハッチフィット【自重スロトレちゃんねる】\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-15T07:00:04Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"8wGe8TQYc0r5ZgR2Ux_fTxBq5K4\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"r7BJV8RE9lE\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-15T02:00:06Z\",\n        \"channelId\": \"UCY6L9qrYqWCt4ydnvActkeg\",\n        \"title\": \"【10分】全身脂肪燃焼！初心者におすすめ簡単エクササイズ！\",\n        \"description\": \"【10分】全身脂肪燃焼！初心者におすすめ簡単エクササイズ！ [10 min.] Whole body fat burning! Easy exercise even for beginners! ▫Lv.2 30秒×15種 ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/r7BJV8RE9lE/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/r7BJV8RE9lE/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/r7BJV8RE9lE/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"パンダ エクササイズ / PANDA EXERCISE\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-15T02:00:06Z\"\n      }\n    }\n  ]\n}\n", @size=0, @positions=nil, @chunk_size=nil>, @previous=nil>
+Success - #<Google::Apis::YoutubeV3::SearchListsResponse:0x00007f89a5b4d828
+ @etag="hKolBsdoFKPmp_BOFah-HVgPMLo",
+ @items=
+  [#<Google::Apis::YoutubeV3::SearchResult:0x00007f89a95a4120
+    @etag="vW2Oiv0BCWcDZZYmzNjuOHHgZcs",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007f89a9c53390
+      @kind="youtube#video",
+      @video_id="AkXgrPwEh-A">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007f89a95b4a70
+      @channel_id="UCFq6-y2AM13SvD-nnaUZ6OA",
+      @channel_title="BEST BODY LIFE",
+      @description=
+       "新企画の1week challenge♡ 1週間の筋トレメニュー作っちゃいました～ 土曜日の今日は有酸素( *´艸｀) 今回のターゲットは爆汗確定有酸素運動♪ 月曜日から始まっ ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-16T22:00:06Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007f89a5bfe010
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a5c076d8
+          @height=90,
+          @url="https://i.ytimg.com/vi/AkXgrPwEh-A/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a4be3860
+          @height=360,
+          @url="https://i.ytimg.com/vi/AkXgrPwEh-A/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a5c0eb18
+          @height=180,
+          @url="https://i.ytimg.com/vi/AkXgrPwEh-A/mqdefault.jpg",
+          @width=320>>,
+      @title="【1週間の筋トレメニュー作ります‼】土曜日は有酸素10分♪滝汗かいて脂肪燃焼♡">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007f89a95ce808
+    @etag="ZAyR1h7WkFHcYLTCx-piCfHVjMA",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007f89a4bebec0
+      @kind="youtube#video",
+      @video_id="2gDxXsuaFTY">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007f89a4bf25e0
+      @channel_id="UCYFSF8gKX-yyPUyDz2HYVLg",
+      @channel_title="ヨガインストラクターなかむ",
+      @description=
+       "ヨガ#下半身痩せ#筋トレ こんにちは   ヨガインストラクターのなかむです✨ いつもご覧いただいてる方も、初めての方も この度は動画ご覧いただきありがとうございます♪ お ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-16T10:00:06Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007f89a5c154b8
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a5c1f918
+          @height=90,
+          @url="https://i.ytimg.com/vi/2gDxXsuaFTY/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a5c26f10
+          @height=360,
+          @url="https://i.ytimg.com/vi/2gDxXsuaFTY/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a5c25610
+          @height=180,
+          @url="https://i.ytimg.com/vi/2gDxXsuaFTY/mqdefault.jpg",
+          @width=320>>,
+      @title="【ヒップアップ10分】脚痩せも目指そう！かんたんヨガ">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007f89a95d74a8
+    @etag="syRyR99ZxktoKISxC22CERKV0No",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007f89a95d45c8
+      @kind="youtube#video",
+      @video_id="5ukzdIPpMqk">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007f89a4c02e40
+      @channel_id="UChp1mw7VgXeFjOQgiShh5_w",
+      @channel_title="40代、50代、60代の健康情報 by LOOOM",
+      @description=
+       "================================================== LOOOM（ルーム）https://looom.jp/ オンラインエクササイズLOOOMは、さまざまな個性を持った人が、 ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-16T10:00:03Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007f89a4c01a40
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a4c01428
+          @height=90,
+          @url="https://i.ytimg.com/vi/5ukzdIPpMqk/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a4c00960
+          @height=360,
+          @url="https://i.ytimg.com/vi/5ukzdIPpMqk/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89aa033c80
+          @height=180,
+          @url="https://i.ytimg.com/vi/5ukzdIPpMqk/mqdefault.jpg",
+          @width=320>>,
+      @title="脂肪を燃やせ！ふくらはぎ10分宅トレ【40代、50代、60代の健康情報】">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007f89aa0329e8
+    @etag="LQm5JbO3J_aItLGOAGtQBgEaluw",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007f89aa032038
+      @kind="youtube#video",
+      @video_id="qpnjxUUC-es">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007f89aa0310e8
+      @channel_id="UCa_RtFd0EDEaeKgkbbWHwyw",
+      @channel_title="山石ピクチャーズ",
+      @description=
+       "ダイエット、筋トレ、体力アップはイケメンに聞け！ 1分で痩せる 1分で筋力アップ 動かなくていい腹筋！ こんな簡単で効果抜群！ 超イケメンでBEST BODY JAPANの ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-16T03:04:52Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007f89aa030288
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a9c5bae0
+          @height=90,
+          @url="https://i.ytimg.com/vi/qpnjxUUC-es/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a9c5ab90
+          @height=360,
+          @url="https://i.ytimg.com/vi/qpnjxUUC-es/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a9c59e48
+          @height=180,
+          @url="https://i.ytimg.com/vi/qpnjxUUC-es/mqdefault.jpg",
+          @width=320>>,
+      @title="【ダイエット】日本一が教える１分で痩せるコツ【筋トレ】">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007f89a9c591c8
+    @etag="ACBqxSFsqGiCJLeXvISSS5mXCpA",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007f89a9c58a48
+      @kind="youtube#video",
+      @video_id="oZaUPwTU340">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007f89a9c63c18
+      @channel_id="UC4G-9pxuU2QoWTEAzWc-wgQ",
+      @channel_title="Lucent Fitness",
+      @description=
+       "１０分間深呼吸エクササイズです。難しい動きはありません。息を大きく吸って吐いて～みんなできるよね。８種類のエクササイズを順に１分ずつやっていきます。エクササイズ ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-16T02:36:17Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007f89a9c62570
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a9c61ff8
+          @height=90,
+          @url="https://i.ytimg.com/vi/oZaUPwTU340/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a9c613c8
+          @height=360,
+          @url="https://i.ytimg.com/vi/oZaUPwTU340/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a5c2f728
+          @height=180,
+          @url="https://i.ytimg.com/vi/oZaUPwTU340/mqdefault.jpg",
+          @width=320>>,
+      @title="とっても簡単、でも効果抜群！１０分ウエスト痩せエクササイズ～運動嫌いでも大丈夫、即戦力抜群❤">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007f89a5c2e418
+    @etag="Kzz-2oV9lJuLt-sz4m6YgkJOXG0",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007f89a5c2db58
+      @kind="youtube#video",
+      @video_id="GEGpLMoHZfg">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007f89a5c2c730
+      @channel_id="UCiljJiqQWhILP2mLlaxUp4A",
+      @channel_title="Takamasa Kuno 筋トレプログラム",
+      @description=
+       "【ジム】【肩】【中級者】筋トレメニュー 《本日の筋トレメニュー（腹筋）》 1. 【ショルダープレス（スミス）】肩（三角筋前部）※できる方はサムレスグリップで行ってください。 2.",
+      @live_broadcast_content="none",
+      @published_at="2021-04-15T22:52:25Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007f89a5c372e8
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a5c36c30
+          @height=90,
+          @url="https://i.ytimg.com/vi/GEGpLMoHZfg/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a5c36078
+          @height=360,
+          @url="https://i.ytimg.com/vi/GEGpLMoHZfg/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a5c352e0
+          @height=180,
+          @url="https://i.ytimg.com/vi/GEGpLMoHZfg/mqdefault.jpg",
+          @width=320>>,
+      @title="【ジム】【肩】【中級者】筋トレメニュー">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007f89a9c6b530
+    @etag="8jgnsFZip4UUvK7vMlvTjLnBnmA",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007f89a9c6ab08
+      @kind="youtube#video",
+      @video_id="YIIbAnUzmkg">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007f89a9c69960
+      @channel_id="UCFq6-y2AM13SvD-nnaUZ6OA",
+      @channel_title="BEST BODY LIFE",
+      @description=
+       "新企画の1week challenge♡ 1週間の筋トレメニュー作っちゃいました～ 金曜日の今日はお尻トレ( *´艸｀) 今日のメインターゲットはお待ちかね‼お尻♪ 桃のようなまん丸 ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-15T22:00:27Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007f89a9c68b00
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a9c68628
+          @height=90,
+          @url="https://i.ytimg.com/vi/YIIbAnUzmkg/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a4c0b3b0
+          @height=360,
+          @url="https://i.ytimg.com/vi/YIIbAnUzmkg/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a4c0a050
+          @height=180,
+          @url="https://i.ytimg.com/vi/YIIbAnUzmkg/mqdefault.jpg",
+          @width=320>>,
+      @title="【1週間の筋トレメニュー作ります‼】金曜日はお尻10分♪まんまる桃尻にしたいならコレ♡">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007f89a4c08ef8
+    @etag="jM2zrHq1K2Ag8iaemkX9XsDMfMo",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007f89a4c08688
+      @kind="youtube#video",
+      @video_id="7A9s3DW-b1E">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007f89a9c73438
+      @channel_id="UCiljJiqQWhILP2mLlaxUp4A",
+      @channel_title="Takamasa Kuno 自重トレプログラム",
+      @description=
+       "【ジム】【初心者】【肩】筋トレメニュー 《本日の筋トレメニュー（腹筋）》 1. 【ショルダープレス（マシン）】肩（三角筋前部） 2. 【シーテッドサイドレイズ】肩（三角筋中部） ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-15T07:35:58Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007f89a9c71fe8
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a9c717f0
+          @height=90,
+          @url="https://i.ytimg.com/vi/7A9s3DW-b1E/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a9c709e0
+          @height=360,
+          @url="https://i.ytimg.com/vi/7A9s3DW-b1E/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a4c133f8
+          @height=180,
+          @url="https://i.ytimg.com/vi/7A9s3DW-b1E/mqdefault.jpg",
+          @width=320>>,
+      @title="【ジム】【肩】【初心者】筋トレメニュー">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007f89a4c12278
+    @etag="ZuaVg16Xs0I6HWopFKIbq6K3ajY",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007f89a4c11b48
+      @kind="youtube#video",
+      @video_id="bl0zTq_2X5M">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007f89a4c1bdf0
+      @channel_id="UCut1d1gDiRvYWFZqyMmp5hw",
+      @channel_title="ハッチフィット【自重スロトレちゃんねる】",
+      @description=
+       "今回はマンションで出来る１０分で出来る「飛ばない全身自重スロートレーニング」 です！ 運動不足を解消したい ジムに行く時間がない 夏までにダイエットしたい マンション ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-15T07:00:04Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007f89a4c1a9f0
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a4c1a478
+          @height=90,
+          @url="https://i.ytimg.com/vi/bl0zTq_2X5M/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a4c19578
+          @height=360,
+          @url="https://i.ytimg.com/vi/bl0zTq_2X5M/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a4c18218
+          @height=180,
+          @url="https://i.ytimg.com/vi/bl0zTq_2X5M/mqdefault.jpg",
+          @width=320>>,
+      @title="【スロトレ】10分で全身の脂肪燃焼！マンションで出来る「飛ばない」自重トレーニング【運動不足の方へ】">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007f89a9c7a828
+    @etag="8wGe8TQYc0r5ZgR2Ux_fTxBq5K4",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007f89a9c798d8
+      @kind="youtube#video",
+      @video_id="r7BJV8RE9lE">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007f89a9c78438
+      @channel_id="UCY6L9qrYqWCt4ydnvActkeg",
+      @channel_title="パンダ エクササイズ / PANDA EXERCISE",
+      @description=
+       "【10分】全身脂肪燃焼！初心者におすすめ簡単エクササイズ！ [10 min.] Whole body fat burning! Easy exercise even for beginners! ▫Lv.2 30秒×15種 ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-15T02:00:06Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007f89a4c22d08
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a4c22308
+          @height=90,
+          @url="https://i.ytimg.com/vi/r7BJV8RE9lE/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a4c210e8
+          @height=360,
+          @url="https://i.ytimg.com/vi/r7BJV8RE9lE/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a4c2bf98
+          @height=180,
+          @url="https://i.ytimg.com/vi/r7BJV8RE9lE/mqdefault.jpg",
+          @width=320>>,
+      @title="【10分】全身脂肪燃焼！初心者におすすめ簡単エクササイズ！">>],
+ @kind="youtube#searchListResponse",
+ @next_page_token="CAoQAA",
+ @page_info=
+  #<Google::Apis::YoutubeV3::PageInfo:0x00007f89a4c2a058
+   @results_per_page=10,
+   @total_results=52745>,
+ @region_code="JP">
+
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.5ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "筋トレ 10分"], ["title", "【1週間の筋トレメニュー作ります‼】土曜日は有酸素10分♪滝汗かいて脂肪燃焼♡"], ["video_id", "AkXgrPwEh-A"], ["created_at", "2021-04-17 05:05:33.593861"], ["updated_at", "2021-04-17 05:05:33.593861"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "筋トレ 10分"], ["title", "【ヒップアップ10分】脚痩せも目指そう！かんたんヨガ"], ["video_id", "2gDxXsuaFTY"], ["created_at", "2021-04-17 05:05:33.596561"], ["updated_at", "2021-04-17 05:05:33.596561"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "筋トレ 10分"], ["title", "脂肪を燃やせ！ふくらはぎ10分宅トレ【40代、50代、60代の健康情報】"], ["video_id", "5ukzdIPpMqk"], ["created_at", "2021-04-17 05:05:33.598535"], ["updated_at", "2021-04-17 05:05:33.598535"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "筋トレ 10分"], ["title", "【ダイエット】日本一が教える１分で痩せるコツ【筋トレ】"], ["video_id", "qpnjxUUC-es"], ["created_at", "2021-04-17 05:05:33.600233"], ["updated_at", "2021-04-17 05:05:33.600233"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "筋トレ 10分"], ["title", "とっても簡単、でも効果抜群！１０分ウエスト痩せエクササイズ～運動嫌いでも大丈夫、即戦力抜群❤"], ["video_id", "oZaUPwTU340"], ["created_at", "2021-04-17 05:05:33.602057"], ["updated_at", "2021-04-17 05:05:33.602057"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (1.5ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "筋トレ 10分"], ["title", "【ジム】【肩】【中級者】筋トレメニュー"], ["video_id", "GEGpLMoHZfg"], ["created_at", "2021-04-17 05:05:33.603771"], ["updated_at", "2021-04-17 05:05:33.603771"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "筋トレ 10分"], ["title", "【1週間の筋トレメニュー作ります‼】金曜日はお尻10分♪まんまる桃尻にしたいならコレ♡"], ["video_id", "YIIbAnUzmkg"], ["created_at", "2021-04-17 05:05:33.606673"], ["updated_at", "2021-04-17 05:05:33.606673"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "筋トレ 10分"], ["title", "【ジム】【肩】【初心者】筋トレメニュー"], ["video_id", "7A9s3DW-b1E"], ["created_at", "2021-04-17 05:05:33.608414"], ["updated_at", "2021-04-17 05:05:33.608414"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "筋トレ 10分"], ["title", "【スロトレ】10分で全身の脂肪燃焼！マンションで出来る「飛ばない」自重トレーニング【運動不足の方へ】"], ["video_id", "bl0zTq_2X5M"], ["created_at", "2021-04-17 05:05:33.610136"], ["updated_at", "2021-04-17 05:05:33.610136"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "筋トレ 10分"], ["title", "【10分】全身脂肪燃焼！初心者におすすめ簡単エクササイズ！"], ["video_id", "r7BJV8RE9lE"], ["created_at", "2021-04-17 05:05:33.611558"], ["updated_at", "2021-04-17 05:05:33.611558"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+Sending HTTP get https://youtube.googleapis.com/youtube/v3/search?key=AIzaSyAHRj3UyMiXAhpdddkRlE9Qa16FF3IfGyM&maxResults=10&order=date&part=snippet&publishedAfter=2021-03-17T05%3A05%3A33%2B00%3A00&publishedBefore=2021-04-17T14%3A05%3A33%2B09%3A00&q=%E3%83%A8%E3%82%AC%2010%E5%88%86&type=video
+200
+#<HTTP::Message:0x00007f89a5d3fd98 @http_header=#<HTTP::Message::Headers:0x00007f89a5d3fd70 @http_version="1.1", @body_size=0, @chunked=false, @request_method="GET", @request_uri=#<Addressable::URI:0x3fc4d2e9a418 URI:https://youtube.googleapis.com/youtube/v3/search?key=AIzaSyAHRj3UyMiXAhpdddkRlE9Qa16FF3IfGyM&maxResults=10&order=date&part=snippet&publishedAfter=2021-03-17T05%3A05%3A33%2B00%3A00&publishedBefore=2021-04-17T14%3A05%3A33%2B09%3A00&q=%E3%83%A8%E3%82%AC%2010%E5%88%86&type=video>, @request_query=nil, @request_absolute_uri=nil, @status_code=200, @reason_phrase="OK", @body_type=nil, @body_charset=nil, @body_date=nil, @body_encoding=#<Encoding:UTF-8>, @is_request=false, @header_item=[["Content-Type", "application/json; charset=UTF-8"], ["Vary", "Origin"], ["Vary", "X-Origin"], ["Vary", "Referer"], ["Content-Encoding", "gzip"], ["Date", "Sat, 17 Apr 2021 05:05:33 GMT"], ["Server", "scaffolding on HTTPServer2"], ["Cache-Control", "private"], ["X-XSS-Protection", "0"], ["X-Frame-Options", "SAMEORIGIN"], ["X-Content-Type-Options", "nosniff"], ["Alt-Svc", "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""], ["Transfer-Encoding", "chunked"]], @dumped=false>, @peer_cert=#<OpenSSL::X509::Certificate: subject=#<OpenSSL::X509::Name CN=upload.video.google.com,O=Google LLC,L=Mountain View,ST=California,C=US>, issuer=#<OpenSSL::X509::Name CN=GTS CA 1O1,O=Google Trust Services,C=US>, serial=#<OpenSSL::BN:0x00007f89a5d5e428>, not_before=2021-03-23 08:24:47 UTC, not_after=2021-06-15 08:24:46 UTC>, @http_body=#<HTTP::Message::Body:0x00007f89a5d3fcf8 @body="{\n  \"kind\": \"youtube#searchListResponse\",\n  \"etag\": \"Dgsqzm4L6hY7Ynfh1GUg4rrsbnk\",\n  \"nextPageToken\": \"CAoQAA\",\n  \"regionCode\": \"JP\",\n  \"pageInfo\": {\n    \"totalResults\": 29095,\n    \"resultsPerPage\": 10\n  },\n  \"items\": [\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"aInwPtOr82_Yyj8qE4X_Aqmt6WE\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"GPfK5BTaJCg\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-17T00:51:49Z\",\n        \"channelId\": \"UCzFqkfbcYheHOrIGocZtmvQ\",\n        \"title\": \"【初めてヨガ】#お腹搾り　10分30日DAY17 TWIST\",\n        \"description\": \"キッズダンス、ヒップホップ、ヨガ講師を西武新宿線小平市花小金井駅と杉並区井荻駅、各徒歩5分圏内でダンスしています。 振付師・ヨガ講師の西田亮子と申します。\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/GPfK5BTaJCg/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/GPfK5BTaJCg/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/GPfK5BTaJCg/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"-Lunchbox Dance School -RYOKO NISHIDA-\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-17T00:51:49Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"ZAyR1h7WkFHcYLTCx-piCfHVjMA\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"2gDxXsuaFTY\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-16T10:00:06Z\",\n        \"channelId\": \"UCYFSF8gKX-yyPUyDz2HYVLg\",\n        \"title\": \"【ヒップアップ10分】脚痩せも目指そう！かんたんヨガ\",\n        \"description\": \"ヨガ#下半身痩せ#筋トレ こんにちは   ヨガインストラクターのなかむです✨ いつもご覧いただいてる方も、初めての方も この度は動画ご覧いただきありがとうございます♪ お ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/2gDxXsuaFTY/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/2gDxXsuaFTY/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/2gDxXsuaFTY/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"ヨガインストラクターなかむ\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-16T10:00:06Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"cOoIKJYPauU7gT_WQvbe3nNhDbI\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"p7WtxkCFbZM\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-16T00:08:27Z\",\n        \"channelId\": \"UCaBDaXFGqf2hcn54MHQD3Yw\",\n        \"title\": \"【ヨガ初心者さん必見】手が痛くならないヨガのこつ | Wellness To Go by Arisa\",\n        \"description\": \"... ライブヨガレッスンスケジュール 毎週月曜 朝7時〜 朝クイック10分ヨガ on Instagram 毎週土曜 朝9時15分〜 on YouTube 毎週日曜 朝9時15分 on YouTube ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/p7WtxkCFbZM/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/p7WtxkCFbZM/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/p7WtxkCFbZM/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"Wellness To Go by Arisa\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-16T00:08:27Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"fkJMa46Rj0zqce9ofh9JVLDAi5w\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"7QnVwWhygUc\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-16T00:00:01Z\",\n        \"channelId\": \"UCzFqkfbcYheHOrIGocZtmvQ\",\n        \"title\": \"【初めてヨガ】#背筋を伸ばす10分30日DAY16 杖のポーズ\",\n        \"description\": \"キッズダンス、ヒップホップ、ヨガ講師を西武新宿線小平市花小金井駅と杉並区井荻駅、各徒歩5分圏内でダンスしています。 振付師・ヨガ講師の西田亮子と申します。\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/7QnVwWhygUc/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/7QnVwWhygUc/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/7QnVwWhygUc/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"-Lunchbox Dance School -RYOKO NISHIDA-\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-16T00:00:01Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"zVuJXc_vxpX1XGzLzitwvrrFFE4\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"JRxuhMuLJdQ\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-15T10:00:14Z\",\n        \"channelId\": \"UCnxJisM5m1BXPJvdWldz3UQ\",\n        \"title\": \"【寝たまま夜ヨガ】で入眠準備😪9分間のご褒美タイム💗\",\n        \"description\": \"今回の動画は寝たまま出来る夜ヨガです！ もう眠いけど少し体をほぐしたい、入眠準備したい！そんな時にとってもおすすめです☘️ お部屋の明かりを暗めにして自分だけの ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/JRxuhMuLJdQ/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/JRxuhMuLJdQ/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/JRxuhMuLJdQ/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"mao yoga\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-15T10:00:14Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"cfvWMC6uQkXHZ0Dg8oRRFJhH5ck\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"4zGY36aIxZo\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-15T08:43:29Z\",\n        \"channelId\": \"UCRWlu-MB7JcrXeblW5e1Elw\",\n        \"title\": \"【 ヨガの呼吸 】自律神経を整える、呼吸法10分／ガイド・字幕付き\",\n        \"description\": \"チャンネル登録・高評価ボタンぜひよろしくお願いします❤︎ ・宮古島でのヨガレッスン&アーユルヴェーダHP→ https://beachyogamiyako.jimdofree.com ・Instagram→ ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/4zGY36aIxZo/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/4zGY36aIxZo/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/4zGY36aIxZo/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"MANON Channel\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-15T08:43:29Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"40frbskXCtw5TSiBwGT24S2C-AA\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"UgPcNndKDSk\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-15T00:00:16Z\",\n        \"channelId\": \"UCzFqkfbcYheHOrIGocZtmvQ\",\n        \"title\": \"【初めてヨガ】#身体引き締めFLOW10分30日DAY15  11-14の復習\",\n        \"description\": \"キッズダンス、ヒップホップ、ヨガ講師を西武新宿線小平市花小金井駅と杉並区井荻駅、各徒歩5分圏内でダンスしています。 振付師・ヨガ講師の西田亮子と申します。\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/UgPcNndKDSk/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/UgPcNndKDSk/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/UgPcNndKDSk/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"-Lunchbox Dance School -RYOKO NISHIDA-\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-15T00:00:16Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"fL6paeReGOR-Xp7QfUALSCFLgn4\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"Rj29vL0W8Rg\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-14T20:30:01Z\",\n        \"channelId\": \"UCyUoeB9MpLuYg7ia8Y0-PUA\",\n        \"title\": \"【朝ヨガ10分】自律神経のバランスを整える目覚めのヨガ　快適な1日のスタートに！\",\n        \"description\": \"朝の目覚めにオススメな朝ヨガレッスンです。 朝の時間帯にヨガを行うことで呼吸を深め、代謝UPや、自律神経のバランスを整える効果が期待できます。 眠っている間に ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/Rj29vL0W8Rg/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/Rj29vL0W8Rg/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/Rj29vL0W8Rg/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"Mikomichelle\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-14T20:30:01Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"qWA9iHgYB6rkFjxvo_AtckGDDzU\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"FgZuiFpSNro\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-14T09:00:05Z\",\n        \"channelId\": \"UCd0pUnH7i5CM-Y8xRe7cZVg\",\n        \"title\": \"【1日10分】 朝のマインドフルネス瞑想　ココロとアタマを浄化する #471\",\n        \"description\": \"【B-lifeオンラインサロン】 B-lifeオンラインサロン7日間無料！全部で100時間以上のLIVEレッスンが受けられます。 https://lounge.dmm.com/detail/1005/ ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/FgZuiFpSNro/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/FgZuiFpSNro/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/FgZuiFpSNro/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"B-life\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-14T09:00:05Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"NrjjYTpTPWoFxyFaviL5Ssh9Zm8\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"h0YUx8Vr3CQ\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-14T00:00:06Z\",\n        \"channelId\": \"UCzFqkfbcYheHOrIGocZtmvQ\",\n        \"title\": \"【初めてヨガ】#腰痛に効くストレッチ　10分30日DAY14 side stretch\",\n        \"description\": \"キッズダンス、ヒップホップ、ヨガ講師を西武新宿線小平市花小金井駅と杉並区井荻駅、各徒歩5分圏内でダンスしています。 振付師・ヨガ講師の西田亮子と申します。\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/h0YUx8Vr3CQ/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/h0YUx8Vr3CQ/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/h0YUx8Vr3CQ/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"-Lunchbox Dance School -RYOKO NISHIDA-\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-14T00:00:06Z\"\n      }\n    }\n  ]\n}\n", @size=0, @positions=nil, @chunk_size=nil>, @previous=nil>
+Success - #<Google::Apis::YoutubeV3::SearchListsResponse:0x00007f89a5d5da28
+ @etag="Dgsqzm4L6hY7Ynfh1GUg4rrsbnk",
+ @items=
+  [#<Google::Apis::YoutubeV3::SearchResult:0x00007f89a5d6e2d8
+    @etag="aInwPtOr82_Yyj8qE4X_Aqmt6WE",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007f89a5d6da40
+      @kind="youtube#video",
+      @video_id="GPfK5BTaJCg">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007f89a5d6c8e8
+      @channel_id="UCzFqkfbcYheHOrIGocZtmvQ",
+      @channel_title="-Lunchbox Dance School -RYOKO NISHIDA-",
+      @description=
+       "キッズダンス、ヒップホップ、ヨガ講師を西武新宿線小平市花小金井駅と杉並区井荻駅、各徒歩5分圏内でダンスしています。 振付師・ヨガ講師の西田亮子と申します。",
+      @live_broadcast_content="none",
+      @published_at="2021-04-17T00:51:49Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007f89a5d777e8
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a5d77220
+          @height=90,
+          @url="https://i.ytimg.com/vi/GPfK5BTaJCg/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a5d76528
+          @height=360,
+          @url="https://i.ytimg.com/vi/GPfK5BTaJCg/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a5d756c8
+          @height=180,
+          @url="https://i.ytimg.com/vi/GPfK5BTaJCg/mqdefault.jpg",
+          @width=320>>,
+      @title="【初めてヨガ】#お腹搾り　10分30日DAY17 TWIST">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007f89a5d74818
+    @etag="ZAyR1h7WkFHcYLTCx-piCfHVjMA",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007f89a5d7fee8
+      @kind="youtube#video",
+      @video_id="2gDxXsuaFTY">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007f89a5d7edb8
+      @channel_id="UCYFSF8gKX-yyPUyDz2HYVLg",
+      @channel_title="ヨガインストラクターなかむ",
+      @description=
+       "ヨガ#下半身痩せ#筋トレ こんにちは   ヨガインストラクターのなかむです✨ いつもご覧いただいてる方も、初めての方も この度は動画ご覧いただきありがとうございます♪ お ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-16T10:00:06Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007f89a5d7dd28
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a5d7d878
+          @height=90,
+          @url="https://i.ytimg.com/vi/2gDxXsuaFTY/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a5d7cc20
+          @height=360,
+          @url="https://i.ytimg.com/vi/2gDxXsuaFTY/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a5d87cb0
+          @height=180,
+          @url="https://i.ytimg.com/vi/2gDxXsuaFTY/mqdefault.jpg",
+          @width=320>>,
+      @title="【ヒップアップ10分】脚痩せも目指そう！かんたんヨガ">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007f89a5d86d88
+    @etag="cOoIKJYPauU7gT_WQvbe3nNhDbI",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007f89a5d86540
+      @kind="youtube#video",
+      @video_id="p7WtxkCFbZM">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007f89a5d85410
+      @channel_id="UCaBDaXFGqf2hcn54MHQD3Yw",
+      @channel_title="Wellness To Go by Arisa",
+      @description=
+       "... ライブヨガレッスンスケジュール 毎週月曜 朝7時〜 朝クイック10分ヨガ on Instagram 毎週土曜 朝9時15分〜 on YouTube 毎週日曜 朝9時15分 on YouTube ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-16T00:08:27Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007f89a5d84380
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a5d8fe88
+          @height=90,
+          @url="https://i.ytimg.com/vi/p7WtxkCFbZM/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a5d8f118
+          @height=360,
+          @url="https://i.ytimg.com/vi/p7WtxkCFbZM/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a5d8e1f0
+          @height=180,
+          @url="https://i.ytimg.com/vi/p7WtxkCFbZM/mqdefault.jpg",
+          @width=320>>,
+      @title="【ヨガ初心者さん必見】手が痛くならないヨガのこつ | Wellness To Go by Arisa">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007f89a5d8d2a0
+    @etag="fkJMa46Rj0zqce9ofh9JVLDAi5w",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007f89a5d8cad0
+      @kind="youtube#video",
+      @video_id="7QnVwWhygUc">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007f89a5d97908
+      @channel_id="UCzFqkfbcYheHOrIGocZtmvQ",
+      @channel_title="-Lunchbox Dance School -RYOKO NISHIDA-",
+      @description=
+       "キッズダンス、ヒップホップ、ヨガ講師を西武新宿線小平市花小金井駅と杉並区井荻駅、各徒歩5分圏内でダンスしています。 振付師・ヨガ講師の西田亮子と申します。",
+      @live_broadcast_content="none",
+      @published_at="2021-04-16T00:00:01Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007f89a5d96878
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a5d96260
+          @height=90,
+          @url="https://i.ytimg.com/vi/7QnVwWhygUc/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a5d95630
+          @height=360,
+          @url="https://i.ytimg.com/vi/7QnVwWhygUc/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a5d94708
+          @height=180,
+          @url="https://i.ytimg.com/vi/7QnVwWhygUc/mqdefault.jpg",
+          @width=320>>,
+      @title="【初めてヨガ】#背筋を伸ばす10分30日DAY16 杖のポーズ">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007f89a5d9f770
+    @etag="zVuJXc_vxpX1XGzLzitwvrrFFE4",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007f89a5d9ef50
+      @kind="youtube#video",
+      @video_id="JRxuhMuLJdQ">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007f89a5d9de70
+      @channel_id="UCnxJisM5m1BXPJvdWldz3UQ",
+      @channel_title="mao yoga",
+      @description=
+       "今回の動画は寝たまま出来る夜ヨガです！ もう眠いけど少し体をほぐしたい、入眠準備したい！そんな時にとってもおすすめです☘️ お部屋の明かりを暗めにして自分だけの ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-15T10:00:14Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007f89a5d9cdb8
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a5d9c890
+          @height=90,
+          @url="https://i.ytimg.com/vi/JRxuhMuLJdQ/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a5da7ba0
+          @height=360,
+          @url="https://i.ytimg.com/vi/JRxuhMuLJdQ/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a5da6cf0
+          @height=180,
+          @url="https://i.ytimg.com/vi/JRxuhMuLJdQ/mqdefault.jpg",
+          @width=320>>,
+      @title="【寝たまま夜ヨガ】で入眠準備😪9分間のご褒美タイム💗">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007f89a5da5be8
+    @etag="cfvWMC6uQkXHZ0Dg8oRRFJhH5ck",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007f89a5da55a8
+      @kind="youtube#video",
+      @video_id="4zGY36aIxZo">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007f89a5da44c8
+      @channel_id="UCRWlu-MB7JcrXeblW5e1Elw",
+      @channel_title="MANON Channel",
+      @description=
+       "チャンネル登録・高評価ボタンぜひよろしくお願いします❤︎ ・宮古島でのヨガレッスン&アーユルヴェーダHP→ https://beachyogamiyako.jimdofree.com ・Instagram→ ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-15T08:43:29Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007f89a5daf3c8
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a5daed60
+          @height=90,
+          @url="https://i.ytimg.com/vi/4zGY36aIxZo/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a5dae0b8
+          @height=360,
+          @url="https://i.ytimg.com/vi/4zGY36aIxZo/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a5dad0c8
+          @height=180,
+          @url="https://i.ytimg.com/vi/4zGY36aIxZo/mqdefault.jpg",
+          @width=320>>,
+      @title="【 ヨガの呼吸 】自律神経を整える、呼吸法10分／ガイド・字幕付き">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007f89a5dac1a0
+    @etag="40frbskXCtw5TSiBwGT24S2C-AA",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007f89a5db7938
+      @kind="youtube#video",
+      @video_id="UgPcNndKDSk">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007f89a5db6790
+      @channel_id="UCzFqkfbcYheHOrIGocZtmvQ",
+      @channel_title="-Lunchbox Dance School -RYOKO NISHIDA-",
+      @description=
+       "キッズダンス、ヒップホップ、ヨガ講師を西武新宿線小平市花小金井駅と杉並区井荻駅、各徒歩5分圏内でダンスしています。 振付師・ヨガ講師の西田亮子と申します。",
+      @live_broadcast_content="none",
+      @published_at="2021-04-15T00:00:16Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007f89a5db5660
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a5db5110
+          @height=90,
+          @url="https://i.ytimg.com/vi/UgPcNndKDSk/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a5db4418
+          @height=360,
+          @url="https://i.ytimg.com/vi/UgPcNndKDSk/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a5dbf4f8
+          @height=180,
+          @url="https://i.ytimg.com/vi/UgPcNndKDSk/mqdefault.jpg",
+          @width=320>>,
+      @title="【初めてヨガ】#身体引き締めFLOW10分30日DAY15  11-14の復習">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007f89a5dbe558
+    @etag="fL6paeReGOR-Xp7QfUALSCFLgn4",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007f89a5dbdec8
+      @kind="youtube#video",
+      @video_id="Rj29vL0W8Rg">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007f89a5dbcca8
+      @channel_id="UCyUoeB9MpLuYg7ia8Y0-PUA",
+      @channel_title="Mikomichelle",
+      @description=
+       "朝の目覚めにオススメな朝ヨガレッスンです。 朝の時間帯にヨガを行うことで呼吸を深め、代謝UPや、自律神経のバランスを整える効果が期待できます。 眠っている間に ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-14T20:30:01Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007f89a5dc7c48
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a5dc7630
+          @height=90,
+          @url="https://i.ytimg.com/vi/Rj29vL0W8Rg/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a5dc6960
+          @height=360,
+          @url="https://i.ytimg.com/vi/Rj29vL0W8Rg/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a5dc5c68
+          @height=180,
+          @url="https://i.ytimg.com/vi/Rj29vL0W8Rg/mqdefault.jpg",
+          @width=320>>,
+      @title="【朝ヨガ10分】自律神経のバランスを整える目覚めのヨガ　快適な1日のスタートに！">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007f89a5dc4b60
+    @etag="qWA9iHgYB6rkFjxvo_AtckGDDzU",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007f89a5dc4368
+      @kind="youtube#video",
+      @video_id="FgZuiFpSNro">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007f89a5dcf178
+      @channel_id="UCd0pUnH7i5CM-Y8xRe7cZVg",
+      @channel_title="B-life",
+      @description=
+       "【B-lifeオンラインサロン】 B-lifeオンラインサロン7日間無料！全部で100時間以上のLIVEレッスンが受けられます。 https://lounge.dmm.com/detail/1005/ ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-14T09:00:05Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007f89a5dce0c0
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a5dcda08
+          @height=90,
+          @url="https://i.ytimg.com/vi/FgZuiFpSNro/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a5dccdd8
+          @height=360,
+          @url="https://i.ytimg.com/vi/FgZuiFpSNro/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a5dd7f80
+          @height=180,
+          @url="https://i.ytimg.com/vi/FgZuiFpSNro/mqdefault.jpg",
+          @width=320>>,
+      @title="【1日10分】 朝のマインドフルネス瞑想　ココロとアタマを浄化する #471">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007f89a5dd70a8
+    @etag="NrjjYTpTPWoFxyFaviL5Ssh9Zm8",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007f89a5dd6748
+      @kind="youtube#video",
+      @video_id="h0YUx8Vr3CQ">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007f89a5dd5668
+      @channel_id="UCzFqkfbcYheHOrIGocZtmvQ",
+      @channel_title="-Lunchbox Dance School -RYOKO NISHIDA-",
+      @description=
+       "キッズダンス、ヒップホップ、ヨガ講師を西武新宿線小平市花小金井駅と杉並区井荻駅、各徒歩5分圏内でダンスしています。 振付師・ヨガ講師の西田亮子と申します。",
+      @live_broadcast_content="none",
+      @published_at="2021-04-14T00:00:06Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007f89a5dd45b0
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a5dd4010
+          @height=90,
+          @url="https://i.ytimg.com/vi/h0YUx8Vr3CQ/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a5ddf438
+          @height=360,
+          @url="https://i.ytimg.com/vi/h0YUx8Vr3CQ/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a5dde600
+          @height=180,
+          @url="https://i.ytimg.com/vi/h0YUx8Vr3CQ/mqdefault.jpg",
+          @width=320>>,
+      @title="【初めてヨガ】#腰痛に効くストレッチ　10分30日DAY14 side stretch">>],
+ @kind="youtube#searchListResponse",
+ @next_page_token="CAoQAA",
+ @page_info=
+  #<Google::Apis::YoutubeV3::PageInfo:0x00007f89a5ddd0e8
+   @results_per_page=10,
+   @total_results=29095>,
+ @region_code="JP">
+
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ヨガ 10分"], ["title", "【初めてヨガ】#お腹搾り　10分30日DAY17 TWIST"], ["video_id", "GPfK5BTaJCg"], ["created_at", "2021-04-17 05:05:34.039335"], ["updated_at", "2021-04-17 05:05:34.039335"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ヨガ 10分"], ["title", "【ヒップアップ10分】脚痩せも目指そう！かんたんヨガ"], ["video_id", "2gDxXsuaFTY"], ["created_at", "2021-04-17 05:05:34.040915"], ["updated_at", "2021-04-17 05:05:34.040915"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ヨガ 10分"], ["title", "【ヨガ初心者さん必見】手が痛くならないヨガのこつ | Wellness To Go by Arisa"], ["video_id", "p7WtxkCFbZM"], ["created_at", "2021-04-17 05:05:34.042287"], ["updated_at", "2021-04-17 05:05:34.042287"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ヨガ 10分"], ["title", "【初めてヨガ】#背筋を伸ばす10分30日DAY16 杖のポーズ"], ["video_id", "7QnVwWhygUc"], ["created_at", "2021-04-17 05:05:34.043702"], ["updated_at", "2021-04-17 05:05:34.043702"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ヨガ 10分"], ["title", "【寝たまま夜ヨガ】で入眠準備😪9分間のご褒美タイム💗"], ["video_id", "JRxuhMuLJdQ"], ["created_at", "2021-04-17 05:05:34.045646"], ["updated_at", "2021-04-17 05:05:34.045646"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ヨガ 10分"], ["title", "【 ヨガの呼吸 】自律神経を整える、呼吸法10分／ガイド・字幕付き"], ["video_id", "4zGY36aIxZo"], ["created_at", "2021-04-17 05:05:34.047158"], ["updated_at", "2021-04-17 05:05:34.047158"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ヨガ 10分"], ["title", "【初めてヨガ】#身体引き締めFLOW10分30日DAY15  11-14の復習"], ["video_id", "UgPcNndKDSk"], ["created_at", "2021-04-17 05:05:34.048370"], ["updated_at", "2021-04-17 05:05:34.048370"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ヨガ 10分"], ["title", "【朝ヨガ10分】自律神経のバランスを整える目覚めのヨガ　快適な1日のスタートに！"], ["video_id", "Rj29vL0W8Rg"], ["created_at", "2021-04-17 05:05:34.049651"], ["updated_at", "2021-04-17 05:05:34.049651"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ヨガ 10分"], ["title", "【1日10分】 朝のマインドフルネス瞑想　ココロとアタマを浄化する #471"], ["video_id", "FgZuiFpSNro"], ["created_at", "2021-04-17 05:05:34.051099"], ["updated_at", "2021-04-17 05:05:34.051099"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.4ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ヨガ 10分"], ["title", "【初めてヨガ】#腰痛に効くストレッチ　10分30日DAY14 side stretch"], ["video_id", "h0YUx8Vr3CQ"], ["created_at", "2021-04-17 05:05:34.052931"], ["updated_at", "2021-04-17 05:05:34.052931"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+Sending HTTP get https://youtube.googleapis.com/youtube/v3/search?key=AIzaSyAHRj3UyMiXAhpdddkRlE9Qa16FF3IfGyM&maxResults=10&order=date&part=snippet&publishedAfter=2021-03-17T05%3A05%3A33%2B00%3A00&publishedBefore=2021-04-17T14%3A05%3A33%2B09%3A00&q=%E3%82%B9%E3%83%88%E3%83%AC%E3%83%83%E3%83%81%2010%E5%88%86&type=video
+200
+#<HTTP::Message:0x00007f89a9dd03d0 @http_header=#<HTTP::Message::Headers:0x00007f89a9dd03a8 @http_version="1.1", @body_size=0, @chunked=false, @request_method="GET", @request_uri=#<Addressable::URI:0x3fc4d4ee879c URI:https://youtube.googleapis.com/youtube/v3/search?key=AIzaSyAHRj3UyMiXAhpdddkRlE9Qa16FF3IfGyM&maxResults=10&order=date&part=snippet&publishedAfter=2021-03-17T05%3A05%3A33%2B00%3A00&publishedBefore=2021-04-17T14%3A05%3A33%2B09%3A00&q=%E3%82%B9%E3%83%88%E3%83%AC%E3%83%83%E3%83%81%2010%E5%88%86&type=video>, @request_query=nil, @request_absolute_uri=nil, @status_code=200, @reason_phrase="OK", @body_type=nil, @body_charset=nil, @body_date=nil, @body_encoding=#<Encoding:UTF-8>, @is_request=false, @header_item=[["Content-Type", "application/json; charset=UTF-8"], ["Vary", "Origin"], ["Vary", "X-Origin"], ["Vary", "Referer"], ["Content-Encoding", "gzip"], ["Date", "Sat, 17 Apr 2021 05:05:34 GMT"], ["Server", "scaffolding on HTTPServer2"], ["Cache-Control", "private"], ["X-XSS-Protection", "0"], ["X-Frame-Options", "SAMEORIGIN"], ["X-Content-Type-Options", "nosniff"], ["Alt-Svc", "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""], ["Transfer-Encoding", "chunked"]], @dumped=false>, @peer_cert=#<OpenSSL::X509::Certificate: subject=#<OpenSSL::X509::Name CN=upload.video.google.com,O=Google LLC,L=Mountain View,ST=California,C=US>, issuer=#<OpenSSL::X509::Name CN=GTS CA 1O1,O=Google Trust Services,C=US>, serial=#<OpenSSL::BN:0x00007f89a9df2f48>, not_before=2021-03-23 08:24:47 UTC, not_after=2021-06-15 08:24:46 UTC>, @http_body=#<HTTP::Message::Body:0x00007f89a9dd0330 @body="{\n  \"kind\": \"youtube#searchListResponse\",\n  \"etag\": \"60h2UG4UCTHLMOM3cNSwrMnSvo4\",\n  \"nextPageToken\": \"CAoQAA\",\n  \"regionCode\": \"JP\",\n  \"pageInfo\": {\n    \"totalResults\": 49618,\n    \"resultsPerPage\": 10\n  },\n  \"items\": [\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"pK_lfptAzjoB7OlSS4adA_B9IPU\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"KG9HlxDv9C0\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-16T11:00:06Z\",\n        \"channelId\": \"UChwrU8Zucrx2W24Q0Ao-rbQ\",\n        \"title\": \"10分肩甲骨ダイエット！肩こりにも効くストレッチメニュー\",\n        \"description\": \"肩の周りをほぐすと血行が良くなり、姿勢も良くなるので代謝が上がってダイエット効果があります！ 自宅エクササイズシリーズ毎日更新中！再生リストから他のメニューも ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/KG9HlxDv9C0/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/KG9HlxDv9C0/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/KG9HlxDv9C0/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"村上哲也-ダイエットインストラクター\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-16T11:00:06Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"dpwxZOoUGjVD5X7mHHnbblK6tbE\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"z9Chd6vsDeM\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-16T10:30:04Z\",\n        \"channelId\": \"UC52Tu070nhbbu9mVA_b92jg\",\n        \"title\": \"柔軟さが上手さの秘訣！？毎日必ずやりたいストレッチ１０種類！！\",\n        \"description\": \"チャンネル登録はこちらから↓⚽️⚽️⚽️ 【K&T Soccer Channel】 Twitter: https://mobile.twitter.com/k65297568 ⚽️  ⚽️  ↓K&T SOCCER CHANNEL関連動画は ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/z9Chd6vsDeM/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/z9Chd6vsDeM/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/z9Chd6vsDeM/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"K&T Soccer Channel\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-16T10:30:04Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"_-lGKQ31p5B5pTBcSdChiMcx2G8\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"AMALUbIm-IQ\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-15T17:19:20Z\",\n        \"channelId\": \"UCflyZ2UZbC9yi55cN7PJgAg\",\n        \"title\": \"自宅でできる簡単！10分ストレッチ\",\n        \"description\": \"S-pace（エスペース）は浜松・豊橋のプロトレーナー集団です。 からだの機能改善・ダイエット・ケガからの復帰・スポーツパフォーマンス向上など 様々なお悩みに対して、 ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/AMALUbIm-IQ/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/AMALUbIm-IQ/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/AMALUbIm-IQ/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"パーソナルGYMエスペース\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-15T17:19:20Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"T4A8mVU3n5qABpYVOa9NDhGuEo8\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"vfzS-wY5KqA\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-14T10:00:21Z\",\n        \"channelId\": \"UCPYSNe9oPa2q1xEMYVRWb1w\",\n        \"title\": \"【Fitness】全身を細く引き締める10分エクササイズ!!【だーしのFitness】\",\n        \"description\": \"#だーしの.\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/vfzS-wY5KqA/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/vfzS-wY5KqA/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/vfzS-wY5KqA/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"だーしのch\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-14T10:00:21Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"Tol1bw4sLVSCQ_2mnY0r5yIOWgk\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"2dEJyA-Pmdk\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-14T05:40:52Z\",\n        \"channelId\": \"UC1yK9nvb-VGJ6RgPfD-ramA\",\n        \"title\": \"【茨城県常総市】おうち体操２～1日10分ストレッチ編～\",\n        \"description\": \"おうち体操第２弾！ 今回は身体をほぐすストレッチを行います。1日たったの10分で、肩こり・猫背・腰痛の予防にもなります。 毎日少しずつでも、続けて行うことが介護予防の ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/2dEJyA-Pmdk/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/2dEJyA-Pmdk/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/2dEJyA-Pmdk/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"茨城県常総市\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-14T05:40:52Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"pfpelW1kJU68o6DF9aYoH3VtgSI\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"NC8sB5oHCq0\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-14T01:41:46Z\",\n        \"channelId\": \"UCth4B0JORcEw_B_dpOwQZ-g\",\n        \"title\": \"[10分ABラインワークアウト]中、サイド、上腹筋/装置なしIヒップアップストレッチ\",\n        \"description\": \"[10分ABラインワークアウト] 中、サイド、上腹筋/装置なしIヒップアップストレッチ こんにちは^^ すべてのダイエットと偉大になりたい人のために 私はかわいいボディラインを ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/NC8sB5oHCq0/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/NC8sB5oHCq0/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/NC8sB5oHCq0/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"ホームヨガ\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-14T01:41:46Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"NrjjYTpTPWoFxyFaviL5Ssh9Zm8\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"h0YUx8Vr3CQ\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-14T00:00:06Z\",\n        \"channelId\": \"UCzFqkfbcYheHOrIGocZtmvQ\",\n        \"title\": \"【初めてヨガ】#腰痛に効くストレッチ　10分30日DAY14 side stretch\",\n        \"description\": \"キッズダンス、ヒップホップ、ヨガ講師を西武新宿線小平市花小金井駅と杉並区井荻駅、各徒歩5分圏内でダンスしています。 振付師・ヨガ講師の西田亮子と申します。\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/h0YUx8Vr3CQ/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/h0YUx8Vr3CQ/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/h0YUx8Vr3CQ/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"-Lunchbox Dance School -RYOKO NISHIDA-\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-14T00:00:06Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"UePRjWvOOaljSHJV8xKiBRcQlH0\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"Q5OrbvSYQfU\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-11T23:30:52Z\",\n        \"channelId\": \"UCVo7qyD96m63TLBnQqjor-A\",\n        \"title\": \"【10分シリーズ─首ストレッチ─】\",\n        \"description\": \"おはようございます。\\ufeff \\ufeff 今日は、【10分シリーズ─首ストレッチ─】です。\\ufeff \\ufeff 新しい生活にまだまだ慣れずに緊張する朝を迎えた人も多いのではないでしょうか?\\ufeff \\ufeff 疲れや ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/Q5OrbvSYQfU/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/Q5OrbvSYQfU/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/Q5OrbvSYQfU/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"Pono by amyyogalife\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-11T23:30:52Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"qKzwGKXhvO9XUZNKFk9r-b4gADQ\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"FzdOpUvpwAc\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-11T07:00:14Z\",\n        \"channelId\": \"UCcVsE4_iMsrRYyDE6tHoWaA\",\n        \"title\": \"【10秒もむだけ】足首を柔らかくするストレッチ＆マッサージ【足首を柔らかくする ストレッチ】\",\n        \"description\": \"目次＞ 0:00~ オープニング 2:02~ 検査＆ストレッチ 4:55~ 解説 6:12~ まとめ 【10秒もむだけ】足首を柔らかくするストレッチ＆マッサージ【足首を柔らかくする ストレッチ】 ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/FzdOpUvpwAc/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/FzdOpUvpwAc/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/FzdOpUvpwAc/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"腰痛・肩こりセルフ整体塾【大山裕也】\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-11T07:00:14Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"F4jaLXUJwnHsI0yivel2Gn1WuTY\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"PSBETRbvQTI\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-10T01:30:01Z\",\n        \"channelId\": \"UCpFLso322A28hezywpZXOzw\",\n        \"title\": \"朝ヨガ　全身の柔軟 ｜初心者向け｜10分ヨガで心身ともにリフレッシュ　#20\",\n        \"description\": \"本日は、桜を背景に全身のリフレッシュヨガを行います。 15分間の簡単なルーティンです、一緒に練習してみましょう！ #朝ヨガ#40代＃50代＃脚痩せ＃ストレッチ 50代の方 ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/PSBETRbvQTI/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/PSBETRbvQTI/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/PSBETRbvQTI/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"50才でも遅くないヨガ ストレッチstudio\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-10T01:30:01Z\"\n      }\n    }\n  ]\n}\n", @size=0, @positions=nil, @chunk_size=nil>, @previous=nil>
+Success - #<Google::Apis::YoutubeV3::SearchListsResponse:0x00007f89a9df2598
+ @etag="60h2UG4UCTHLMOM3cNSwrMnSvo4",
+ @items=
+  [#<Google::Apis::YoutubeV3::SearchResult:0x00007f89a9e02d58
+    @etag="pK_lfptAzjoB7OlSS4adA_B9IPU",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007f89a9e02718
+      @kind="youtube#video",
+      @video_id="KG9HlxDv9C0">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007f89a9e01598
+      @channel_id="UChwrU8Zucrx2W24Q0Ao-rbQ",
+      @channel_title="村上哲也-ダイエットインストラクター",
+      @description=
+       "肩の周りをほぐすと血行が良くなり、姿勢も良くなるので代謝が上がってダイエット効果があります！ 自宅エクササイズシリーズ毎日更新中！再生リストから他のメニューも ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-16T11:00:06Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007f89a9e00508
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a9e0bef8
+          @height=90,
+          @url="https://i.ytimg.com/vi/KG9HlxDv9C0/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a9e0b1d8
+          @height=360,
+          @url="https://i.ytimg.com/vi/KG9HlxDv9C0/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a9e0a328
+          @height=180,
+          @url="https://i.ytimg.com/vi/KG9HlxDv9C0/mqdefault.jpg",
+          @width=320>>,
+      @title="10分肩甲骨ダイエット！肩こりにも効くストレッチメニュー">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007f89a9e09360
+    @etag="dpwxZOoUGjVD5X7mHHnbblK6tbE",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007f89a9e08b90
+      @kind="youtube#video",
+      @video_id="z9Chd6vsDeM">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007f89a9e13a18
+      @channel_id="UC52Tu070nhbbu9mVA_b92jg",
+      @channel_title="K&T Soccer Channel",
+      @description=
+       "チャンネル登録はこちらから↓⚽️⚽️⚽️ 【K&T Soccer Channel】 Twitter: https://mobile.twitter.com/k65297568 ⚽️  ⚽️  ↓K&T SOCCER CHANNEL関連動画は ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-16T10:30:04Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007f89a9e12960
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a9e12348
+          @height=90,
+          @url="https://i.ytimg.com/vi/z9Chd6vsDeM/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a9e11948
+          @height=360,
+          @url="https://i.ytimg.com/vi/z9Chd6vsDeM/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a9e108e0
+          @height=180,
+          @url="https://i.ytimg.com/vi/z9Chd6vsDeM/mqdefault.jpg",
+          @width=320>>,
+      @title="柔軟さが上手さの秘訣！？毎日必ずやりたいストレッチ１０種類！！">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007f89a9e1b948
+    @etag="_-lGKQ31p5B5pTBcSdChiMcx2G8",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007f89a9e1b178
+      @kind="youtube#video",
+      @video_id="AMALUbIm-IQ">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007f89a9e1a138
+      @channel_id="UCflyZ2UZbC9yi55cN7PJgAg",
+      @channel_title="パーソナルGYMエスペース",
+      @description=
+       "S-pace（エスペース）は浜松・豊橋のプロトレーナー集団です。 からだの機能改善・ダイエット・ケガからの復帰・スポーツパフォーマンス向上など 様々なお悩みに対して、 ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-15T17:19:20Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007f89a9e19058
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a9e188d8
+          @height=90,
+          @url="https://i.ytimg.com/vi/AMALUbIm-IQ/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a9e23e68
+          @height=360,
+          @url="https://i.ytimg.com/vi/AMALUbIm-IQ/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a9e22e00
+          @height=180,
+          @url="https://i.ytimg.com/vi/AMALUbIm-IQ/mqdefault.jpg",
+          @width=320>>,
+      @title="自宅でできる簡単！10分ストレッチ">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007f89a9e21e10
+    @etag="T4A8mVU3n5qABpYVOa9NDhGuEo8",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007f89a9e21618
+      @kind="youtube#video",
+      @video_id="vfzS-wY5KqA">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007f89a9e20470
+      @channel_id="UCPYSNe9oPa2q1xEMYVRWb1w",
+      @channel_title="だーしのch",
+      @description="#だーしの.",
+      @live_broadcast_content="none",
+      @published_at="2021-04-14T10:00:21Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007f89a9e2b398
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a9e2ae20
+          @height=90,
+          @url="https://i.ytimg.com/vi/vfzS-wY5KqA/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a9e2a150
+          @height=360,
+          @url="https://i.ytimg.com/vi/vfzS-wY5KqA/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a9e292c8
+          @height=180,
+          @url="https://i.ytimg.com/vi/vfzS-wY5KqA/mqdefault.jpg",
+          @width=320>>,
+      @title="【Fitness】全身を細く引き締める10分エクササイズ!!【だーしのFitness】">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007f89a9e28300
+    @etag="Tol1bw4sLVSCQ_2mnY0r5yIOWgk",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007f89a9e33b38
+      @kind="youtube#video",
+      @video_id="2dEJyA-Pmdk">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007f89a9e32a58
+      @channel_id="UC1yK9nvb-VGJ6RgPfD-ramA",
+      @channel_title="茨城県常総市",
+      @description=
+       "おうち体操第２弾！ 今回は身体をほぐすストレッチを行います。1日たったの10分で、肩こり・猫背・腰痛の予防にもなります。 毎日少しずつでも、続けて行うことが介護予防の ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-14T05:40:52Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007f89a9e319c8
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a9e31360
+          @height=90,
+          @url="https://i.ytimg.com/vi/2dEJyA-Pmdk/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a9e30820
+          @height=360,
+          @url="https://i.ytimg.com/vi/2dEJyA-Pmdk/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a9e3b7c0
+          @height=180,
+          @url="https://i.ytimg.com/vi/2dEJyA-Pmdk/mqdefault.jpg",
+          @width=320>>,
+      @title="【茨城県常総市】おうち体操２～1日10分ストレッチ編～">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007f89a9e3a758
+    @etag="pfpelW1kJU68o6DF9aYoH3VtgSI",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007f89a9e3a0f0
+      @kind="youtube#video",
+      @video_id="NC8sB5oHCq0">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007f89a9e38fc0
+      @channel_id="UCth4B0JORcEw_B_dpOwQZ-g",
+      @channel_title="ホームヨガ",
+      @description=
+       "[10分ABラインワークアウト] 中、サイド、上腹筋/装置なしIヒップアップストレッチ こんにちは^^ すべてのダイエットと偉大になりたい人のために 私はかわいいボディラインを ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-14T01:41:46Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007f89a9e43ec0
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a9e43858
+          @height=90,
+          @url="https://i.ytimg.com/vi/NC8sB5oHCq0/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a9e42d18
+          @height=360,
+          @url="https://i.ytimg.com/vi/NC8sB5oHCq0/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a9e41df0
+          @height=180,
+          @url="https://i.ytimg.com/vi/NC8sB5oHCq0/mqdefault.jpg",
+          @width=320>>,
+      @title="[10分ABラインワークアウト]中、サイド、上腹筋/装置なしIヒップアップストレッチ">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007f89a9e40e28
+    @etag="NrjjYTpTPWoFxyFaviL5Ssh9Zm8",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007f89a9e40590
+      @kind="youtube#video",
+      @video_id="h0YUx8Vr3CQ">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007f89a9e4b3f0
+      @channel_id="UCzFqkfbcYheHOrIGocZtmvQ",
+      @channel_title="-Lunchbox Dance School -RYOKO NISHIDA-",
+      @description=
+       "キッズダンス、ヒップホップ、ヨガ講師を西武新宿線小平市花小金井駅と杉並区井荻駅、各徒歩5分圏内でダンスしています。 振付師・ヨガ講師の西田亮子と申します。",
+      @live_broadcast_content="none",
+      @published_at="2021-04-14T00:00:06Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007f89a9e4a3b0
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a9e49d98
+          @height=90,
+          @url="https://i.ytimg.com/vi/h0YUx8Vr3CQ/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a9e490a0
+          @height=360,
+          @url="https://i.ytimg.com/vi/h0YUx8Vr3CQ/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a9e48240
+          @height=180,
+          @url="https://i.ytimg.com/vi/h0YUx8Vr3CQ/mqdefault.jpg",
+          @width=320>>,
+      @title="【初めてヨガ】#腰痛に効くストレッチ　10分30日DAY14 side stretch">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007f89a9e53348
+    @etag="UePRjWvOOaljSHJV8xKiBRcQlH0",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007f89a9e529c0
+      @kind="youtube#video",
+      @video_id="Q5OrbvSYQfU">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007f89a9e51930
+      @channel_id="UCVo7qyD96m63TLBnQqjor-A",
+      @channel_title="Pono by amyyogalife",
+      @description=
+       "おはようございます。﻿ ﻿ 今日は、【10分シリーズ─首ストレッチ─】です。﻿ ﻿ 新しい生活にまだまだ慣れずに緊張する朝を迎えた人も多いのではないでしょうか?﻿ ﻿ 疲れや ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-11T23:30:52Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007f89a9e508a0
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a9e50288
+          @height=90,
+          @url="https://i.ytimg.com/vi/Q5OrbvSYQfU/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a9e5b610
+          @height=360,
+          @url="https://i.ytimg.com/vi/Q5OrbvSYQfU/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a9e5a788
+          @height=180,
+          @url="https://i.ytimg.com/vi/Q5OrbvSYQfU/mqdefault.jpg",
+          @width=320>>,
+      @title="【10分シリーズ─首ストレッチ─】">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007f89a9e59838
+    @etag="qKzwGKXhvO9XUZNKFk9r-b4gADQ",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007f89a9e58f28
+      @kind="youtube#video",
+      @video_id="FzdOpUvpwAc">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007f89a9e63dd8
+      @channel_id="UCcVsE4_iMsrRYyDE6tHoWaA",
+      @channel_title="腰痛・肩こりセルフ整体塾【大山裕也】",
+      @description=
+       "目次＞ 0:00~ オープニング 2:02~ 検査＆ストレッチ 4:55~ 解説 6:12~ まとめ 【10秒もむだけ】足首を柔らかくするストレッチ＆マッサージ【足首を柔らかくする ストレッチ】 ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-11T07:00:14Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007f89a9e62d48
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a9e62898
+          @height=90,
+          @url="https://i.ytimg.com/vi/FzdOpUvpwAc/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a9e61ba0
+          @height=360,
+          @url="https://i.ytimg.com/vi/FzdOpUvpwAc/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a9e60cf0
+          @height=180,
+          @url="https://i.ytimg.com/vi/FzdOpUvpwAc/mqdefault.jpg",
+          @width=320>>,
+      @title="【10秒もむだけ】足首を柔らかくするストレッチ＆マッサージ【足首を柔らかくする ストレッチ】">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007f89a9e6bcb8
+    @etag="F4jaLXUJwnHsI0yivel2Gn1WuTY",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007f89a9e6b498
+      @kind="youtube#video",
+      @video_id="PSBETRbvQTI">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007f89a9e6a3b8
+      @channel_id="UCpFLso322A28hezywpZXOzw",
+      @channel_title="50才でも遅くないヨガ ストレッチstudio",
+      @description=
+       "本日は、桜を背景に全身のリフレッシュヨガを行います。 15分間の簡単なルーティンです、一緒に練習してみましょう！ #朝ヨガ#40代＃50代＃脚痩せ＃ストレッチ 50代の方 ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-10T01:30:01Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007f89a9e69328
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a9e68ef0
+          @height=90,
+          @url="https://i.ytimg.com/vi/PSBETRbvQTI/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a9e680b8
+          @height=360,
+          @url="https://i.ytimg.com/vi/PSBETRbvQTI/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f89a9e730f8
+          @height=180,
+          @url="https://i.ytimg.com/vi/PSBETRbvQTI/mqdefault.jpg",
+          @width=320>>,
+      @title="朝ヨガ　全身の柔軟 ｜初心者向け｜10分ヨガで心身ともにリフレッシュ　#20">>],
+ @kind="youtube#searchListResponse",
+ @next_page_token="CAoQAA",
+ @page_info=
+  #<Google::Apis::YoutubeV3::PageInfo:0x00007f89a9e71ca8
+   @results_per_page=10,
+   @total_results=49618>,
+ @region_code="JP">
+
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ストレッチ 10分"], ["title", "10分肩甲骨ダイエット！肩こりにも効くストレッチメニュー"], ["video_id", "KG9HlxDv9C0"], ["created_at", "2021-04-17 05:05:34.755491"], ["updated_at", "2021-04-17 05:05:34.755491"]]
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ストレッチ 10分"], ["title", "柔軟さが上手さの秘訣！？毎日必ずやりたいストレッチ１０種類！！"], ["video_id", "z9Chd6vsDeM"], ["created_at", "2021-04-17 05:05:34.758124"], ["updated_at", "2021-04-17 05:05:34.758124"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ストレッチ 10分"], ["title", "自宅でできる簡単！10分ストレッチ"], ["video_id", "AMALUbIm-IQ"], ["created_at", "2021-04-17 05:05:34.760132"], ["updated_at", "2021-04-17 05:05:34.760132"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ストレッチ 10分"], ["title", "【Fitness】全身を細く引き締める10分エクササイズ!!【だーしのFitness】"], ["video_id", "vfzS-wY5KqA"], ["created_at", "2021-04-17 05:05:34.761652"], ["updated_at", "2021-04-17 05:05:34.761652"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ストレッチ 10分"], ["title", "【茨城県常総市】おうち体操２～1日10分ストレッチ編～"], ["video_id", "2dEJyA-Pmdk"], ["created_at", "2021-04-17 05:05:34.763397"], ["updated_at", "2021-04-17 05:05:34.763397"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ストレッチ 10分"], ["title", "[10分ABラインワークアウト]中、サイド、上腹筋/装置なしIヒップアップストレッチ"], ["video_id", "NC8sB5oHCq0"], ["created_at", "2021-04-17 05:05:34.765232"], ["updated_at", "2021-04-17 05:05:34.765232"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ストレッチ 10分"], ["title", "【初めてヨガ】#腰痛に効くストレッチ　10分30日DAY14 side stretch"], ["video_id", "h0YUx8Vr3CQ"], ["created_at", "2021-04-17 05:05:34.766800"], ["updated_at", "2021-04-17 05:05:34.766800"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ストレッチ 10分"], ["title", "【10分シリーズ─首ストレッチ─】"], ["video_id", "Q5OrbvSYQfU"], ["created_at", "2021-04-17 05:05:34.768236"], ["updated_at", "2021-04-17 05:05:34.768236"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ストレッチ 10分"], ["title", "【10秒もむだけ】足首を柔らかくするストレッチ＆マッサージ【足首を柔らかくする ストレッチ】"], ["video_id", "FzdOpUvpwAc"], ["created_at", "2021-04-17 05:05:34.769765"], ["updated_at", "2021-04-17 05:05:34.769765"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ストレッチ 10分"], ["title", "朝ヨガ　全身の柔軟 ｜初心者向け｜10分ヨガで心身ともにリフレッシュ　#20"], ["video_id", "PSBETRbvQTI"], ["created_at", "2021-04-17 05:05:34.771196"], ["updated_at", "2021-04-17 05:05:34.771196"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Sending HTTP get https://youtube.googleapis.com/youtube/v3/search?key=AIzaSyAHRj3UyMiXAhpdddkRlE9Qa16FF3IfGyM&maxResults=10&order=date&part=snippet&publishedAfter=2021-03-17T05%3A05%3A33%2B00%3A00&publishedBefore=2021-04-17T14%3A05%3A33%2B09%3A00&q=%E3%81%8D%E3%82%93%E3%81%AB%E3%81%8FTV%2010%E5%88%86&type=video
+200
+#<HTTP::Message:0x00007f89a50bc468 @http_header=#<HTTP::Message::Headers:0x00007f89a50bc440 @http_version="1.1", @body_size=0, @chunked=false, @request_method="GET", @request_uri=#<Addressable::URI:0x3fc4d285e7c0 URI:https://youtube.googleapis.com/youtube/v3/search?key=AIzaSyAHRj3UyMiXAhpdddkRlE9Qa16FF3IfGyM&maxResults=10&order=date&part=snippet&publishedAfter=2021-03-17T05%3A05%3A33%2B00%3A00&publishedBefore=2021-04-17T14%3A05%3A33%2B09%3A00&q=%E3%81%8D%E3%82%93%E3%81%AB%E3%81%8FTV%2010%E5%88%86&type=video>, @request_query=nil, @request_absolute_uri=nil, @status_code=200, @reason_phrase="OK", @body_type=nil, @body_charset=nil, @body_date=nil, @body_encoding=#<Encoding:UTF-8>, @is_request=false, @header_item=[["Content-Type", "application/json; charset=UTF-8"], ["Vary", "Origin"], ["Vary", "X-Origin"], ["Vary", "Referer"], ["Content-Encoding", "gzip"], ["Date", "Sat, 17 Apr 2021 05:05:35 GMT"], ["Server", "scaffolding on HTTPServer2"], ["Cache-Control", "private"], ["X-XSS-Protection", "0"], ["X-Frame-Options", "SAMEORIGIN"], ["X-Content-Type-Options", "nosniff"], ["Alt-Svc", "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""], ["Transfer-Encoding", "chunked"]], @dumped=false>, @peer_cert=#<OpenSSL::X509::Certificate: subject=#<OpenSSL::X509::Name CN=upload.video.google.com,O=Google LLC,L=Mountain View,ST=California,C=US>, issuer=#<OpenSSL::X509::Name CN=GTS CA 1O1,O=Google Trust Services,C=US>, serial=#<OpenSSL::BN:0x00007f89a50e5c78>, not_before=2021-03-23 08:24:47 UTC, not_after=2021-06-15 08:24:46 UTC>, @http_body=#<HTTP::Message::Body:0x00007f89a50bc3c8 @body="{\n  \"kind\": \"youtube#searchListResponse\",\n  \"etag\": \"STpgrXLgqRE4FhPq8fp2_wAOU0o\",\n  \"regionCode\": \"JP\",\n  \"pageInfo\": {\n    \"totalResults\": 48941,\n    \"resultsPerPage\": 0\n  },\n  \"items\": []\n}\n", @size=0, @positions=nil, @chunk_size=nil>, @previous=nil>
+Success - #<Google::Apis::YoutubeV3::SearchListsResponse:0x00007f89a50e5458
+ @etag="STpgrXLgqRE4FhPq8fp2_wAOU0o",
+ @items=[],
+ @kind="youtube#searchListResponse",
+ @page_info=
+  #<Google::Apis::YoutubeV3::PageInfo:0x00007f89a50efc00
+   @results_per_page=0,
+   @total_results=48941>,
+ @region_code="JP">
+
+  [1m[36mVideo Load (0.8ms)[0m  [1m[34mSELECT  "videos".* FROM "videos" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mClock Load (0.3ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ lib/tasks/send_youtube.rake:6
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mClock Load (0.3ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ lib/tasks/send_youtube.rake:6
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mClock Load (0.3ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ lib/tasks/send_youtube.rake:6
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mClock Load (0.3ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ lib/tasks/send_youtube.rake:6
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mClock Load (0.4ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 2], ["LIMIT", 1]]
+  ↳ lib/tasks/send_youtube.rake:6
+Started GET "/" for ::1 at 2021-04-17 14:29:09 +0900
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/yoshiokasusumu/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (386.1ms)
+Completed 200 OK in 507ms (Views: 503.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new?code=wjP64gEZmjDpvB9ULGzw&state=12345abcde" for 114.184.187.135 at 2021-04-17 14:29:13 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Parameters: {"code"=>"wjP64gEZmjDpvB9ULGzw", "state"=>"12345abcde"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:37
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("name", "line_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "吉岡　将"], ["line_id", "Ubdbe5d1bad3cc7a2b98fa5998c63d551"], ["created_at", "2021-04-17 05:29:14.652530"], ["updated_at", "2021-04-17 05:29:14.652530"]]
+  ↳ app/controllers/users_controller.rb:37
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:37
+Redirected to https://930a61aca7f2.ngrok.io/
+Completed 302 Found in 695ms (ActiveRecord: 8.2ms)
+
+
+Started GET "/" for 114.184.187.135 at 2021-04-17 14:29:15 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:8
+  Rendering home/top.html.erb within layouts/application
+  [1m[36mClock Load (0.6ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 3], ["LIMIT", 1]]
+  ↳ app/views/home/top.html.erb:12
+  Rendered home/top.html.erb within layouts/application (104.7ms)
+Completed 200 OK in 191ms (Views: 165.4ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/users/new?code=WEjsUktNkUTfCzQ70Qn6&state=12345abcde" for 114.184.187.135 at 2021-04-17 14:32:31 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Parameters: {"code"=>"WEjsUktNkUTfCzQ70Qn6", "state"=>"12345abcde"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:37
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "line_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "吉岡　将"], ["line_id", "Ubdbe5d1bad3cc7a2b98fa5998c63d551"], ["created_at", "2021-04-17 05:32:32.371265"], ["updated_at", "2021-04-17 05:32:32.371265"]]
+  ↳ app/controllers/users_controller.rb:37
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:37
+Redirected to https://930a61aca7f2.ngrok.io/
+Completed 302 Found in 558ms (ActiveRecord: 10.0ms)
+
+
+Started GET "/" for 114.184.187.135 at 2021-04-17 14:32:32 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:8
+  Rendering home/top.html.erb within layouts/application
+  [1m[36mClock Load (0.5ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 4], ["LIMIT", 1]]
+  ↳ app/views/home/top.html.erb:12
+  Rendered home/top.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 66ms (Views: 45.4ms | ActiveRecord: 5.7ms)
+
+
+Started GET "/" for ::1 at 2021-04-17 14:32:36 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 41ms (Views: 39.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new?code=zC8lTVciIPcexzHP2RJv&state=12345abcde" for 114.184.187.135 at 2021-04-17 14:32:39 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Parameters: {"code"=>"zC8lTVciIPcexzHP2RJv", "state"=>"12345abcde"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:37
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "line_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "吉岡　将"], ["line_id", "Ubdbe5d1bad3cc7a2b98fa5998c63d551"], ["created_at", "2021-04-17 05:32:40.207819"], ["updated_at", "2021-04-17 05:32:40.207819"]]
+  ↳ app/controllers/users_controller.rb:37
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:37
+Redirected to https://930a61aca7f2.ngrok.io/
+Completed 302 Found in 526ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 114.184.187.135 at 2021-04-17 14:32:41 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:8
+  Rendering home/top.html.erb within layouts/application
+  [1m[36mClock Load (0.4ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 5], ["LIMIT", 1]]
+  ↳ app/views/home/top.html.erb:12
+  Rendered home/top.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 81ms (Views: 77.5ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/users/5/clocks" for 114.184.187.135 at 2021-04-17 14:32:44 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClocksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oMfKW8DcfD8LaumY7qmSPkFq0ntt799RAzcWd08nCtLpibEZVhEUywkVOjw3P9aneYuuTdW4_4kpgMKHo3-yXQ", "clock"=>{"set_time"=>"30", "category"=>"筋トレ"}, "commit"=>"アプリスタート", "user_id"=>"5"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/clocks_controller.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/clocks_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/clocks_controller.rb:6
+  [1m[36mClock Create (0.9ms)[0m  [1m[32mINSERT INTO "clocks" ("user_id", "set_time", "created_at", "updated_at", "category") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["user_id", 5], ["set_time", 30], ["created_at", "2021-04-17 05:32:44.373343"], ["updated_at", "2021-04-17 05:32:44.373343"], ["category", "筋トレ"]]
+  ↳ app/controllers/clocks_controller.rb:6
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/clocks_controller.rb:6
+Redirected to https://930a61aca7f2.ngrok.io/
+Completed 200 OK in 11ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/" for 114.184.187.135 at 2021-04-17 14:32:44 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:8
+  Rendering home/top.html.erb within layouts/application
+  [1m[36mClock Load (0.3ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 5], ["LIMIT", 1]]
+  ↳ app/views/home/top.html.erb:12
+  Rendered home/top.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 39ms (Views: 36.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 114.184.187.135 at 2021-04-17 14:37:02 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:8
+  Rendering home/top.html.erb within layouts/application
+  [1m[36mClock Load (0.2ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 5], ["LIMIT", 1]]
+  ↳ app/views/home/top.html.erb:12
+  Rendered home/top.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 63ms (Views: 60.1ms | ActiveRecord: 0.5ms)
+
+
+Started DELETE "/users/5" for 114.184.187.135 at 2021-04-17 14:37:03 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"vRSVSZpGRFPRZnezMa3ekPUe34DF2g5KtoXM9sVYhuD0Wu4LDIssp9MZpBfoO5oJzf-jtn2NLpKcMhgGKQA-bw", "id"=>"5"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:44
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:45
+  [1m[36mClock Load (0.6ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:45
+  [1m[36mClock Destroy (0.6ms)[0m  [1m[31mDELETE FROM "clocks" WHERE "clocks"."id" = $1[0m  [["id", 2]]
+  ↳ app/controllers/users_controller.rb:45
+  [1m[36mUser Destroy (0.9ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 5]]
+  ↳ app/controllers/users_controller.rb:45
+  [1m[35m (6.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:45
+Redirected to https://930a61aca7f2.ngrok.io/
+Completed 302 Found in 18ms (ActiveRecord: 9.9ms)
+
+
+Started GET "/" for 114.184.187.135 at 2021-04-17 14:37:04 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 53ms (Views: 50.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new?code=5tZ1BALQe61fKirFqGXw&state=12345abcde" for 114.184.187.135 at 2021-04-17 14:37:10 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Parameters: {"code"=>"5tZ1BALQe61fKirFqGXw", "state"=>"12345abcde"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:37
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("name", "line_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "吉岡　将"], ["line_id", "Ubdbe5d1bad3cc7a2b98fa5998c63d551"], ["created_at", "2021-04-17 05:37:10.628415"], ["updated_at", "2021-04-17 05:37:10.628415"]]
+  ↳ app/controllers/users_controller.rb:37
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:37
+Redirected to https://930a61aca7f2.ngrok.io/
+Completed 302 Found in 578ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/" for 114.184.187.135 at 2021-04-17 14:37:11 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:8
+  Rendering home/top.html.erb within layouts/application
+  [1m[36mClock Load (0.3ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 6], ["LIMIT", 1]]
+  ↳ app/views/home/top.html.erb:12
+  Rendered home/top.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 54ms (Views: 50.3ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/users/6/clocks" for 114.184.187.135 at 2021-04-17 14:37:13 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClocksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GfvfwTli6QeJBE9wSnhSpSdkS02au2P8VCtXhhpHavlQtaSDr6-B84t7nNST7hY8H4U3eyLsQyR-nIN29h_Sdg", "clock"=>{"set_time"=>"30", "category"=>"筋トレ"}, "commit"=>"アプリスタート", "user_id"=>"6"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/clocks_controller.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/clocks_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/clocks_controller.rb:6
+  [1m[36mClock Create (0.4ms)[0m  [1m[32mINSERT INTO "clocks" ("user_id", "set_time", "created_at", "updated_at", "category") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["user_id", 6], ["set_time", 30], ["created_at", "2021-04-17 05:37:13.816531"], ["updated_at", "2021-04-17 05:37:13.816531"], ["category", "筋トレ"]]
+  ↳ app/controllers/clocks_controller.rb:6
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/clocks_controller.rb:6
+Redirected to https://930a61aca7f2.ngrok.io/
+Completed 200 OK in 5ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/" for 114.184.187.135 at 2021-04-17 14:37:14 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:8
+  Rendering home/top.html.erb within layouts/application
+  [1m[36mClock Load (0.2ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 6], ["LIMIT", 1]]
+  ↳ app/views/home/top.html.erb:12
+  Rendered home/top.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 46ms (Views: 43.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 114.184.187.135 at 2021-04-17 14:38:42 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:8
+  Rendering home/top.html.erb within layouts/application
+  [1m[36mClock Load (0.4ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 6], ["LIMIT", 1]]
+  ↳ app/views/home/top.html.erb:12
+  Rendered home/top.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 51ms (Views: 47.6ms | ActiveRecord: 0.7ms)
+
+
+Started DELETE "/users/6" for 114.184.187.135 at 2021-04-17 14:38:43 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"gb6dHbTk0h2zxtNW9yIjL95pJCxH5O1YMFApEpKRspzI8OZfIim66bG5APIutGe25ohYGv-zzYAa5_3ifskKEw", "id"=>"6"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:44
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:45
+  [1m[36mClock Load (0.3ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:45
+  [1m[36mClock Destroy (0.4ms)[0m  [1m[31mDELETE FROM "clocks" WHERE "clocks"."id" = $1[0m  [["id", 3]]
+  ↳ app/controllers/users_controller.rb:45
+  [1m[36mUser Destroy (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 6]]
+  ↳ app/controllers/users_controller.rb:45
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:45
+Redirected to https://930a61aca7f2.ngrok.io/
+Completed 302 Found in 7ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/" for 114.184.187.135 at 2021-04-17 14:38:44 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 54ms (Views: 53.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new?code=qCWd3G85FEyxYnqyUhod&state=12345abcde" for 114.184.187.135 at 2021-04-17 14:38:48 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Parameters: {"code"=>"qCWd3G85FEyxYnqyUhod", "state"=>"12345abcde"}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:37
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("name", "line_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "吉岡　将"], ["line_id", "Ubdbe5d1bad3cc7a2b98fa5998c63d551"], ["created_at", "2021-04-17 05:38:49.036222"], ["updated_at", "2021-04-17 05:38:49.036222"]]
+  ↳ app/controllers/users_controller.rb:37
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:37
+Redirected to https://930a61aca7f2.ngrok.io/
+Completed 302 Found in 728ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/" for 114.184.187.135 at 2021-04-17 14:38:49 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:8
+  Rendering home/top.html.erb within layouts/application
+  [1m[36mClock Load (0.3ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 7], ["LIMIT", 1]]
+  ↳ app/views/home/top.html.erb:12
+  Rendered home/top.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 50ms (Views: 45.1ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/users/7/clocks" for 114.184.187.135 at 2021-04-17 14:38:54 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClocksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bvxBLFfVS22onxWerLXPQqYHWRnSXK_s0tPrxeVoE_UnsjpuwRgjmargxjp1I4vbnuYlL2oLjzT4ZD81CTCreg", "clock"=>{"set_time"=>"30", "category"=>"筋トレ"}, "commit"=>"アプリスタート", "user_id"=>"7"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/clocks_controller.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/clocks_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/clocks_controller.rb:6
+  [1m[36mClock Create (0.6ms)[0m  [1m[32mINSERT INTO "clocks" ("user_id", "set_time", "created_at", "updated_at", "category") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["user_id", 7], ["set_time", 30], ["created_at", "2021-04-17 05:38:54.191772"], ["updated_at", "2021-04-17 05:38:54.191772"], ["category", "筋トレ"]]
+  ↳ app/controllers/clocks_controller.rb:6
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/clocks_controller.rb:6
+Redirected to https://930a61aca7f2.ngrok.io/
+Completed 200 OK in 8ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/" for 114.184.187.135 at 2021-04-17 14:38:54 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:8
+  Rendering home/top.html.erb within layouts/application
+  [1m[36mClock Load (0.4ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 7], ["LIMIT", 1]]
+  ↳ app/views/home/top.html.erb:12
+  Rendered home/top.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 61ms (Views: 57.7ms | ActiveRecord: 0.8ms)
+
+
+Started DELETE "/users/7" for 114.184.187.135 at 2021-04-17 14:46:34 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"DHRYxiu8-pUXhu1xZHZceAZHT1FzGDZoLKE96boXS0VFOiOEvXGSYRX5PtW94BjhPqYzZ8tPFrAGFukZVk_zyg", "id"=>"7"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:44
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:45
+  [1m[36mClock Load (0.5ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:45
+  [1m[36mClock Destroy (0.4ms)[0m  [1m[31mDELETE FROM "clocks" WHERE "clocks"."id" = $1[0m  [["id", 4]]
+  ↳ app/controllers/users_controller.rb:45
+  [1m[36mUser Destroy (0.9ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 7]]
+  ↳ app/controllers/users_controller.rb:45
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:45
+Redirected to https://930a61aca7f2.ngrok.io/
+Completed 302 Found in 9ms (ActiveRecord: 3.4ms)
+
+
+Started GET "/" for 114.184.187.135 at 2021-04-17 14:46:34 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 60ms (Views: 57.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new?code=nZLOYa8uZ7Q0MWNOguDg&state=12345abcde" for 114.184.187.135 at 2021-04-17 14:46:38 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Parameters: {"code"=>"nZLOYa8uZ7Q0MWNOguDg", "state"=>"12345abcde"}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:37
+  [1m[36mUser Create (1.8ms)[0m  [1m[32mINSERT INTO "users" ("name", "line_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "吉岡　将"], ["line_id", "Ubdbe5d1bad3cc7a2b98fa5998c63d551"], ["created_at", "2021-04-17 05:46:39.451922"], ["updated_at", "2021-04-17 05:46:39.451922"]]
+  ↳ app/controllers/users_controller.rb:37
+  [1m[35m (1.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:37
+Redirected to https://930a61aca7f2.ngrok.io/
+Completed 302 Found in 664ms (ActiveRecord: 4.1ms)
+
+
+Started GET "/" for 114.184.187.135 at 2021-04-17 14:46:39 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:8
+  Rendering home/top.html.erb within layouts/application
+  [1m[36mClock Load (0.4ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 8], ["LIMIT", 1]]
+  ↳ app/views/home/top.html.erb:12
+  Rendered home/top.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 73ms (Views: 68.5ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/users/8/clocks" for 114.184.187.135 at 2021-04-17 14:46:43 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClocksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DMmNqHnekcAGBfnUsd0HpeVio3zwMZuXh-eK2EnmmdhFh_bq7xP5NAR6KnBoS0M83YPfSkhmu0-tUF4opb4hVw", "clock"=>{"set_time"=>"30", "category"=>"筋トレ"}, "commit"=>"アプリスタート", "user_id"=>"8"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/clocks_controller.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/clocks_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/clocks_controller.rb:6
+  [1m[36mClock Create (0.8ms)[0m  [1m[32mINSERT INTO "clocks" ("user_id", "set_time", "created_at", "updated_at", "category") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["user_id", 8], ["set_time", 30], ["created_at", "2021-04-17 05:46:43.119762"], ["updated_at", "2021-04-17 05:46:43.119762"], ["category", "筋トレ"]]
+  ↳ app/controllers/clocks_controller.rb:6
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/clocks_controller.rb:6
+Redirected to https://930a61aca7f2.ngrok.io/
+Completed 200 OK in 8ms (ActiveRecord: 2.6ms)
+
+
+Started GET "/" for 114.184.187.135 at 2021-04-17 14:46:43 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:8
+  Rendering home/top.html.erb within layouts/application
+  [1m[36mClock Load (0.7ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 8], ["LIMIT", 1]]
+  ↳ app/views/home/top.html.erb:12
+  Rendered home/top.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 40ms (Views: 37.7ms | ActiveRecord: 0.9ms)
+
+
+Started DELETE "/users/8" for 114.184.187.135 at 2021-04-17 14:47:10 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"xFQoWc7k86g1l6r4FUVWtuGInuT7KIH1KhYwJLnem8SNGlMbWCmbXDfoeVzM0xIv2Wni0kN_oS0AoeTUVYYjSw", "id"=>"8"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:44
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:45
+  [1m[36mClock Load (0.5ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:45
+  [1m[36mClock Destroy (0.4ms)[0m  [1m[31mDELETE FROM "clocks" WHERE "clocks"."id" = $1[0m  [["id", 5]]
+  ↳ app/controllers/users_controller.rb:45
+  [1m[36mUser Destroy (0.7ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 8]]
+  ↳ app/controllers/users_controller.rb:45
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:45
+Redirected to https://930a61aca7f2.ngrok.io/
+Completed 302 Found in 8ms (ActiveRecord: 2.9ms)
+
+
+Started GET "/" for 114.184.187.135 at 2021-04-17 14:47:11 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 55ms (Views: 53.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new?code=A5z6j2kKYBzfbOGISlVh&state=12345abcde" for 114.184.187.135 at 2021-04-17 14:47:14 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Parameters: {"code"=>"A5z6j2kKYBzfbOGISlVh", "state"=>"12345abcde"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:37
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "line_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "吉岡　将"], ["line_id", "Ubdbe5d1bad3cc7a2b98fa5998c63d551"], ["created_at", "2021-04-17 05:47:14.754403"], ["updated_at", "2021-04-17 05:47:14.754403"]]
+  ↳ app/controllers/users_controller.rb:37
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:37
+Redirected to https://930a61aca7f2.ngrok.io/
+Completed 302 Found in 506ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/" for 114.184.187.135 at 2021-04-17 14:47:15 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:8
+  Rendering home/top.html.erb within layouts/application
+  [1m[36mClock Load (0.3ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 9], ["LIMIT", 1]]
+  ↳ app/views/home/top.html.erb:12
+  Rendered home/top.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 63ms (Views: 59.2ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/users/9/clocks" for 114.184.187.135 at 2021-04-17 14:47:17 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClocksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SBYcWGxI9JvN_ZWZauljIC6xpj_Zf0Bcv9qoqOhIJCsBWGca-oWcb8-CRj2zfye5FlDaCWEoYISVbXxYBBCcpA", "clock"=>{"set_time"=>"30", "category"=>"筋トレ"}, "commit"=>"アプリスタート", "user_id"=>"9"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/clocks_controller.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/clocks_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/clocks_controller.rb:6
+  [1m[36mClock Create (0.7ms)[0m  [1m[32mINSERT INTO "clocks" ("user_id", "set_time", "created_at", "updated_at", "category") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["user_id", 9], ["set_time", 30], ["created_at", "2021-04-17 05:47:17.428521"], ["updated_at", "2021-04-17 05:47:17.428521"], ["category", "筋トレ"]]
+  ↳ app/controllers/clocks_controller.rb:6
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/clocks_controller.rb:6
+Redirected to https://930a61aca7f2.ngrok.io/
+Completed 200 OK in 7ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/" for 114.184.187.135 at 2021-04-17 14:47:17 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:8
+  Rendering home/top.html.erb within layouts/application
+  [1m[36mClock Load (0.4ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 9], ["LIMIT", 1]]
+  ↳ app/views/home/top.html.erb:12
+  Rendered home/top.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 52ms (Views: 48.1ms | ActiveRecord: 0.8ms)
+
+
+Started DELETE "/users/9" for 114.184.187.135 at 2021-04-17 14:51:15 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"bLYAAd1xdz84PBk_-iICikAU9GzAlrW2W2KfvzWch_Ul-HtDS7wfyzpDypsjtEYTePWIWnjBlW5x1UtP2cQ_eg", "id"=>"9"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:44
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:45
+  [1m[36mClock Load (0.2ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:45
+  [1m[36mClock Destroy (0.4ms)[0m  [1m[31mDELETE FROM "clocks" WHERE "clocks"."id" = $1[0m  [["id", 6]]
+  ↳ app/controllers/users_controller.rb:45
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 9]]
+  ↳ app/controllers/users_controller.rb:45
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:45
+Redirected to https://930a61aca7f2.ngrok.io/
+Completed 302 Found in 5ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/" for 114.184.187.135 at 2021-04-17 14:51:16 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 65ms (Views: 63.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new?code=zVDPzchjZrObE30pwZYA&state=12345abcde" for 114.184.187.135 at 2021-04-17 14:51:18 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Parameters: {"code"=>"zVDPzchjZrObE30pwZYA", "state"=>"12345abcde"}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:37
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("name", "line_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "吉岡　将"], ["line_id", "Ubdbe5d1bad3cc7a2b98fa5998c63d551"], ["created_at", "2021-04-17 05:51:19.682527"], ["updated_at", "2021-04-17 05:51:19.682527"]]
+  ↳ app/controllers/users_controller.rb:37
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:37
+Redirected to https://930a61aca7f2.ngrok.io/
+Completed 302 Found in 884ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/" for 114.184.187.135 at 2021-04-17 14:51:20 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:8
+  Rendering home/top.html.erb within layouts/application
+  [1m[36mClock Load (0.3ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 10], ["LIMIT", 1]]
+  ↳ app/views/home/top.html.erb:12
+  Rendered home/top.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 44ms (Views: 41.5ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/users/10/clocks" for 114.184.187.135 at 2021-04-17 14:51:23 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClocksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ykIeadRN2DwitswjSdzSNTRsacX-T0oDqVpsR-_TLlWDDGUrQoCwyCDJH4eQSpasDI0V80YYatuD7bi3A4uW2g", "clock"=>{"set_time"=>"30", "category"=>"筋トレ"}, "commit"=>"アプリスタート", "user_id"=>"10"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/clocks_controller.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/clocks_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/clocks_controller.rb:6
+  [1m[36mClock Create (0.6ms)[0m  [1m[32mINSERT INTO "clocks" ("user_id", "set_time", "created_at", "updated_at", "category") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["user_id", 10], ["set_time", 30], ["created_at", "2021-04-17 05:51:23.459328"], ["updated_at", "2021-04-17 05:51:23.459328"], ["category", "筋トレ"]]
+  ↳ app/controllers/clocks_controller.rb:6
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/clocks_controller.rb:6
+Redirected to https://930a61aca7f2.ngrok.io/
+Completed 200 OK in 7ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/" for 114.184.187.135 at 2021-04-17 14:51:23 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:8
+  Rendering home/top.html.erb within layouts/application
+  [1m[36mClock Load (0.3ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 10], ["LIMIT", 1]]
+  ↳ app/views/home/top.html.erb:12
+  Rendered home/top.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 65ms (Views: 61.9ms | ActiveRecord: 0.7ms)
+
+
