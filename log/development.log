@@ -50821,3 +50821,75 @@ Processing by HomeController#top as HTML
 Completed 200 OK in 65ms (Views: 61.9ms | ActiveRecord: 0.7ms)
 
 
+Started GET "/" for ::1 at 2021-04-17 15:21:28 +0900
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/yoshiokasusumu/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (367.9ms)
+Completed 200 OK in 509ms (Views: 505.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-04-17 15:23:47 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 42ms (Views: 40.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-04-17 15:23:52 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 44ms (Views: 42.6ms | ActiveRecord: 0.0ms)
+
+
+Sending HTTP get https://youtube.googleapis.com/youtube/v3/search?key=AIzaSyAHRj3UyMiXAhpdddkRlE9Qa16FF3IfGyM&maxResults=10&order=date&part=snippet&publishedAfter=2021-03-17T06%3A36%3A10%2B00%3A00&publishedBefore=2021-04-17T15%3A36%3A10%2B09%3A00&q=%E3%82%B6%E3%83%BB%E3%81%8D%E3%82%93%E3%81%AB%E3%81%8FTV%2010%E5%88%86&type=video
+200
+#<HTTP::Message:0x00007fc6f561ece8 @http_header=#<HTTP::Message::Headers:0x00007fc6f561ec98 @http_version="1.1", @body_size=0, @chunked=false, @request_method="GET", @request_uri=#<Addressable::URI:0x3fe37ab0a8cc URI:https://youtube.googleapis.com/youtube/v3/search?key=AIzaSyAHRj3UyMiXAhpdddkRlE9Qa16FF3IfGyM&maxResults=10&order=date&part=snippet&publishedAfter=2021-03-17T06%3A36%3A10%2B00%3A00&publishedBefore=2021-04-17T15%3A36%3A10%2B09%3A00&q=%E3%82%B6%E3%83%BB%E3%81%8D%E3%82%93%E3%81%AB%E3%81%8FTV%2010%E5%88%86&type=video>, @request_query=nil, @request_absolute_uri=nil, @status_code=200, @reason_phrase="OK", @body_type=nil, @body_charset=nil, @body_date=nil, @body_encoding=#<Encoding:UTF-8>, @is_request=false, @header_item=[["Content-Type", "application/json; charset=UTF-8"], ["Vary", "Origin"], ["Vary", "X-Origin"], ["Vary", "Referer"], ["Content-Encoding", "gzip"], ["Date", "Sat, 17 Apr 2021 06:36:11 GMT"], ["Server", "scaffolding on HTTPServer2"], ["Cache-Control", "private"], ["X-XSS-Protection", "0"], ["X-Frame-Options", "SAMEORIGIN"], ["X-Content-Type-Options", "nosniff"], ["Alt-Svc", "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""], ["Transfer-Encoding", "chunked"]], @dumped=false>, @peer_cert=#<OpenSSL::X509::Certificate: subject=#<OpenSSL::X509::Name CN=upload.video.google.com,O=Google LLC,L=Mountain View,ST=California,C=US>, issuer=#<OpenSSL::X509::Name CN=GTS CA 1O1,O=Google Trust Services,C=US>, serial=#<OpenSSL::BN:0x00007fc6f565cc28>, not_before=2021-03-23 08:24:47 UTC, not_after=2021-06-15 08:24:46 UTC>, @http_body=#<HTTP::Message::Body:0x00007fc6f561e900 @body="{\n  \"kind\": \"youtube#searchListResponse\",\n  \"etag\": \"3TJ3lByEpcDYzHIhN6ycrkKY5a4\",\n  \"regionCode\": \"JP\",\n  \"pageInfo\": {\n    \"totalResults\": 7861,\n    \"resultsPerPage\": 1\n  },\n  \"items\": [\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"CORVU-c0icY01XwcT08JbwCZeaM\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"z0M1tyo5jok\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-09T22:58:24Z\",\n        \"channelId\": \"UC24FsW4SDTrKQD9JUiFc5Nw\",\n        \"title\": \"【11分解説】痩せる食事がわかる！眠れなくなるほど面白い 図解 体脂肪の話【書評】\",\n        \"description\": \"なかやまきんに君が毎日食べるのはコレです。ザ・きんにくTV 【The Muscle TV】 https://www.youtube.com/watch?v=V6H3uJ1E0-M 【10分でわかる】眠れなくなるほど ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/z0M1tyo5jok/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/z0M1tyo5jok/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/z0M1tyo5jok/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"ゆとりリーマンYouTuber「ユト」\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-09T22:58:24Z\"\n      }\n    }\n  ]\n}\n", @size=0, @positions=nil, @chunk_size=nil>, @previous=nil>
+Success - #<Google::Apis::YoutubeV3::SearchListsResponse:0x00007fc6f92ad8a8
+ @etag="3TJ3lByEpcDYzHIhN6ycrkKY5a4",
+ @items=
+  [#<Google::Apis::YoutubeV3::SearchResult:0x00007fc6f5c3c148
+    @etag="CORVU-c0icY01XwcT08JbwCZeaM",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fc6f5c46fa8
+      @kind="youtube#video",
+      @video_id="z0M1tyo5jok">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fc6f5c444d8
+      @channel_id="UC24FsW4SDTrKQD9JUiFc5Nw",
+      @channel_title="ゆとりリーマンYouTuber「ユト」",
+      @description=
+       "なかやまきんに君が毎日食べるのはコレです。ザ・きんにくTV 【The Muscle TV】 https://www.youtube.com/watch?v=V6H3uJ1E0-M 【10分でわかる】眠れなくなるほど ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-09T22:58:24Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fc6f5685600
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fc6f568fe48
+          @height=90,
+          @url="https://i.ytimg.com/vi/z0M1tyo5jok/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fc6f568db20
+          @height=360,
+          @url="https://i.ytimg.com/vi/z0M1tyo5jok/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fc6f64c79e8
+          @height=180,
+          @url="https://i.ytimg.com/vi/z0M1tyo5jok/mqdefault.jpg",
+          @width=320>>,
+      @title="【11分解説】痩せる食事がわかる！眠れなくなるほど面白い 図解 体脂肪の話【書評】">>],
+ @kind="youtube#searchListResponse",
+ @page_info=
+  #<Google::Apis::YoutubeV3::PageInfo:0x00007fc6f64cf6c0
+   @results_per_page=1,
+   @total_results=7861>,
+ @region_code="JP">
+
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mVideo Create (0.7ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ザ・きんにくTV 10分"], ["title", "【11分解説】痩せる食事がわかる！眠れなくなるほど面白い 図解 体脂肪の話【書評】"], ["video_id", "z0M1tyo5jok"], ["created_at", "2021-04-17 06:36:11.568556"], ["updated_at", "2021-04-17 06:36:11.568556"]]
+  [1m[35m (1.6ms)[0m  [1m[35mCOMMIT[0m
