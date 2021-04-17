@@ -3,7 +3,7 @@ namespace :save_videos do
      task save_video: :environment do
          Video.find_videos(%w(筋トレ ストレッチ ヨガ))
          from = Video.first.id
-         to = Video.first.id + 39
+         to = Video.first.id + 9
          Video.where(id: from..to).destroy_all
      end
 end
