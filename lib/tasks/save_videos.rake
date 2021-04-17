@@ -1,7 +1,7 @@
 namespace :save_videos do
     desc "youtubeの動画を保存する"
      task save_video: :environment do
-         Video.find_videos(%w(筋トレ ストレッチ ザ・きんにくTV))
+         Video.find_videos(%w(筋トレ ストレッチ ヨガ))
          from = Video.first.id
          to = Video.first.id + 39
          Video.where(id: from..to).destroy_all

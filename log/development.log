@@ -51074,3 +51074,5 @@ Processing by HomeController#top as HTML
 Completed 200 OK in 65ms (Views: 60.9ms | ActiveRecord: 0.9ms)
 
 
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
