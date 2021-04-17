@@ -29,8 +29,10 @@ namespace :send_youtube do
         clock = user.clock
         if user.clock.set_time == 30 
           videos = Video.where(category_name: clock.category)
+          clock.category
           n = rand(10)
           @video = videos[n]
+          p @video
           message = {
             type: 'text',
             text: "https://www.youtube.com/embed/#{@video.video_id}"

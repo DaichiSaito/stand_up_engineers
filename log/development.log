@@ -50894,3 +50894,183 @@ Success - #<Google::Apis::YoutubeV3::SearchListsResponse:0x00007fc6f92ad8a8
   [1m[36mVideo Create (0.7ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ザ・きんにくTV 10分"], ["title", "【11分解説】痩せる食事がわかる！眠れなくなるほど面白い 図解 体脂肪の話【書評】"], ["video_id", "z0M1tyo5jok"], ["created_at", "2021-04-17 06:36:11.568556"], ["updated_at", "2021-04-17 06:36:11.568556"]]
   [1m[35m (1.6ms)[0m  [1m[35mCOMMIT[0m
   [1m[36mVideo Load (0.5ms)[0m  [1m[34mSELECT  "videos".* FROM "videos" WHERE "videos"."category_name" = $1 LIMIT $2[0m  [["category_name", "筋トレ"], ["LIMIT", 11]]
+Started GET "/" for ::1 at 2021-04-17 20:06:46 +0900
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/yoshiokasusumu/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (344.3ms)
+Completed 200 OK in 485ms (Views: 480.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-04-17 20:07:10 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 59ms (Views: 57.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-04-17 20:07:42 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 79ms (Views: 78.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-04-17 20:09:43 +0900
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/yoshiokasusumu/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (320.5ms)
+Completed 200 OK in 443ms (Views: 440.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new?code=MDAQxXdreat08CPRLDmv&state=12345abcde" for 114.184.187.135 at 2021-04-17 20:09:47 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Parameters: {"code"=>"MDAQxXdreat08CPRLDmv", "state"=>"12345abcde"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:37
+  [1m[36mUser Create (1.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "line_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "吉岡　将"], ["line_id", "Ubdbe5d1bad3cc7a2b98fa5998c63d551"], ["created_at", "2021-04-17 11:09:47.732172"], ["updated_at", "2021-04-17 11:09:47.732172"]]
+  ↳ app/controllers/users_controller.rb:37
+  [1m[35m (1.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:37
+Redirected to https://6f0dae0e0793.ngrok.io/
+Completed 302 Found in 293ms (ActiveRecord: 9.0ms)
+
+
+Started GET "/" for 114.184.187.135 at 2021-04-17 20:09:48 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:8
+  Rendering home/top.html.erb within layouts/application
+  [1m[36mClock Load (3.8ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 11], ["LIMIT", 1]]
+  ↳ app/views/home/top.html.erb:12
+  Rendered home/top.html.erb within layouts/application (102.4ms)
+Completed 200 OK in 181ms (Views: 151.5ms | ActiveRecord: 8.1ms)
+
+
+Started GET "/" for 61.122.213.6 at 2021-04-17 20:09:50 +0900
+Cannot render console from 61.122.213.6! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 75ms (Views: 72.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/11/clocks" for 114.184.187.135 at 2021-04-17 20:11:31 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClocksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"a5fH1rWx70mt5qhSsgpm6vDPtBQbOUSqzIV9ncTTvZJyevN2vgS17hpqwQQYGBrF4W9A5baPFpqS32qQ0Cd6Zg", "clock"=>{"set_time"=>"60", "category"=>"ヨガ"}, "commit"=>"アプリスタート", "user_id"=>"11"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/clocks_controller.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/clocks_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/clocks_controller.rb:6
+  [1m[36mClock Create (1.4ms)[0m  [1m[32mINSERT INTO "clocks" ("user_id", "set_time", "created_at", "updated_at", "category") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["user_id", 11], ["set_time", 60], ["created_at", "2021-04-17 11:11:31.495964"], ["updated_at", "2021-04-17 11:11:31.495964"], ["category", "ヨガ"]]
+  ↳ app/controllers/clocks_controller.rb:6
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/clocks_controller.rb:6
+Redirected to https://6f0dae0e0793.ngrok.io/
+Completed 200 OK in 12ms (ActiveRecord: 3.1ms)
+
+
+Started GET "/" for 114.184.187.135 at 2021-04-17 20:11:31 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:8
+  Rendering home/top.html.erb within layouts/application
+  [1m[36mClock Load (0.5ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 11], ["LIMIT", 1]]
+  ↳ app/views/home/top.html.erb:12
+  Rendered home/top.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 75ms (Views: 70.6ms | ActiveRecord: 1.1ms)
+
+
+Started DELETE "/users/11" for 114.184.187.135 at 2021-04-17 20:11:35 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"GdssUrRn_cUsR1Vs0ux9RpRiSXJFm3_tjoPp35gPsCkANhjyv9KnYpvLPDp4_gFphcK9g-gtLd3Q2f7SjPt33Q", "id"=>"11"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:44
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:45
+  [1m[36mClock Load (0.6ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:45
+  [1m[36mClock Destroy (0.8ms)[0m  [1m[31mDELETE FROM "clocks" WHERE "clocks"."id" = $1[0m  [["id", 8]]
+  ↳ app/controllers/users_controller.rb:45
+  [1m[36mUser Destroy (0.9ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 11]]
+  ↳ app/controllers/users_controller.rb:45
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:45
+Redirected to https://6f0dae0e0793.ngrok.io/
+Completed 302 Found in 10ms (ActiveRecord: 4.1ms)
+
+
+Started GET "/" for 114.184.187.135 at 2021-04-17 20:11:35 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 50ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new?code=zFnQ4iKSFYrD5G8OrCfR&state=12345abcde" for 114.184.187.135 at 2021-04-17 20:11:44 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Parameters: {"code"=>"zFnQ4iKSFYrD5G8OrCfR", "state"=>"12345abcde"}
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:37
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("name", "line_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "吉岡　将"], ["line_id", "Ubdbe5d1bad3cc7a2b98fa5998c63d551"], ["created_at", "2021-04-17 11:11:44.892908"], ["updated_at", "2021-04-17 11:11:44.892908"]]
+  ↳ app/controllers/users_controller.rb:37
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:37
+Redirected to https://6f0dae0e0793.ngrok.io/
+Completed 302 Found in 179ms (ActiveRecord: 2.4ms)
+
+
+Started GET "/" for 114.184.187.135 at 2021-04-17 20:11:45 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:8
+  Rendering home/top.html.erb within layouts/application
+  [1m[36mClock Load (0.3ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 12], ["LIMIT", 1]]
+  ↳ app/views/home/top.html.erb:12
+  Rendered home/top.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 49ms (Views: 44.9ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/users/12/clocks" for 114.184.187.135 at 2021-04-17 20:11:48 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ClocksController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"J69Yu4Djt0JMMszI_-rrN5_GHVRQh_Ftq_8UINfLU90-Qmwbi1bt5fu-pZ5V-JcYjmbppf0xo131pQMtwz-UKQ", "clock"=>{"set_time"=>"30", "category"=>"筋トレ"}, "commit"=>"アプリスタート", "user_id"=>"12"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/clocks_controller.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/clocks_controller.rb:6
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/clocks_controller.rb:6
+  [1m[36mClock Create (0.4ms)[0m  [1m[32mINSERT INTO "clocks" ("user_id", "set_time", "created_at", "updated_at", "category") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["user_id", 12], ["set_time", 30], ["created_at", "2021-04-17 11:11:48.164443"], ["updated_at", "2021-04-17 11:11:48.164443"], ["category", "筋トレ"]]
+  ↳ app/controllers/clocks_controller.rb:6
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/clocks_controller.rb:6
+Redirected to https://6f0dae0e0793.ngrok.io/
+Completed 200 OK in 5ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/" for 114.184.187.135 at 2021-04-17 20:11:48 +0900
+Cannot render console from 114.184.187.135! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#top as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/home_controller.rb:8
+  Rendering home/top.html.erb within layouts/application
+  [1m[36mClock Load (0.4ms)[0m  [1m[34mSELECT  "clocks".* FROM "clocks" WHERE "clocks"."user_id" = $1 LIMIT $2[0m  [["user_id", 12], ["LIMIT", 1]]
+  ↳ app/views/home/top.html.erb:12
+  Rendered home/top.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 65ms (Views: 60.9ms | ActiveRecord: 0.9ms)
+
+
