@@ -46758,3 +46758,1746 @@ Completed 200 OK in 60ms (Views: 56.8ms | ActiveRecord: 0.0ms)
   ↳ lib/tasks/send_youtube.rake:5
   [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
   ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+Sending HTTP get https://youtube.googleapis.com/youtube/v3/search?key=AIzaSyAHRj3UyMiXAhpdddkRlE9Qa16FF3IfGyM&maxResults=10&order=date&part=snippet&publishedAfter=2021-03-16T15%3A00%3A04%2B00%3A00&publishedBefore=2021-04-17T00%3A00%3A04%2B09%3A00&q=%E7%AD%8B%E3%83%88%E3%83%AC&type=video
+200
+#<HTTP::Message:0x00007fa2d469ce80 @http_header=#<HTTP::Message::Headers:0x00007fa2d469ce58 @http_version="1.1", @body_size=0, @chunked=false, @request_method="GET", @request_uri=#<Addressable::URI:0x3fd16a34eb3c URI:https://youtube.googleapis.com/youtube/v3/search?key=AIzaSyAHRj3UyMiXAhpdddkRlE9Qa16FF3IfGyM&maxResults=10&order=date&part=snippet&publishedAfter=2021-03-16T15%3A00%3A04%2B00%3A00&publishedBefore=2021-04-17T00%3A00%3A04%2B09%3A00&q=%E7%AD%8B%E3%83%88%E3%83%AC&type=video>, @request_query=nil, @request_absolute_uri=nil, @status_code=200, @reason_phrase="OK", @body_type=nil, @body_charset=nil, @body_date=nil, @body_encoding=#<Encoding:UTF-8>, @is_request=false, @header_item=[["Content-Type", "application/json; charset=UTF-8"], ["Vary", "Origin"], ["Vary", "X-Origin"], ["Vary", "Referer"], ["Content-Encoding", "gzip"], ["Date", "Fri, 16 Apr 2021 15:00:04 GMT"], ["Server", "scaffolding on HTTPServer2"], ["Cache-Control", "private"], ["X-XSS-Protection", "0"], ["X-Frame-Options", "SAMEORIGIN"], ["X-Content-Type-Options", "nosniff"], ["Alt-Svc", "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""], ["Transfer-Encoding", "chunked"]], @dumped=false>, @peer_cert=#<OpenSSL::X509::Certificate: subject=#<OpenSSL::X509::Name CN=upload.video.google.com,O=Google LLC,L=Mountain View,ST=California,C=US>, issuer=#<OpenSSL::X509::Name CN=GTS CA 1O1,O=Google Trust Services,C=US>, serial=#<OpenSSL::BN:0x00007fa2d31694f0>, not_before=2021-03-23 08:24:47 UTC, not_after=2021-06-15 08:24:46 UTC>, @http_body=#<HTTP::Message::Body:0x00007fa2d469cde0 @body="{\n  \"kind\": \"youtube#searchListResponse\",\n  \"etag\": \"lV5E14_JreEFlhlOVvBum1Cx0ow\",\n  \"nextPageToken\": \"CAoQAA\",\n  \"regionCode\": \"JP\",\n  \"pageInfo\": {\n    \"totalResults\": 103417,\n    \"resultsPerPage\": 10\n  },\n  \"items\": [\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"B0zDiEpEl2E64s81KOPMY3H4ix8\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"F0ITivAzd0I\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-16T14:48:46Z\",\n        \"channelId\": \"UCi4kggoF56VgY2MO2IG4DDg\",\n        \"title\": \"鉄腕舞鶴　筋トレ\",\n        \"description\": \"\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/F0ITivAzd0I/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/F0ITivAzd0I/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/F0ITivAzd0I/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"イッキキラ\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-16T14:48:46Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"iDe34ejul74pgVJPrDcqjc2R-ek\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"ovUxrLYfI7c\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-16T14:04:09Z\",\n        \"channelId\": \"UCJOvpszXNUMP40ghoWH0xuA\",\n        \"title\": \"2021.4.16 今日も元気なジュニア小学生クラス　筋トレ風景\",\n        \"description\": \"キックボクシングジムGETOVER http://www.getover.jp/ 女性キックボクシング,ヨガ,エステ http://www.getover.jp/03earo/\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/ovUxrLYfI7c/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/ovUxrLYfI7c/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/ovUxrLYfI7c/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"GETOVERチャンネル\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-16T14:04:09Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"JwY6D7RsGrXUyFJ58WuosgLdLFo\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"qYPijnoVziY\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-16T12:49:15Z\",\n        \"channelId\": \"UCez9DSFEKS8eDJxp9i5oeMQ\",\n        \"title\": \"背筋を鍛えたいほたるちゃん【筋トレ女子】\",\n        \"description\": \"あなたのハートを灯したい、どーもほたるです   今日はCALISLIFEさんの 「【5分】自重で背中全体を鍛える背筋トレーニング！」をやりました フルバージョンはファンティアに ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/qYPijnoVziY/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/qYPijnoVziY/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/qYPijnoVziY/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"ほたるの日常\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-16T12:49:15Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"nocFYtxxQciOlpaG7DR-87Gr-ZA\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"0Nn6rgVtVno\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-16T12:02:44Z\",\n        \"channelId\": \"UCM3Eo_7bq7Z1EuksMgs5jCA\",\n        \"title\": \"トレ後の飯たべつつ飲んでます\",\n        \"description\": \"シリーズ「2021東京オープン優勝への道」再生リスト https://www.youtube.com/playlist?list=PL_9RfKMUpBTv4YRVlA2rqfP1FxVPPjMR- ☆筋トレ生配信ライブ ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/0Nn6rgVtVno/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/0Nn6rgVtVno/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/0Nn6rgVtVno/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"コアラ小嵐\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-16T12:02:44Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"ukPsNyVBoDBGkNX0BMBCgGV3VIM\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"XaGJrCovw_w\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-16T12:00:15Z\",\n        \"channelId\": \"UC_vdUxHmdBKXatcSrJgDQYA\",\n        \"title\": \"1年間ワンパンマン筋トレしてみた🔥【本気ダイエット】【デブの挑戦】\",\n        \"description\": \"みんな応援してくれてありがとう！！！！！！ やっとプルタック食べれるよ！！！！！   インスタ→https://www.instagram.com/gurenmaruzigoku サブ ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/XaGJrCovw_w/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/XaGJrCovw_w/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/XaGJrCovw_w/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"地獄寺紅蓮丸/じごくでらぐれんまる\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-16T12:00:15Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"qQQOWZ35zNT1LaObhFWCR2lomvU\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"uD8S27oGFTc\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-16T11:45:42Z\",\n        \"channelId\": \"UCFa0ywJkxYDHY-tilJLpTvw\",\n        \"title\": \"【ルーティン】減量中の筋トレ大好きサラリーマンの休日\",\n        \"description\": \"100日後にバキバキになるサラリーマンの10.11日目 なかなか体重に変化がないですが、ゆっくり脂肪を落としていこうと思います^ ^ チャンネル登録していただけたら嬉しい ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/uD8S27oGFTc/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/uD8S27oGFTc/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/uD8S27oGFTc/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"KOHEI NOMIYA\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-16T11:45:42Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"S9YQcm8GVghK4SWxwGxq53mwTTc\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"ydkwACiCjiQ\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-16T11:30:18Z\",\n        \"channelId\": \"UCgbgplsizHYgH6sjDCXmi8w\",\n        \"title\": \"【ダイエット】美味しすぎてジュースなプロテインで筋トレはかどっちゃう♡【筋トレ女子】\",\n        \"description\": \"プロテインやらサプリやら色々始めました。身体を鍛えて免疫力あげて元気モリモリで行くぞ〜   https://naturecan-fitness.jp クーポンコード［NICO15］で15%オフになり ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/ydkwACiCjiQ/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/ydkwACiCjiQ/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/ydkwACiCjiQ/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"奈良岡にこ Channel\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-16T11:30:18Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"KUUnI8gj9XSDmoh_jGJrK-hN6tU\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"Ghvfl_ymnjU\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-16T11:30:01Z\",\n        \"channelId\": \"UCK3FGUlvfLWggYxxaHPpm2g\",\n        \"title\": \"スクワットを向上させる4つのステップ【筋トレ】\",\n        \"description\": \"英語の勉強のためボディビル関連動画を見ながら情報共有をしてます。 リクエストなどあればコメントから！ 参考元URL www.thibarmy.com ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/Ghvfl_ymnjU/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/Ghvfl_ymnjU/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/Ghvfl_ymnjU/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"筋肉翻訳\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-16T11:30:01Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"EXmCHpKrWaPZApsTAQwbynRByiI\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"kvoZyc2Y88A\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-16T11:30:04Z\",\n        \"channelId\": \"UCjAW4dwWGSyi-aMxzl407rQ\",\n        \"title\": \"筋トレを頑張っているのに筋肥大しない理由【生活スタイル編】\",\n        \"description\": \"GABA https://iherb.co/yB28CJ8 耳栓 https://amzn.to/3v7kwlt アイマスク https://amzn.to/3tpgPH1 ◾️ボディメイクサロン https://wp.me/PahnPi-1LO ◾️オンライン ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/kvoZyc2Y88A/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/kvoZyc2Y88A/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/kvoZyc2Y88A/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"かいと【筋肉日記】\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-16T11:30:04Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"3qrQweLOMQPxo2l_JU5FoN_FyyM\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"73k3WwoWzr4\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-16T11:30:04Z\",\n        \"channelId\": \"UCmIFVA9-BjZi5GV2T2sOhAg\",\n        \"title\": \"【筋トレ＆聖書朗読】第231日目 今日からホセア書  2021年4月16日  ホセア章1:1-7:16\",\n        \"description\": \"パスターてるのチャレンジ 「聖書を全巻音読しながら、ぽっこりお腹を6パックに鍛えることができるのか？」 第231日目（2021/4/16） ホセア書1章1節~7章16節（100節分） ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/73k3WwoWzr4/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/73k3WwoWzr4/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/73k3WwoWzr4/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"パスターてる\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-16T11:30:04Z\"\n      }\n    }\n  ]\n}\n", @size=0, @positions=nil, @chunk_size=nil>, @previous=nil>
+Success - #<Google::Apis::YoutubeV3::SearchListsResponse:0x00007fa2d3168d20
+ @etag="lV5E14_JreEFlhlOVvBum1Cx0ow",
+ @items=
+  [#<Google::Apis::YoutubeV3::SearchResult:0x00007fa2d352fe40
+    @etag="B0zDiEpEl2E64s81KOPMY3H4ix8",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fa2d352f580
+      @kind="youtube#video",
+      @video_id="F0ITivAzd0I">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fa2d352e090
+      @channel_id="UCi4kggoF56VgY2MO2IG4DDg",
+      @channel_title="イッキキラ",
+      @description="",
+      @live_broadcast_content="none",
+      @published_at="2021-04-16T14:48:46Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fa2d352cbf0
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d352c628
+          @height=90,
+          @url="https://i.ytimg.com/vi/F0ITivAzd0I/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d3557738
+          @height=360,
+          @url="https://i.ytimg.com/vi/F0ITivAzd0I/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d3556978
+          @height=180,
+          @url="https://i.ytimg.com/vi/F0ITivAzd0I/mqdefault.jpg",
+          @width=320>>,
+      @title="鉄腕舞鶴　筋トレ">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fa2d3555b40
+    @etag="iDe34ejul74pgVJPrDcqjc2R-ek",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fa2d3555578
+      @kind="youtube#video",
+      @video_id="ovUxrLYfI7c">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fa2d3554920
+      @channel_id="UCJOvpszXNUMP40ghoWH0xuA",
+      @channel_title="GETOVERチャンネル",
+      @description=
+       "キックボクシングジムGETOVER http://www.getover.jp/ 女性キックボクシング,ヨガ,エステ http://www.getover.jp/03earo/",
+      @live_broadcast_content="none",
+      @published_at="2021-04-16T14:04:09Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fa2d358fcc8
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d358f890
+          @height=90,
+          @url="https://i.ytimg.com/vi/ovUxrLYfI7c/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d358efa8
+          @height=360,
+          @url="https://i.ytimg.com/vi/ovUxrLYfI7c/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d358e508
+          @height=180,
+          @url="https://i.ytimg.com/vi/ovUxrLYfI7c/mqdefault.jpg",
+          @width=320>>,
+      @title="2021.4.16 今日も元気なジュニア小学生クラス　筋トレ風景">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fa2d358d9c8
+    @etag="JwY6D7RsGrXUyFJ58WuosgLdLFo",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fa2d358d400
+      @kind="youtube#video",
+      @video_id="qYPijnoVziY">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fa2d358c7a8
+      @channel_id="UCez9DSFEKS8eDJxp9i5oeMQ",
+      @channel_title="ほたるの日常",
+      @description=
+       "あなたのハートを灯したい、どーもほたるです   今日はCALISLIFEさんの 「【5分】自重で背中全体を鍛える背筋トレーニング！」をやりました フルバージョンはファンティアに ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-16T12:49:15Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fa2d35e7b30
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d35e76f8
+          @height=90,
+          @url="https://i.ytimg.com/vi/qYPijnoVziY/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d35e6e10
+          @height=360,
+          @url="https://i.ytimg.com/vi/qYPijnoVziY/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d35e6370
+          @height=180,
+          @url="https://i.ytimg.com/vi/qYPijnoVziY/mqdefault.jpg",
+          @width=320>>,
+      @title="背筋を鍛えたいほたるちゃん【筋トレ女子】">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fa2d35e5830
+    @etag="nocFYtxxQciOlpaG7DR-87Gr-ZA",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fa2d35e5268
+      @kind="youtube#video",
+      @video_id="0Nn6rgVtVno">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fa2d35e4610
+      @channel_id="UCM3Eo_7bq7Z1EuksMgs5jCA",
+      @channel_title="コアラ小嵐",
+      @description=
+       "シリーズ「2021東京オープン優勝への道」再生リスト https://www.youtube.com/playlist?list=PL_9RfKMUpBTv4YRVlA2rqfP1FxVPPjMR- ☆筋トレ生配信ライブ ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-16T12:02:44Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fa2d35ef9c0
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d35ef588
+          @height=90,
+          @url="https://i.ytimg.com/vi/0Nn6rgVtVno/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d35eeca0
+          @height=360,
+          @url="https://i.ytimg.com/vi/0Nn6rgVtVno/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d35ee200
+          @height=180,
+          @url="https://i.ytimg.com/vi/0Nn6rgVtVno/mqdefault.jpg",
+          @width=320>>,
+      @title="トレ後の飯たべつつ飲んでます">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fa2d35ed6c0
+    @etag="ukPsNyVBoDBGkNX0BMBCgGV3VIM",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fa2d35ed0f8
+      @kind="youtube#video",
+      @video_id="XaGJrCovw_w">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fa2d35ec4a0
+      @channel_id="UC_vdUxHmdBKXatcSrJgDQYA",
+      @channel_title="地獄寺紅蓮丸/じごくでらぐれんまる",
+      @description=
+       "みんな応援してくれてありがとう！！！！！！ やっとプルタック食べれるよ！！！！！   インスタ→https://www.instagram.com/gurenmaruzigoku サブ ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-16T12:00:15Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fa2d3673838
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d3673400
+          @height=90,
+          @url="https://i.ytimg.com/vi/XaGJrCovw_w/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d3672b18
+          @height=360,
+          @url="https://i.ytimg.com/vi/XaGJrCovw_w/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d3672078
+          @height=180,
+          @url="https://i.ytimg.com/vi/XaGJrCovw_w/mqdefault.jpg",
+          @width=320>>,
+      @title="1年間ワンパンマン筋トレしてみた🔥【本気ダイエット】【デブの挑戦】">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fa2d3671538
+    @etag="qQQOWZ35zNT1LaObhFWCR2lomvU",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fa2d3670f70
+      @kind="youtube#video",
+      @video_id="uD8S27oGFTc">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fa2d3670318
+      @channel_id="UCFa0ywJkxYDHY-tilJLpTvw",
+      @channel_title="KOHEI NOMIYA",
+      @description=
+       "100日後にバキバキになるサラリーマンの10.11日目 なかなか体重に変化がないですが、ゆっくり脂肪を落としていこうと思います^ ^ チャンネル登録していただけたら嬉しい ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-16T11:45:42Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fa2d367b6c8
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d367b290
+          @height=90,
+          @url="https://i.ytimg.com/vi/uD8S27oGFTc/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d367a9a8
+          @height=360,
+          @url="https://i.ytimg.com/vi/uD8S27oGFTc/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d3679f08
+          @height=180,
+          @url="https://i.ytimg.com/vi/uD8S27oGFTc/mqdefault.jpg",
+          @width=320>>,
+      @title="【ルーティン】減量中の筋トレ大好きサラリーマンの休日">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fa2d36793c8
+    @etag="S9YQcm8GVghK4SWxwGxq53mwTTc",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fa2d3678e00
+      @kind="youtube#video",
+      @video_id="ydkwACiCjiQ">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fa2d36781a8
+      @channel_id="UCgbgplsizHYgH6sjDCXmi8w",
+      @channel_title="奈良岡にこ Channel",
+      @description=
+       "プロテインやらサプリやら色々始めました。身体を鍛えて免疫力あげて元気モリモリで行くぞ〜   https://naturecan-fitness.jp クーポンコード［NICO15］で15%オフになり ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-16T11:30:18Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fa2d3683558
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d3683120
+          @height=90,
+          @url="https://i.ytimg.com/vi/ydkwACiCjiQ/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d3682838
+          @height=360,
+          @url="https://i.ytimg.com/vi/ydkwACiCjiQ/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d3681d98
+          @height=180,
+          @url="https://i.ytimg.com/vi/ydkwACiCjiQ/mqdefault.jpg",
+          @width=320>>,
+      @title="【ダイエット】美味しすぎてジュースなプロテインで筋トレはかどっちゃう♡【筋トレ女子】">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fa2d3681258
+    @etag="KUUnI8gj9XSDmoh_jGJrK-hN6tU",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fa2d3680c90
+      @kind="youtube#video",
+      @video_id="Ghvfl_ymnjU">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fa2d3680038
+      @channel_id="UCK3FGUlvfLWggYxxaHPpm2g",
+      @channel_title="筋肉翻訳",
+      @description=
+       "英語の勉強のためボディビル関連動画を見ながら情報共有をしてます。 リクエストなどあればコメントから！ 参考元URL www.thibarmy.com ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-16T11:30:01Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fa2d368b3e8
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d368afb0
+          @height=90,
+          @url="https://i.ytimg.com/vi/Ghvfl_ymnjU/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d368a6c8
+          @height=360,
+          @url="https://i.ytimg.com/vi/Ghvfl_ymnjU/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d3689c28
+          @height=180,
+          @url="https://i.ytimg.com/vi/Ghvfl_ymnjU/mqdefault.jpg",
+          @width=320>>,
+      @title="スクワットを向上させる4つのステップ【筋トレ】">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fa2d36890e8
+    @etag="EXmCHpKrWaPZApsTAQwbynRByiI",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fa2d3688b20
+      @kind="youtube#video",
+      @video_id="kvoZyc2Y88A">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fa2d3693e80
+      @channel_id="UCjAW4dwWGSyi-aMxzl407rQ",
+      @channel_title="かいと【筋肉日記】",
+      @description=
+       "GABA https://iherb.co/yB28CJ8 耳栓 https://amzn.to/3v7kwlt アイマスク https://amzn.to/3tpgPH1 ◾️ボディメイクサロン https://wp.me/PahnPi-1LO ◾️オンライン ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-16T11:30:04Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fa2d3693278
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d3692e40
+          @height=90,
+          @url="https://i.ytimg.com/vi/kvoZyc2Y88A/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d3692558
+          @height=360,
+          @url="https://i.ytimg.com/vi/kvoZyc2Y88A/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d3691ab8
+          @height=180,
+          @url="https://i.ytimg.com/vi/kvoZyc2Y88A/mqdefault.jpg",
+          @width=320>>,
+      @title="筋トレを頑張っているのに筋肥大しない理由【生活スタイル編】">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fa2d3690f78
+    @etag="3qrQweLOMQPxo2l_JU5FoN_FyyM",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fa2d36909b0
+      @kind="youtube#video",
+      @video_id="73k3WwoWzr4">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fa2cf3f7ce8
+      @channel_id="UCmIFVA9-BjZi5GV2T2sOhAg",
+      @channel_title="パスターてる",
+      @description=
+       "パスターてるのチャレンジ 「聖書を全巻音読しながら、ぽっこりお腹を6パックに鍛えることができるのか？」 第231日目（2021/4/16） ホセア書1章1節~7章16節（100節分） ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-16T11:30:04Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fa2cf3f70e0
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2cf3f6ca8
+          @height=90,
+          @url="https://i.ytimg.com/vi/73k3WwoWzr4/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2cf3f63c0
+          @height=360,
+          @url="https://i.ytimg.com/vi/73k3WwoWzr4/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2cf3f5920
+          @height=180,
+          @url="https://i.ytimg.com/vi/73k3WwoWzr4/mqdefault.jpg",
+          @width=320>>,
+      @title="【筋トレ＆聖書朗読】第231日目 今日からホセア書  2021年4月16日  ホセア章1:1-7:16">>],
+ @kind="youtube#searchListResponse",
+ @next_page_token="CAoQAA",
+ @page_info=
+  #<Google::Apis::YoutubeV3::PageInfo:0x00007fa2cf3f4570
+   @results_per_page=10,
+   @total_results=103417>,
+ @region_code="JP">
+
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:23
+  [1m[36mVideo Create (6.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "筋トレ"], ["title", "鉄腕舞鶴　筋トレ"], ["video_id", "F0ITivAzd0I"], ["created_at", "2021-04-16 15:00:05.061295"], ["updated_at", "2021-04-16 15:00:05.061295"]]
+  ↳ app/models/video.rb:23
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:23
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "筋トレ"], ["title", "2021.4.16 今日も元気なジュニア小学生クラス　筋トレ風景"], ["video_id", "ovUxrLYfI7c"], ["created_at", "2021-04-16 15:00:05.072895"], ["updated_at", "2021-04-16 15:00:05.072895"]]
+  ↳ app/models/video.rb:23
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:23
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "筋トレ"], ["title", "背筋を鍛えたいほたるちゃん【筋トレ女子】"], ["video_id", "qYPijnoVziY"], ["created_at", "2021-04-16 15:00:05.074428"], ["updated_at", "2021-04-16 15:00:05.074428"]]
+  ↳ app/models/video.rb:23
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:23
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "筋トレ"], ["title", "トレ後の飯たべつつ飲んでます"], ["video_id", "0Nn6rgVtVno"], ["created_at", "2021-04-16 15:00:05.077180"], ["updated_at", "2021-04-16 15:00:05.077180"]]
+  ↳ app/models/video.rb:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:23
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "筋トレ"], ["title", "1年間ワンパンマン筋トレしてみた🔥【本気ダイエット】【デブの挑戦】"], ["video_id", "XaGJrCovw_w"], ["created_at", "2021-04-16 15:00:05.078912"], ["updated_at", "2021-04-16 15:00:05.078912"]]
+  ↳ app/models/video.rb:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:23
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "筋トレ"], ["title", "【ルーティン】減量中の筋トレ大好きサラリーマンの休日"], ["video_id", "uD8S27oGFTc"], ["created_at", "2021-04-16 15:00:05.080806"], ["updated_at", "2021-04-16 15:00:05.080806"]]
+  ↳ app/models/video.rb:23
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:23
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "筋トレ"], ["title", "【ダイエット】美味しすぎてジュースなプロテインで筋トレはかどっちゃう♡【筋トレ女子】"], ["video_id", "ydkwACiCjiQ"], ["created_at", "2021-04-16 15:00:05.082302"], ["updated_at", "2021-04-16 15:00:05.082302"]]
+  ↳ app/models/video.rb:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:23
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "筋トレ"], ["title", "スクワットを向上させる4つのステップ【筋トレ】"], ["video_id", "Ghvfl_ymnjU"], ["created_at", "2021-04-16 15:00:05.084005"], ["updated_at", "2021-04-16 15:00:05.084005"]]
+  ↳ app/models/video.rb:23
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:23
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "筋トレ"], ["title", "筋トレを頑張っているのに筋肥大しない理由【生活スタイル編】"], ["video_id", "kvoZyc2Y88A"], ["created_at", "2021-04-16 15:00:05.085653"], ["updated_at", "2021-04-16 15:00:05.085653"]]
+  ↳ app/models/video.rb:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:23
+  [1m[36mVideo Create (0.4ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "筋トレ"], ["title", "【筋トレ＆聖書朗読】第231日目 今日からホセア書  2021年4月16日  ホセア章1:1-7:16"], ["video_id", "73k3WwoWzr4"], ["created_at", "2021-04-16 15:00:05.087317"], ["updated_at", "2021-04-16 15:00:05.087317"]]
+  ↳ app/models/video.rb:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:23
+Sending HTTP get https://youtube.googleapis.com/youtube/v3/search?key=AIzaSyAHRj3UyMiXAhpdddkRlE9Qa16FF3IfGyM&maxResults=10&order=date&part=snippet&publishedAfter=2021-03-16T15%3A00%3A04%2B00%3A00&publishedBefore=2021-04-17T00%3A00%3A04%2B09%3A00&q=%E3%82%B9%E3%83%88%E3%83%AC%E3%83%83%E3%83%81&type=video
+200
+#<HTTP::Message:0x00007fa2d4735338 @http_header=#<HTTP::Message::Headers:0x00007fa2d4735310 @http_version="1.1", @body_size=0, @chunked=false, @request_method="GET", @request_uri=#<Addressable::URI:0x3fd16a39ad98 URI:https://youtube.googleapis.com/youtube/v3/search?key=AIzaSyAHRj3UyMiXAhpdddkRlE9Qa16FF3IfGyM&maxResults=10&order=date&part=snippet&publishedAfter=2021-03-16T15%3A00%3A04%2B00%3A00&publishedBefore=2021-04-17T00%3A00%3A04%2B09%3A00&q=%E3%82%B9%E3%83%88%E3%83%AC%E3%83%83%E3%83%81&type=video>, @request_query=nil, @request_absolute_uri=nil, @status_code=200, @reason_phrase="OK", @body_type=nil, @body_charset=nil, @body_date=nil, @body_encoding=#<Encoding:UTF-8>, @is_request=false, @header_item=[["Content-Type", "application/json; charset=UTF-8"], ["Vary", "Origin"], ["Vary", "X-Origin"], ["Vary", "Referer"], ["Content-Encoding", "gzip"], ["Date", "Fri, 16 Apr 2021 15:00:05 GMT"], ["Server", "scaffolding on HTTPServer2"], ["Cache-Control", "private"], ["X-XSS-Protection", "0"], ["X-Frame-Options", "SAMEORIGIN"], ["X-Content-Type-Options", "nosniff"], ["Alt-Svc", "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""], ["Transfer-Encoding", "chunked"]], @dumped=false>, @peer_cert=#<OpenSSL::X509::Certificate: subject=#<OpenSSL::X509::Name CN=upload.video.google.com,O=Google LLC,L=Mountain View,ST=California,C=US>, issuer=#<OpenSSL::X509::Name CN=GTS CA 1O1,O=Google Trust Services,C=US>, serial=#<OpenSSL::BN:0x00007fa2d47479c0>, not_before=2021-03-23 08:24:47 UTC, not_after=2021-06-15 08:24:46 UTC>, @http_body=#<HTTP::Message::Body:0x00007fa2d4735298 @body="{\n  \"kind\": \"youtube#searchListResponse\",\n  \"etag\": \"Lg7lrWfDO9_ZNtIYbaY518EQbhM\",\n  \"nextPageToken\": \"CAoQAA\",\n  \"regionCode\": \"JP\",\n  \"pageInfo\": {\n    \"totalResults\": 92271,\n    \"resultsPerPage\": 10\n  },\n  \"items\": [\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"jpCOeigIZhyGftg2-c87FgiPcjE\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"5RROmcGvJyg\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-16T14:37:45Z\",\n        \"channelId\": \"UCvEyOQUxR75gCSCGcp9sfjw\",\n        \"title\": \"【Day4】毎日ストレッチ\",\n        \"description\": \"継続のためにさぼっただけである 【ストレッチの参考動画】 オガトレ 様 【全身すっきり】お風呂上がりの20分間ストレッチ！【Night routine】 ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/5RROmcGvJyg/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/5RROmcGvJyg/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/5RROmcGvJyg/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"わなのとるす\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-16T14:37:45Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"lPMbwPPf1OE5PPUHytWc4Br9UQM\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"KOK-ilNqwWU\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-16T14:11:34Z\",\n        \"channelId\": \"UCDepe9Q48B6dqV7KpLVtvKA\",\n        \"title\": \"【腰痛　大殿筋ストレッチ】お尻の筋肉のストレッチ　#shorts\",\n        \"description\": \"「痛い所だけ」の痛み治療をやめて、 根本からお身体を治していきましょう！ 少しでも健康に対してのヒントやアイディアを皆さまに届けます！ 大阪交野市で唯一の「身体の ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/KOK-ilNqwWU/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/KOK-ilNqwWU/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/KOK-ilNqwWU/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"けんたろう鍼灸整骨院\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-16T14:11:34Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"nFyjcghoZVHNC2jrVSjgS-nizrQ\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"wQEPQnqyt1M\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-16T14:04:15Z\",\n        \"channelId\": \"UCPaBoHXym3LcMYhXinS44Ag\",\n        \"title\": \"反り腰改善ストレッチ\",\n        \"description\": \"大阪府岸和田市のプライベートジムで活動中     Instagram https://www.instagram.com/ryoya.fit/ オンラインレッスン申し込み ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/wQEPQnqyt1M/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/wQEPQnqyt1M/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/wQEPQnqyt1M/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"ロコトレchannel\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-16T14:04:15Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"0rgLPpP6b1dsXUJAMJ215PYhV2k\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"4Kqc6QvEzzg\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-16T13:13:25Z\",\n        \"channelId\": \"UCgS45vggpZPgOcQJELp6vLw\",\n        \"title\": \"サーフボードストレッチ\",\n        \"description\": \"\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/4Kqc6QvEzzg/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/4Kqc6QvEzzg/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/4Kqc6QvEzzg/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"Yamila Morel\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-16T13:13:25Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"FvcGxG9Xzc5v2S-tpf-8JtS4wTs\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"ouaKBqLQGeY\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-16T13:09:31Z\",\n        \"channelId\": \"UCwd6VGBzytAhsZLIedorquw\",\n        \"title\": \"【高齢者・シニア向け】怪我予防！簡単下半身ストレッチ\",\n        \"description\": \"【整形外科で働く現役トレーナーおすすめ】椅子があればどこでも出来る！怪我したくない、運動不足を解消したい、簡単に出来て効果のあるストレッチがしたい。こんな方々に ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/ouaKBqLQGeY/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/ouaKBqLQGeY/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/ouaKBqLQGeY/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"勝手に健康チャンネル\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-16T13:09:31Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"ClUrJuSLCxWurB95gSBimU0ccnM\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"jkE1KvrPHZE\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-16T12:54:42Z\",\n        \"channelId\": \"UCk0txRRBab5JQxw_aqL8zvQ\",\n        \"title\": \"【ストレッチ】糖尿病患者が運動してみた3\",\n        \"description\": \"糖尿病患者がストレッチしてみました。 #糖尿病 #血糖値 #HbA1c #ストレッチ #トレーニング #開脚.\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/jkE1KvrPHZE/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/jkE1KvrPHZE/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/jkE1KvrPHZE/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"あじふらい\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-16T12:54:42Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"3m5cZrj-BUGLD-qwCSJuGRtI5jg\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"UeEkE5aC11Q\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-16T12:15:34Z\",\n        \"channelId\": \"UCHZdatblfAsG6WpIsu-hx7w\",\n        \"title\": \"車の運転中に腰が痛くなる時のストレッチ\",\n        \"description\": \"車の運転をしてると腰が痛くなる時にお勧めのストレッチをお伝えしています。 腰痛の方に圧倒的支持を得ている整体院 その痛み、当院で本気で改善しませんか？ 神橋筋 ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/UeEkE5aC11Q/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/UeEkE5aC11Q/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/UeEkE5aC11Q/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"神橋勝俊\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-16T12:15:34Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"GYfbK4YmVNR4SLgAHebDlDUAP7A\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"MxETqzTTN0w\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-16T12:05:56Z\",\n        \"channelId\": \"UC2b1bVPPJgpf4qb6Asij33A\",\n        \"title\": \"40-50代の座り仕事、デスクワーカーは、このストレッチを毎日やれ！猫背、肩こり、巻き肩、腰が痛い、悪い姿勢を治して行こう！\",\n        \"description\": \"座っての仕事が長すぎて、肩こり、背中が痛い、腰が痛いとかありませんか？ それは整体やマッサージに行かなくても自分で修正出来るのです！ 十分不快感を取ることは ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/MxETqzTTN0w/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/MxETqzTTN0w/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/MxETqzTTN0w/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"sexyfitness\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-16T12:05:56Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"gGtW2-fPgDEtwcnDp4YzfmzCycE\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"f6cZFrTgaiw\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-16T12:00:16Z\",\n        \"channelId\": \"UCS1MoaZ-1EnVeJpUaCHYqVw\",\n        \"title\": \"【毎日の5分ストレッチ】朝や寝る前に5分ですっきりストレッチ、\",\n        \"description\": \"5分なので忙しい方にもおすすめです。毎日のストレッチを是非取り入れてみてくださいね。 もう少し時間がある方はこちらの全身ストレッチもおすすめ   ☆9分 ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/f6cZFrTgaiw/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/f6cZFrTgaiw/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/f6cZFrTgaiw/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"YUMI TAKAMI\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-16T12:00:16Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"oNCGfG11mo2TWE2x5R2LuZNrmS4\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"TauZtvHNO6A\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-16T11:27:29Z\",\n        \"channelId\": \"UCV0UeNyFhMF6X2yglXQppsg\",\n        \"title\": \"４月１６日　OCLストレッチライブ配信　基本３種　全身のゆがみをとって自律神経を整える！\",\n        \"description\": \"\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/TauZtvHNO6A/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/TauZtvHNO6A/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/TauZtvHNO6A/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"あしざわ治療院\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-16T11:27:29Z\"\n      }\n    }\n  ]\n}\n", @size=0, @positions=nil, @chunk_size=nil>, @previous=nil>
+Success - #<Google::Apis::YoutubeV3::SearchListsResponse:0x00007fa2d4747218
+ @etag="Lg7lrWfDO9_ZNtIYbaY518EQbhM",
+ @items=
+  [#<Google::Apis::YoutubeV3::SearchResult:0x00007fa2d474dc58
+    @etag="jpCOeigIZhyGftg2-c87FgiPcjE",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fa2d474d690
+      @kind="youtube#video",
+      @video_id="5RROmcGvJyg">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fa2d474ca38
+      @channel_id="UCvEyOQUxR75gCSCGcp9sfjw",
+      @channel_title="わなのとるす",
+      @description=
+       "継続のためにさぼっただけである 【ストレッチの参考動画】 オガトレ 様 【全身すっきり】お風呂上がりの20分間ストレッチ！【Night routine】 ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-16T14:37:45Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fa2d4757de8
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d47579b0
+          @height=90,
+          @url="https://i.ytimg.com/vi/5RROmcGvJyg/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d47570c8
+          @height=360,
+          @url="https://i.ytimg.com/vi/5RROmcGvJyg/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d4756628
+          @height=180,
+          @url="https://i.ytimg.com/vi/5RROmcGvJyg/mqdefault.jpg",
+          @width=320>>,
+      @title="【Day4】毎日ストレッチ">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fa2d4755ae8
+    @etag="lPMbwPPf1OE5PPUHytWc4Br9UQM",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fa2d4755520
+      @kind="youtube#video",
+      @video_id="KOK-ilNqwWU">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fa2d47548c8
+      @channel_id="UCDepe9Q48B6dqV7KpLVtvKA",
+      @channel_title="けんたろう鍼灸整骨院",
+      @description=
+       "「痛い所だけ」の痛み治療をやめて、 根本からお身体を治していきましょう！ 少しでも健康に対してのヒントやアイディアを皆さまに届けます！ 大阪交野市で唯一の「身体の ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-16T14:11:34Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fa2d475fc78
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d475f840
+          @height=90,
+          @url="https://i.ytimg.com/vi/KOK-ilNqwWU/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d475ef58
+          @height=360,
+          @url="https://i.ytimg.com/vi/KOK-ilNqwWU/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d475e4b8
+          @height=180,
+          @url="https://i.ytimg.com/vi/KOK-ilNqwWU/mqdefault.jpg",
+          @width=320>>,
+      @title="【腰痛　大殿筋ストレッチ】お尻の筋肉のストレッチ　#shorts">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fa2d475d978
+    @etag="nFyjcghoZVHNC2jrVSjgS-nizrQ",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fa2d475d3b0
+      @kind="youtube#video",
+      @video_id="wQEPQnqyt1M">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fa2d475c758
+      @channel_id="UCPaBoHXym3LcMYhXinS44Ag",
+      @channel_title="ロコトレchannel",
+      @description=
+       "大阪府岸和田市のプライベートジムで活動中     Instagram https://www.instagram.com/ryoya.fit/ オンラインレッスン申し込み ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-16T14:04:15Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fa2d4767ae0
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d47676a8
+          @height=90,
+          @url="https://i.ytimg.com/vi/wQEPQnqyt1M/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d4766dc0
+          @height=360,
+          @url="https://i.ytimg.com/vi/wQEPQnqyt1M/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d4766320
+          @height=180,
+          @url="https://i.ytimg.com/vi/wQEPQnqyt1M/mqdefault.jpg",
+          @width=320>>,
+      @title="反り腰改善ストレッチ">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fa2d47657e0
+    @etag="0rgLPpP6b1dsXUJAMJ215PYhV2k",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fa2d4765218
+      @kind="youtube#video",
+      @video_id="4Kqc6QvEzzg">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fa2d47645c0
+      @channel_id="UCgS45vggpZPgOcQJELp6vLw",
+      @channel_title="Yamila Morel",
+      @description="",
+      @live_broadcast_content="none",
+      @published_at="2021-04-16T13:13:25Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fa2d476f970
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d476f538
+          @height=90,
+          @url="https://i.ytimg.com/vi/4Kqc6QvEzzg/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d476ec50
+          @height=360,
+          @url="https://i.ytimg.com/vi/4Kqc6QvEzzg/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d476e1b0
+          @height=180,
+          @url="https://i.ytimg.com/vi/4Kqc6QvEzzg/mqdefault.jpg",
+          @width=320>>,
+      @title="サーフボードストレッチ">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fa2d476d670
+    @etag="FvcGxG9Xzc5v2S-tpf-8JtS4wTs",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fa2d476d0a8
+      @kind="youtube#video",
+      @video_id="ouaKBqLQGeY">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fa2d476c450
+      @channel_id="UCwd6VGBzytAhsZLIedorquw",
+      @channel_title="勝手に健康チャンネル",
+      @description=
+       "【整形外科で働く現役トレーナーおすすめ】椅子があればどこでも出来る！怪我したくない、運動不足を解消したい、簡単に出来て効果のあるストレッチがしたい。こんな方々に ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-16T13:09:31Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fa2d4777800
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d47773c8
+          @height=90,
+          @url="https://i.ytimg.com/vi/ouaKBqLQGeY/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d4776ae0
+          @height=360,
+          @url="https://i.ytimg.com/vi/ouaKBqLQGeY/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d4776040
+          @height=180,
+          @url="https://i.ytimg.com/vi/ouaKBqLQGeY/mqdefault.jpg",
+          @width=320>>,
+      @title="【高齢者・シニア向け】怪我予防！簡単下半身ストレッチ">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fa2d4775500
+    @etag="ClUrJuSLCxWurB95gSBimU0ccnM",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fa2d4774f38
+      @kind="youtube#video",
+      @video_id="jkE1KvrPHZE">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fa2d47742e0
+      @channel_id="UCk0txRRBab5JQxw_aqL8zvQ",
+      @channel_title="あじふらい",
+      @description="糖尿病患者がストレッチしてみました。 #糖尿病 #血糖値 #HbA1c #ストレッチ #トレーニング #開脚.",
+      @live_broadcast_content="none",
+      @published_at="2021-04-16T12:54:42Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fa2d477f690
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d477f258
+          @height=90,
+          @url="https://i.ytimg.com/vi/jkE1KvrPHZE/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d477e970
+          @height=360,
+          @url="https://i.ytimg.com/vi/jkE1KvrPHZE/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d477ded0
+          @height=180,
+          @url="https://i.ytimg.com/vi/jkE1KvrPHZE/mqdefault.jpg",
+          @width=320>>,
+      @title="【ストレッチ】糖尿病患者が運動してみた3">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fa2d477d390
+    @etag="3m5cZrj-BUGLD-qwCSJuGRtI5jg",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fa2d477cdc8
+      @kind="youtube#video",
+      @video_id="UeEkE5aC11Q">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fa2d477c170
+      @channel_id="UCHZdatblfAsG6WpIsu-hx7w",
+      @channel_title="神橋勝俊",
+      @description=
+       "車の運転をしてると腰が痛くなる時にお勧めのストレッチをお伝えしています。 腰痛の方に圧倒的支持を得ている整体院 その痛み、当院で本気で改善しませんか？ 神橋筋 ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-16T12:15:34Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fa2d4787520
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d47870e8
+          @height=90,
+          @url="https://i.ytimg.com/vi/UeEkE5aC11Q/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d4786800
+          @height=360,
+          @url="https://i.ytimg.com/vi/UeEkE5aC11Q/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d4785d60
+          @height=180,
+          @url="https://i.ytimg.com/vi/UeEkE5aC11Q/mqdefault.jpg",
+          @width=320>>,
+      @title="車の運転中に腰が痛くなる時のストレッチ">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fa2d4785220
+    @etag="GYfbK4YmVNR4SLgAHebDlDUAP7A",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fa2d4784c58
+      @kind="youtube#video",
+      @video_id="MxETqzTTN0w">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fa2d478ff90
+      @channel_id="UC2b1bVPPJgpf4qb6Asij33A",
+      @channel_title="sexyfitness",
+      @description=
+       "座っての仕事が長すぎて、肩こり、背中が痛い、腰が痛いとかありませんか？ それは整体やマッサージに行かなくても自分で修正出来るのです！ 十分不快感を取ることは ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-16T12:05:56Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fa2d478f388
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d478ef50
+          @height=90,
+          @url="https://i.ytimg.com/vi/MxETqzTTN0w/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d478e668
+          @height=360,
+          @url="https://i.ytimg.com/vi/MxETqzTTN0w/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d478dbc8
+          @height=180,
+          @url="https://i.ytimg.com/vi/MxETqzTTN0w/mqdefault.jpg",
+          @width=320>>,
+      @title=
+       "40-50代の座り仕事、デスクワーカーは、このストレッチを毎日やれ！猫背、肩こり、巻き肩、腰が痛い、悪い姿勢を治して行こう！">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fa2d478d088
+    @etag="gGtW2-fPgDEtwcnDp4YzfmzCycE",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fa2d478cac0
+      @kind="youtube#video",
+      @video_id="f6cZFrTgaiw">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fa2d4797e20
+      @channel_id="UCS1MoaZ-1EnVeJpUaCHYqVw",
+      @channel_title="YUMI TAKAMI",
+      @description=
+       "5分なので忙しい方にもおすすめです。毎日のストレッチを是非取り入れてみてくださいね。 もう少し時間がある方はこちらの全身ストレッチもおすすめ   ☆9分 ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-16T12:00:16Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fa2d4797218
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d4796de0
+          @height=90,
+          @url="https://i.ytimg.com/vi/f6cZFrTgaiw/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d47964f8
+          @height=360,
+          @url="https://i.ytimg.com/vi/f6cZFrTgaiw/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d4795a58
+          @height=180,
+          @url="https://i.ytimg.com/vi/f6cZFrTgaiw/mqdefault.jpg",
+          @width=320>>,
+      @title="【毎日の5分ストレッチ】朝や寝る前に5分ですっきりストレッチ、">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fa2d4794f18
+    @etag="oNCGfG11mo2TWE2x5R2LuZNrmS4",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fa2d4794950
+      @kind="youtube#video",
+      @video_id="TauZtvHNO6A">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fa2d479fcb0
+      @channel_id="UCV0UeNyFhMF6X2yglXQppsg",
+      @channel_title="あしざわ治療院",
+      @description="",
+      @live_broadcast_content="none",
+      @published_at="2021-04-16T11:27:29Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fa2d479f0a8
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d479ec70
+          @height=90,
+          @url="https://i.ytimg.com/vi/TauZtvHNO6A/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d479e388
+          @height=360,
+          @url="https://i.ytimg.com/vi/TauZtvHNO6A/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d479d8e8
+          @height=180,
+          @url="https://i.ytimg.com/vi/TauZtvHNO6A/mqdefault.jpg",
+          @width=320>>,
+      @title="４月１６日　OCLストレッチライブ配信　基本３種　全身のゆがみをとって自律神経を整える！">>],
+ @kind="youtube#searchListResponse",
+ @next_page_token="CAoQAA",
+ @page_info=
+  #<Google::Apis::YoutubeV3::PageInfo:0x00007fa2d479c998
+   @results_per_page=10,
+   @total_results=92271>,
+ @region_code="JP">
+
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:23
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ストレッチ"], ["title", "【Day4】毎日ストレッチ"], ["video_id", "5RROmcGvJyg"], ["created_at", "2021-04-16 15:00:05.478098"], ["updated_at", "2021-04-16 15:00:05.478098"]]
+  ↳ app/models/video.rb:23
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:23
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:23
+  [1m[36mVideo Create (0.4ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ストレッチ"], ["title", "【腰痛　大殿筋ストレッチ】お尻の筋肉のストレッチ　#shorts"], ["video_id", "KOK-ilNqwWU"], ["created_at", "2021-04-16 15:00:05.481780"], ["updated_at", "2021-04-16 15:00:05.481780"]]
+  ↳ app/models/video.rb:23
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:23
+  [1m[36mVideo Create (0.4ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ストレッチ"], ["title", "反り腰改善ストレッチ"], ["video_id", "wQEPQnqyt1M"], ["created_at", "2021-04-16 15:00:05.484755"], ["updated_at", "2021-04-16 15:00:05.484755"]]
+  ↳ app/models/video.rb:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:23
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ストレッチ"], ["title", "サーフボードストレッチ"], ["video_id", "4Kqc6QvEzzg"], ["created_at", "2021-04-16 15:00:05.487177"], ["updated_at", "2021-04-16 15:00:05.487177"]]
+  ↳ app/models/video.rb:23
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:23
+  [1m[36mVideo Create (0.4ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ストレッチ"], ["title", "【高齢者・シニア向け】怪我予防！簡単下半身ストレッチ"], ["video_id", "ouaKBqLQGeY"], ["created_at", "2021-04-16 15:00:05.490956"], ["updated_at", "2021-04-16 15:00:05.490956"]]
+  ↳ app/models/video.rb:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:23
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ストレッチ"], ["title", "【ストレッチ】糖尿病患者が運動してみた3"], ["video_id", "jkE1KvrPHZE"], ["created_at", "2021-04-16 15:00:05.493648"], ["updated_at", "2021-04-16 15:00:05.493648"]]
+  ↳ app/models/video.rb:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:23
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ストレッチ"], ["title", "車の運転中に腰が痛くなる時のストレッチ"], ["video_id", "UeEkE5aC11Q"], ["created_at", "2021-04-16 15:00:05.496361"], ["updated_at", "2021-04-16 15:00:05.496361"]]
+  ↳ app/models/video.rb:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:23
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ストレッチ"], ["title", "40-50代の座り仕事、デスクワーカーは、このストレッチを毎日やれ！猫背、肩こり、巻き肩、腰が痛い、悪い姿勢を治して行こう！"], ["video_id", "MxETqzTTN0w"], ["created_at", "2021-04-16 15:00:05.498651"], ["updated_at", "2021-04-16 15:00:05.498651"]]
+  ↳ app/models/video.rb:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:23
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ストレッチ"], ["title", "【毎日の5分ストレッチ】朝や寝る前に5分ですっきりストレッチ、"], ["video_id", "f6cZFrTgaiw"], ["created_at", "2021-04-16 15:00:05.500609"], ["updated_at", "2021-04-16 15:00:05.500609"]]
+  ↳ app/models/video.rb:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:23
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ストレッチ"], ["title", "４月１６日　OCLストレッチライブ配信　基本３種　全身のゆがみをとって自律神経を整える！"], ["video_id", "TauZtvHNO6A"], ["created_at", "2021-04-16 15:00:05.502326"], ["updated_at", "2021-04-16 15:00:05.502326"]]
+  ↳ app/models/video.rb:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:23
+Sending HTTP get https://youtube.googleapis.com/youtube/v3/search?key=AIzaSyAHRj3UyMiXAhpdddkRlE9Qa16FF3IfGyM&maxResults=10&order=date&part=snippet&publishedAfter=2021-03-16T15%3A00%3A04%2B00%3A00&publishedBefore=2021-04-17T00%3A00%3A04%2B09%3A00&q=%E3%83%A8%E3%82%AC&type=video
+200
+#<HTTP::Message:0x00007fa2cf72fc58 @http_header=#<HTTP::Message::Headers:0x00007fa2cf72fc30 @http_version="1.1", @body_size=0, @chunked=false, @request_method="GET", @request_uri=#<Addressable::URI:0x3fd167b9224c URI:https://youtube.googleapis.com/youtube/v3/search?key=AIzaSyAHRj3UyMiXAhpdddkRlE9Qa16FF3IfGyM&maxResults=10&order=date&part=snippet&publishedAfter=2021-03-16T15%3A00%3A04%2B00%3A00&publishedBefore=2021-04-17T00%3A00%3A04%2B09%3A00&q=%E3%83%A8%E3%82%AC&type=video>, @request_query=nil, @request_absolute_uri=nil, @status_code=200, @reason_phrase="OK", @body_type=nil, @body_charset=nil, @body_date=nil, @body_encoding=#<Encoding:UTF-8>, @is_request=false, @header_item=[["Content-Type", "application/json; charset=UTF-8"], ["Vary", "Origin"], ["Vary", "X-Origin"], ["Vary", "Referer"], ["Content-Encoding", "gzip"], ["Date", "Fri, 16 Apr 2021 15:00:05 GMT"], ["Server", "scaffolding on HTTPServer2"], ["Cache-Control", "private"], ["X-XSS-Protection", "0"], ["X-Frame-Options", "SAMEORIGIN"], ["X-Content-Type-Options", "nosniff"], ["Alt-Svc", "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""], ["Transfer-Encoding", "chunked"]], @dumped=false>, @peer_cert=#<OpenSSL::X509::Certificate: subject=#<OpenSSL::X509::Name CN=upload.video.google.com,O=Google LLC,L=Mountain View,ST=California,C=US>, issuer=#<OpenSSL::X509::Name CN=GTS CA 1O1,O=Google Trust Services,C=US>, serial=#<OpenSSL::BN:0x00007fa2d37e3b50>, not_before=2021-03-23 08:24:47 UTC, not_after=2021-06-15 08:24:46 UTC>, @http_body=#<HTTP::Message::Body:0x00007fa2cf72fbb8 @body="{\n  \"kind\": \"youtube#searchListResponse\",\n  \"etag\": \"UVVi8jbIr9DIc1ROpTA8AkijUqw\",\n  \"nextPageToken\": \"CAoQAA\",\n  \"regionCode\": \"JP\",\n  \"pageInfo\": {\n    \"totalResults\": 62115,\n    \"resultsPerPage\": 10\n  },\n  \"items\": [\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"qEk6SNdxF91ajHHIu9Ou3cQM0nk\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"BaZVSYbtw_A\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-16T13:00:04Z\",\n        \"channelId\": \"UCudxzZAY-AysocKcmL69GcQ\",\n        \"title\": \"骨盤リラックスヨガ  -  美しい下半身づくりに  / NOA ONLINE YOGA\",\n        \"description\": \"オンラインレッスンの「NOA ONLINE」から 毎日DANCEやYOGAのピックアップレッスンをお届け！ ー Today's Pickup Lesson ー INSTRUCTOR：Emika GENRE：骨盤 ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/BaZVSYbtw_A/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/BaZVSYbtw_A/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/BaZVSYbtw_A/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"NOA CHANNEL\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-16T13:00:04Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"7oKXdGyM23Rymi62VP_MvZjAYAE\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"na1xrkHsx2E\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-16T13:00:14Z\",\n        \"channelId\": \"UCx3iFdF0iwgM0lj2qkrdsIQ\",\n        \"title\": \"短い時間で自分自身をリセットする夜ヨガ【素敵な夜活】\",\n        \"description\": \"1:12 自分自身をリセットする夜ヨガスタート 忙しい時間を終えて、家に帰ってもまだ頭の中が忙しくて、慌ただしい夜はありませんか？ せっかくおウチに帰ったのなら、夜ヨガ ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/na1xrkHsx2E/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/na1xrkHsx2E/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/na1xrkHsx2E/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"Yoga Terior-ヨガテリア-\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-16T13:00:14Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"zVFTMwxjua1SePh1XQdLu3l8yoE\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"XhGCriYGvx4\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-16T12:30:31Z\",\n        \"channelId\": \"UCeB7h8aVcj-ChDjvS01bbHA\",\n        \"title\": \"【初心者ヨガ】いろんなポーズを試みたOLはコチラです。#お尻トレーニング#腹筋ストレッチBUTT\",\n        \"description\": \"ヨガって難しい…。お尻よ上がれ！ はじめまして！ 遊びに来てくださりありがとうございます♡ ふだん運動嫌いで、ゴロゴロ過ごしていた私ですが「ちょっと運動しなければ ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/XhGCriYGvx4/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/XhGCriYGvx4/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/XhGCriYGvx4/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"気まぐれOLのトレーニング\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-16T12:30:31Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"PEPlKfgTfx2XsOirnhXPAnMGvtw\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"bOZWnyrDsTY\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-16T11:26:55Z\",\n        \"channelId\": \"UCiXSaiYjXRZD8EJwn5MpPjw\",\n        \"title\": \"元ヨガインストラクター今は無職の主婦サリーの頭ん中。。コロナじゃなくても、GWじゃなくても家にいるよ、私。\",\n        \"description\": \"アラフィフ#主婦#無職 こんにちは、サリーです コロナ禍での2度目のGWが やってきますね 以前ならこの時期に海外旅行に行かれてる方も多いのでは？ 今日はGWに絶対 ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/bOZWnyrDsTY/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/bOZWnyrDsTY/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/bOZWnyrDsTY/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"Sariee Building 元ヨガインストラクター現在無職サリーの頭の中Channel\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-16T11:26:55Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"VpPjvNNr7L8P30R4vxpE07M7XKk\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"gBqECELzTb8\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-16T10:42:27Z\",\n        \"channelId\": \"UCmpliU0Nnk7r9a1WkSA0wmQ\",\n        \"title\": \"yoga journey ライブ配信！4/17(土)9:00-10:00【朝ヨガ】\",\n        \"description\": \"リマインダーを忘れずに   ※ベルマーク  をタップして通知をONにしてね。 ▽2021年4月のライブヨガ配信スケジュールはこちら▽ ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/gBqECELzTb8/default_live.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/gBqECELzTb8/mqdefault_live.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/gBqECELzTb8/hqdefault_live.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"STUDIO -yoga journey-\",\n        \"liveBroadcastContent\": \"upcoming\",\n        \"publishTime\": \"2021-04-16T10:42:27Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"rp_-LZIyW9BYT3CCYpKAr70kgy8\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"NkLQ10-kV6A\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-16T10:30:03Z\",\n        \"channelId\": \"UCNFOB8-bHtK19zxEjzUYFZA\",\n        \"title\": \"【ゆがみ改善❗️❗️】骨盤調整ヨガでカラダリセット✨寝る前にオススメ🌙\",\n        \"description\": \"本日の動画では骨盤のゆがみを整える動画となっております！ ゆったりした動きですので、ベットの上でもオッケー   ぜひ寝る前に行ってみて下さいね   いつもMaiYoga（ ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/NkLQ10-kV6A/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/NkLQ10-kV6A/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/NkLQ10-kV6A/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"Mai Yoga\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-16T10:30:03Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"FwIkqoloveTRRdXTwDOZQq-gXNQ\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"EAu0_QKKyLI\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-16T10:28:43Z\",\n        \"channelId\": \"UC3cdLnnXMC3xFYten4JdIjw\",\n        \"title\": \"【美ヨガ】体が硬い方にもオススメ！肩関節をほぐすyoga\",\n        \"description\": \"現役ヨガインストラクターによる「肩関節をほぐすヨガ」です。 是非一緒にやってみてください。 【出演モデル】 Risa ・全米ヨガアライアンス200 ・マタニティヨガ指導資格 ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/EAu0_QKKyLI/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/EAu0_QKKyLI/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/EAu0_QKKyLI/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"美女がするTV\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-16T10:28:43Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"VaR2AGpW8woOugZjaKBNO0s2CJI\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"ewv-zplVO9w\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-16T10:00:32Z\",\n        \"channelId\": \"UCXZw3_om3-KoZbOn3QTKURg\",\n        \"title\": \"ノーブラで開放的にヨガをやってみた【ホットパンツ】\",\n        \"description\": \"こんにちはyukacoです(*･ω･) 最近ヨガにハマっています！ 開放感を求めてみました... Hey, everyone. Thanks for tuning in. This is a video of my workout. Please ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/ewv-zplVO9w/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/ewv-zplVO9w/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/ewv-zplVO9w/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"yukaco Tube\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-16T10:00:32Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"PdH6Xcc8Q6UOJuxKS2xnKygXrEo\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"G139Me-QigQ\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-16T09:00:13Z\",\n        \"channelId\": \"UCArVDquVoF6UcomV2WZd5Cg\",\n        \"title\": \"【ラグビーヨガ×ラグいち】女優 山﨑紘菜＆安村アナがレッスン中に新ポーズ考案！？福岡堅樹のポーズ、稲垣啓太のポーズ、具智元のポーズ…ラグビーファンならわかるはず\",\n        \"description\": \"【TRY! おうちでラグビーヨガ #28】 ラグビー愛が強すぎる女優・山崎紘菜さん。ポーズが美しすぎると絶賛の嵐です。 今日のレッスンは三角のポーズ＆ねじった三角のポーズ ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/G139Me-QigQ/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/G139Me-QigQ/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/G139Me-QigQ/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"日テレラグビーCH\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-16T09:00:13Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"h4NK0tOD0TKd7VLdHIDKpJ-0aG4\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"yj4ZzGSpnQA\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-16T09:00:09Z\",\n        \"channelId\": \"UCEneji6quM0_4WgwTSQnq4g\",\n        \"title\": \"これから・ヨガ🌞太陽🌞２０２１年4月13日\",\n        \"description\": \"倉敷市徳芳の【これから】では、定期的な運動としてヨガ教室を実施中です。バランスボールやストレッチポールなどの道具も用いて、60分間カラダを動かします。コロナ対策 ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/yj4ZzGSpnQA/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/yj4ZzGSpnQA/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/yj4ZzGSpnQA/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"リトル・サンの『パル』ヨガチャンネル\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-16T09:00:09Z\"\n      }\n    }\n  ]\n}\n", @size=0, @positions=nil, @chunk_size=nil>, @previous=nil>
+Success - #<Google::Apis::YoutubeV3::SearchListsResponse:0x00007fa2d37e33a8
+ @etag="UVVi8jbIr9DIc1ROpTA8AkijUqw",
+ @items=
+  [#<Google::Apis::YoutubeV3::SearchResult:0x00007fa2d37e9de8
+    @etag="qEk6SNdxF91ajHHIu9Ou3cQM0nk",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fa2d37e9820
+      @kind="youtube#video",
+      @video_id="BaZVSYbtw_A">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fa2d37e8bc8
+      @channel_id="UCudxzZAY-AysocKcmL69GcQ",
+      @channel_title="NOA CHANNEL",
+      @description=
+       "オンラインレッスンの「NOA ONLINE」から 毎日DANCEやYOGAのピックアップレッスンをお届け！ ー Today's Pickup Lesson ー INSTRUCTOR：Emika GENRE：骨盤 ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-16T13:00:04Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fa2d37f3f78
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d37f3b40
+          @height=90,
+          @url="https://i.ytimg.com/vi/BaZVSYbtw_A/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d37f3258
+          @height=360,
+          @url="https://i.ytimg.com/vi/BaZVSYbtw_A/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d37f27b8
+          @height=180,
+          @url="https://i.ytimg.com/vi/BaZVSYbtw_A/mqdefault.jpg",
+          @width=320>>,
+      @title="骨盤リラックスヨガ  -  美しい下半身づくりに  / NOA ONLINE YOGA">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fa2d37f1c78
+    @etag="7oKXdGyM23Rymi62VP_MvZjAYAE",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fa2d37f16b0
+      @kind="youtube#video",
+      @video_id="na1xrkHsx2E">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fa2d37f0a58
+      @channel_id="UCx3iFdF0iwgM0lj2qkrdsIQ",
+      @channel_title="Yoga Terior-ヨガテリア-",
+      @description=
+       "1:12 自分自身をリセットする夜ヨガスタート 忙しい時間を終えて、家に帰ってもまだ頭の中が忙しくて、慌ただしい夜はありませんか？ せっかくおウチに帰ったのなら、夜ヨガ ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-16T13:00:14Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fa2d37fbe08
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d37fb9d0
+          @height=90,
+          @url="https://i.ytimg.com/vi/na1xrkHsx2E/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d37fb0e8
+          @height=360,
+          @url="https://i.ytimg.com/vi/na1xrkHsx2E/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2d37fa648
+          @height=180,
+          @url="https://i.ytimg.com/vi/na1xrkHsx2E/mqdefault.jpg",
+          @width=320>>,
+      @title="短い時間で自分自身をリセットする夜ヨガ【素敵な夜活】">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fa2d37f9b08
+    @etag="zVFTMwxjua1SePh1XQdLu3l8yoE",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fa2d37f9540
+      @kind="youtube#video",
+      @video_id="XhGCriYGvx4">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fa2d37f88e8
+      @channel_id="UCeB7h8aVcj-ChDjvS01bbHA",
+      @channel_title="気まぐれOLのトレーニング",
+      @description=
+       "ヨガって難しい…。お尻よ上がれ！ はじめまして！ 遊びに来てくださりありがとうございます♡ ふだん運動嫌いで、ゴロゴロ過ごしていた私ですが「ちょっと運動しなければ ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-16T12:30:31Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fa2db00fc78
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db00f840
+          @height=90,
+          @url="https://i.ytimg.com/vi/XhGCriYGvx4/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db00ef58
+          @height=360,
+          @url="https://i.ytimg.com/vi/XhGCriYGvx4/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db00e4b8
+          @height=180,
+          @url="https://i.ytimg.com/vi/XhGCriYGvx4/mqdefault.jpg",
+          @width=320>>,
+      @title="【初心者ヨガ】いろんなポーズを試みたOLはコチラです。#お尻トレーニング#腹筋ストレッチBUTT">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fa2db00d978
+    @etag="PEPlKfgTfx2XsOirnhXPAnMGvtw",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fa2db00d3b0
+      @kind="youtube#video",
+      @video_id="bOZWnyrDsTY">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fa2db00c758
+      @channel_id="UCiXSaiYjXRZD8EJwn5MpPjw",
+      @channel_title="Sariee Building 元ヨガインストラクター現在無職サリーの頭の中Channel",
+      @description=
+       "アラフィフ#主婦#無職 こんにちは、サリーです コロナ禍での2度目のGWが やってきますね 以前ならこの時期に海外旅行に行かれてる方も多いのでは？ 今日はGWに絶対 ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-16T11:26:55Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fa2db017ae0
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db0176a8
+          @height=90,
+          @url="https://i.ytimg.com/vi/bOZWnyrDsTY/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db016dc0
+          @height=360,
+          @url="https://i.ytimg.com/vi/bOZWnyrDsTY/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db016320
+          @height=180,
+          @url="https://i.ytimg.com/vi/bOZWnyrDsTY/mqdefault.jpg",
+          @width=320>>,
+      @title="元ヨガインストラクター今は無職の主婦サリーの頭ん中。。コロナじゃなくても、GWじゃなくても家にいるよ、私。">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fa2db0157e0
+    @etag="VpPjvNNr7L8P30R4vxpE07M7XKk",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fa2db015218
+      @kind="youtube#video",
+      @video_id="gBqECELzTb8">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fa2db0145c0
+      @channel_id="UCmpliU0Nnk7r9a1WkSA0wmQ",
+      @channel_title="STUDIO -yoga journey-",
+      @description=
+       "リマインダーを忘れずに   ※ベルマーク  をタップして通知をONにしてね。 ▽2021年4月のライブヨガ配信スケジュールはこちら▽ ...",
+      @live_broadcast_content="upcoming",
+      @published_at="2021-04-16T10:42:27Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fa2db01f970
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db01f538
+          @height=90,
+          @url="https://i.ytimg.com/vi/gBqECELzTb8/default_live.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db01ec50
+          @height=360,
+          @url="https://i.ytimg.com/vi/gBqECELzTb8/hqdefault_live.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db01e1b0
+          @height=180,
+          @url="https://i.ytimg.com/vi/gBqECELzTb8/mqdefault_live.jpg",
+          @width=320>>,
+      @title="yoga journey ライブ配信！4/17(土)9:00-10:00【朝ヨガ】">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fa2db01d670
+    @etag="rp_-LZIyW9BYT3CCYpKAr70kgy8",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fa2db01d0a8
+      @kind="youtube#video",
+      @video_id="NkLQ10-kV6A">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fa2db01c450
+      @channel_id="UCNFOB8-bHtK19zxEjzUYFZA",
+      @channel_title="Mai Yoga",
+      @description=
+       "本日の動画では骨盤のゆがみを整える動画となっております！ ゆったりした動きですので、ベットの上でもオッケー   ぜひ寝る前に行ってみて下さいね   いつもMaiYoga（ ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-16T10:30:03Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fa2db027800
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db0273c8
+          @height=90,
+          @url="https://i.ytimg.com/vi/NkLQ10-kV6A/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db026ae0
+          @height=360,
+          @url="https://i.ytimg.com/vi/NkLQ10-kV6A/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db026040
+          @height=180,
+          @url="https://i.ytimg.com/vi/NkLQ10-kV6A/mqdefault.jpg",
+          @width=320>>,
+      @title="【ゆがみ改善❗️❗️】骨盤調整ヨガでカラダリセット✨寝る前にオススメ🌙">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fa2db025500
+    @etag="FwIkqoloveTRRdXTwDOZQq-gXNQ",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fa2db024f38
+      @kind="youtube#video",
+      @video_id="EAu0_QKKyLI">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fa2db0242e0
+      @channel_id="UC3cdLnnXMC3xFYten4JdIjw",
+      @channel_title="美女がするTV",
+      @description=
+       "現役ヨガインストラクターによる「肩関節をほぐすヨガ」です。 是非一緒にやってみてください。 【出演モデル】 Risa ・全米ヨガアライアンス200 ・マタニティヨガ指導資格 ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-16T10:28:43Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fa2db02f690
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db02f258
+          @height=90,
+          @url="https://i.ytimg.com/vi/EAu0_QKKyLI/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db02e970
+          @height=360,
+          @url="https://i.ytimg.com/vi/EAu0_QKKyLI/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db02ded0
+          @height=180,
+          @url="https://i.ytimg.com/vi/EAu0_QKKyLI/mqdefault.jpg",
+          @width=320>>,
+      @title="【美ヨガ】体が硬い方にもオススメ！肩関節をほぐすyoga">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fa2db02d390
+    @etag="VaR2AGpW8woOugZjaKBNO0s2CJI",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fa2db02cdc8
+      @kind="youtube#video",
+      @video_id="ewv-zplVO9w">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fa2db02c170
+      @channel_id="UCXZw3_om3-KoZbOn3QTKURg",
+      @channel_title="yukaco Tube",
+      @description=
+       "こんにちはyukacoです(*･ω･) 最近ヨガにハマっています！ 開放感を求めてみました... Hey, everyone. Thanks for tuning in. This is a video of my workout. Please ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-16T10:00:32Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fa2db037520
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db0370e8
+          @height=90,
+          @url="https://i.ytimg.com/vi/ewv-zplVO9w/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db036800
+          @height=360,
+          @url="https://i.ytimg.com/vi/ewv-zplVO9w/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db035d60
+          @height=180,
+          @url="https://i.ytimg.com/vi/ewv-zplVO9w/mqdefault.jpg",
+          @width=320>>,
+      @title="ノーブラで開放的にヨガをやってみた【ホットパンツ】">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fa2db035220
+    @etag="PdH6Xcc8Q6UOJuxKS2xnKygXrEo",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fa2db034c58
+      @kind="youtube#video",
+      @video_id="G139Me-QigQ">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fa2db03ff90
+      @channel_id="UCArVDquVoF6UcomV2WZd5Cg",
+      @channel_title="日テレラグビーCH",
+      @description=
+       "【TRY! おうちでラグビーヨガ #28】 ラグビー愛が強すぎる女優・山崎紘菜さん。ポーズが美しすぎると絶賛の嵐です。 今日のレッスンは三角のポーズ＆ねじった三角のポーズ ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-16T09:00:13Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fa2db03f388
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db03ef50
+          @height=90,
+          @url="https://i.ytimg.com/vi/G139Me-QigQ/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db03e668
+          @height=360,
+          @url="https://i.ytimg.com/vi/G139Me-QigQ/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db03dbc8
+          @height=180,
+          @url="https://i.ytimg.com/vi/G139Me-QigQ/mqdefault.jpg",
+          @width=320>>,
+      @title=
+       "【ラグビーヨガ×ラグいち】女優 山﨑紘菜＆安村アナがレッスン中に新ポーズ考案！？福岡堅樹のポーズ、稲垣啓太のポーズ、具智元のポーズ…ラグビーファンならわかるはず">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fa2db03d088
+    @etag="h4NK0tOD0TKd7VLdHIDKpJ-0aG4",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fa2db03cac0
+      @kind="youtube#video",
+      @video_id="yj4ZzGSpnQA">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fa2db047e20
+      @channel_id="UCEneji6quM0_4WgwTSQnq4g",
+      @channel_title="リトル・サンの『パル』ヨガチャンネル",
+      @description=
+       "倉敷市徳芳の【これから】では、定期的な運動としてヨガ教室を実施中です。バランスボールやストレッチポールなどの道具も用いて、60分間カラダを動かします。コロナ対策 ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-16T09:00:09Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fa2db047218
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db046de0
+          @height=90,
+          @url="https://i.ytimg.com/vi/yj4ZzGSpnQA/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db0464f8
+          @height=360,
+          @url="https://i.ytimg.com/vi/yj4ZzGSpnQA/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db045a58
+          @height=180,
+          @url="https://i.ytimg.com/vi/yj4ZzGSpnQA/mqdefault.jpg",
+          @width=320>>,
+      @title="これから・ヨガ🌞太陽🌞２０２１年4月13日">>],
+ @kind="youtube#searchListResponse",
+ @next_page_token="CAoQAA",
+ @page_info=
+  #<Google::Apis::YoutubeV3::PageInfo:0x00007fa2db044b08
+   @results_per_page=10,
+   @total_results=62115>,
+ @region_code="JP">
+
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:23
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ヨガ"], ["title", "骨盤リラックスヨガ  -  美しい下半身づくりに  / NOA ONLINE YOGA"], ["video_id", "BaZVSYbtw_A"], ["created_at", "2021-04-16 15:00:05.983472"], ["updated_at", "2021-04-16 15:00:05.983472"]]
+  ↳ app/models/video.rb:23
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:23
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ヨガ"], ["title", "短い時間で自分自身をリセットする夜ヨガ【素敵な夜活】"], ["video_id", "na1xrkHsx2E"], ["created_at", "2021-04-16 15:00:05.985886"], ["updated_at", "2021-04-16 15:00:05.985886"]]
+  ↳ app/models/video.rb:23
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:23
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ヨガ"], ["title", "【初心者ヨガ】いろんなポーズを試みたOLはコチラです。#お尻トレーニング#腹筋ストレッチBUTT"], ["video_id", "XhGCriYGvx4"], ["created_at", "2021-04-16 15:00:05.988206"], ["updated_at", "2021-04-16 15:00:05.988206"]]
+  ↳ app/models/video.rb:23
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:23
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ヨガ"], ["title", "元ヨガインストラクター今は無職の主婦サリーの頭ん中。。コロナじゃなくても、GWじゃなくても家にいるよ、私。"], ["video_id", "bOZWnyrDsTY"], ["created_at", "2021-04-16 15:00:05.990316"], ["updated_at", "2021-04-16 15:00:05.990316"]]
+  ↳ app/models/video.rb:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:23
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ヨガ"], ["title", "yoga journey ライブ配信！4/17(土)9:00-10:00【朝ヨガ】"], ["video_id", "gBqECELzTb8"], ["created_at", "2021-04-16 15:00:05.992231"], ["updated_at", "2021-04-16 15:00:05.992231"]]
+  ↳ app/models/video.rb:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:23
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ヨガ"], ["title", "【ゆがみ改善❗️❗️】骨盤調整ヨガでカラダリセット✨寝る前にオススメ🌙"], ["video_id", "NkLQ10-kV6A"], ["created_at", "2021-04-16 15:00:05.994148"], ["updated_at", "2021-04-16 15:00:05.994148"]]
+  ↳ app/models/video.rb:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:23
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ヨガ"], ["title", "【美ヨガ】体が硬い方にもオススメ！肩関節をほぐすyoga"], ["video_id", "EAu0_QKKyLI"], ["created_at", "2021-04-16 15:00:05.996071"], ["updated_at", "2021-04-16 15:00:05.996071"]]
+  ↳ app/models/video.rb:23
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:23
+  [1m[36mVideo Create (0.5ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ヨガ"], ["title", "ノーブラで開放的にヨガをやってみた【ホットパンツ】"], ["video_id", "ewv-zplVO9w"], ["created_at", "2021-04-16 15:00:05.998083"], ["updated_at", "2021-04-16 15:00:05.998083"]]
+  ↳ app/models/video.rb:23
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:23
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ヨガ"], ["title", "【ラグビーヨガ×ラグいち】女優 山﨑紘菜＆安村アナがレッスン中に新ポーズ考案！？福岡堅樹のポーズ、稲垣啓太のポーズ、具智元のポーズ…ラグビーファンならわかるはず"], ["video_id", "G139Me-QigQ"], ["created_at", "2021-04-16 15:00:06.001409"], ["updated_at", "2021-04-16 15:00:06.001409"]]
+  ↳ app/models/video.rb:23
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:23
+  [1m[36mVideo Create (0.4ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ヨガ"], ["title", "これから・ヨガ🌞太陽🌞２０２１年4月13日"], ["video_id", "yj4ZzGSpnQA"], ["created_at", "2021-04-16 15:00:06.003733"], ["updated_at", "2021-04-16 15:00:06.003733"]]
+  ↳ app/models/video.rb:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:23
+Sending HTTP get https://youtube.googleapis.com/youtube/v3/search?key=AIzaSyAHRj3UyMiXAhpdddkRlE9Qa16FF3IfGyM&maxResults=10&order=date&part=snippet&publishedAfter=2021-03-16T15%3A00%3A04%2B00%3A00&publishedBefore=2021-04-17T00%3A00%3A04%2B09%3A00&q=%E3%82%B6%E3%83%BB%E3%81%8D%E3%82%93%E3%81%AB%E3%81%8FTV&type=video
+200
+#<HTTP::Message:0x00007fa2db13b408 @http_header=#<HTTP::Message::Headers:0x00007fa2db13b3e0 @http_version="1.1", @body_size=0, @chunked=false, @request_method="GET", @request_uri=#<Addressable::URI:0x3fd16d89de00 URI:https://youtube.googleapis.com/youtube/v3/search?key=AIzaSyAHRj3UyMiXAhpdddkRlE9Qa16FF3IfGyM&maxResults=10&order=date&part=snippet&publishedAfter=2021-03-16T15%3A00%3A04%2B00%3A00&publishedBefore=2021-04-17T00%3A00%3A04%2B09%3A00&q=%E3%82%B6%E3%83%BB%E3%81%8D%E3%82%93%E3%81%AB%E3%81%8FTV&type=video>, @request_query=nil, @request_absolute_uri=nil, @status_code=200, @reason_phrase="OK", @body_type=nil, @body_charset=nil, @body_date=nil, @body_encoding=#<Encoding:UTF-8>, @is_request=false, @header_item=[["Content-Type", "application/json; charset=UTF-8"], ["Vary", "Origin"], ["Vary", "X-Origin"], ["Vary", "Referer"], ["Content-Encoding", "gzip"], ["Date", "Fri, 16 Apr 2021 15:00:06 GMT"], ["Server", "scaffolding on HTTPServer2"], ["Cache-Control", "private"], ["X-XSS-Protection", "0"], ["X-Frame-Options", "SAMEORIGIN"], ["X-Content-Type-Options", "nosniff"], ["Alt-Svc", "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""], ["Transfer-Encoding", "chunked"]], @dumped=false>, @peer_cert=#<OpenSSL::X509::Certificate: subject=#<OpenSSL::X509::Name CN=upload.video.google.com,O=Google LLC,L=Mountain View,ST=California,C=US>, issuer=#<OpenSSL::X509::Name CN=GTS CA 1O1,O=Google Trust Services,C=US>, serial=#<OpenSSL::BN:0x00007fa2db153300>, not_before=2021-03-23 08:24:47 UTC, not_after=2021-06-15 08:24:46 UTC>, @http_body=#<HTTP::Message::Body:0x00007fa2db13b368 @body="{\n  \"kind\": \"youtube#searchListResponse\",\n  \"etag\": \"cA2jZij26SX-JjZw1cU19JJEOVg\",\n  \"nextPageToken\": \"CAoQAA\",\n  \"regionCode\": \"JP\",\n  \"pageInfo\": {\n    \"totalResults\": 2119,\n    \"resultsPerPage\": 10\n  },\n  \"items\": [\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"C-jHFIiJ3qyvbWRNuXgLx5pXow8\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"RJr_G-sUFVA\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-15T10:00:21Z\",\n        \"channelId\": \"UCOUu8YlbaPz0W2TyFTZHvjA\",\n        \"title\": \"【ゆるいダイエット食】簡単、時短、激ウマで低脂肪・高タンパク質の筋肉料理です。なんと〇〇〇で筋肉飯の新たな扉が開く！？\",\n        \"description\": \"サバンナ高橋さんのチャンネルでのコラボです https://youtu.be/izzOw4DYstU ○なかやまきんに君プロデュース 家族で飲める 『ザ・プロテイン』＆『ファミテイン(青汁& ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/RJr_G-sUFVA/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/RJr_G-sUFVA/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/RJr_G-sUFVA/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"ザ・きんにくTV 【The Muscle TV】\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-15T10:00:21Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"NJTdf-C_TuEp3yL5hQEUqB5eZsQ\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"8bvAPOzihzo\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-14T15:25:51Z\",\n        \"channelId\": \"UCv1bPK7D-ufnLbfLzUVaQqw\",\n        \"title\": \"【150kgデブ】ほぼ毎日筋トレの動画投稿していく：97日目【2021_04_14:146.2kg】\",\n        \"description\": \"南無 なかやまきんに君のトレーニングを参考にしています ザ・きんにくTV：https://youtube.com/channel/UCOUu8YlbaPz0W2TyFTZHvjA ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/8bvAPOzihzo/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/8bvAPOzihzo/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/8bvAPOzihzo/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"約150kgのデブがほぼ毎日運動する動画を投稿するチャンネル\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-14T15:25:51Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"aT5WbdpZijsVRHzMI4VYb44qt4A\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"Ahpsk1X3OC0\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-11T10:00:02Z\",\n        \"channelId\": \"UCnHzm--hwx96P9D3Rnbe3LQ\",\n        \"title\": \"【#121】筋トレ、ダイエットには必須なクエン酸の効果がヤバすぎた。日本なら簡単に○○で摂れる。\",\n        \"description\": \"#クエン酸 #疲労回復 #アンチエイジング.\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/Ahpsk1X3OC0/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/Ahpsk1X3OC0/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/Ahpsk1X3OC0/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"ザ・きんにくTV 2nd 【The Muscle TV 2nd】\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-11T10:00:02Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"ARjWNh1q_vBK76MIXwyu14R5EH8\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"aN98D1YD00o\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-10T10:00:00Z\",\n        \"channelId\": \"UCOUu8YlbaPz0W2TyFTZHvjA\",\n        \"title\": \"【超簡単】フロント、ビハインド、アンダーグリップのラットプルダウン3種目のポイントを徹底解説です。\",\n        \"description\": \"#ラットプルダウン #背中 #広背筋.\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/aN98D1YD00o/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/aN98D1YD00o/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/aN98D1YD00o/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"ザ・きんにくTV 【The Muscle TV】\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-10T10:00:00Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"s78UXH_Y4PjKrSc3KuBIJKiSR_8\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"nmha7Zsh7MU\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-09T10:24:47Z\",\n        \"channelId\": \"UCce4WJyqLcTkiQ4VTfYfzMA\",\n        \"title\": \"Bon Jovi_It’s My Life_叩いてみた (Bon Jovi_It’s My Life_Drum cover)\",\n        \"description\": \"... https://youtu.be/vx2u5uUu3DE ▽ザ・きんにくTV 【The Muscle TV】 https://www.youtube.com/channel/UCOUu8YlbaPz0W2TyFTZHvjA ▽ザ・きんにくTV 2nd 【The ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/nmha7Zsh7MU/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/nmha7Zsh7MU/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/nmha7Zsh7MU/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"nomu Drummer\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-09T10:24:47Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"j1Wqa6RHklIJwL0zJFUt-JKXCJI\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"6IXOV3JuZzQ\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-08T10:00:03Z\",\n        \"channelId\": \"UCOUu8YlbaPz0W2TyFTZHvjA\",\n        \"title\": \"【大会への道#1】東京ノービスボディビル大会に向けてついに始動⁉︎ 5週間前の肩＆上腕三頭筋を追い込む方法です。\",\n        \"description\": \"#モチベーション #肩 #腕.\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/6IXOV3JuZzQ/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/6IXOV3JuZzQ/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/6IXOV3JuZzQ/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"ザ・きんにくTV 【The Muscle TV】\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-08T10:00:03Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"5OXWmzat2uClPAnLXhTBj_Dg19w\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"wBr-_YJZymY\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-06T10:00:17Z\",\n        \"channelId\": \"UCnHzm--hwx96P9D3Rnbe3LQ\",\n        \"title\": \"【#120】筋肉成長は高重量だけではない。成長させ続ける方法７選です。\",\n        \"description\": \"#筋トレ #ダイエット #自重トレーニング.\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/wBr-_YJZymY/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/wBr-_YJZymY/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/wBr-_YJZymY/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"ザ・きんにくTV 2nd 【The Muscle TV 2nd】\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-06T10:00:17Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"S_iLjdlc-D6xQwbABf2IF27ipS8\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"uWq83UIPRos\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-02T11:45:04Z\",\n        \"channelId\": \"UCnHzm--hwx96P9D3Rnbe3LQ\",\n        \"title\": \"【#119】誰もがいつかは経験するケガを防ぐ方法＆痛みを防ぐ方法５選です。めちゃくちゃ効果あります。\",\n        \"description\": \"#腰 #肩 #肉離れ.\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/uWq83UIPRos/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/uWq83UIPRos/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/uWq83UIPRos/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"ザ・きんにくTV 2nd 【The Muscle TV 2nd】\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-02T11:45:04Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"DL0CZH7Lmx4Yf0Wk1WdULXUH70k\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"2byqCBadg4I\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-01T10:00:03Z\",\n        \"channelId\": \"UCOUu8YlbaPz0W2TyFTZHvjA\",\n        \"title\": \"【ダイエット中にOK】脂肪をつけずに筋肉がつく、超簡単おやつ＆夜食２品です。\",\n        \"description\": \"#鶏の胸肉 #お酢 #夜食.\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/2byqCBadg4I/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/2byqCBadg4I/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/2byqCBadg4I/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"ザ・きんにくTV 【The Muscle TV】\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-01T10:00:03Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"B8xpoWaq7sSqzSRZSP5qZJlXfsU\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"E5xgSHYdXIo\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-03-30T02:57:29Z\",\n        \"channelId\": \"UC5NZiKs0_9V6K3exztNe_DA\",\n        \"title\": \"#クラフトボス『クラフトボコトレーニング全まとめ』#なかやまきんに君 #サントリー\",\n        \"description\": \"... きんに君さん ザ・きんにくTV 【The Muscle TV】 https://youtube.com/channel/ UCOUu8YlbaPz0W2TyFTZHvjA #なかやまきんに君 #ダイエット #コーヒー #クラフトボス.\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/E5xgSHYdXIo/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/E5xgSHYdXIo/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/E5xgSHYdXIo/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"Heroin Clipping ch\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-03-30T02:57:29Z\"\n      }\n    }\n  ]\n}\n", @size=0, @positions=nil, @chunk_size=nil>, @previous=nil>
+Success - #<Google::Apis::YoutubeV3::SearchListsResponse:0x00007fa2db152b58
+ @etag="cA2jZij26SX-JjZw1cU19JJEOVg",
+ @items=
+  [#<Google::Apis::YoutubeV3::SearchResult:0x00007fa2db161590
+    @etag="C-jHFIiJ3qyvbWRNuXgLx5pXow8",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fa2db160fc8
+      @kind="youtube#video",
+      @video_id="RJr_G-sUFVA">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fa2db160370
+      @channel_id="UCOUu8YlbaPz0W2TyFTZHvjA",
+      @channel_title="ザ・きんにくTV 【The Muscle TV】",
+      @description=
+       "サバンナ高橋さんのチャンネルでのコラボです https://youtu.be/izzOw4DYstU ○なかやまきんに君プロデュース 家族で飲める 『ザ・プロテイン』＆『ファミテイン(青汁& ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-15T10:00:21Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fa2db16b6f8
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db16b2c0
+          @height=90,
+          @url="https://i.ytimg.com/vi/RJr_G-sUFVA/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db16a9d8
+          @height=360,
+          @url="https://i.ytimg.com/vi/RJr_G-sUFVA/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db169f38
+          @height=180,
+          @url="https://i.ytimg.com/vi/RJr_G-sUFVA/mqdefault.jpg",
+          @width=320>>,
+      @title="【ゆるいダイエット食】簡単、時短、激ウマで低脂肪・高タンパク質の筋肉料理です。なんと〇〇〇で筋肉飯の新たな扉が開く！？">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fa2db1693f8
+    @etag="NJTdf-C_TuEp3yL5hQEUqB5eZsQ",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fa2db168e30
+      @kind="youtube#video",
+      @video_id="8bvAPOzihzo">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fa2db1681d8
+      @channel_id="UCv1bPK7D-ufnLbfLzUVaQqw",
+      @channel_title="約150kgのデブがほぼ毎日運動する動画を投稿するチャンネル",
+      @description=
+       "南無 なかやまきんに君のトレーニングを参考にしています ザ・きんにくTV：https://youtube.com/channel/UCOUu8YlbaPz0W2TyFTZHvjA ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-14T15:25:51Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fa2db173588
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db173150
+          @height=90,
+          @url="https://i.ytimg.com/vi/8bvAPOzihzo/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db172868
+          @height=360,
+          @url="https://i.ytimg.com/vi/8bvAPOzihzo/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db171dc8
+          @height=180,
+          @url="https://i.ytimg.com/vi/8bvAPOzihzo/mqdefault.jpg",
+          @width=320>>,
+      @title="【150kgデブ】ほぼ毎日筋トレの動画投稿していく：97日目【2021_04_14:146.2kg】">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fa2db171288
+    @etag="aT5WbdpZijsVRHzMI4VYb44qt4A",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fa2db170cc0
+      @kind="youtube#video",
+      @video_id="Ahpsk1X3OC0">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fa2db170068
+      @channel_id="UCnHzm--hwx96P9D3Rnbe3LQ",
+      @channel_title="ザ・きんにくTV 2nd 【The Muscle TV 2nd】",
+      @description="#クエン酸 #疲労回復 #アンチエイジング.",
+      @live_broadcast_content="none",
+      @published_at="2021-04-11T10:00:02Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fa2db17b418
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db17afe0
+          @height=90,
+          @url="https://i.ytimg.com/vi/Ahpsk1X3OC0/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db17a6f8
+          @height=360,
+          @url="https://i.ytimg.com/vi/Ahpsk1X3OC0/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db179c58
+          @height=180,
+          @url="https://i.ytimg.com/vi/Ahpsk1X3OC0/mqdefault.jpg",
+          @width=320>>,
+      @title="【#121】筋トレ、ダイエットには必須なクエン酸の効果がヤバすぎた。日本なら簡単に○○で摂れる。">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fa2db179118
+    @etag="ARjWNh1q_vBK76MIXwyu14R5EH8",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fa2db178b50
+      @kind="youtube#video",
+      @video_id="aN98D1YD00o">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fa2db183eb0
+      @channel_id="UCOUu8YlbaPz0W2TyFTZHvjA",
+      @channel_title="ザ・きんにくTV 【The Muscle TV】",
+      @description="#ラットプルダウン #背中 #広背筋.",
+      @live_broadcast_content="none",
+      @published_at="2021-04-10T10:00:00Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fa2db1832a8
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db182e70
+          @height=90,
+          @url="https://i.ytimg.com/vi/aN98D1YD00o/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db182588
+          @height=360,
+          @url="https://i.ytimg.com/vi/aN98D1YD00o/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db181ae8
+          @height=180,
+          @url="https://i.ytimg.com/vi/aN98D1YD00o/mqdefault.jpg",
+          @width=320>>,
+      @title="【超簡単】フロント、ビハインド、アンダーグリップのラットプルダウン3種目のポイントを徹底解説です。">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fa2db180fa8
+    @etag="s78UXH_Y4PjKrSc3KuBIJKiSR_8",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fa2db1809e0
+      @kind="youtube#video",
+      @video_id="nmha7Zsh7MU">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fa2db18bd40
+      @channel_id="UCce4WJyqLcTkiQ4VTfYfzMA",
+      @channel_title="nomu Drummer",
+      @description=
+       "... https://youtu.be/vx2u5uUu3DE ▽ザ・きんにくTV 【The Muscle TV】 https://www.youtube.com/channel/UCOUu8YlbaPz0W2TyFTZHvjA ▽ザ・きんにくTV 2nd 【The ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-09T10:24:47Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fa2db18b138
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db18ad00
+          @height=90,
+          @url="https://i.ytimg.com/vi/nmha7Zsh7MU/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db18a418
+          @height=360,
+          @url="https://i.ytimg.com/vi/nmha7Zsh7MU/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db189978
+          @height=180,
+          @url="https://i.ytimg.com/vi/nmha7Zsh7MU/mqdefault.jpg",
+          @width=320>>,
+      @title=
+       "Bon Jovi_It’s My Life_叩いてみた (Bon Jovi_It’s My Life_Drum cover)">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fa2db188e38
+    @etag="j1Wqa6RHklIJwL0zJFUt-JKXCJI",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fa2db188870
+      @kind="youtube#video",
+      @video_id="6IXOV3JuZzQ">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fa2db193ba8
+      @channel_id="UCOUu8YlbaPz0W2TyFTZHvjA",
+      @channel_title="ザ・きんにくTV 【The Muscle TV】",
+      @description="#モチベーション #肩 #腕.",
+      @live_broadcast_content="none",
+      @published_at="2021-04-08T10:00:03Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fa2db192fa0
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db192b68
+          @height=90,
+          @url="https://i.ytimg.com/vi/6IXOV3JuZzQ/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db192280
+          @height=360,
+          @url="https://i.ytimg.com/vi/6IXOV3JuZzQ/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db1917e0
+          @height=180,
+          @url="https://i.ytimg.com/vi/6IXOV3JuZzQ/mqdefault.jpg",
+          @width=320>>,
+      @title="【大会への道#1】東京ノービスボディビル大会に向けてついに始動⁉︎ 5週間前の肩＆上腕三頭筋を追い込む方法です。">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fa2db190ca0
+    @etag="5OXWmzat2uClPAnLXhTBj_Dg19w",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fa2db1906d8
+      @kind="youtube#video",
+      @video_id="wBr-_YJZymY">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fa2db19ba38
+      @channel_id="UCnHzm--hwx96P9D3Rnbe3LQ",
+      @channel_title="ザ・きんにくTV 2nd 【The Muscle TV 2nd】",
+      @description="#筋トレ #ダイエット #自重トレーニング.",
+      @live_broadcast_content="none",
+      @published_at="2021-04-06T10:00:17Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fa2db19ae30
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db19a9f8
+          @height=90,
+          @url="https://i.ytimg.com/vi/wBr-_YJZymY/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db19a110
+          @height=360,
+          @url="https://i.ytimg.com/vi/wBr-_YJZymY/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db199670
+          @height=180,
+          @url="https://i.ytimg.com/vi/wBr-_YJZymY/mqdefault.jpg",
+          @width=320>>,
+      @title="【#120】筋肉成長は高重量だけではない。成長させ続ける方法７選です。">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fa2db198b30
+    @etag="S_iLjdlc-D6xQwbABf2IF27ipS8",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fa2db198568
+      @kind="youtube#video",
+      @video_id="uWq83UIPRos">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fa2db1a38c8
+      @channel_id="UCnHzm--hwx96P9D3Rnbe3LQ",
+      @channel_title="ザ・きんにくTV 2nd 【The Muscle TV 2nd】",
+      @description="#腰 #肩 #肉離れ.",
+      @live_broadcast_content="none",
+      @published_at="2021-04-02T11:45:04Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fa2db1a2cc0
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db1a2888
+          @height=90,
+          @url="https://i.ytimg.com/vi/uWq83UIPRos/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db1a1fa0
+          @height=360,
+          @url="https://i.ytimg.com/vi/uWq83UIPRos/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db1a1500
+          @height=180,
+          @url="https://i.ytimg.com/vi/uWq83UIPRos/mqdefault.jpg",
+          @width=320>>,
+      @title="【#119】誰もがいつかは経験するケガを防ぐ方法＆痛みを防ぐ方法５選です。めちゃくちゃ効果あります。">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fa2db1a09c0
+    @etag="DL0CZH7Lmx4Yf0Wk1WdULXUH70k",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fa2db1a03f8
+      @kind="youtube#video",
+      @video_id="2byqCBadg4I">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fa2db1ab758
+      @channel_id="UCOUu8YlbaPz0W2TyFTZHvjA",
+      @channel_title="ザ・きんにくTV 【The Muscle TV】",
+      @description="#鶏の胸肉 #お酢 #夜食.",
+      @live_broadcast_content="none",
+      @published_at="2021-04-01T10:00:03Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fa2db1aab50
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db1aa718
+          @height=90,
+          @url="https://i.ytimg.com/vi/2byqCBadg4I/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db1a9e30
+          @height=360,
+          @url="https://i.ytimg.com/vi/2byqCBadg4I/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db1a9390
+          @height=180,
+          @url="https://i.ytimg.com/vi/2byqCBadg4I/mqdefault.jpg",
+          @width=320>>,
+      @title="【ダイエット中にOK】脂肪をつけずに筋肉がつく、超簡単おやつ＆夜食２品です。">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007fa2db1a8850
+    @etag="B8xpoWaq7sSqzSRZSP5qZJlXfsU",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007fa2db1a8288
+      @kind="youtube#video",
+      @video_id="E5xgSHYdXIo">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007fa2db1b35e8
+      @channel_id="UC5NZiKs0_9V6K3exztNe_DA",
+      @channel_title="Heroin Clipping ch",
+      @description=
+       "... きんに君さん ザ・きんにくTV 【The Muscle TV】 https://youtube.com/channel/ UCOUu8YlbaPz0W2TyFTZHvjA #なかやまきんに君 #ダイエット #コーヒー #クラフトボス.",
+      @live_broadcast_content="none",
+      @published_at="2021-03-30T02:57:29Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007fa2db1b29e0
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db1b25a8
+          @height=90,
+          @url="https://i.ytimg.com/vi/E5xgSHYdXIo/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db1b1cc0
+          @height=360,
+          @url="https://i.ytimg.com/vi/E5xgSHYdXIo/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007fa2db1b1220
+          @height=180,
+          @url="https://i.ytimg.com/vi/E5xgSHYdXIo/mqdefault.jpg",
+          @width=320>>,
+      @title="#クラフトボス『クラフトボコトレーニング全まとめ』#なかやまきんに君 #サントリー">>],
+ @kind="youtube#searchListResponse",
+ @next_page_token="CAoQAA",
+ @page_info=
+  #<Google::Apis::YoutubeV3::PageInfo:0x00007fa2db1b02d0
+   @results_per_page=10,
+   @total_results=2119>,
+ @region_code="JP">
+
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:23
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ザ・きんにくTV"], ["title", "【ゆるいダイエット食】簡単、時短、激ウマで低脂肪・高タンパク質の筋肉料理です。なんと〇〇〇で筋肉飯の新たな扉が開く！？"], ["video_id", "RJr_G-sUFVA"], ["created_at", "2021-04-16 15:00:06.381854"], ["updated_at", "2021-04-16 15:00:06.381854"]]
+  ↳ app/models/video.rb:23
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:23
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:23
+  [1m[36mVideo Create (0.7ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ザ・きんにくTV"], ["title", "【150kgデブ】ほぼ毎日筋トレの動画投稿していく：97日目【2021_04_14:146.2kg】"], ["video_id", "8bvAPOzihzo"], ["created_at", "2021-04-16 15:00:06.385292"], ["updated_at", "2021-04-16 15:00:06.385292"]]
+  ↳ app/models/video.rb:23
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:23
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:23
+  [1m[36mVideo Create (0.5ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ザ・きんにくTV"], ["title", "【#121】筋トレ、ダイエットには必須なクエン酸の効果がヤバすぎた。日本なら簡単に○○で摂れる。"], ["video_id", "Ahpsk1X3OC0"], ["created_at", "2021-04-16 15:00:06.389871"], ["updated_at", "2021-04-16 15:00:06.389871"]]
+  ↳ app/models/video.rb:23
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:23
+  [1m[36mVideo Create (0.5ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ザ・きんにくTV"], ["title", "【超簡単】フロント、ビハインド、アンダーグリップのラットプルダウン3種目のポイントを徹底解説です。"], ["video_id", "aN98D1YD00o"], ["created_at", "2021-04-16 15:00:06.393563"], ["updated_at", "2021-04-16 15:00:06.393563"]]
+  ↳ app/models/video.rb:23
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:23
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:23
+  [1m[36mVideo Create (0.5ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ザ・きんにくTV"], ["title", "Bon Jovi_It’s My Life_叩いてみた (Bon Jovi_It’s My Life_Drum cover)"], ["video_id", "nmha7Zsh7MU"], ["created_at", "2021-04-16 15:00:06.397542"], ["updated_at", "2021-04-16 15:00:06.397542"]]
+  ↳ app/models/video.rb:23
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:23
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:23
+  [1m[36mVideo Create (0.5ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ザ・きんにくTV"], ["title", "【大会への道#1】東京ノービスボディビル大会に向けてついに始動⁉︎ 5週間前の肩＆上腕三頭筋を追い込む方法です。"], ["video_id", "6IXOV3JuZzQ"], ["created_at", "2021-04-16 15:00:06.401618"], ["updated_at", "2021-04-16 15:00:06.401618"]]
+  ↳ app/models/video.rb:23
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:23
+  [1m[36mVideo Create (0.4ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ザ・きんにくTV"], ["title", "【#120】筋肉成長は高重量だけではない。成長させ続ける方法７選です。"], ["video_id", "wBr-_YJZymY"], ["created_at", "2021-04-16 15:00:06.404930"], ["updated_at", "2021-04-16 15:00:06.404930"]]
+  ↳ app/models/video.rb:23
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:23
+  [1m[36mVideo Create (0.4ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ザ・きんにくTV"], ["title", "【#119】誰もがいつかは経験するケガを防ぐ方法＆痛みを防ぐ方法５選です。めちゃくちゃ効果あります。"], ["video_id", "uWq83UIPRos"], ["created_at", "2021-04-16 15:00:06.408236"], ["updated_at", "2021-04-16 15:00:06.408236"]]
+  ↳ app/models/video.rb:23
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:23
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ザ・きんにくTV"], ["title", "【ダイエット中にOK】脂肪をつけずに筋肉がつく、超簡単おやつ＆夜食２品です。"], ["video_id", "2byqCBadg4I"], ["created_at", "2021-04-16 15:00:06.410870"], ["updated_at", "2021-04-16 15:00:06.410870"]]
+  ↳ app/models/video.rb:23
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:23
+  [1m[36mVideo Create (1.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ザ・きんにくTV"], ["title", "#クラフトボス『クラフトボコトレーニング全まとめ』#なかやまきんに君 #サントリー"], ["video_id", "E5xgSHYdXIo"], ["created_at", "2021-04-16 15:00:06.413609"], ["updated_at", "2021-04-16 15:00:06.413609"]]
+  ↳ app/models/video.rb:23
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:23
+  [1m[36mVideo Load (0.7ms)[0m  [1m[34mSELECT  "videos".* FROM "videos" ORDER BY "videos"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ lib/tasks/save_videos.rake:5
+  [1m[36mVideo Load (0.7ms)[0m  [1m[34mSELECT  "videos".* FROM "videos" ORDER BY "videos"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ lib/tasks/save_videos.rake:6
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (12.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (4.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (2.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ lib/tasks/send_youtube.rake:5
