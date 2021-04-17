@@ -21,7 +21,7 @@ def self.find_videos(keywords, after: 1.months.ago, before: Time.now )
   results.items.each do |item|
     id = item.id
     snippet = item.snippet
-    keyword.slice(" 10分")
+    keyword.slice!(" 10分")
     video =  Video.create(category_name: keyword, title: snippet.title, video_id: id.video_id)
   end
 end
