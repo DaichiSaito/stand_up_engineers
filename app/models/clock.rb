@@ -3,5 +3,4 @@ class Clock < ApplicationRecord
   
   validates :set_time, presence: true
   validates :category, presence: true
-  
 end
