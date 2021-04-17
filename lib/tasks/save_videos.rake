@@ -4,6 +4,6 @@ namespace :save_videos do
          Video.find_videos(%w(筋トレ ストレッチ ヨガ ザ・きんにくTV))
          from = Video.first.id
          to = Video.first.id + 39
-         #Video.where(id: from..to).destroy_all
+         Video.where(id: from..to).destroy_all
      end
 end
