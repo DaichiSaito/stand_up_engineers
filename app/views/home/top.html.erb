@@ -7,19 +7,16 @@
        <span class="navbar-toggler-icon"><span>
     </button>
     <div class="collapse navbar-collapse" id="Navbar">
-     <ul class="navbar-nav mr-auto">
-     <% if @current_user %>
-     <% unless @current_user.clock.present? %>
-<li class="nav-item"><a class="nav-link" data-toggle="modal" data-target="#exampleModal">アプリを起動する</a>
-      </li>
-  <li class="nav-item">
-        <%= link_to "ログアウト", user_path(@current_user), method: :delete, class: 'nav-link'%>
-      </li>
-<% else %>
-             <li class="nav-item">
-               <%= link_to "アプリを終了する", user_clocks_path(@current_user), method: :delete, class: 'nav-link'%>
-             </li>
+      <ul class="navbar-nav mr-auto">
+      <% if @current_user %>
+      <% unless @current_user.clock.present? %>
+      <li class="nav-item">
+          <a class="nav-link" data-toggle="modal" data-target="#exampleModal">アプリを起動する</a>
+        </li>
         <% end %>
+       <li class="nav-item">
+           <%= link_to "ログアウト", user_path(@current_user), method: :delete, class: 'nav-link'%>
+        </li>
       <% else %>
         <li class="nav-item">
            <p  class='nav-link navigate' data-toggle="modal" data-target="#textmodal">アプリの使い方</p>
@@ -123,7 +120,7 @@
                   <p>③動画を提供して欲しい間隔を選択してください(30分か60分の二択です)</p>
                   <p>⑤見たい動画のカテゴリーを選択してください</p>
                   <p>⑥アプリスタートボタンをクリックしてください<p>
-                  <p>⑦これで60分を選択した方は毎時０分に、30分を選択した方は毎時0分と30分に選択したカテゴリーのyoutube動画がランダムでlineに通知されます。</p>
+                  <p>⑦60分を選択した方は毎時０分に、30分を選択した方は毎時0分と30分に選択したカテゴリーのyoutube動画がランダムでlineに通知されます。</p>
                 </div>
               </div>
             </div>
