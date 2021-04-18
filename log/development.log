@@ -52457,3 +52457,409 @@ Processing by HomeController#top as HTML
 Completed 200 OK in 2671ms (Views: 2667.1ms | ActiveRecord: 0.0ms)
 
 
+Sending HTTP get https://youtube.googleapis.com/youtube/v3/search?key=AIzaSyAHRj3UyMiXAhpdddkRlE9Qa16FF3IfGyM&maxResults=10&order=date&part=snippet&publishedAfter=2020-04-18T15%3A00%3A03%2B00%3A00&publishedBefore=2021-04-19T00%3A00%3A03%2B09%3A00&q=%E3%82%B6%E3%83%BB%E3%81%8D%E3%82%93%E3%81%AB%E3%81%8FTV%2010%E5%88%86&type=video
+200
+#<HTTP::Message:0x00007f9442434738 @http_header=#<HTTP::Message::Headers:0x00007f9442434710 @http_version="1.1", @body_size=0, @chunked=false, @request_method="GET", @request_uri=#<Addressable::URI:0x3fca2121a798 URI:https://youtube.googleapis.com/youtube/v3/search?key=AIzaSyAHRj3UyMiXAhpdddkRlE9Qa16FF3IfGyM&maxResults=10&order=date&part=snippet&publishedAfter=2020-04-18T15%3A00%3A03%2B00%3A00&publishedBefore=2021-04-19T00%3A00%3A03%2B09%3A00&q=%E3%82%B6%E3%83%BB%E3%81%8D%E3%82%93%E3%81%AB%E3%81%8FTV%2010%E5%88%86&type=video>, @request_query=nil, @request_absolute_uri=nil, @status_code=200, @reason_phrase="OK", @body_type=nil, @body_charset=nil, @body_date=nil, @body_encoding=#<Encoding:UTF-8>, @is_request=false, @header_item=[["Content-Type", "application/json; charset=UTF-8"], ["Vary", "Origin"], ["Vary", "X-Origin"], ["Vary", "Referer"], ["Content-Encoding", "gzip"], ["Date", "Sun, 18 Apr 2021 15:00:03 GMT"], ["Server", "scaffolding on HTTPServer2"], ["Cache-Control", "private"], ["X-XSS-Protection", "0"], ["X-Frame-Options", "SAMEORIGIN"], ["X-Content-Type-Options", "nosniff"], ["Alt-Svc", "h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""], ["Transfer-Encoding", "chunked"]], @dumped=false>, @peer_cert=#<OpenSSL::X509::Certificate: subject=#<OpenSSL::X509::Name CN=upload.video.google.com,O=Google LLC,L=Mountain View,ST=California,C=US>, issuer=#<OpenSSL::X509::Name CN=GTS CA 1O1,O=Google Trust Services,C=US>, serial=#<OpenSSL::BN:0x00007f94429b0310>, not_before=2021-03-23 08:24:47 UTC, not_after=2021-06-15 08:24:46 UTC>, @http_body=#<HTTP::Message::Body:0x00007f9442434698 @body="{\n  \"kind\": \"youtube#searchListResponse\",\n  \"etag\": \"XhfsZ32f152npJ7L1pwuac7v9Ks\",\n  \"nextPageToken\": \"CAoQAA\",\n  \"regionCode\": \"JP\",\n  \"pageInfo\": {\n    \"totalResults\": 247407,\n    \"resultsPerPage\": 10\n  },\n  \"items\": [\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"CORVU-c0icY01XwcT08JbwCZeaM\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"z0M1tyo5jok\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2021-04-09T22:58:24Z\",\n        \"channelId\": \"UC24FsW4SDTrKQD9JUiFc5Nw\",\n        \"title\": \"【11分解説】痩せる食事がわかる！眠れなくなるほど面白い 図解 体脂肪の話【書評】\",\n        \"description\": \"なかやまきんに君が毎日食べるのはコレです。ザ・きんにくTV 【The Muscle TV】 https://www.youtube.com/watch?v=V6H3uJ1E0-M 【10分でわかる】眠れなくなるほど ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/z0M1tyo5jok/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/z0M1tyo5jok/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/z0M1tyo5jok/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"ゆとりリーマンYouTuber「ユト」\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2021-04-09T22:58:24Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"b6PW1rNMRE1Fi1yRf3Qbxj2T4hU\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"nhGh9N0baQA\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2020-12-03T12:15:36Z\",\n        \"channelId\": \"UCOUu8YlbaPz0W2TyFTZHvjA\",\n        \"title\": \"【スロートレーニング】超簡単筋トレ基本6種目から始めよう。FUJIWARA原西さんが行っていた3種目＋3種目です。\",\n        \"description\": \"【目次】 0:00 オープニング 0:54 Aパターン3種目 4:58 Bパターン3種目 9:52 ポイント解説 ○【前編】原西さん2週間ダイエット〜筋トレ編〜 https://youtu.be/63GLOU85qBI ...\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/nhGh9N0baQA/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/nhGh9N0baQA/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/nhGh9N0baQA/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"ザ・きんにくTV 【The Muscle TV】\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2020-12-03T12:15:36Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"N3trJ8QjUCaorciDFQ93Kaibuis\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"63GLOU85qBI\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2020-11-20T12:00:01Z\",\n        \"channelId\": \"UCOUu8YlbaPz0W2TyFTZHvjA\",\n        \"title\": \"【50歳初ダイエット】FUJIWARA原西さんを2週間ダイエット指導致しました。たった3種目の筋トレ＆有酸素運動10分です。【前編】\",\n        \"description\": \"#初心者 #簡単 #ダイエット.\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/63GLOU85qBI/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/63GLOU85qBI/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/63GLOU85qBI/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"ザ・きんにくTV 【The Muscle TV】\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2020-11-20T12:00:01Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"_C6xg65jtXsCHIml0pcyr58WHy4\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"oalL5-xQeNg\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2020-10-15T10:00:09Z\",\n        \"channelId\": \"UCOUu8YlbaPz0W2TyFTZHvjA\",\n        \"title\": \"【中級編】初心者の方用の動画付きで、下半身(太もも、内もも、お尻、もも裏ふくらはぎ、足首)をまとめて9種目6分間です。自宅で筋トレを一緒にやりましょう。\",\n        \"description\": \"#脚トレ #脚痩せ #下半身.\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/oalL5-xQeNg/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/oalL5-xQeNg/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/oalL5-xQeNg/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"ザ・きんにくTV 【The Muscle TV】\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2020-10-15T10:00:09Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"TH6lEGrdY87FjNtkjF3Cr_4-NSs\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"7l3RVG7VsxM\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2020-09-27T13:54:37Z\",\n        \"channelId\": \"UCzHeBhUY-a11xqCoJG-GNSQ\",\n        \"title\": \"【10分で解説】卵は最強食材！ダイエットや健康に良い理由\",\n        \"description\": \"参考文献・サイト * ザ・きんにくTV 2nd 【The Muscle TV 2nd】【#25】 最強食材、卵の最新情報&毎日5個食べ続けた血液がまさかの○○だった。\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/7l3RVG7VsxM/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/7l3RVG7VsxM/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/7l3RVG7VsxM/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"世界一ゆる〜いフィットネス学\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2020-09-27T13:54:37Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"Uvucsgjhf7gK1P1TCZZfQ1iQZlM\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"tkRfK1dr15o\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2020-09-16T09:00:21Z\",\n        \"channelId\": \"UCOUu8YlbaPz0W2TyFTZHvjA\",\n        \"title\": \"【お尻＆内もも】ヒップアップ＆脚(下半身)を引き締めたい方は10分間の筋トレを一緒にやりましょう。解説付きで女性も男性も初心者の方もご心配なく出来ます。\",\n        \"description\": \"#お尻 #ヒップアップ #内もも.\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/tkRfK1dr15o/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/tkRfK1dr15o/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/tkRfK1dr15o/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"ザ・きんにくTV 【The Muscle TV】\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2020-09-16T09:00:21Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"25YguSmqxwmVSjKPJ8I6wIRJbrc\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"jzUlLi6JFVA\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2020-09-08T10:00:30Z\",\n        \"channelId\": \"UCOUu8YlbaPz0W2TyFTZHvjA\",\n        \"title\": \"【世界最速で痩せる】筋トレ&amp;有酸素運動(HIIT)を全身9種目6分間です。飛ばないのでマンション・アパートOKです。一緒にカッコ良く筋肉を引き締めましょう。\",\n        \"description\": \"#最速 #痩せる #HIIT.\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/jzUlLi6JFVA/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/jzUlLi6JFVA/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/jzUlLi6JFVA/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"ザ・きんにくTV 【The Muscle TV】\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2020-09-08T10:00:30Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"ES19jSWhgc6cdcxYYI0E9-qBCbg\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"_8peDwA_pg4\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2020-08-29T10:00:30Z\",\n        \"channelId\": \"UCOUu8YlbaPz0W2TyFTZHvjA\",\n        \"title\": \"【ダイエット】30キロ減量に成功したゆりやんの自宅がとんでもなかった。痩せる筋トレ3種目を筋肉取材です。\",\n        \"description\": \"#痩せる #ダイエット #ゆりやんレトリィバァ.\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/_8peDwA_pg4/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/_8peDwA_pg4/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/_8peDwA_pg4/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"ザ・きんにくTV 【The Muscle TV】\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2020-08-29T10:00:30Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"5sOwGuE6sumdE_h6GIVvw9vmqAA\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"fZJO5hYB0Tc\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2020-08-10T04:00:11Z\",\n        \"channelId\": \"UCOUu8YlbaPz0W2TyFTZHvjA\",\n        \"title\": \"【超簡単】世界で一番温まる簡単ウォーミングアップ(動的ストレッチ＝ダイナミックストレッチ)で運動不足も解消です。\",\n        \"description\": \"#動的ストレッチ #warmup #アップ.\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/fZJO5hYB0Tc/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/fZJO5hYB0Tc/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/fZJO5hYB0Tc/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"ザ・きんにくTV 【The Muscle TV】\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2020-08-10T04:00:11Z\"\n      }\n    },\n    {\n      \"kind\": \"youtube#searchResult\",\n      \"etag\": \"-tFbvZLSK6PI9T6k_ZHEOxbrjRY\",\n      \"id\": {\n        \"kind\": \"youtube#video\",\n        \"videoId\": \"cQsupVhKcDg\"\n      },\n      \"snippet\": {\n        \"publishedAt\": \"2020-08-05T13:04:57Z\",\n        \"channelId\": \"UCOUu8YlbaPz0W2TyFTZHvjA\",\n        \"title\": \"【HIIT】高強度で全身を7分半で追い込む。しっかりとウォーミングアップを行って下さい。※HIIT(ヒット)＝ハイインテンシティインターバルトレーニング）\",\n        \"description\": \"#HIIT #HIT #筋トレ.\",\n        \"thumbnails\": {\n          \"default\": {\n            \"url\": \"https://i.ytimg.com/vi/cQsupVhKcDg/default.jpg\",\n            \"width\": 120,\n            \"height\": 90\n          },\n          \"medium\": {\n            \"url\": \"https://i.ytimg.com/vi/cQsupVhKcDg/mqdefault.jpg\",\n            \"width\": 320,\n            \"height\": 180\n          },\n          \"high\": {\n            \"url\": \"https://i.ytimg.com/vi/cQsupVhKcDg/hqdefault.jpg\",\n            \"width\": 480,\n            \"height\": 360\n          }\n        },\n        \"channelTitle\": \"ザ・きんにくTV 【The Muscle TV】\",\n        \"liveBroadcastContent\": \"none\",\n        \"publishTime\": \"2020-08-05T13:04:57Z\"\n      }\n    }\n  ]\n}\n", @size=0, @positions=nil, @chunk_size=nil>, @previous=nil>
+Success - #<Google::Apis::YoutubeV3::SearchListsResponse:0x00007f943edabae0
+ @etag="XhfsZ32f152npJ7L1pwuac7v9Ks",
+ @items=
+  [#<Google::Apis::YoutubeV3::SearchResult:0x00007f943edb2c78
+    @etag="CORVU-c0icY01XwcT08JbwCZeaM",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007f943edb23b8
+      @kind="youtube#video",
+      @video_id="z0M1tyo5jok">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007f943edb0ec8
+      @channel_id="UC24FsW4SDTrKQD9JUiFc5Nw",
+      @channel_title="ゆとりリーマンYouTuber「ユト」",
+      @description=
+       "なかやまきんに君が毎日食べるのはコレです。ザ・きんにくTV 【The Muscle TV】 https://www.youtube.com/watch?v=V6H3uJ1E0-M 【10分でわかる】眠れなくなるほど ...",
+      @live_broadcast_content="none",
+      @published_at="2021-04-09T22:58:24Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007f9443c279d0
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f9443c27408
+          @height=90,
+          @url="https://i.ytimg.com/vi/z0M1tyo5jok/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f9443c26558
+          @height=360,
+          @url="https://i.ytimg.com/vi/z0M1tyo5jok/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f9443c25798
+          @height=180,
+          @url="https://i.ytimg.com/vi/z0M1tyo5jok/mqdefault.jpg",
+          @width=320>>,
+      @title="【11分解説】痩せる食事がわかる！眠れなくなるほど面白い 図解 体脂肪の話【書評】">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007f9443c24960
+    @etag="b6PW1rNMRE1Fi1yRf3Qbxj2T4hU",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007f9443c24398
+      @kind="youtube#video",
+      @video_id="nhGh9N0baQA">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007f9443c2f6d0
+      @channel_id="UCOUu8YlbaPz0W2TyFTZHvjA",
+      @channel_title="ザ・きんにくTV 【The Muscle TV】",
+      @description=
+       "【目次】 0:00 オープニング 0:54 Aパターン3種目 4:58 Bパターン3種目 9:52 ポイント解説 ○【前編】原西さん2週間ダイエット〜筋トレ編〜 https://youtu.be/63GLOU85qBI ...",
+      @live_broadcast_content="none",
+      @published_at="2020-12-03T12:15:36Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007f9443c2eac8
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f9443c2e690
+          @height=90,
+          @url="https://i.ytimg.com/vi/nhGh9N0baQA/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f9443c2dda8
+          @height=360,
+          @url="https://i.ytimg.com/vi/nhGh9N0baQA/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f9443c2d308
+          @height=180,
+          @url="https://i.ytimg.com/vi/nhGh9N0baQA/mqdefault.jpg",
+          @width=320>>,
+      @title="【スロートレーニング】超簡単筋トレ基本6種目から始めよう。FUJIWARA原西さんが行っていた3種目＋3種目です。">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007f9443c2c7c8
+    @etag="N3trJ8QjUCaorciDFQ93Kaibuis",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007f9443c2c200
+      @kind="youtube#video",
+      @video_id="63GLOU85qBI">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007f9443c37560
+      @channel_id="UCOUu8YlbaPz0W2TyFTZHvjA",
+      @channel_title="ザ・きんにくTV 【The Muscle TV】",
+      @description="#初心者 #簡単 #ダイエット.",
+      @live_broadcast_content="none",
+      @published_at="2020-11-20T12:00:01Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007f9443c36958
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f9443c36520
+          @height=90,
+          @url="https://i.ytimg.com/vi/63GLOU85qBI/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f9443c35c38
+          @height=360,
+          @url="https://i.ytimg.com/vi/63GLOU85qBI/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f9443c35198
+          @height=180,
+          @url="https://i.ytimg.com/vi/63GLOU85qBI/mqdefault.jpg",
+          @width=320>>,
+      @title=
+       "【50歳初ダイエット】FUJIWARA原西さんを2週間ダイエット指導致しました。たった3種目の筋トレ＆有酸素運動10分です。【前編】">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007f9443c34658
+    @etag="_C6xg65jtXsCHIml0pcyr58WHy4",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007f9443c34090
+      @kind="youtube#video",
+      @video_id="oalL5-xQeNg">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007f9443ac33f0
+      @channel_id="UCOUu8YlbaPz0W2TyFTZHvjA",
+      @channel_title="ザ・きんにくTV 【The Muscle TV】",
+      @description="#脚トレ #脚痩せ #下半身.",
+      @live_broadcast_content="none",
+      @published_at="2020-10-15T10:00:09Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007f9443ac27e8
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f9443ac23b0
+          @height=90,
+          @url="https://i.ytimg.com/vi/oalL5-xQeNg/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f9443ac1ac8
+          @height=360,
+          @url="https://i.ytimg.com/vi/oalL5-xQeNg/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f9443ac1028
+          @height=180,
+          @url="https://i.ytimg.com/vi/oalL5-xQeNg/mqdefault.jpg",
+          @width=320>>,
+      @title=
+       "【中級編】初心者の方用の動画付きで、下半身(太もも、内もも、お尻、もも裏ふくらはぎ、足首)をまとめて9種目6分間です。自宅で筋トレを一緒にやりましょう。">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007f9443ac04e8
+    @etag="TH6lEGrdY87FjNtkjF3Cr_4-NSs",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007f9443c3bed0
+      @kind="youtube#video",
+      @video_id="7l3RVG7VsxM">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007f9443c3b278
+      @channel_id="UCzHeBhUY-a11xqCoJG-GNSQ",
+      @channel_title="世界一ゆる〜いフィットネス学",
+      @description=
+       "参考文献・サイト * ザ・きんにくTV 2nd 【The Muscle TV 2nd】【#25】 最強食材、卵の最新情報&毎日5個食べ続けた血液がまさかの○○だった。",
+      @live_broadcast_content="none",
+      @published_at="2020-09-27T13:54:37Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007f9443c3a670
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f9443c3a238
+          @height=90,
+          @url="https://i.ytimg.com/vi/7l3RVG7VsxM/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f9443c39950
+          @height=360,
+          @url="https://i.ytimg.com/vi/7l3RVG7VsxM/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f9443c38eb0
+          @height=180,
+          @url="https://i.ytimg.com/vi/7l3RVG7VsxM/mqdefault.jpg",
+          @width=320>>,
+      @title="【10分で解説】卵は最強食材！ダイエットや健康に良い理由">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007f9443c38370
+    @etag="Uvucsgjhf7gK1P1TCZZfQ1iQZlM",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007f94429bbd50
+      @kind="youtube#video",
+      @video_id="tkRfK1dr15o">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007f94429bb0f8
+      @channel_id="UCOUu8YlbaPz0W2TyFTZHvjA",
+      @channel_title="ザ・きんにくTV 【The Muscle TV】",
+      @description="#お尻 #ヒップアップ #内もも.",
+      @live_broadcast_content="none",
+      @published_at="2020-09-16T09:00:21Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007f94429ba4f0
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f94429ba0b8
+          @height=90,
+          @url="https://i.ytimg.com/vi/tkRfK1dr15o/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f94429b97d0
+          @height=360,
+          @url="https://i.ytimg.com/vi/tkRfK1dr15o/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f94429b8d30
+          @height=180,
+          @url="https://i.ytimg.com/vi/tkRfK1dr15o/mqdefault.jpg",
+          @width=320>>,
+      @title=
+       "【お尻＆内もも】ヒップアップ＆脚(下半身)を引き締めたい方は10分間の筋トレを一緒にやりましょう。解説付きで女性も男性も初心者の方もご心配なく出来ます。">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007f94429b81f0
+    @etag="25YguSmqxwmVSjKPJ8I6wIRJbrc",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007f9444c03bd8
+      @kind="youtube#video",
+      @video_id="jzUlLi6JFVA">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007f9444c02f80
+      @channel_id="UCOUu8YlbaPz0W2TyFTZHvjA",
+      @channel_title="ザ・きんにくTV 【The Muscle TV】",
+      @description="#最速 #痩せる #HIIT.",
+      @live_broadcast_content="none",
+      @published_at="2020-09-08T10:00:30Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007f9444c02378
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f9444c01f40
+          @height=90,
+          @url="https://i.ytimg.com/vi/jzUlLi6JFVA/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f9444c01658
+          @height=360,
+          @url="https://i.ytimg.com/vi/jzUlLi6JFVA/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f9444c00bb8
+          @height=180,
+          @url="https://i.ytimg.com/vi/jzUlLi6JFVA/mqdefault.jpg",
+          @width=320>>,
+      @title=
+       "【世界最速で痩せる】筋トレ&amp;有酸素運動(HIIT)を全身9種目6分間です。飛ばないのでマンション・アパートOKです。一緒にカッコ良く筋肉を引き締めましょう。">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007f9444c00078
+    @etag="ES19jSWhgc6cdcxYYI0E9-qBCbg",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007f9444b57a40
+      @kind="youtube#video",
+      @video_id="_8peDwA_pg4">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007f9444b56de8
+      @channel_id="UCOUu8YlbaPz0W2TyFTZHvjA",
+      @channel_title="ザ・きんにくTV 【The Muscle TV】",
+      @description="#痩せる #ダイエット #ゆりやんレトリィバァ.",
+      @live_broadcast_content="none",
+      @published_at="2020-08-29T10:00:30Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007f9444b561e0
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f9444b55da8
+          @height=90,
+          @url="https://i.ytimg.com/vi/_8peDwA_pg4/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f9444b554c0
+          @height=360,
+          @url="https://i.ytimg.com/vi/_8peDwA_pg4/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f9444b54a20
+          @height=180,
+          @url="https://i.ytimg.com/vi/_8peDwA_pg4/mqdefault.jpg",
+          @width=320>>,
+      @title="【ダイエット】30キロ減量に成功したゆりやんの自宅がとんでもなかった。痩せる筋トレ3種目を筋肉取材です。">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007f9444b97e88
+    @etag="5sOwGuE6sumdE_h6GIVvw9vmqAA",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007f9444b978c0
+      @kind="youtube#video",
+      @video_id="fZJO5hYB0Tc">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007f9444b96c68
+      @channel_id="UCOUu8YlbaPz0W2TyFTZHvjA",
+      @channel_title="ザ・きんにくTV 【The Muscle TV】",
+      @description="#動的ストレッチ #warmup #アップ.",
+      @live_broadcast_content="none",
+      @published_at="2020-08-10T04:00:11Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007f9444b96060
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f9444b95c28
+          @height=90,
+          @url="https://i.ytimg.com/vi/fZJO5hYB0Tc/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f9444b95340
+          @height=360,
+          @url="https://i.ytimg.com/vi/fZJO5hYB0Tc/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f9444b948a0
+          @height=180,
+          @url="https://i.ytimg.com/vi/fZJO5hYB0Tc/mqdefault.jpg",
+          @width=320>>,
+      @title="【超簡単】世界で一番温まる簡単ウォーミングアップ(動的ストレッチ＝ダイナミックストレッチ)で運動不足も解消です。">>,
+   #<Google::Apis::YoutubeV3::SearchResult:0x00007f9444b5bd20
+    @etag="-tFbvZLSK6PI9T6k_ZHEOxbrjRY",
+    @id=
+     #<Google::Apis::YoutubeV3::ResourceId:0x00007f9444b5b758
+      @kind="youtube#video",
+      @video_id="cQsupVhKcDg">,
+    @kind="youtube#searchResult",
+    @snippet=
+     #<Google::Apis::YoutubeV3::SearchResultSnippet:0x00007f9444b5ab00
+      @channel_id="UCOUu8YlbaPz0W2TyFTZHvjA",
+      @channel_title="ザ・きんにくTV 【The Muscle TV】",
+      @description="#HIIT #HIT #筋トレ.",
+      @live_broadcast_content="none",
+      @published_at="2020-08-05T13:04:57Z",
+      @thumbnails=
+       #<Google::Apis::YoutubeV3::ThumbnailDetails:0x00007f9444b59ef8
+        @default=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f9444b59ac0
+          @height=90,
+          @url="https://i.ytimg.com/vi/cQsupVhKcDg/default.jpg",
+          @width=120>,
+        @high=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f9444b591d8
+          @height=360,
+          @url="https://i.ytimg.com/vi/cQsupVhKcDg/hqdefault.jpg",
+          @width=480>,
+        @medium=
+         #<Google::Apis::YoutubeV3::Thumbnail:0x00007f9444b58738
+          @height=180,
+          @url="https://i.ytimg.com/vi/cQsupVhKcDg/mqdefault.jpg",
+          @width=320>>,
+      @title=
+       "【HIIT】高強度で全身を7分半で追い込む。しっかりとウォーミングアップを行って下さい。※HIIT(ヒット)＝ハイインテンシティインターバルトレーニング）">>],
+ @kind="youtube#searchListResponse",
+ @next_page_token="CAoQAA",
+ @page_info=
+  #<Google::Apis::YoutubeV3::PageInfo:0x00007f9442443350
+   @results_per_page=10,
+   @total_results=247407>,
+ @region_code="JP">
+
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:25
+  [1m[36mVideo Create (2.0ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ザ・きんにくTV"], ["title", "【11分解説】痩せる食事がわかる！眠れなくなるほど面白い 図解 体脂肪の話【書評】"], ["video_id", "z0M1tyo5jok"], ["created_at", "2021-04-18 15:00:03.926151"], ["updated_at", "2021-04-18 15:00:03.926151"]]
+  ↳ app/models/video.rb:25
+  [1m[35m (1.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:25
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:25
+  [1m[36mVideo Create (0.4ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ザ・きんにくTV"], ["title", "【スロートレーニング】超簡単筋トレ基本6種目から始めよう。FUJIWARA原西さんが行っていた3種目＋3種目です。"], ["video_id", "nhGh9N0baQA"], ["created_at", "2021-04-18 15:00:03.943008"], ["updated_at", "2021-04-18 15:00:03.943008"]]
+  ↳ app/models/video.rb:25
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:25
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:25
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ザ・きんにくTV"], ["title", "【50歳初ダイエット】FUJIWARA原西さんを2週間ダイエット指導致しました。たった3種目の筋トレ＆有酸素運動10分です。【前編】"], ["video_id", "63GLOU85qBI"], ["created_at", "2021-04-18 15:00:03.944829"], ["updated_at", "2021-04-18 15:00:03.944829"]]
+  ↳ app/models/video.rb:25
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:25
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:25
+  [1m[36mVideo Create (0.4ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ザ・きんにくTV"], ["title", "【中級編】初心者の方用の動画付きで、下半身(太もも、内もも、お尻、もも裏ふくらはぎ、足首)をまとめて9種目6分間です。自宅で筋トレを一緒にやりましょう。"], ["video_id", "oalL5-xQeNg"], ["created_at", "2021-04-18 15:00:03.946753"], ["updated_at", "2021-04-18 15:00:03.946753"]]
+  ↳ app/models/video.rb:25
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:25
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:25
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ザ・きんにくTV"], ["title", "【10分で解説】卵は最強食材！ダイエットや健康に良い理由"], ["video_id", "7l3RVG7VsxM"], ["created_at", "2021-04-18 15:00:03.948853"], ["updated_at", "2021-04-18 15:00:03.948853"]]
+  ↳ app/models/video.rb:25
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:25
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:25
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ザ・きんにくTV"], ["title", "【お尻＆内もも】ヒップアップ＆脚(下半身)を引き締めたい方は10分間の筋トレを一緒にやりましょう。解説付きで女性も男性も初心者の方もご心配なく出来ます。"], ["video_id", "tkRfK1dr15o"], ["created_at", "2021-04-18 15:00:03.950961"], ["updated_at", "2021-04-18 15:00:03.950961"]]
+  ↳ app/models/video.rb:25
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:25
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:25
+  [1m[36mVideo Create (0.5ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ザ・きんにくTV"], ["title", "【世界最速で痩せる】筋トレ&amp;有酸素運動(HIIT)を全身9種目6分間です。飛ばないのでマンション・アパートOKです。一緒にカッコ良く筋肉を引き締めましょう。"], ["video_id", "jzUlLi6JFVA"], ["created_at", "2021-04-18 15:00:03.952797"], ["updated_at", "2021-04-18 15:00:03.952797"]]
+  ↳ app/models/video.rb:25
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:25
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:25
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ザ・きんにくTV"], ["title", "【ダイエット】30キロ減量に成功したゆりやんの自宅がとんでもなかった。痩せる筋トレ3種目を筋肉取材です。"], ["video_id", "_8peDwA_pg4"], ["created_at", "2021-04-18 15:00:03.955730"], ["updated_at", "2021-04-18 15:00:03.955730"]]
+  ↳ app/models/video.rb:25
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:25
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:25
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ザ・きんにくTV"], ["title", "【超簡単】世界で一番温まる簡単ウォーミングアップ(動的ストレッチ＝ダイナミックストレッチ)で運動不足も解消です。"], ["video_id", "fZJO5hYB0Tc"], ["created_at", "2021-04-18 15:00:03.957718"], ["updated_at", "2021-04-18 15:00:03.957718"]]
+  ↳ app/models/video.rb:25
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:25
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/video.rb:25
+  [1m[36mVideo Create (0.4ms)[0m  [1m[32mINSERT INTO "videos" ("category_name", "title", "video_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["category_name", "ザ・きんにくTV"], ["title", "【HIIT】高強度で全身を7分半で追い込む。しっかりとウォーミングアップを行って下さい。※HIIT(ヒット)＝ハイインテンシティインターバルトレーニング）"], ["video_id", "cQsupVhKcDg"], ["created_at", "2021-04-18 15:00:03.959910"], ["updated_at", "2021-04-18 15:00:03.959910"]]
+  ↳ app/models/video.rb:25
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/video.rb:25
+  [1m[36mVideo Load (0.5ms)[0m  [1m[34mSELECT  "videos".* FROM "videos" ORDER BY "videos"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ lib/tasks/save_videos.rake:5
+  [1m[36mVideo Load (0.3ms)[0m  [1m[34mSELECT  "videos".* FROM "videos" ORDER BY "videos"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ lib/tasks/save_videos.rake:6
