@@ -77,11 +77,36 @@
   <% flash.each do |message_type, message| %>
       <div class="alert alert-<%= message_type %>"><%= message %></div>
     <% end %>
-    <% unless @current_user %>
-      <div class="line_login">
-        <%= link_to image_tag("btn_login_hover.png"), ENV['LINE_LOGIN']%>
+      
+    <div class="py-4">
+  <div class="container">
+  <div id="carouselControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" alt="First slide" src="slide_1.jpg">
       </div>
-    <% end %>
+      <div class="carousel-item">
+        <img class="d-block w-100" alt="Second slide" src="slide_2.jpg">
+      </div>
+      <div class="carousel-item ">
+        <img class="d-block w-100" alt="Third slide" src="slide_3.jpg">
+      </div>
+      <div class="carousel-item ">
+        <img class="d-block w-100" alt="Third slide" src="slide_4.jpg">
+      </div>
+      
+    </div>
+    <div class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">前に戻る</span>
+    </div>
+    <div class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">次に送る</span>
+    </div>
+</div>
+</div>
+</div>
 　</div>
 
   <div class="site_bottom">
@@ -93,6 +118,11 @@
 　　　　　<p>それは分かってはいるのに休憩のタイミングが掴めずズルズルと仕事をしてしまい、結果的に仕事が捗らないで終わってしまう</p>
 　　　　　<p>そんなエンジニアのために、休憩と運動するタイミングを提供するアプリです</p>
           <button class="btn btn-primary" data-toggle="modal" data-target="#textmodal">使い方</button>
+          <% unless @current_user %>
+      <div class="line_login">
+        <%= link_to image_tag("btn_login_hover.png"), ENV['LINE_LOGIN']%>
+      </div>
+    <% end %>
   </div>
 </div>
 
