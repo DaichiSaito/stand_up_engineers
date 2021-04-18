@@ -52427,3 +52427,33 @@ Processing by HomeController#top as HTML
 Completed 200 OK in 1371ms (Views: 1369.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2021-04-18 23:19:25 +0900
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/yoshiokasusumu/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (159.2ms)
+Completed 500 Internal Server Error in 168ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (The asset "460ervgc.png" is not present in the asset pipeline.
+):
+    118: 　　　　　<p>そんなエンジニアのために、休憩と運動するタイミングを提供するアプリです</p>
+    119:           <button class="btn btn-primary" data-toggle="modal" data-target="#textmodal">使い方</button>
+    120:           <% unless @current_user %>
+    121:           <%= image_tag '460ervgc.png' %>
+    122:       <div class="line_login">
+    123:         <%= link_to image_tag("btn_login_hover.png"), ENV['LINE_LOGIN']%>
+    124:       </div>
+  
+app/views/home/top.html.erb:121:in `_app_views_home_top_html_erb__2611188837486495970_70309618141080'
+Started GET "/" for ::1 at 2021-04-18 23:21:00 +0900
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/yoshiokasusumu/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered home/top.html.erb within layouts/application (2494.2ms)
+Completed 200 OK in 2671ms (Views: 2667.1ms | ActiveRecord: 0.0ms)
+
+
