@@ -27,6 +27,7 @@
     
 }
 .alert{
+    position:absolute;
     z-index: 10;
 }
 .alert-notice{
@@ -40,6 +41,10 @@
     color: white;
     text-align: center;
 }
+.cal{
+    position: absolute;
+    z-index: 1;
+} 
 
 .line_login{
     padding-top: 20px;
@@ -72,6 +77,7 @@
         font-size: 12px;
     }
     .cal{
+        position: absolute;
         padding-top: 20px;
         z-index: 1;
     } 
