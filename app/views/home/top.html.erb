@@ -118,9 +118,15 @@
 　　　　　<p>そんなエンジニアのために、休憩と運動するタイミングを提供するアプリです</p>
           <button class="btn btn-primary" data-toggle="modal" data-target="#textmodal">使い方</button>
           <% unless @current_user %>
+          <br>
+          <br>
+        <p>⬇️友達追加はこちら⬇️</p>
+        <%= image_tag "460ervgc.png", size: '150x150' %>
+        <br>
       <div class="line_login">
         <%= link_to image_tag("btn_login_hover.png"), ENV['LINE_LOGIN']%>
       </div>
+      
     <% end %>
   </div>
 </div>
@@ -144,9 +150,10 @@
             <div class="container">
               <div class="row">
                 <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-                  <p>①lineからログインしてください</p>
-                  <p>②アプリを起動するボタンをクリックしてください</p>
-                  <p>③動画を提供して欲しい間隔を選択してください(30分か60分の二択です)</p>
+                  <p>①QRコードを読み取り"友達追加"をしてください</p>
+                  <p>②lineからログインしてください</p>
+                  <p>③アプリを起動するボタンをクリックしてください</p>
+                  <p>④動画を提供して欲しい間隔を選択してください(30分か60分の二択です)</p>
                   <p>⑤見たい動画のカテゴリーを選択してください</p>
                   <p>⑥アプリスタートボタンをクリックしてください<p>
                   <p>⑦60分を選択した方は毎時０分に、30分を選択した方は毎時0分と30分に選択したカテゴリーのyoutube動画がランダムでlineに通知されます。</p>
