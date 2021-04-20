@@ -11,7 +11,7 @@ class ClocksController < ApplicationController
     end
 
     def destroy
-      user = User.find(params[:id])
+      user = User.find(params[:user_id])
       user.clock.destroy
       redirect_to root_path, notice: "アプリを終了しました"
     end

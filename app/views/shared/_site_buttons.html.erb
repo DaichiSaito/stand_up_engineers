@@ -1,0 +1,45 @@
+<div class="site_bottom">
+    <div class="site_explanation">
+       
+    <div class="accordion" id="accordion">
+      <!-- カード01 -->
+        <div class="card-header" id="headingOne">
+            <h5 class="btn　btn-dark"  data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            StandUpEngineersとは？
+        </h5>
+        </div>
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+          <p>デスクワークや昨今増えつつあるリモートワーク</p>
+          <p>「休憩を取りながら作業をした方が効率が上がる」</p>
+          <p>「運動した方が脳に酸素がまわってアイデア出て来る」</p>
+          <p>それは分かってはいるのに休憩のタイミングが掴めずズルズルと仕事をしてしまい、結果的に仕事が捗らないで終わってしまう</p>
+          <p>そんなエンジニアのために、休憩と運動するタイミングを提供するアプリです</p> 
+          </div>
+        </div>
+        
+          <button class="btn btn-primary" data-toggle="modal" data-target="#textmodal">使い方</button>
+
+          <% if @current_user&.clock.present? %>
+           <div>
+            <%= link_to 'アプリを終了する', user_clocks_path(@current_user), method: :delete, class: 'btn btn-success'%>
+            </div>
+          <% elsif  @current_user %>
+             <div>
+                <a class="btn btn-success" data-toggle="modal" data-target="#exampleModal">アプリスタート</a>
+             </div>
+             <div>
+                <%= link_to "ログアウト", user_path(@current_user), method: :delete, class: 'btn btn-success'%>
+             </div>
+          <%else%>
+             <br>
+             <br> 
+             <p>⬇️友達追加はこちら⬇️</p>
+             <%= image_tag "460ervgc.png", size: '150x150' %>
+             <br>
+             <div class="line_login">
+              <%= link_to image_tag("btn_login_hover.png"), ENV['LINE_LOGIN']%>
+            </div>
+          <% end %>
+
+    </div>
+</div>
