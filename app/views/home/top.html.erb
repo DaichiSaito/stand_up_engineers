@@ -8,15 +8,17 @@
     </button>
     <div class="collapse navbar-collapse" id="Navbar">
       <ul class="navbar-nav mr-auto">
-      <% if @current_user %>
-      <% unless @current_user.clock.present? %>
-      <li class="nav-item">
-          <a class="nav-link" data-toggle="modal" data-target="#exampleModal">アプリを起動する</a>
+      <% if @current_user&.clock.present? %>
+        <li class="nav-item">
+          <%= link_to 'アプリを終了する', user_clocks_path(@current_user), method: :delete, class: 'nav-link'%>
         </li>
-        <% end %>
-       <li class="nav-item">
-           <%= link_to "ログアウト", user_path(@current_user), method: :delete, class: 'nav-link'%>
-        </li>
+        <% elsif  @current_user %>
+          <li class="nav-item">
+            <%= link_to "ログアウト", user_path(@current_user), method: :delete, class: 'nav-link'%>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="modal" data-target="#exampleModal">アプリスタート</a>
+          </li>
       <% else %>
         <li class="nav-item">
            <p  class='nav-link navigate' data-toggle="modal" data-target="#textmodal">アプリの使い方</p>
@@ -33,7 +35,7 @@
           <!-- モーダルのヘッダー -->
           <div class="modal-header">
             <!-- モーダルのタイトル -->
-            <h5 class="modal-title" id="exampleModalLabel">アプリ起動</h5>
+            <h5 class="modal-title" id="exampleModalLabel">アプリをスタートする</h5>
             <!-- 閉じるアイコン -->
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
              <span aria-hidden="true">&times;</span>
@@ -46,7 +48,7 @@
                 <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
                   <p>二つとも選択してください</p>
                   <% if @current_user %>
-                  <%= form_with model: [@current_user, @clock] do |f|  %>
+                  <%= form_with model: [@current_user, @clock], local: true do |f|  %>
 
                     <div class="form-group">
                       <%= f.label :set_time, value: '通知の間隔("30分" "60分"の二択です)'%>
@@ -60,7 +62,7 @@
                       <%= f.select :category, ["筋トレ","ストレッチ","ヨガ","ザ・きんにくTV"],class: 'form-control'%>
                     </div>
 
-                    <%= f.submit value: 'アプリスタート', class:'btn btn-primary'%>
+                    <%= f.submit value: 'アプリスタート', class:'btn btn-success'%>
                   <% end %>
                   <%end%>
                 </div>
@@ -75,7 +77,7 @@
 <div class="main">
   <div class="site_face">
   <% flash.each do |message_type, message| %>
-      <div class="alert alert-<%= message_type %>"><%= message %></div>
+      <div class="alert alert-<%= message_type %> btn-block"><%= message %></div>
     <% end %>
       <div class="cal">
   <div class="container">
@@ -107,29 +109,9 @@
 </div>
 </div>
 </div>
+       <!-- サイトのログインボタン等-->
+     <%= render 'shared/site_buttons' %>
 
-  <div class="site_bottom">
-    <div class="site_explanation">
-        <h4>StandUpEngineers<span class="toha">とは</span></h4>
-        <p>デスクワークや昨今増えつつあるリモートワーク</p>
-　　　　　<p>「休憩を取りながら作業をした方が効率が上がる」</p>
-　　　　　<p>「運動した方が脳に酸素がまわってアイデア出て来る」</p>
-　　　　　<p>それは分かってはいるのに休憩のタイミングが掴めずズルズルと仕事をしてしまい、結果的に仕事が捗らないで終わってしまう</p>
-　　　　　<p>そんなエンジニアのために、休憩と運動するタイミングを提供するアプリです</p>
-          <button class="btn btn-primary" data-toggle="modal" data-target="#textmodal">使い方</button>
-          <% unless @current_user %>
-          <br>
-          <br>
-        <p>⬇️友達追加はこちら⬇️</p>
-        <%= image_tag "460ervgc.png", size: '150x150' %>
-        <br>
-      <div class="line_login">
-        <%= link_to image_tag("btn_login_hover.png"), ENV['LINE_LOGIN']%>
-      </div>
-      
-    <% end %>
-  </div>
-</div>
 
           <div class="modal" id="textmodal" tabindex="-1" role="dialog" aria-labelledby="textmodallLabel" aria-hidden="true">
       <!-- モーダルのダイアログ本体 -->
