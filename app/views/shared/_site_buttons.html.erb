@@ -3,11 +3,10 @@
        
     <div class="accordion" id="accordion">
       <!-- カード01 -->
-        <div class="card-header" id="headingOne">
-            <h5 class="btn btn-info"  data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            StandUpEngineersとは？
+       
+        <h5 class="btn btn-info"  data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+         StandUpEngineersとは？
         </h5>
-        </div>
         <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
           <p>デスクワークや昨今増えつつあるリモートワーク</p>
           <p>「休憩を取りながら作業をした方が効率が上がる」</p>
@@ -17,7 +16,19 @@
           </div>
         </div>
         
-          <button class="btn btn-primary" data-toggle="modal" data-target="#textmodal">使い方</button>
+         <h5 class="btn btn-info"  data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
+          アプリの使い方
+         </h5>
+         <div id="collapseTwo" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+           <p>①QRコードを読み取り"友達追加"をしてください</p>
+           <p>②lineからログインしてください</p>
+           <p>③アプリを起動するボタンをクリックしてください</p>
+           <p>④動画を提供して欲しい間隔を選択してください(30分か60分の二択です)</p>
+           <p>⑤見たい動画のカテゴリーを選択してください</p>
+           <p>⑥アプリスタートボタンをクリックしてください<p>
+           <p>⑦60分を選択した方は毎時０分に、30分を選択した方は毎時0分と30分に選択したカテゴリーのyoutube動画がランダムでlineに通知されます。</p>
+         </div>
+
 
           <% if @current_user&.clock.present? %>
            <div>
@@ -28,7 +39,7 @@
                 <a class="btn btn-success" data-toggle="modal" data-target="#exampleModal">アプリスタート</a>
              </div>
              <div>
-                <%= link_to "ログアウト", user_path(@current_user), method: :delete, class: 'btn btn-success'%>
+                <%= link_to "ログアウト", user_path(@current_user), method: :delete, class: 'btn btn-primary'%>
              </div>
           <%else%>
              <br>
@@ -41,6 +52,5 @@
               <%= link_to image_tag("btn_login_hover.png"), ENV['LINE_LOGIN']%>
             </div>
           <% end %>
-
     </div>
 </div>

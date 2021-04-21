@@ -55145,3 +55145,131 @@ Processing by HomeController#top as HTML
 Completed 200 OK in 238ms (Views: 236.3ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2021-04-21 15:33:31 +0900
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/yoshiokasusumu/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered shared/_site_buttons.html.erb (588.0ms)
+  Rendered shared/_modal.html.erb (0.4ms)
+  Rendered home/top.html.erb within layouts/application (593.5ms)
+Completed 200 OK in 686ms (Views: 681.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-04-21 15:33:50 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered shared/_site_buttons.html.erb (2.1ms)
+  Rendered shared/_modal.html.erb (0.4ms)
+  Rendered home/top.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 86ms (Views: 84.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-04-21 15:34:35 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered shared/_site_buttons.html.erb (3.0ms)
+  Rendered shared/_modal.html.erb (0.4ms)
+  Rendered home/top.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 56ms (Views: 54.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-04-21 15:36:09 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered shared/_site_buttons.html.erb (3.0ms)
+  Rendered shared/_modal.html.erb (0.3ms)
+  Rendered home/top.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 72ms (Views: 70.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-04-21 15:40:01 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered shared/_site_buttons.html.erb (4.1ms)
+  Rendered shared/_modal.html.erb (0.7ms)
+  Rendered home/top.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 92ms (Views: 90.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-04-21 15:40:44 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered shared/_site_buttons.html.erb (3.2ms)
+  Rendered shared/_modal.html.erb (0.4ms)
+  Rendered home/top.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 87ms (Views: 85.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-04-21 15:41:54 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered shared/_site_buttons.html.erb (2.3ms)
+  Rendered shared/_modal.html.erb (0.3ms)
+  Rendered home/top.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 1626ms (Views: 1624.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-04-21 15:41:57 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered shared/_site_buttons.html.erb (3.3ms)
+  Rendered shared/_modal.html.erb (0.3ms)
+  Rendered home/top.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 44ms (Views: 42.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-04-21 15:42:14 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered shared/_site_buttons.html.erb (2.1ms)
+  Rendered shared/_modal.html.erb (0.3ms)
+  Rendered home/top.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 46ms (Views: 45.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-04-21 15:42:25 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered shared/_site_buttons.html.erb (22.0ms)
+  Rendered shared/_modal.html.erb (0.4ms)
+  Rendered home/top.html.erb within layouts/application (25.7ms)
+Completed 200 OK in 1529ms (Views: 1527.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-04-21 15:42:27 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered shared/_site_buttons.html.erb (3.3ms)
+  Rendered shared/_modal.html.erb (0.3ms)
+  Rendered home/top.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 56ms (Views: 54.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-04-21 15:42:56 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered shared/_site_buttons.html.erb (3.3ms)
+  Rendered shared/_modal.html.erb (0.4ms)
+  Rendered home/top.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 1553ms (Views: 1551.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-04-21 15:46:59 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered shared/_site_buttons.html.erb (3.2ms)
+  Rendered shared/_modal.html.erb (0.3ms)
+  Rendered home/top.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 1600ms (Views: 1598.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-04-21 15:48:17 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered shared/_site_buttons.html.erb (2.7ms)
+  Rendered shared/_modal.html.erb (0.3ms)
+  Rendered home/top.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 1306ms (Views: 1304.8ms | ActiveRecord: 0.0ms)
+
+
