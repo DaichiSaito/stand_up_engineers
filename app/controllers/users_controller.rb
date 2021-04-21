@@ -33,11 +33,13 @@ class UsersController < ApplicationController
       result = JSON.parse(response.body)
       user_id = result["userId"]
       user_name = result["displayName"]
-
-      user = User.create(name: user_name, line_id: user_id)
-     
-      session[:user_id] = user.id
-        redirect_to root_path
+      user = User.new(name: user_name, line_id: user_id) 
+      if user.save
+         session[:user_id] = user.id
+         redirect_to root_path, notice: 'ログインしました！'
+      else
+         redirect_to root_path, danger:'このユーザーはすでにログインしています！'
+      end
     end
     
     def destroy
@@ -45,7 +47,7 @@ class UsersController < ApplicationController
         user.destroy
         @current_user = nil
         session.delete(:user_id)
-        redirect_to root_path, notice: "ログアウトしました"
+        redirect_to root_path, notice: "ログアウトしました！"
     end
 
     def home
