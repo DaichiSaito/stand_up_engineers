@@ -17,3 +17,6 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+    $(function(){
+    $(".alert").delay(5000).slideUp(1000);
+  });
