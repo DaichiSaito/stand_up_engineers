@@ -14,7 +14,9 @@
  @import 'bootstrap';
  @import "font-awesome-sprockets";
  @import "font-awesome";
-
+body{
+    color:white;
+}
 .main{
     margin-top:-20px;
 }
@@ -82,6 +84,17 @@
 }
 .btn-primary{
    margin:10px auto;
+}
+.footer{
+    height:200px;
+    background-color:#343a40;
+}
+.footer-item{
+    border-top: 1px dotted white;
+    text-align:center;
+}
+.copy_write{
+   padding-top: 20px;
 }
 @media  (max-width: 900px) {
     body{
