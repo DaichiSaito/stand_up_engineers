@@ -55101,3 +55101,47 @@ Processing by HomeController#top as HTML
 Completed 200 OK in 43ms (Views: 41.1ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2021-04-21 15:23:30 +0900
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/yoshiokasusumu/.rbenv/versions/2.6.4/lib/ruby/gems/2.6.0/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered shared/_site_buttons.html.erb (2215.3ms)
+  Rendered home/top.html.erb within layouts/application (2218.5ms)
+Completed 200 OK in 2399ms (Views: 2394.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-04-21 15:24:20 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered shared/_site_buttons.html.erb (2.9ms)
+  Rendered home/top.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 76ms (Views: 74.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-04-21 15:24:20 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered shared/_site_buttons.html.erb (2.0ms)
+  Rendered home/top.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 57ms (Views: 55.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-04-21 15:27:16 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered shared/_site_buttons.html.erb (2.6ms)
+  Rendered shared/_modal.html.erb (0.4ms)
+  Rendered home/top.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 69ms (Views: 67.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-04-21 15:28:28 +0900
+Processing by HomeController#top as HTML
+  Rendering home/top.html.erb within layouts/application
+  Rendered shared/_site_buttons.html.erb (4.5ms)
+  Rendered shared/_modal.html.erb (0.4ms)
+  Rendered home/top.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 238ms (Views: 236.3ms | ActiveRecord: 0.0ms)
+
+
