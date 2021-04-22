@@ -3,10 +3,9 @@ namespace :send_youtube do
     task send_line_60: :environment do
         users = User.all
         users.each do |user|
-          clock = user.clock
-          p clock
-          if user.clock.set_time == 60 || 30 
-            p user 
+
+          if user.clock.precent?&.set_time == 60 || 30 
+            clock = user.clock
             videos = Video.where(category_name: clock.category)
             n = rand(10)
             @video = videos[n]
