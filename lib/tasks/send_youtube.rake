@@ -4,7 +4,7 @@ namespace :send_youtube do
         users = User.all
         users.each do |user|
 
-          if user.clock.present?&.set_time == 60 || 30 
+          if user.clock.present? && user.clock.set_time == 60 || 30 
             clock = user.clock
             videos = Video.where(category_name: clock.category)
             n = rand(10)
