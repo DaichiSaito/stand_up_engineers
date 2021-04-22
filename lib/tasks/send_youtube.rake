@@ -3,7 +3,6 @@ namespace :send_youtube do
     task send_line_60: :environment do
         users = User.all
         users.each do |user|
-
           if user.clock.present? && user.clock.set_time == 60 || 30 
             clock = user.clock
             videos = Video.where(category_name: clock.category)
