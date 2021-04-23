@@ -21,14 +21,16 @@ body{
     margin-top:-20px;
 }
 .site_face{
-    background-image: image-url("site_top_2.jpg");
     width:90%;
     margin: 0 auto;
     max-width:100%;
-    height:800px;
+    height:800px; 
+}
+.site_logo{
+    background-image: image-url("site_top_2.jpg");
     background-repeat: no-repeat;
     background-size: cover ;
-    
+    height: 90%;
 }
 .alert{
     position:absolute;
