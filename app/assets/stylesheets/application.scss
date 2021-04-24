@@ -14,8 +14,9 @@
  @import 'bootstrap';
  @import "font-awesome-sprockets";
  @import "font-awesome";
-body{
-    color:white;
+
+.navbar{
+    background-color:#00B0FF;
 }
 .main{
     margin-top:-20px;
@@ -24,7 +25,7 @@ body{
     width:90%;
     margin: 0 auto;
     height:800px; 
-    background-image: image-url("site_top_2.jpg");
+    background-image: image-url("site_top_03.jpg");
     background-repeat: no-repeat;
     background-size: 100% ;
 }
@@ -63,7 +64,6 @@ body{
 }
 .site_explanation{
     font-family:'Courier New';
-    color: white;
     margin-left: auto;
     margin-right: auto;
     padding-top: 20px;
@@ -88,7 +88,7 @@ body{
 }
 .footer{
     height:200px;
-    background-color:#343a40;
+    background-color:#00B0FF;
 }
 .footer-item{
     border-top: 1px dotted white;
@@ -131,7 +131,6 @@ body{
     }
     .site_explanation{
         font-family:'Courier New';
-        color: white;
         margin-left: auto;
         margin-right: auto;
         padding-top: 20px;
