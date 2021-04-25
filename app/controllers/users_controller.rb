@@ -33,7 +33,7 @@ class UsersController < ApplicationController
       result = JSON.parse(response.body)
       user_id = result["userId"]
       user_name = result["displayName"]
-      user = User.find_or_create(name: user_name, line_id: user_id) 
+      user = User.find_or_create_by(name: user_name, line_id: user_id) 
       session[:user_id] = user.id
       redirect_to root_path, notice: 'ログインしました！'
     end
