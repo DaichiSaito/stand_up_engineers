@@ -3,22 +3,22 @@ namespace :send_youtube do
     task send_line_60: :environment do
         users = User.all
         users.each do |user|
-          if user.clock.present? && user.clock.set_time == 60 || 30 
-            clock = user.clock
-            videos = Video.where(category_name: clock.category)
-            n = rand(10)
-            @video = videos[n]
+          if (user.clock.present?) && (user.clock.set_time == 60 || 30)
+            videos = Video.where(category_name: user.clock.category)
+            n = rand((videos.length) -1 )
+            video = videos[n]
             message = {
               type: 'text',
-              text: "https://www.youtube.com/embed/#{@video.video_id}"
+              text: "https://www.youtube.com/embed/#{video.video_id}"
             }
             client = Line::Bot::Client.new { |config|
                 config.channel_secret = ENV['CHANNEL_SECRET']
                 config.channel_token = ENV['CHANNEL_TOKEN']
             }
             response = client.push_message(user.line_id, message)
+            p "#{user.name}さんに動画を通知しました"
           else
-            p "error"
+            p "#{user.name}さんはアプリを起動していません"
           end
         end
     end
@@ -26,24 +26,22 @@ namespace :send_youtube do
     task send_line_30: :environment do
       users = User.all
       users.each do |user|
-        clock = user.clock
-        if user.clock.set_time == 30 
-          videos = Video.where(category_name: clock.category)
-          clock.category
-          n = rand(10)
-          @video = videos[n]
-          p @video
+        if (user.clock.present?) && (user.clock.set_time == 30)
+          videos = Video.where(category_name: user.clock.category)
+          n = rand((videos.length) -1 )
+          video = videos[n]
           message = {
             type: 'text',
-            text: "https://www.youtube.com/embed/#{@video.video_id}"
+            text: "https://www.youtube.com/embed/#{video.video_id}"
           }
           client = Line::Bot::Client.new { |config|
               config.channel_secret = ENV['CHANNEL_SECRET']
               config.channel_token = ENV['CHANNEL_TOKEN']
           }
           response = client.push_message(user.line_id, message)
+          p "#{user.name}さんに動画を通知しました"
         else
-          p "error"
+          p "#{user.name}さんはアプリを起動していません"
         end
       end
   end
