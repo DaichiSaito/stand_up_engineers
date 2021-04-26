@@ -1,4 +1,6 @@
 class UsersController < ApplicationController
+  before_action :user_present, only: ["destroy"]
+  
     def new
       uri = URI.parse("https://api.line.me/oauth2/v2.1/token")
       req = Net::HTTP::Post.new(uri)
@@ -39,13 +41,16 @@ class UsersController < ApplicationController
     end
     
     def destroy
+      if session[:user_id]
         user = User.find(params[:id])
         user.destroy
         @current_user = nil
         session.delete(:user_id)
         redirect_to root_path, notice: "ログアウトしました！"
+      else
+        redirect_to root_path, notice: "ログアウト済みです！"
+      end
     end
-
     def home
     end
 end
