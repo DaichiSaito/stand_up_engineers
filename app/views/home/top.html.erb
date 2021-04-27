@@ -2,27 +2,15 @@
 <div class="header">
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
     <a class="navbar-brand"  href="#">StandUpEngineers</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar"
-      aria-controls="#Navbar" aria-expanded="false" aria-label="ナビゲーション切り替え">
-       <span class="navbar-toggler-icon"><span>
-    </button>
-    <div class="collapse navbar-collapse" id="Navbar">
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav">
       <% if @current_user&.clock.present? %>
-        <li class="nav-item">
+        <li>
           <%= link_to 'アプリを終了する', user_clocks_path(@current_user), method: :delete, class: 'nav-link'%>
         </li>
         <% elsif  @current_user %>
-          <li class="nav-item">
+          <li>
             <%= link_to "ログアウト", user_path(@current_user), method: :delete, class: 'nav-link'%>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="modal" data-target="#exampleModal">アプリスタート</a>
-          </li>
-      <% else %>
-        <li class="nav-item">
-           <!--<p  class='nav-link navigate' data-toggle="modal" data-target="#textmodal">アプリの使い方</p>-->
-        </li>
     <% end %>
       </ul>
     </div>
@@ -59,7 +47,7 @@
                     <div class="form-group">
                       <%= f.label :category, value: '見たい動画のカテゴリーを選択してください' %>
                       <br>
-                      <%= f.select :category, ["筋トレ","ストレッチ","ヨガ","ザ・きんにくTV"],class: 'form-control'%>
+                      <%= f.select :category, ["ストレッチ","ヨガ","筋トレ","ザ・きんにくTV"],class: 'form-control'%>
                     </div>
 
                     <%= f.submit value: 'アプリスタート', class:'btn btn-success'%>
