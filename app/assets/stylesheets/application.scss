@@ -79,6 +79,7 @@
 }
 .btn{
     width:260px;
+    border-radius: 20px;
 }
 .btn-success{
     background-color:#00B900;
@@ -112,6 +113,10 @@
     border-bottom: 3px solid #00B0FF;
     border-radius: 1.5px;
 }
+.nav-link{
+    padding-top: 11px;
+    font-size: 15px;
+}
 @media  (max-width: 900px) {
     body{
         font-size: 12px;
@@ -140,5 +145,8 @@
         margin-right: auto;
         padding-top: 20px;
         width:80%;
+    }
+    .nav-link{
+        padding-top: 9px;
     }
 }
