@@ -14,7 +14,9 @@
  @import 'bootstrap';
  @import "font-awesome-sprockets";
  @import "font-awesome";
-
+body{
+    font-family:sans-serif; 
+}
 .navbar{
     background-color:#00B0FF;
 }
@@ -80,6 +82,7 @@
 .btn{
     width:260px;
     border-radius: 20px;
+    font-family: "Hiragino Maru Gothic Pro";
 }
 .btn-success{
     background-color:#00B900;
@@ -117,6 +120,20 @@
     padding-top: 11px;
     font-size: 15px;
 }
+h4{
+    font-family: "Hiragino Maru Gothic Pro";
+}
+h6{
+    font-family: "Hiragino Maru Gothic Pro"; 
+}
+.line_login_top{
+    height: 800px;
+}
+.top_login{
+    padding-top: 33%;
+    padding-left: 22%;
+}
+
 @media  (max-width: 900px) {
     body{
         font-size: 12px;
@@ -148,5 +165,12 @@
     }
     .nav-link{
         padding-top: 9px;
+    }
+    .line_login_top{
+        height: 800px;
+    }
+    .top_login{
+        padding-top: 33%;
+        padding-left: 17%;
     }
 }

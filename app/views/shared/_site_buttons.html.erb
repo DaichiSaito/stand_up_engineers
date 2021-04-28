@@ -3,7 +3,7 @@
        <% unless @current_user.present? %>
     <div class="accordion" id="accordion">
         <h5 class="btn btn-info"  data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-         StandUpEngineersとは？
+         Stand Up Engineers とは
         </h5>
         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
           <%= image_tag "working_late.png", size: "200x150"%>
@@ -14,7 +14,7 @@
           <h4>そんな時は</h4>
           <p>デスクを離れて少し体を動かしませんか？</p>
           <%= image_tag "mail.png", size: "170x150"%>
-          <h4>StandUpEngineersは</h4>
+          <h4>Stand Up Engineersは</h4>
           <p>一定の時間で、運動したくなるようなyoutube動画を</p>
           <p>LINEであなたにお届けします</p>
           <%= image_tag "job.png", size: "170x150"%>
@@ -51,7 +51,7 @@
                       <br>
                       <%= f.select :category, ["ストレッチ","ヨガ", "筋トレ","ザ・きんにくTV"],class: 'form-control'%>
                     </div>
-
+                    <br>
                     <%= f.submit value: 'アプリスタート', class:'btn btn-info'%>
                   <% end %>
              </div>
