@@ -1,14 +1,16 @@
+# frozen_string_literal: true
+
 class ApplicationController < ActionController::Base
-    add_flash_types :success, :info, :warning, :danger
+  add_flash_types :success, :info, :warning, :danger
 
-    private
+  private
 
-    def user_present
-        if User.where(id: session[:user_id]).exists?
-            @current_user = User.find(session[:user_id])
-        else
-            session.delete(:user_id)
-            p "no_session_user"
-        end
+  def user_present
+    if User.where(id: session[:user_id]).exists?
+      @current_user = User.find(session[:user_id])
+    else
+      session.delete(:user_id)
+      p 'no_session_user'
     end
+  end
 end
