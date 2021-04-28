@@ -126,13 +126,6 @@ h4{
 h6{
     font-family: "Hiragino Maru Gothic Pro"; 
 }
-.line_login_top{
-    height: 800px;
-}
-.top_login{
-    padding-top: 33%;
-    padding-left: 22%;
-}
 
 @media  (max-width: 900px) {
     body{
@@ -165,12 +158,5 @@ h6{
     }
     .nav-link{
         padding-top: 9px;
-    }
-    .line_login_top{
-        height: 800px;
-    }
-    .top_login{
-        padding-top: 33%;
-        padding-left: 17%;
     }
 }
