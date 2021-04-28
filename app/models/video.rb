@@ -11,7 +11,7 @@ def self.find_videos(keywords, after: 12.months.ago, before: Time.now )
   opt = {
     q: keyword,
     type: 'video',
-    max_results: 10,
+    max_results: 50,
     order: :date,
     page_token: next_page_token,
     published_after: after.iso8601,
