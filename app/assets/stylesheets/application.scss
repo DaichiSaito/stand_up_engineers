@@ -126,7 +126,15 @@ h4{
 h6{
     font-family: "Hiragino Maru Gothic Pro"; 
 }
-
+.privacy-btn{
+    text-align: center;
+}
+.finish{
+    text-align: right;
+}
+.privacy-menu{
+    color: white;
+}
 @media  (max-width: 900px) {
     body{
         font-size: 12px;

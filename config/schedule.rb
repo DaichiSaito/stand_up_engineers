@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Use this file to easily define all of your cron jobs.
 #
 # It's helpful, but not entirely necessary to understand cron before proceeding.
@@ -18,15 +20,15 @@
 # end
 
 # Learn more: http://github.com/javan/whenever
-require File.expand_path(File.dirname(__FILE__) + "/environment")
+require File.expand_path(File.dirname(__FILE__) + '/environment')
 rails_env = ENV['RAILS_ENV'] || :development
 set :environment, rails_env
 set :output, "#{Rails.root}/log/cron.log"
 
 every 1.minutes do
-    rake 'send_youtube:send_mail'
+  rake 'send_youtube:send_mail'
 end
 
-every :day, at: "0:00 am" do
-    rake 'save_videos:save_video'
+every :day, at: '0:00 am' do
+  rake 'save_videos:save_video'
 end
