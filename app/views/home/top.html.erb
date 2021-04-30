@@ -1,29 +1,13 @@
-<body style="padding-top:50px;">
-<div class="header">
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
-    <a class="navbar-brand"  href="#">Stand Up Engineers</a>
-      <ul class="navbar-nav">
-      <% if @current_user&.clock.present? %>
-        <li>
-          <%= link_to 'アプリを終了する', user_clocks_path(@current_user), method: :delete, class: 'nav-link'%>
-        </li>
-        <% elsif  @current_user %>
-          <li>
-            <%= link_to "ログアウト", user_path(@current_user), method: :delete, class: 'nav-link'%>
-          </li>
-    <% end %>
-      </ul>
-  </nav>
-</div>
+<%=  render 'shared/header' %>
 <div class="main">
   <div class="site_face">
-  <% flash.each do |message_type, message| %>
-      <div class="alert alert-<%= message_type %> btn-block"><%= message %></div>
+    <% flash.each do |message_type, message| %>
+       <div class="alert alert-<%= message_type %> btn-block"><%= message %></div>
     <% end %>
+  </div>
 </div>
-       <!-- サイトのログインボタン等-->
-     <%= render 'shared/site_buttons' %>
 
-    
+     <%= render 'shared/site_body' %>
+
      <%=  render 'shared/footer'%>
 
