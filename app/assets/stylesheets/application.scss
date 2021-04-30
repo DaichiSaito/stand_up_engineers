@@ -135,7 +135,14 @@ h6{
 .privacy-menu{
     color: white;
 }
-
+@media (min-width: 1791px){
+    .site_face{
+        width:100%;
+        max-width:100%;
+        height:1000px;
+        background-repeat: no-repeat; 
+    }
+}
 @media (max-width: 1500px){
     .site_face{
         width:100%;
