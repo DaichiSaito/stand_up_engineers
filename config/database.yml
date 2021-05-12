@@ -79,7 +79,11 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  <<: *default
-  database: stand_up_engineer_production
-  username: stand_up_engineer
-  password: <%= ENV['STAND_UP_ENGINEER_DATABASE_PASSWORD'] %>
+  adapter: mysql2
+  encoding: utf8
+  database: stand_up_engineers
+  pool: 5
+  username: sho
+  password: yoshiokaS6
+  host: db-for-app.cbakl0pjzdlq.ap-northeast-1.rds.amazonaws.com
+  socket: /var/lib/mysql/mysql.sock
