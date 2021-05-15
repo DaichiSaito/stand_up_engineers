@@ -74,5 +74,4 @@ gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 group :production, :staging do
   gem 'unicorn'
-  gem 'mysql2'
 end
