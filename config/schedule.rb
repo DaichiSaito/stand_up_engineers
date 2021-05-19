@@ -26,7 +26,7 @@ set :environment, rails_env
 set :output, "#{Rails.root}/log/cron.log"
 
 every 1.minutes do
-  rake 'send_youtube:send_mail'
+  rake 'send_youtube:send_line'
 end
 
 every :day, at: '0:00 am' do

@@ -24,7 +24,12 @@ class Video < ApplicationRecord
         id = item.id
         snippet = item.snippet
         keyword.slice!(' 10分')
-        video = Video.create(category_name: keyword, title: snippet.title, video_id: id.video_id)
+        video = Video.new(category_name: keyword, title: snippet.title, video_id: id.video_id)
+        begin
+          video.save
+        rescue
+           p "#{video.title}はセーブできませんでした"
+        end
       end
     end
   end
