@@ -7,7 +7,8 @@ namespace :send_youtube do
         users.each do |user|
         if (user.clock.present?) && Time.now.strftime("%Y-%m-%d %H:%M") == (user.clock.start_time + user.clock.set_time * 60).strftime("%Y-%m-%d %H:%M")
             videos = Video.where(category_name: user.clock.category)
-            n = rand(10)
+            number = videos.length.-1
+            n = rand(number)
             @video = videos[n]
             message = {
               type: 'text',
