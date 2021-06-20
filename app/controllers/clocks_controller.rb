@@ -1,8 +1,10 @@
 # frozen_string_literal: true
 
 class ClocksController < ApplicationController
+
   before_action :set_user_or_redirect, only: ['destroy']
   before_action :set_clock_or_redirect, onry: ['create']
+  
   def create
     user =  User.find(session[:user_id])
     clock = Clock.new(clock_params)
