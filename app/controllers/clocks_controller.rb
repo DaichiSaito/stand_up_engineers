@@ -11,6 +11,7 @@ class ClocksController < ApplicationController
     if clock.save
       redirect_to root_path, notice: 'アプリを起動しました!'
     else
+      debugger
       redirect_to root_path, danger: 'アプリを起動できませんでした'
      end
   end

@@ -39,6 +39,7 @@ class UsersController < ApplicationController
     user_name = result['displayName']
     user = User.find_or_create_by(name: user_name, line_id: user_id)
     session[:user_id] = user.id
+    p session[:user_id]
     redirect_to root_path, notice: 'ログインしました！'
   end
 
