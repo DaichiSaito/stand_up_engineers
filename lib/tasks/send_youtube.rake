@@ -22,16 +22,9 @@ namespace :send_youtube do
             response = client.push_message(user.line_id, message)
             user.clock.start_time = (Time.now + user.clock.break_time * 60)
             user.clock.save
-            p "#{user.name}さんにlineを通知しました"
-            p response
           else
             puts "#{user.name}さんはアプリを起動していません"
-            p Time.now.strftime("%Y-%m-%d %H:%M")
-            
-            if user.clock.present?
-              p user.clock.start_time.strftime("%Y-%m-%d %H:%M")
-            end
           end
         end
-    end
+     end
 end

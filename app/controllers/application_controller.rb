@@ -10,7 +10,6 @@ class ApplicationController < ActionController::Base
       @current_user = User.find(session[:user_id])
     else
       session.delete(:user_id)
-      p 'no_session_user'
     end
   end
 end

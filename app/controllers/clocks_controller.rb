@@ -11,7 +11,6 @@ class ClocksController < ApplicationController
     if clock.save
       redirect_to root_path, notice: 'アプリを起動しました!'
     else
-      debugger
       redirect_to root_path, danger: 'アプリを起動できませんでした'
      end
   end
@@ -19,10 +18,8 @@ class ClocksController < ApplicationController
   def destroy
     if @user.clock.present?
       @user.clock.destroy
-      p 'destroy'
       redirect_to root_path, notice: 'アプリを終了しました'
     else
-      p 'no_clock'
       redirect_to root_path, notice: 'アプリを終了しました'
     end
   end
@@ -36,10 +33,8 @@ class ClocksController < ApplicationController
   def set_user_or_redirect
     if User.where(id: session[:user_id]).exists?
       @user = User.find(session[:user_id])
-      p 'no_user'
     else
       session.delete(:user_id)
-      p 'session_delete'
       redirect_to root_path, notice: 'アプリを終了しました'
     end
   end
@@ -49,7 +44,6 @@ class ClocksController < ApplicationController
       @current_user = User.find(session[:user_id])
     else
       session.delete(:user_id)
-      p 'no_session_user'
       redirect_to root_path, danger: 'ユーザーが存在しません。再ログインしてください'
     end
   end
