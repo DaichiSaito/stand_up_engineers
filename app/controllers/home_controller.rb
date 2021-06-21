@@ -3,6 +3,7 @@
 require 'net/https'
 require 'uri'
 require 'line/bot'
+
 class HomeController < ApplicationController
 
   before_action :user_present
@@ -13,4 +14,4 @@ class HomeController < ApplicationController
       @clock = Clock.new
     end
   end
-
+end
