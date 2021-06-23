@@ -1,80 +1,27 @@
 <div class="site_bottom">
     <div class="site_explanation">
        <% unless @current_user.present? %>
-    <div class="accordion" id="accordion">
-        <h5 class="btn btn-info"  data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-         Stand Up Engineers とは
-        </h5>
-        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-          <%= image_tag "working_late.png", size: "200x150"%>
-          <h4>運動してる？</h4>
-          <p>一生懸命働くあなたはきっと一日座りっぱなし</p>
-          <p>いいアイデアも浮かんで来ない</p>
-          <%= image_tag "sports.png", size: "170x150"%>
-          <h4>そんな時は</h4>
-          <p>デスクを離れて少し体を動かしませんか？</p>
-          <%= image_tag "mail.png", size: "170x150"%>
-          <h4>Stand Up Engineersは</h4>
-          <p>一定の時間で、運動したくなるようなyoutube動画を</p>
-          <p>LINEであなたにお届けします</p>
-          <%= image_tag "job.png", size: "170x150"%>
-          </div>
-        </div>
-        <div>
-         <h5 class="btn btn-info"  data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
-          アプリの使い方
-         </h5>
-         </div>
-          <%= render 'shared/site_explanation' %>
+
+         <%= render 'shared/site_introduction' %>
+         
        <% end %>
 
           <% if @current_user&.clock.present? %>
-            <div>
-           <h4>アプリ起動中です！</h4>
-           <p>次の動画の通知を楽しみにお待ちください！</p>
-           <div>
-           <%= image_tag "gift.png", size: "200x150"%>
-           </div>
-            <%= link_to 'アプリを終了する', user_clocks_path(@current_user), method: :delete, class: 'btn btn-info'%>
-            </div>
+
+             <%= render 'shared/started_app' %>
+
           <% elsif  @current_user %>
-             <div>
-             <%= form_with model: [@current_user, @clock], local: true do |f|  %>
-                    <div class="form-group">
-                     <%= f.label :set_time, value: 'がんばる時間を設定してください', class: "form-exp"%>
-                     <br>
-                      <%= f.select :set_time, [1,25, 45, 50, 60],class: 'form-control'%>分
-                    </div>
-                    <br>
-                    <div class="form-group">
-                     <%= f.label :break_time, value: '休憩時間を設定してください', class: "form-exp"%>
-                     <br>
-                      <%= f.select :break_time, [1,5, 10, 15, 30],class: 'form-control'%>分
-                    </div>
-                    <br>
-                    <div class="form-group">
-                      <%= f.label :category, value: '見たい動画のカテゴリーを選択してください', class: "form-exp" %>
-                      <br>
-                      <%= f.select :category, ["ストレッチ","ヨガ", "筋トレ","ザ・きんにくTV"],class: 'form-control'%>
-                    </div>
-                    <br>
-                    <%= f.submit value: 'アプリスタート', class:'btn btn-info'%>
-                  <% end %>
-             </div>
-             <br>
-              <div class="accordion" id="accordion">
-              <h5 class="btn btn-info"  data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
-                  アプリの使い方
-              </h5>
-             </div>
-            <%= render 'shared/site_explanation' %>
-         </div>
+             
+             <%= render 'shared/set_clock' %>
+          
           <%else%>
+
              <br>
              <div class="line_login">
-              <%= link_to image_tag("btn_login_hover.png"), ENV['LINE_LOGIN'],id: "test" %>
-            </div>
+               <%= link_to image_tag("btn_login_hover.png"), ENV['LINE_LOGIN'],id: "test" %>
+             </div>
+
           <% end %>
-          <br>
+       <br>
     </div>
 </div>

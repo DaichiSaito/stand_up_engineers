@@ -7,11 +7,7 @@ class ApplicationController < ActionController::Base
   private
 
   def user_present?
-    if User.where(id: session[:user_id]).exists?
-      @current_user = User.find(session[:user_id])
-    else
-      #もし他のブラウザでユーザーを消してしまっている場合sessionだけが残らないようにする
-      session.delete(:user_id)
-    end
+    return  @current_user if @current_user ||= User.find_by(id: session[:user_id])
+    session.delete(:user_id)
   end
 end
