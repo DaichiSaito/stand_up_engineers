@@ -2,10 +2,11 @@
 
 class ApplicationController < ActionController::Base
   add_flash_types :success, :info, :warning, :danger
+  before_action :user_present?
 
   private
 
-  def user_present
+  def user_present?
     if User.where(id: session[:user_id]).exists?
       @current_user = User.find(session[:user_id])
     else

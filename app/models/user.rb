@@ -44,33 +44,5 @@ class User < ApplicationRecord
       user = User.find_or_create_by(name: user_name, line_id: user_id)
       return user.id    
     end
-
-    def set_user_or_redirect
-      if User.where(id: session[:user_id]).exists?
-        @ucurrent_user = User.find(session[:user_id])
-      else
-        session.delete(:user_id)
-        redirect_to root_path, notice: 'アプリを終了しました'
-      end
-    end
-
-    def set_clock_or_redirect
-      if User.where(id: session[:user_id]).exists?
-        @current_user = User.find(session[:user_id])
-      else
-        session.delete(:user_id)
-        redirect_to root_path, danger: 'ユーザーが存在しません。再ログインしてください'
-      end
-    end
-
-    def user_present
-      if User.where(id: session[:user_id]).exists?
-        @current_user = User.find(session[:user_id])
-      else
-        #もし他のブラウザでユーザーを消してしまっている場合sessionだけが残らないようにする
-        session.delete(:user_id)
-        redirect_to root_path
-      end
-    end
   end
 end
