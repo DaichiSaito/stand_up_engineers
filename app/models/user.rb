@@ -42,5 +42,5 @@ class User < ApplicationRecord
       user_name = result['displayName']
       user = User.find_or_create_by(name: user_name, line_id: user_id)
       return user.id    
-  end
+    end
 end
