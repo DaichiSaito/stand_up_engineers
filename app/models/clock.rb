@@ -7,13 +7,9 @@ class Clock < ApplicationRecord
   validates :category, presence: true, inclusion: { in: ["筋トレ","ストレッチ", "ヨガ", "ザ・きんにくTV"] }
 
 
-  class << Clock
-    def  create_clock(user_id, clock_params)
-      user =  User.find(user_id)
+    def self.create_clock(clock_params)
       clock = Clock.new(clock_params)
-      clock.user_id = user.id
       clock.start_time = Time.now
       clock.save!
     end
-  end
-end
+ end

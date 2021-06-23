@@ -6,8 +6,7 @@ class User < ApplicationRecord
   validates :name, presence: true, uniqueness: true
   validates :line_id, presence: true, uniqueness: true
 
-  class << User
-    def line_login(code)
+    def self.line_login(code)
       uri = URI.parse('https://api.line.me/oauth2/v2.1/token')
       req = Net::HTTP::Post.new(uri)
       req.content_type = 'application/x-www-form-urlencoded'
@@ -43,6 +42,5 @@ class User < ApplicationRecord
       user_name = result['displayName']
       user = User.find_or_create_by(name: user_name, line_id: user_id)
       return user.id    
-    end
   end
 end

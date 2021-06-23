@@ -5,7 +5,7 @@ class ClocksController < ApplicationController
   before_action :set_clock_or_redirect, only: ['create']
   
   def create
-    Clock.create_clock(session[:user_id], clock_params)
+    Clock.create_clock(clock_params)
     redirect_to root_path, notice: 'アプリを起動しました!'
   end
 
@@ -17,7 +17,7 @@ class ClocksController < ApplicationController
   private
 
     def clock_params
-      params.require(:clock).permit(:set_time, :break_time,:category)
+      params.require(:clock).permit(:set_time, :break_time, :category).merge(user_id: @current_user.id)
     end
 
     def set_clock_or_redirect
