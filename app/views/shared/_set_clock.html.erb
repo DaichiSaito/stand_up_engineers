@@ -1,0 +1,31 @@
+<div>
+     <%= form_with model: [@current_user, @clock], local: true do |f|  %>
+        <div class="form-group">
+          <%= f.label :set_time, value: 'がんばる時間を設定してください', class: "form-exp"%>
+          <br>
+          <%= f.select :set_time, [25, 45, 50, 60],class: 'form-control'%>分
+        </div>
+        <br>
+        <div class="form-group">
+          <%= f.label :break_time, value: '休憩時間を設定してください', class: "form-exp"%>
+          <br>
+          <%= f.select :break_time, [5, 10, 15, 30],class: 'form-control'%>分
+          </div>
+          <br>
+        <div class="form-group">
+          <%= f.label :category, value: '見たい動画のカテゴリーを選択してください', class: "form-exp" %>
+          <br>
+          <%= f.select :category, ["ストレッチ","ヨガ", "筋トレ","ザ・きんにくTV"],class: 'form-control'%>
+          </div>
+          <br>
+          <%= f.submit value: 'アプリスタート', class:'btn btn-info'%>
+     <% end %>
+</div>
+ <br>
+<div class="accordion" id="accordion">
+  <h5 class="btn btn-info"  data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
+    アプリの使い方
+  </h5>
+</div>
+  <%= render 'shared/site_explanation' %>
+</div>

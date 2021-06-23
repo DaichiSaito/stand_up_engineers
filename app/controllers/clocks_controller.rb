@@ -21,7 +21,6 @@ class ClocksController < ApplicationController
     end
 
     def set_clock_or_redirect
-      #他のブラウザでログアウトしている場合アプリを起動できないようにし、ログアウトした状態を作る  
       redirect_to root_path, danger: 'ユーザーが存在しません。再ログインしてください' unless @current_user
     end
   end
