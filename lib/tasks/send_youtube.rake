@@ -5,7 +5,6 @@ namespace :send_youtube do
     task send_line: :environment do
         users = User.all
         users.each do |user|
-        p user.clock.present?
         if (user.clock.present?) && Time.now.strftime("%Y-%m-%d %H:%M") == (user.clock.start_time + user.clock.set_time * 60).strftime("%Y-%m-%d %H:%M")
             videos = Video.where(category_name: user.clock.category)
             number = videos.length.-1
