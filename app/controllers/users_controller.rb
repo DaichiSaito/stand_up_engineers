@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 class UsersController < ApplicationController
-  before_action :user_present, only: ['destroy']
 
   def new
     session[:user_id] = User.line_login(params[:code])
